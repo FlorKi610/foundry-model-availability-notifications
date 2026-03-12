@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Model Availability Browser</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="hero">
+        <p class="eyebrow">Azure AI model browser</p>
+        <h1>Refresh-Differenzen sofort erkennbar machen</h1>
+        <p class="lede">
+          Wechsle zwischen aktueller Snapshot-Sicht und einer Old/New-Ansicht pro Refresh, damit ein Agent oder du selbst neue Modelle und neue Regionen direkt erkennen konnt.
+        </p>
+        <div class="stats" id="stats"></div>
+      </section>
+
+      <section class="view-switch card">
+        <button id="currentViewButton" class="view-button is-active" type="button">Current view</button>
+        <button id="compareViewButton" class="view-button" type="button">Old / New view</button>
+      </section>
+
+      <section id="currentView" class="view-panel is-active">
+      <section class="controls card">
+        <div class="control-grid">
+          <label>
+            <span>Search models</span>
+            <input id="searchInput" type="search" placeholder="gpt-5, whisper, llama..." />
+          </label>
+
+          <label>
+            <span>Data center / region</span>
+            <select id="regionSelect">
+              <option value="">All regions</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Deployment type</span>
+            <select id="skuSelect">
+              <option value="">All deployment types</option>
+            </select>
+          </label>
+
+          <div class="control-actions">
+            <label class="checkbox-row">
+              <input id="regionalOnlyCheckbox" type="checkbox" />
+              <span>Only models with regional data-center deployment</span>
+            </label>
+            <button id="clearFiltersButton" class="secondary-button" type="button">Clear filters</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="card list-panel">
+          <div class="panel-header">
+            <div>
+              <h2>Models</h2>
+              <p class="panel-subtitle">Alle Regionen eines Modells sind direkt sichtbar.</p>
+            </div>
+            <p id="resultCount"></p>
+          </div>
+          <div id="modelList" class="model-list"></div>
+        </div>
+
+        <aside class="card detail-panel">
+          <div id="modelDetail" class="detail-empty">
+            Select a model to see region coverage and deployment details.
+          </div>
+        </aside>
+      </section>
+      </section>
+
+      <section id="compareView" class="view-panel">
+        <section class="compare-summary card">
+          <div id="compareSummary"></div>
+        </section>
+        <section class="compare-list" id="compareList"></section>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

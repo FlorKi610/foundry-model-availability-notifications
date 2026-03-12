@@ -1,0 +1,123 @@
+name: Region watch demo issue
+
+on:
+  workflow_dispatch:
+    inputs:
+      history_file:
+        description: Optional history diff file name from .region-watch/history
+        required: false
+        type: string
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select diff file
+        id: history
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          requested = os.environ.get("REQUESTED_FILE", "").strip()
+          history_dir = Path(".region-watch/history")
+
+          if requested:
+              file_path = history_dir / requested
+              if not file_path.exists():
+                  raise SystemExit(f"Requested file not found: {requested}")
+          else:
+              files = sorted(history_dir.glob("*.json"))
+              if not files:
+                  raise SystemExit("No history diff files found")
+              file_path = files[-1]
+
+          output_path = os.environ["GITHUB_OUTPUT"]
+          with open(output_path, "a", encoding="utf-8") as handle:
+              handle.write(f"file={file_path.as_posix()}\n")
+          PY
+        env:
+          REQUESTED_FILE: ${{ inputs.history_file }}
+
+      - name: Prepare summary
+        id: summary
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          path = Path(os.environ["HISTORY_FILE"])
+          data = json.loads(path.read_text(encoding="utf-8"))
+          timestamp = data.get("timestamp") or "unknown"
+          changes = data.get("changes", {})
+
+          title = f"Demo | Azure AI model region watch | {timestamp}"
+          lines = [
+              "## Demo notification",
+              "",
+              f"This is a manual preview based on `{path.name}`.",
+              "",
+              f"**Timestamp:** {timestamp}",
+              f"**Changed models:** {len(changes)}",
+              "",
+              "---",
+              "",
+          ]
+
+          for model in sorted(changes):
+              change = changes[model]
+              lines.append(f"### {model}")
+              all_added = change.get("all", {}).get("added", [])
+              all_removed = change.get("all", {}).get("removed", [])
+              if all_added:
+                  lines.append(f"- Added regions: {', '.join(all_added)}")
+              if all_removed:
+                  lines.append(f"- Removed regions: {', '.join(all_removed)}")
+              for sku_key, sku_change in sorted(change.get("skus", {}).items()):
+                  label = sku_change.get("label", sku_key)
+                  if sku_change.get("added"):
+                      lines.append(f"- {label} added: {', '.join(sku_change['added'])}")
+                  if sku_change.get("removed"):
+                      lines.append(f"- {label} removed: {', '.join(sku_change['removed'])}")
+                  if sku_change.get("sku_removed"):
+                      lines.append(f"- {label}: SKU removed")
+              if change.get("model_removed"):
+                  lines.append("- Model removed")
+              lines.append("")
+
+          lines.append("---")
+          lines.append("")
+          lines.append("Trigger this workflow manually from GitHub Actions to preview the GitHub-only notification flow.")
+
+          output_path = os.environ["GITHUB_OUTPUT"]
+          with open(output_path, "a", encoding="utf-8") as handle:
+              handle.write(f"title={title}\n")
+              handle.write("body<<EOF\n")
+              handle.write("\n".join(lines))
+              handle.write("\nEOF\n")
+          PY
+        env:
+          HISTORY_FILE: ${{ steps.history.outputs.file }}
+
+      - name: Create demo issue
+        uses: actions/github-script@v7
+        with:
+          title: ${{ steps.summary.outputs.title }}
+          body: ${{ steps.summary.outputs.body }}
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: core.getInput('title'),
+              body: core.getInput('body'),
+              labels: ['region-watch', 'demo']
+            });
+        

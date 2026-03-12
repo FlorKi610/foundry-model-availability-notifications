@@ -1,0 +1,250 @@
+name: Region watch (GitHub Markdown)
+on:
+  schedule: [{ cron: "0 */6 * * *" }]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run diff
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # boosts rate limits
+        run: |
+          python .region-watch/diff_regions.py > region_diff.json
+          cat region_diff.json
+          cat region_diff_europe.json
+          cat region_diff_europe_flat.json
+          cat region_diff_europe_summary.md
+          cat region_diff_worldwide.json
+          cat region_diff_worldwide_flat.json
+          cat region_diff_worldwide_summary.md
+
+      - name: Detect changes
+        id: detect
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          diff = json.loads(Path("region_diff.json").read_text(encoding="utf-8"))
+          Path(".region-watch").mkdir(exist_ok=True)
+
+          def has_change_block(block: dict) -> bool:
+              if not isinstance(block, dict):
+                  return False
+              added = block.get("added") or []
+              removed = block.get("removed") or []
+              return bool(added or removed)
+
+          def has_change_entry(entry: dict) -> bool:
+              if not isinstance(entry, dict):
+                  return False
+              if has_change_block(entry.get("all") or {}):
+                  return True
+              if entry.get("model_removed"):
+                  return True
+              for sku_change in (entry.get("skus") or {}).values():
+                  if has_change_block(sku_change) or sku_change.get("sku_removed"):
+                      return True
+              return False
+
+          detected = any(
+              has_change_entry(change)
+              for change in (diff.get("changes") or {}).values()
+          )
+
+          Path(".region-watch/has_change.flag").write_text(
+              "true" if detected else "false", encoding="utf-8"
+          )
+          PY
+          echo "has_change=$(cat .region-watch/has_change.flag)" >> "$GITHUB_OUTPUT"
+
+      - name: Render REGION_AVAILABILITY.md
+        if: ${{ steps.detect.outputs.has_change == 'true' }}
+        run: python .region-watch/render_markdown.py
+
+      - name: Commit snapshot if changed
+        run: |
+          git config user.email "bot@users.noreply.github.com"
+          git config user.name "region-bot"
+          git add .region-watch/regions_snapshot.json .region-watch/history region_diff.json region_diff_europe.json region_diff_europe_flat.json region_diff_europe_summary.md region_diff_worldwide.json region_diff_worldwide_flat.json region_diff_worldwide_summary.md REGION_AVAILABILITY.md
+          git diff --cached --quiet || git commit -m "Update region snapshot"
+          git push
+
+      - name: Notify via GitHub issue
+        if: ${{ hashFiles('region_diff.json') != '' && steps.detect.outputs.has_change == 'true' }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const diff = JSON.parse(fs.readFileSync('region_diff.json','utf8'));
+            const timestamp = diff.timestamp || new Date().toISOString();
+            
+            const hasChange = Object.values(diff.changes || {}).some(c => {
+              const overallAdded = c?.all?.added ?? [];
+              const overallRemoved = c?.all?.removed ?? [];
+              const skuChanges = Object.values(c?.skus || {});
+              const skuDelta = skuChanges.some(sku => (sku?.added?.length || sku?.removed?.length || sku?.sku_removed));
+              return overallAdded.length || overallRemoved.length || skuDelta || c?.model_removed;
+            });
+            if (!hasChange) { core.info('No region changes'); return; }
+
+            const owner = context.repo.owner, repo = context.repo.repo;
+            const title = `Azure AI model region watch | ${timestamp}`;
+            const label = 'region-watch';
+            
+            // Build formatted markdown body
+            const formatRegionList = (regions) => regions.map(r => `\`${r}\``).join(', ');
+            
+            // Categorize changes
+            const modelsWithAdditions = [];
+            const modelsWithRemovals = [];
+            const modelsRemoved = [];
+            
+            for (const [model, ch] of Object.entries(diff.changes).sort((a, b) => a[0].localeCompare(b[0]))) {
+              const allAdded = ch?.all?.added ?? [];
+              const allRemoved = ch?.all?.removed ?? [];
+              const skuChanges = ch?.skus || {};
+              
+              let hasAdditions = allAdded.length > 0;
+              let hasRemovals = allRemoved.length > 0;
+              
+              for (const skuChange of Object.values(skuChanges)) {
+                if (skuChange?.added?.length) hasAdditions = true;
+                if (skuChange?.removed?.length || skuChange?.sku_removed) hasRemovals = true;
+              }
+              
+              if (ch?.model_removed) {
+                modelsRemoved.push(model);
+              } else {
+                if (hasAdditions) modelsWithAdditions.push(model);
+                if (hasRemovals) modelsWithRemovals.push(model);
+              }
+            }
+            
+            // Build summary section
+            let body = `## 📊 Model Region Changes Detected\n\n`;
+            body += `**Timestamp:** ${timestamp}\n\n`;
+            
+            // Quick summary table
+            body += `### Summary\n\n`;
+            body += `| Category | Count | Models |\n`;
+            body += `|----------|-------|--------|\n`;
+            if (modelsWithAdditions.length) {
+              body += `| 🟢 **Regions Added** | ${modelsWithAdditions.length} | ${modelsWithAdditions.slice(0, 5).map(m => `\`${m}\``).join(', ')}${modelsWithAdditions.length > 5 ? ` +${modelsWithAdditions.length - 5} more` : ''} |\n`;
+            }
+            if (modelsWithRemovals.length) {
+              body += `| 🔴 **Regions Removed** | ${modelsWithRemovals.length} | ${modelsWithRemovals.slice(0, 5).map(m => `\`${m}\``).join(', ')}${modelsWithRemovals.length > 5 ? ` +${modelsWithRemovals.length - 5} more` : ''} |\n`;
+            }
+            if (modelsRemoved.length) {
+              body += `| ⚠️ **Models Removed** | ${modelsRemoved.length} | ${modelsRemoved.map(m => `\`${m}\``).join(', ')} |\n`;
+            }
+            
+            body += `\n---\n\n`;
+            body += `### Detailed Changes by Model\n\n`;
+            
+            // Detailed changes per model
+            for (const [model, ch] of Object.entries(diff.changes).sort((a, b) => a[0].localeCompare(b[0]))) {
+              const allAdded = ch?.all?.added ?? [];
+              const allRemoved = ch?.all?.removed ?? [];
+              const skuChanges = ch?.skus || {};
+              
+              // Skip if no actual changes
+              let hasChanges = allAdded.length > 0 || allRemoved.length > 0 || ch?.model_removed;
+              for (const skuChange of Object.values(skuChanges)) {
+                if (skuChange?.added?.length || skuChange?.removed?.length || skuChange?.sku_removed) {
+                  hasChanges = true;
+                  break;
+                }
+              }
+              if (!hasChanges) continue;
+              
+              body += `<details>\n<summary><strong>📦 ${model}</strong></summary>\n\n`;
+              
+              if (ch?.model_removed) {
+                body += `> ⚠️ **This model has been removed**\n\n`;
+              } else {
+                // Overall region changes
+                if (allAdded.length || allRemoved.length) {
+                  body += `#### Overall Availability\n\n`;
+                  if (allAdded.length) {
+                    body += `🟢 **Added:** ${formatRegionList(allAdded.sort())}\n\n`;
+                  }
+                  if (allRemoved.length) {
+                    body += `🔴 **Removed:** ${formatRegionList(allRemoved.sort())}\n\n`;
+                  }
+                }
+                
+                // SKU-specific changes
+                const skuEntries = Object.entries(skuChanges).filter(([_, sc]) => 
+                  sc?.added?.length || sc?.removed?.length || sc?.sku_removed
+                );
+                
+                if (skuEntries.length) {
+                  body += `#### SKU-Specific Changes\n\n`;
+                  body += `| SKU Type | Change | Regions |\n`;
+                  body += `|----------|--------|----------|\n`;
+                  
+                  for (const [skuKey, skuChange] of skuEntries.sort((a, b) => a[0].localeCompare(b[0]))) {
+                    const skuLabel = skuChange?.label || skuKey;
+                    const skuAdded = skuChange?.added ?? [];
+                    const skuRemoved = skuChange?.removed ?? [];
+                    
+                    if (skuAdded.length) {
+                      body += `| ${skuLabel} | 🟢 Added | ${formatRegionList(skuAdded.sort())} |\n`;
+                    }
+                    if (skuRemoved.length) {
+                      body += `| ${skuLabel} | 🔴 Removed | ${formatRegionList(skuRemoved.sort())} |\n`;
+                    }
+                    if (skuChange?.sku_removed) {
+                      body += `| ${skuLabel} | ⚠️ SKU Removed | — |\n`;
+                    }
+                  }
+                  body += `\n`;
+                }
+              }
+              
+              body += `</details>\n\n`;
+            }
+            
+            // Footer
+            body += `---\n\n`;
+            body += `📖 [View full availability dashboard](https://${owner}.github.io/${repo}/)\n\n`;
+            body += `🔔 To receive updates via GitHub, set this repository to Watch and include Issues in your notification settings.\n\n`;
+            body += `/cc @JinLee794\n`;
+
+            const assignees = (process.env.ISSUE_ASSIGNEES || '')
+              .split(',')
+              .map(v => v.trim())
+              .filter(Boolean);
+
+            const issuePayload = {owner, repo, title, body, labels: [label]};
+            if (assignees.length) {
+              issuePayload.assignees = assignees;
+            }
+            try {
+              await github.rest.issues.create(issuePayload);
+            } catch (error) {
+              core.warning(`Failed to create issue with assignees (${assignees.join(', ')}): ${error}`);
+              if (assignees.length) {
+                delete issuePayload.assignees;
+                await github.rest.issues.create(issuePayload);
+              } else {
+                throw error;
+              }
+            }
