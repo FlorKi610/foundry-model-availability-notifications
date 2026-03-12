@@ -143,6 +143,8 @@ If the latest refresh has no changes, the endpoint automatically falls back to t
 
 ### Manually Check for Changes
 
+For local development on OneDrive or SharePoint-synced folders, keep your Python virtual environment outside the synced project tree. Packages like `certifi` include public CA bundles as `.pem` files, which can trigger sensitive-data scans even though they are not project secrets.
+
 ```bash
 # Install dependencies
 pip install -r requirements.txt
