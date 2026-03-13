@@ -141,7 +141,9 @@ jobs:
             function parseMdTable(md, header) {
               const idx = md.indexOf(header);
               if (idx === -1) return [];
-              const block = md.slice(idx);
+              let block = md.slice(idx + header.length);
+              const nextH = block.search(/\n## /);
+              if (nextH !== -1) block = block.slice(0, nextH);
               const lines = block.split('\n').filter(l => l.startsWith('|'));
               return lines.slice(2).map(l => l.split('|').slice(1, -1).map(c => c.trim()));
             }
