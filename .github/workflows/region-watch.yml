@@ -184,7 +184,7 @@ jobs:
               return '🏢 Regional';
             }
 
-            function renderModelSection(byModel, scope) {
+            function renderModelSection(byModel, scope, {skuDetail = 'full'} = {}) {
               let s = '';
               const models = [...byModel.values()]
                 .filter(m => m.updates.added_regions.length || m.updates.removed_regions.length || m.updates.model_removed)
@@ -220,14 +220,19 @@ jobs:
                   // Full current SKU availability breakdown
                   const skus = m.skus || [];
                   if (skus.length) {
-                    s += `**📋 Current SKU Availability:**\n\n`;
-                    s += `| Type | SKU | Regions | Available in |\n|------|-----|---------|-------------|\n`;
-                    for (const sk of skus) {
-                      const cat = skuCategory(sk.sku);
-                      const regionList = (sk.regions || []).sort();
-                      s += `| ${cat} | ${sk.label || sk.sku} | ${regionList.length} | ${regionList.map(fmt).join(', ')} |\n`;
+                    if (skuDetail === 'full') {
+                      s += `**📋 Current SKU Availability:**\n\n`;
+                      s += `| Type | SKU | Regions | Available in |\n|------|-----|---------|-------------|\n`;
+                      for (const sk of skus) {
+                        const cat = skuCategory(sk.sku);
+                        const regionList = (sk.regions || []).sort();
+                        s += `| ${cat} | ${sk.label || sk.sku} | ${regionList.length} | ${regionList.map(fmt).join(', ')} |\n`;
+                      }
+                      s += `\n`;
+                    } else {
+                      // Compact: just list SKU types with region counts
+                      s += `**📋 SKUs:** ${skus.map(sk => `${skuCategory(sk.sku)} ${sk.label || sk.sku} (${(sk.regions||[]).length})`).join(' · ')}\n\n`;
                     }
-                    s += `\n`;
                   }
                 }
                 s += `</details>\n\n`;
@@ -262,7 +267,7 @@ jobs:
             body += renderRegionSection(euroByRegion, 'EU');
 
             body += `### Model Changes — Which regions each model was added to/removed from\n\n`;
-            body += renderModelSection(euroByModel, 'EU');
+            body += renderModelSection(euroByModel, 'EU', {skuDetail: 'full'});
 
             // ─ 4. Worldwide ────────────────────────────────────────────
             body += `---\n\n## 🌍 Worldwide Overview\n\n`;
@@ -273,12 +278,18 @@ jobs:
             body += renderRegionSection(worldByRegion, 'global');
 
             body += `### Model Changes — Which regions each model was added to/removed from\n\n`;
-            body += renderModelSection(worldByModel, 'global');
+            body += renderModelSection(worldByModel, 'global', {skuDetail: 'compact'});
 
             // ─ 6. Footer ──────────────────────────────────────────────
             body += `---\n\n`;
             body += `📖 [Full availability dashboard](https://${owner}.github.io/${repo}/) · `;
             body += `🔔 Watch this repo → Issues to get notifications\n`;
+
+            // ── Truncate if body exceeds GitHub's 65536 char limit ──
+            const MAX_BODY = 65000;
+            if (body.length > MAX_BODY) {
+              body = body.slice(0, MAX_BODY) + `\n\n---\n⚠️ _Issue body truncated (${body.length} chars). See the [full dashboard](https://${owner}.github.io/${repo}/) for complete details._\n`;
+            }
 
             // ── Create the issue ───────────────────────────────────────
             const label = 'region-watch';
