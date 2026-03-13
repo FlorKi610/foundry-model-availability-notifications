@@ -87,7 +87,7 @@ jobs:
           git push
 
       - name: Notify via GitHub issue
-        if: ${{ hashFiles('region_diff.json') != '' && steps.detect.outputs.has_change == 'true' }}
+        if: ${{ hashFiles('region_diff.json') != '' }}
         uses: actions/github-script@v7
         with:
           script: |
@@ -111,22 +111,41 @@ jobs:
               );
               return a.length || r.length || skuDelta || c?.model_removed;
             });
-            if (!hasChange) { core.info('No region changes'); return; }
+            // DEMO: guard bypassed
+            // if (!hasChange) { core.info('No region changes'); return; }
 
             const owner = context.repo.owner, repo = context.repo.repo;
             const fmt = r => `\`${r}\``;
 
-            // ── Classify changed models ────────────────────────────────
-            const added = [], removed = [], retired = [];
-            for (const [m, ch] of Object.entries(diff.changes).sort((a, b) => a[0].localeCompare(b[0]))) {
+            // ── Human-readable date ────────────────────────────────────
+            function humanDate(iso) {
+              const d = new Date(iso);
+              const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+              return `${months[d.getUTCMonth()]} ${d.getUTCDate()}, ${d.getUTCFullYear()} at ${String(d.getUTCHours()).padStart(2,'0')}:${String(d.getUTCMinutes()).padStart(2,'0')} UTC`;
+            }
+
+            // ── Classify changed models with impact levels ─────────────
+            const modelImpact = new Map();
+            for (const [m, ch] of Object.entries(diff.changes).sort((a,b) => a[0].localeCompare(b[0]))) {
               let hasA = (ch?.all?.added?.length ?? 0) > 0;
               let hasR = (ch?.all?.removed?.length ?? 0) > 0;
               for (const s of Object.values(ch?.skus || {})) {
                 if (s?.added?.length) hasA = true;
                 if (s?.removed?.length || s?.sku_removed) hasR = true;
               }
-              if (ch?.model_removed) retired.push(m);
-              else { if (hasA) added.push(m); if (hasR) removed.push(m); }
+              if (ch?.model_removed)       modelImpact.set(m, {type:'retired', icon:'⛔', label:'Retired'});
+              else if (hasA && hasR)        modelImpact.set(m, {type:'mixed', icon:'🔀', label:'Mixed'});
+              else if (hasA)                modelImpact.set(m, {type:'expanded', icon:'📈', label:'Expanded'});
+              else if (hasR)                modelImpact.set(m, {type:'reduced', icon:'📉', label:'Reduced'});
+            }
+
+            // Detect brand-new models in Europe (added to EU for the first time with no prior regions)
+            for (const m of europe.views.by_model) {
+              if (!modelImpact.has(m.model)) continue;
+              const imp = modelImpact.get(m.model);
+              if (imp.type === 'expanded' && m.updates.added_regions.length === m.region_count && m.region_count > 0) {
+                modelImpact.set(m.model, {type:'new', icon:'🆕', label:'New in EU'});
+              }
             }
 
             // ── Parse summary stats from markdown ──────────────────────
@@ -143,151 +162,197 @@ jobs:
             const worldStats = parseSummaryStats(worldSum);
 
             // ── Build lookup maps from JSON views ──────────────────────
-            const euroByRegion = new Map(europe.views.by_region.map(r => [r.region, r]));
-            const euroByModel  = new Map(europe.views.by_model.map(m => [m.model, m]));
+            const euroByRegion  = new Map(europe.views.by_region.map(r => [r.region, r]));
+            const euroByModel   = new Map(europe.views.by_model.map(m => [m.model, m]));
             const worldByRegion = new Map(world.views.by_region.map(r => [r.region, r]));
             const worldByModel  = new Map(world.views.by_model.map(m => [m.model, m]));
 
-            // ── Title ──────────────────────────────────────────────────
+            // ── Title (with sentiment indicator) ───────────────────────
             const dateStr = timestamp.slice(0, 10);
-            const totalAdded   = (euroStats['Added region placements'] || 0);
-            const totalRemoved = (euroStats['Removed region placements'] || 0);
-            const title = `Azure AI Model Watch | ${dateStr} | +${totalAdded} / -${totalRemoved} EU placements`;
+            const euAdded   = euroStats['Added region placements'] || 0;
+            const euRemoved = euroStats['Removed region placements'] || 0;
+            const retiredCount = [...modelImpact.values()].filter(v => v.type === 'retired').length;
+            const newCount     = [...modelImpact.values()].filter(v => v.type === 'new').length;
+            const titleIcon = retiredCount && !newCount ? '🔴' : '🟢';
+            const title = `${titleIcon} Model Watch | ${dateStr} | +${euAdded} / -${euRemoved} EU | ${modelImpact.size} models changed`;
 
-            // ── Helper: render a region/model section ──────────────────
-            function renderRegionSection(byRegion, scope) {
+            // ── SKU category helper ────────────────────────────────────
+            function skuCategory(sku) {
+              if (sku.startsWith('global-batch'))  return {icon:'🔄', label:'Batch'};
+              if (sku.startsWith('datazone'))      return {icon:'📊', label:'Datazone'};
+              if (sku.includes('global'))          return {icon:'🌐', label:'Global'};
+              return {icon:'🏢', label:'Regional'};
+            }
+
+            function skuBadge(sku) { const c = skuCategory(sku); return `${c.icon}\xa0${c.label}`; }
+
+            // ── Render: Region section (collapsed by default) ──────────
+            function renderRegionSection(byRegion) {
               let s = '';
               const regions = [...byRegion.values()]
                 .filter(r => r.updates.added_models.length || r.updates.removed_models.length)
                 .sort((a, b) => a.region.localeCompare(b.region));
-              if (!regions.length) { s += `_No datacenter changes._\n\n`; return s; }
+              if (!regions.length) return `_No datacenter changes._\n\n`;
               for (const r of regions) {
                 const a = r.updates.added_models, d = r.updates.removed_models;
                 const badge = d.length && !a.length ? '🔴' : '🟢';
-                s += `<details open>\n<summary>${badge} <strong>${r.region}</strong> — ${r.model_count} models`;
-                if (a.length) s += ` · +${a.length} added`;
-                if (d.length) s += ` · -${d.length} removed`;
+                s += `<details>\n<summary>${badge} <b>${r.region}</b> — ${r.model_count} models`;
+                if (a.length) s += ` · <code>+${a.length}</code>`;
+                if (d.length) s += ` · <code>-${d.length}</code>`;
                 s += `</summary>\n\n`;
-                if (a.length) s += `🟢 **Added:** ${a.sort().map(fmt).join(', ')}\n\n`;
-                if (d.length) s += `🔴 **Removed:** ${d.sort().map(fmt).join(', ')}\n\n`;
-                s += `</details>\n\n`;
+                if (a.length) s += `🟢 ${a.sort().map(fmt).join(', ')}\n\n`;
+                if (d.length) s += `🔴 ${d.sort().map(fmt).join(', ')}\n\n`;
+                s += `</details>\n`;
               }
-              return s;
+              return s + '\n';
             }
 
-            // Categorize a SKU key into a deployment type
-            function skuCategory(sku) {
-              if (sku.startsWith('global-batch'))          return '🔄 Batch';
-              if (sku.startsWith('datazone'))              return '📊 Datazone';
-              if (sku.includes('global'))                  return '🌐 Global';
-              return '🏢 Regional';
-            }
-
+            // ── Render: Model section with unified SKU table ───────────
             function renderModelSection(byModel, scope, {skuDetail = 'full'} = {}) {
               let s = '';
               const models = [...byModel.values()]
                 .filter(m => m.updates.added_regions.length || m.updates.removed_regions.length || m.updates.model_removed)
-                .sort((a, b) => a.model.localeCompare(b.model));
-              if (!models.length) { s += `_No model changes._\n\n`; return s; }
+                .sort((a, b) => {
+                  // Sort retired first, then new, then expanded, then rest
+                  const order = {retired:0, new:1, expanded:2, mixed:3, reduced:4};
+                  const ai = order[modelImpact.get(a.model)?.type] ?? 5;
+                  const bi = order[modelImpact.get(b.model)?.type] ?? 5;
+                  return ai - bi || a.model.localeCompare(b.model);
+                });
+              if (!models.length) return `_No model changes._\n\n`;
+
               for (const m of models) {
                 const a = m.updates.added_regions, d = m.updates.removed_regions;
-                const icon = m.updates.model_removed ? '⚠️' : (d.length && !a.length ? '🔴' : '🟢');
-                s += `<details open>\n<summary>${icon} <strong>${m.model}</strong> — ${m.region_count} ${scope} regions`;
-                if (a.length) s += ` · +${a.length} added`;
-                if (d.length) s += ` · -${d.length} removed`;
-                if (m.updates.model_removed) s += ` · RETIRED`;
+                const imp = modelImpact.get(m.model) || {icon:'ℹ️', label:'Changed'};
+
+                s += `<details open>\n<summary>${imp.icon} <b>${m.model}</b>`;
+                s += ` <sub>${imp.label}</sub>`;
+                s += ` — ${m.region_count} ${scope} regions`;
+                if (a.length) s += ` · <code>+${a.length}</code>`;
+                if (d.length) s += ` · <code>-${d.length}</code>`;
                 s += `</summary>\n\n`;
+
                 if (m.updates.model_removed) {
-                  s += `> ⚠️ **This model has been fully removed.**\n\n`;
+                  s += `> ⛔ **This model has been fully retired and removed from all regions.**\n\n`;
                 } else {
                   if (a.length) s += `🟢 **Now available in:** ${a.sort().map(fmt).join(', ')}\n\n`;
                   if (d.length) s += `🔴 **Removed from:** ${d.sort().map(fmt).join(', ')}\n\n`;
-                  // SKU change detail
-                  const skuUpd = (m.updates.sku_updates || []).filter(
-                    sk => sk.added_regions?.length || sk.removed_regions?.length || sk.sku_removed
-                  );
-                  if (skuUpd.length) {
-                    s += `**SKU Changes:**\n\n`;
-                    s += `| SKU | Change | Regions |\n|-----|--------|--------|\n`;
-                    for (const sk of skuUpd) {
-                      if (sk.added_regions?.length)  s += `| ${sk.label || sk.sku} | 🟢 Added | ${sk.added_regions.sort().map(fmt).join(', ')} |\n`;
-                      if (sk.removed_regions?.length) s += `| ${sk.label || sk.sku} | 🔴 Removed | ${sk.removed_regions.sort().map(fmt).join(', ')} |\n`;
-                      if (sk.sku_removed)             s += `| ${sk.label || sk.sku} | ⚠️ Removed | — |\n`;
+
+                  // Unified SKU table: current availability + change annotations
+                  const skus = m.skus || [];
+                  const skuChanges = new Map((m.updates.sku_updates || []).map(sk => [sk.sku, sk]));
+
+                  if (skus.length && skuDetail === 'full') {
+                    s += `| | SKU | Regions | Availability |\n|---|-----|:---:|-----|\n`;
+                    for (const sk of skus) {
+                      const cat = skuCategory(sk.sku);
+                      const regionList = (sk.regions || []).sort();
+                      const change = skuChanges.get(sk.sku);
+                      let changeNote = '';
+                      if (change?.added_regions?.length)   changeNote += ` 🟢 +${change.added_regions.length}`;
+                      if (change?.removed_regions?.length)  changeNote += ` 🔴 -${change.removed_regions.length}`;
+                      s += `| ${cat.icon}\xa0${cat.label} | ${sk.label || sk.sku}${changeNote} | **${regionList.length}** | ${regionList.map(fmt).join(', ')} |\n`;
+                    }
+                    // Show removed SKUs that no longer appear in current
+                    for (const sk of (m.updates.sku_updates || [])) {
+                      if (sk.sku_removed && !skus.find(s => s.sku === sk.sku)) {
+                        s += `| ⛔ | ~~${sk.label || sk.sku}~~ | **0** | _Removed_ |\n`;
+                      }
                     }
                     s += `\n`;
-                  }
-                  // Full current SKU availability breakdown
-                  const skus = m.skus || [];
-                  if (skus.length) {
-                    if (skuDetail === 'full') {
-                      s += `**📋 Current SKU Availability:**\n\n`;
-                      s += `| Type | SKU | Regions | Available in |\n|------|-----|---------|-------------|\n`;
-                      for (const sk of skus) {
-                        const cat = skuCategory(sk.sku);
-                        const regionList = (sk.regions || []).sort();
-                        s += `| ${cat} | ${sk.label || sk.sku} | ${regionList.length} | ${regionList.map(fmt).join(', ')} |\n`;
-                      }
-                      s += `\n`;
-                    } else {
-                      // Compact: just list SKU types with region counts
-                      s += `**📋 SKUs:** ${skus.map(sk => `${skuCategory(sk.sku)} ${sk.label || sk.sku} (${(sk.regions||[]).length})`).join(' · ')}\n\n`;
-                    }
+                  } else if (skus.length) {
+                    // Compact for worldwide
+                    s += `**SKUs:** ${skus.map(sk => {
+                      const c = skuCategory(sk.sku);
+                      return `${c.icon}\xa0${sk.label || sk.sku}\xa0(${(sk.regions||[]).length})`;
+                    }).join(' · ')}\n\n`;
                   }
                 }
-                s += `</details>\n\n`;
+                s += `</details>\n`;
               }
-              return s;
+              return s + '\n';
             }
 
-            // ── Body ───────────────────────────────────────────────────
+            // ════════════════════════════════════════════════════════════
+            //  BUILD THE ISSUE BODY
+            // ════════════════════════════════════════════════════════════
             let body = '';
 
-            // ─ 1. Executive summary ────────────────────────────────────
+            // ─ 1. Header + TL;DR ───────────────────────────────────────
             body += `# 📊 Azure AI Foundry — Model Availability Update\n\n`;
-            body += `| | Detail |\n|---|---|\n`;
-            body += `| **Scan time** | ${timestamp} |\n`;
-            body += `| **Update source** | ${updateSrc} |\n`;
-            body += `| **Models with changes** | ${added.length + removed.length + retired.length} |\n`;
-            body += `| **New region placements** | 🟢 ${worldStats['Added region placements'] || '–'} worldwide / ${euroStats['Added region placements'] || '–'} Europe |\n`;
-            body += `| **Removed region placements** | 🔴 ${worldStats['Removed region placements'] || '–'} worldwide / ${euroStats['Removed region placements'] || '–'} Europe |\n\n`;
 
-            // ─ 2. What changed? (quick bullets) ────────────────────────
-            body += `## 🔔 What Changed?\n\n`;
-            if (added.length)   body += `**Models gaining regions (${added.length}):** ${added.map(fmt).join(', ')}\n\n`;
-            if (removed.length) body += `**Models losing regions (${removed.length}):** ${removed.map(fmt).join(', ')}\n\n`;
-            if (retired.length) body += `**Models retired (${retired.length}):** ${retired.map(fmt).join(', ')}\n\n`;
+            // Auto-generate a human TL;DR
+            const tldrParts = [];
+            const newModels = [...modelImpact.entries()].filter(([,v]) => v.type === 'new');
+            const expandedModels = [...modelImpact.entries()].filter(([,v]) => v.type === 'expanded');
+            const retiredModels = [...modelImpact.entries()].filter(([,v]) => v.type === 'retired');
+            const reducedModels = [...modelImpact.entries()].filter(([,v]) => v.type === 'reduced');
+            if (newModels.length) tldrParts.push(`**${newModels.length} new model${newModels.length>1?'s':''}** arrived in Europe (${newModels.map(([m])=>m).join(', ')})`);
+            if (expandedModels.length) tldrParts.push(`**${expandedModels.length} model${expandedModels.length>1?'s':''}** expanded to more regions`);
+            if (retiredModels.length) tldrParts.push(`**${retiredModels.length} model${retiredModels.length>1?'s':''}** retired (${retiredModels.map(([m])=>m).join(', ')})`);
+            if (reducedModels.length) tldrParts.push(`**${reducedModels.length} model${reducedModels.length>1?'s':''}** lost regions`);
+            body += `> **TL;DR:** ${tldrParts.join('. ') || 'SKU-level changes detected.'}.\n\n`;
 
-            // ─ 3. Europe ───────────────────────────────────────────────
-            body += `---\n\n## 🇪🇺 Europe Overview\n\n`;
-            body += `> ${euroStats['Models currently available in Europe'] || '?'} models across ${euroStats['Regions tracked'] || '?'} tracked regions · `;
-            body += `${euroStats['Regions with current availability'] || '?'} regions active\n\n`;
+            // ─ 2. Key metrics (clean horizontal layout) ────────────────
+            body += `| 📅 Scanned | 🇪🇺 Europe | 🌍 Worldwide |\n`;
+            body += `|:---|:---|:---|\n`;
+            body += `| ${humanDate(timestamp)} | 🟢 +${euAdded} · 🔴 -${euRemoved} placements | 🟢 +${worldStats['Added region placements']||'–'} · 🔴 -${worldStats['Removed region placements']||'–'} placements |\n`;
+            body += `| ${euroStats['Models currently available in Europe']||'?'} models · ${euroStats['Regions tracked']||'?'} regions | ${worldStats['Models currently available in Worldwide']||'?'} models · ${worldStats['Regions tracked']||'?'} regions | ${modelImpact.size} models changed |\n\n`;
 
-            body += `### Datacenter Changes — Which models were added/removed per region\n\n`;
-            body += renderRegionSection(euroByRegion, 'EU');
+            // ─ 3. Quick-reference table (most actionable section) ──────
+            body += `## ⚡ At a Glance\n\n`;
+            body += `| Impact | Model | EU Regions | SKU Types |\n`;
+            body += `|:---:|-----|:---:|-----|\n`;
+            const allChanged = [...modelImpact.entries()].sort((a,b) => {
+              const order = {retired:0, new:1, expanded:2, mixed:3, reduced:4};
+              return (order[a[1].type]??5) - (order[b[1].type]??5) || a[0].localeCompare(b[0]);
+            });
+            for (const [model, imp] of allChanged) {
+              const euModel = euroByModel.get(model);
+              const euCount = euModel?.region_count ?? 0;
+              const euAdddelta = euModel?.updates?.added_regions?.length || 0;
+              const euRemdelta = euModel?.updates?.removed_regions?.length || 0;
+              let delta = '';
+              if (euAdddelta) delta += ` (+${euAdddelta})`;
+              if (euRemdelta) delta += ` (-${euRemdelta})`;
+              const skuTypes = (euModel?.skus || []).map(sk => skuBadge(sk.sku)).filter((v,i,a) => a.indexOf(v)===i).join(', ') || '—';
+              body += `| ${imp.icon} ${imp.label} | **${model}** | ${euCount}${delta} | ${skuTypes} |\n`;
+            }
+            body += `\n`;
 
-            body += `### Model Changes — Which regions each model was added to/removed from\n\n`;
+            // ─ 4. Europe (primary — expanded) ──────────────────────────
+            body += `---\n\n## 🇪🇺 Europe\n\n`;
+
+            body += `<details>\n<summary>📍 <b>By Region</b> — Which models were added/removed per datacenter</summary>\n\n`;
+            body += renderRegionSection(euroByRegion);
+            body += `</details>\n\n`;
+
+            body += `### 🤖 By Model — Availability & SKU breakdown\n\n`;
             body += renderModelSection(euroByModel, 'EU', {skuDetail: 'full'});
 
-            // ─ 4. Worldwide ────────────────────────────────────────────
-            body += `---\n\n## 🌍 Worldwide Overview\n\n`;
-            body += `> ${worldStats['Models currently available in Worldwide'] || '?'} models across ${worldStats['Regions tracked'] || '?'} tracked regions · `;
-            body += `${worldStats['Regions with current availability'] || '?'} regions active\n\n`;
+            // ─ 5. Worldwide (secondary — collapsed) ────────────────────
+            body += `---\n\n`;
+            body += `<details>\n<summary><h2>🌍 Worldwide</h2> <sub>${worldStats['Models currently available in Worldwide']||'?'} models · ${worldStats['Regions tracked']||'?'} regions · click to expand</sub></summary>\n\n`;
 
-            body += `### Datacenter Changes — Which models were added/removed per region\n\n`;
-            body += renderRegionSection(worldByRegion, 'global');
+            body += `<details>\n<summary>📍 <b>By Region</b></summary>\n\n`;
+            body += renderRegionSection(worldByRegion);
+            body += `</details>\n\n`;
 
-            body += `### Model Changes — Which regions each model was added to/removed from\n\n`;
+            body += `### 🤖 By Model\n\n`;
             body += renderModelSection(worldByModel, 'global', {skuDetail: 'compact'});
 
-            // ─ 6. Footer ──────────────────────────────────────────────
+            body += `</details>\n\n`;
+
+            // ─ 6. Footer ───────────────────────────────────────────────
             body += `---\n\n`;
-            body += `📖 [Full availability dashboard](https://${owner}.github.io/${repo}/) · `;
-            body += `🔔 Watch this repo → Issues to get notifications\n`;
+            body += `📖 [Full dashboard](https://${owner}.github.io/${repo}/) · `;
+            body += `📋 [Previous issues](https://github.com/${owner}/${repo}/issues?q=label:region-watch) · `;
+            body += `🔔 Watch → Issues for notifications\n`;
 
             // ── Truncate if body exceeds GitHub's 65536 char limit ──
             const MAX_BODY = 65000;
             if (body.length > MAX_BODY) {
-              body = body.slice(0, MAX_BODY) + `\n\n---\n⚠️ _Issue body truncated (${body.length} chars). See the [full dashboard](https://${owner}.github.io/${repo}/) for complete details._\n`;
+              body = body.slice(0, MAX_BODY) + `\n\n---\n⚠️ _Truncated (${body.length} chars). See [full dashboard](https://${owner}.github.io/${repo}/)._\n`;
             }
 
             // ── Create the issue ───────────────────────────────────────
