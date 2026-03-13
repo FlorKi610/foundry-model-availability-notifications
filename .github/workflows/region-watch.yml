@@ -87,7 +87,7 @@ jobs:
           git push
 
       - name: Notify via GitHub issue
-        if: ${{ hashFiles('region_diff.json') != '' && steps.detect.outputs.has_change == 'true' }}
+        if: ${{ hashFiles('region_diff.json') != '' }}
         uses: actions/github-script@v7
         with:
           script: |
@@ -111,7 +111,8 @@ jobs:
               );
               return a.length || r.length || skuDelta || c?.model_removed;
             });
-            if (!hasChange) { core.info('No region changes'); return; }
+            // DEMO: guard bypassed
+            // if (!hasChange) { core.info('No region changes'); return; }
 
             const owner = context.repo.owner, repo = context.repo.repo;
             const fmt = r => `\`${r}\``;
@@ -175,6 +176,14 @@ jobs:
               return s;
             }
 
+            // Categorize a SKU key into a deployment type
+            function skuCategory(sku) {
+              if (sku.startsWith('global-batch'))          return '🔄 Batch';
+              if (sku.startsWith('datazone'))              return '📊 Datazone';
+              if (sku.includes('global'))                  return '🌐 Global';
+              return '🏢 Regional';
+            }
+
             function renderModelSection(byModel, scope) {
               let s = '';
               const models = [...byModel.values()]
@@ -194,16 +203,29 @@ jobs:
                 } else {
                   if (a.length) s += `🟢 **Now available in:** ${a.sort().map(fmt).join(', ')}\n\n`;
                   if (d.length) s += `🔴 **Removed from:** ${d.sort().map(fmt).join(', ')}\n\n`;
-                  // SKU detail
+                  // SKU change detail
                   const skuUpd = (m.updates.sku_updates || []).filter(
                     sk => sk.added_regions?.length || sk.removed_regions?.length || sk.sku_removed
                   );
                   if (skuUpd.length) {
+                    s += `**SKU Changes:**\n\n`;
                     s += `| SKU | Change | Regions |\n|-----|--------|--------|\n`;
                     for (const sk of skuUpd) {
                       if (sk.added_regions?.length)  s += `| ${sk.label || sk.sku} | 🟢 Added | ${sk.added_regions.sort().map(fmt).join(', ')} |\n`;
                       if (sk.removed_regions?.length) s += `| ${sk.label || sk.sku} | 🔴 Removed | ${sk.removed_regions.sort().map(fmt).join(', ')} |\n`;
                       if (sk.sku_removed)             s += `| ${sk.label || sk.sku} | ⚠️ Removed | — |\n`;
+                    }
+                    s += `\n`;
+                  }
+                  // Full current SKU availability breakdown
+                  const skus = m.skus || [];
+                  if (skus.length) {
+                    s += `**📋 Current SKU Availability:**\n\n`;
+                    s += `| Type | SKU | Regions | Available in |\n|------|-----|---------|-------------|\n`;
+                    for (const sk of skus) {
+                      const cat = skuCategory(sk.sku);
+                      const regionList = (sk.regions || []).sort();
+                      s += `| ${cat} | ${sk.label || sk.sku} | ${regionList.length} | ${regionList.map(fmt).join(', ')} |\n`;
                     }
                     s += `\n`;
                   }
