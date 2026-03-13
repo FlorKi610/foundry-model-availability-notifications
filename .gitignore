@@ -10,7 +10,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -19,6 +18,9 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# Nested repo clone (duplicate)
+foundry-model-availability-notifications-main/
 
 # Virtual environments
 venv/
@@ -48,6 +50,8 @@ node_modules/
 *.tmp
 .tmp/
 /tmp/
+_issue*.txt
+_test_preview.js
 
 # Secrets and local environment
 .env

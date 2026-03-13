@@ -104,6 +104,60 @@ Then open `http://localhost:3000`.
 
 The Node.js app reads `.region-watch/regions_snapshot.json` on every API request, so it reflects the latest snapshot file automatically.
 
+### Run The Local CLI
+
+```bash
+# Query the local snapshot and diff artifacts
+npm run cli -- summary --scope europe
+npm run cli -- compare --limit 10
+npm run cli -- model gpt-5.4
+npm run cli -- list --region "Sweden Central"
+```
+
+The CLI reads the same generated files as the web app, so it stays aligned with the local repository state.
+
+### Use It From GitHub CLI
+
+GitHub CLI does not have a native `skill` primitive. The practical integration is to expose this repo as a local command and register it as a `gh` alias.
+
+On Windows PowerShell:
+
+```powershell
+$script = ((Resolve-Path .\bin\foundry-models.js).Path -replace '\\', '/')
+"node `"$script`" `"`$@`"" | gh alias set --shell --clobber foundry-models -
+
+gh foundry-models summary --scope europe
+gh foundry-models compare --limit 10
+gh foundry-models model gpt-5.4
+```
+
+The alias is registered as a shell alias that runs `node` directly against `bin/foundry-models.js`.
+
+### Skill Package
+
+A reusable skill definition is included at `skills/foundry-model-availability/SKILL.md`.
+
+To install it into your user skill directory on Windows PowerShell:
+
+```powershell
+.\install-skill.ps1
+```
+
+To install it and register the GitHub CLI alias in one step:
+
+```powershell
+.\install-skill.ps1 -RegisterGhAlias
+```
+
+This installs the skill into `~/.agents/skills/foundry-model-availability`, which makes it available as a reusable user skill after this repository session.
+
+The skill is designed for agent workflows that need to answer:
+
+- which models are available in a region
+- what changed in Europe or worldwide
+- how to render the latest availability digest as markdown
+- how to look up a model by name or slug
+
 ### Agent / Diff API
 
 The Node.js app now also exposes a machine-friendly compare endpoint:

@@ -4,8 +4,12 @@
   "private": true,
   "description": "Simple Node.js UI for browsing Azure AI model availability from the region snapshot.",
   "main": "server.js",
+  "bin": {
+    "foundry-models": "./bin/foundry-models.js"
+  },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "cli": "node ./bin/foundry-models.js"
   },
   "engines": {
     "node": ">=18"
