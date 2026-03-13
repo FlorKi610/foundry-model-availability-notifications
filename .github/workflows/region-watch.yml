@@ -342,7 +342,92 @@ jobs:
 
             body += `</details>\n\n`;
 
-            // ─ 6. Footer ───────────────────────────────────────────────
+            // ─ 6. Machine-readable JSON for M365 Agent integration ──
+            const agentPayload = {
+              schema: 'foundry-model-watch/v1',
+              timestamp,
+              scan_date: dateStr,
+              update_source: europe.updates?.source || 'latest-refresh',
+              summary: {
+                models_changed: modelImpact.size,
+                europe: {
+                  models_tracked: euroStats['Models currently available in Europe'] || 0,
+                  regions_tracked: euroStats['Regions tracked'] || 0,
+                  placements_added: euAdded,
+                  placements_removed: euRemoved,
+                },
+                worldwide: {
+                  models_tracked: worldStats['Models currently available in Worldwide'] || 0,
+                  regions_tracked: worldStats['Regions tracked'] || 0,
+                  placements_added: worldStats['Added region placements'] || 0,
+                  placements_removed: worldStats['Removed region placements'] || 0,
+                },
+              },
+              models: Object.fromEntries(
+                allChanged.map(([model, imp]) => {
+                  const euM = euroByModel.get(model);
+                  const wM  = worldByModel.get(model);
+                  return [model, {
+                    impact: imp.type,
+                    europe: {
+                      region_count: euM?.region_count ?? 0,
+                      added_regions: euM?.updates?.added_regions || [],
+                      removed_regions: euM?.updates?.removed_regions || [],
+                      skus: (euM?.skus || []).map(sk => ({
+                        sku: sk.sku,
+                        label: sk.label || sk.sku,
+                        category: skuCategory(sk.sku).label.toLowerCase(),
+                        region_count: (sk.regions || []).length,
+                        regions: sk.regions || [],
+                      })),
+                    },
+                    worldwide: {
+                      region_count: wM?.region_count ?? 0,
+                      added_regions: wM?.updates?.added_regions || [],
+                      removed_regions: wM?.updates?.removed_regions || [],
+                      skus: (wM?.skus || []).map(sk => ({
+                        sku: sk.sku,
+                        label: sk.label || sk.sku,
+                        category: skuCategory(sk.sku).label.toLowerCase(),
+                        region_count: (sk.regions || []).length,
+                      })),
+                    },
+                  }];
+                })
+              ),
+              regions: {
+                europe: [...euroByRegion.values()]
+                  .filter(r => r.updates.added_models.length || r.updates.removed_models.length)
+                  .map(r => ({
+                    region: r.region,
+                    model_count: r.model_count,
+                    added_models: r.updates.added_models,
+                    removed_models: r.updates.removed_models,
+                  })),
+                worldwide: [...worldByRegion.values()]
+                  .filter(r => r.updates.added_models.length || r.updates.removed_models.length)
+                  .map(r => ({
+                    region: r.region,
+                    model_count: r.model_count,
+                    added_models: r.updates.added_models,
+                    removed_models: r.updates.removed_models,
+                  })),
+              },
+              _links: {
+                dashboard: `https://${owner}.github.io/${repo}/`,
+                europe_json: `https://github.com/${owner}/${repo}/blob/main/region_diff_europe.json`,
+                worldwide_json: `https://github.com/${owner}/${repo}/blob/main/region_diff_worldwide.json`,
+              },
+            };
+
+            body += `---\n\n`;
+            body += `<details>\n<summary>🤖 <b>Machine-Readable JSON</b> <sub>for M365 Agents / API integration</sub></summary>\n\n`;
+            body += '```json\n';
+            body += JSON.stringify(agentPayload, null, 2);
+            body += '\n```\n\n';
+            body += `</details>\n\n`;
+
+            // ─ 7. Footer ───────────────────────────────────────────
             body += `---\n\n`;
             body += `📖 [Full dashboard](https://${owner}.github.io/${repo}/) · `;
             body += `📋 [Previous issues](https://github.com/${owner}/${repo}/issues?q=label:region-watch) · `;
