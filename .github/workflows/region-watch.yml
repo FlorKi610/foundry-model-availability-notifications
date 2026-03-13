@@ -87,7 +87,7 @@ jobs:
           git push
 
       - name: Notify via GitHub issue
-        if: ${{ hashFiles('region_diff.json') != '' }}
+        if: ${{ hashFiles('region_diff.json') != '' && steps.detect.outputs.has_change == 'true' }}
         uses: actions/github-script@v7
         with:
           script: |
@@ -111,8 +111,7 @@ jobs:
               );
               return a.length || r.length || skuDelta || c?.model_removed;
             });
-            // DEMO: guard bypassed
-            // if (!hasChange) { core.info('No region changes'); return; }
+            if (!hasChange) { core.info('No region changes'); return; }
 
             const owner = context.repo.owner, repo = context.repo.repo;
             const fmt = r => `\`${r}\``;
