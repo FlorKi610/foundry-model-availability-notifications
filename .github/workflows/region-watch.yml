@@ -87,7 +87,7 @@ jobs:
           git push
 
       - name: Notify via GitHub issue
-        if: ${{ hashFiles('region_diff.json') != '' && steps.detect.outputs.has_change == 'true' }}
+        if: ${{ hashFiles('region_diff.json') != '' }}  # TEMP: force issue for demo
         uses: actions/github-script@v7
         with:
           script: |
