@@ -164,7 +164,7 @@ jobs:
               for (const r of regions) {
                 const a = r.updates.added_models, d = r.updates.removed_models;
                 const badge = d.length && !a.length ? '🔴' : '🟢';
-                s += `<details>\n<summary>${badge} <strong>${r.region}</strong> — ${r.model_count} models`;
+                s += `<details open>\n<summary>${badge} <strong>${r.region}</strong> — ${r.model_count} models`;
                 if (a.length) s += ` · +${a.length} added`;
                 if (d.length) s += ` · -${d.length} removed`;
                 s += `</summary>\n\n`;
@@ -184,7 +184,7 @@ jobs:
               for (const m of models) {
                 const a = m.updates.added_regions, d = m.updates.removed_regions;
                 const icon = m.updates.model_removed ? '⚠️' : (d.length && !a.length ? '🔴' : '🟢');
-                s += `<details>\n<summary>${icon} <strong>${m.model}</strong> — ${m.region_count} ${scope} regions`;
+                s += `<details open>\n<summary>${icon} <strong>${m.model}</strong> — ${m.region_count} ${scope} regions`;
                 if (a.length) s += ` · +${a.length} added`;
                 if (d.length) s += ` · -${d.length} removed`;
                 if (m.updates.model_removed) s += ` · RETIRED`;
