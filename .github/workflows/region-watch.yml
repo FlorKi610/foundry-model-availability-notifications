@@ -111,7 +111,8 @@ jobs:
               );
               return a.length || r.length || skuDelta || c?.model_removed;
             });
-            if (!hasChange) { core.info('No region changes'); return; }
+            // TEMP: skip early return for demo
+            // if (!hasChange) { core.info('No region changes'); return; }
 
             const owner = context.repo.owner, repo = context.repo.repo;
             const fmt = r => `\`${r}\``;
