@@ -34,6 +34,99 @@ jobs:
           cat region_diff_worldwide_flat.json
           cat region_diff_worldwide_summary.md
 
+      - name: Generate diff view
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          from datetime import datetime, timezone
+
+          diff = json.loads(Path("region_diff.json").read_text("utf-8"))
+          europe = json.loads(Path("region_diff_europe.json").read_text("utf-8"))
+          changes = diff.get("changes") or {}
+          ts = diff.get("timestamp") or datetime.now(timezone.utc).isoformat()
+
+          def has_delta(e):
+              if e.get("model_removed"): return True
+              a = e.get("all") or {}
+              if a.get("added") or a.get("removed"): return True
+              for s in (e.get("skus") or {}).values():
+                  if s.get("added") or s.get("removed") or s.get("sku_removed"): return True
+              return False
+
+          changed = {m: c for m, c in sorted(changes.items()) if has_delta(c)}
+          eu_map = {m["model"]: m for m in (europe.get("views") or {}).get("by_model", [])}
+
+          out = []
+          out.append("# 🔄 Model Availability — What Changed\n")
+          out.append(f"> Scanned: **{ts}**\n")
+
+          if not changed:
+              out.append("✅ **No changes detected** since the previous scan.\n")
+          else:
+              ta = sum(len((c.get("all") or {}).get("added", [])) for c in changed.values())
+              tr = sum(len((c.get("all") or {}).get("removed", [])) for c in changed.values())
+              out.append(f"**{len(changed)} model{'s' if len(changed)!=1 else ''} changed** — "
+                         f"`+{ta}` added · `-{tr}` removed region placements\n")
+              out.append("---\n")
+
+              for model, ch in changed.items():
+                  added = sorted((ch.get("all") or {}).get("added", []))
+                  removed = sorted((ch.get("all") or {}).get("removed", []))
+                  eu = eu_map.get(model, {})
+
+                  if ch.get("model_removed"):
+                      tag = "⛔ Retired"
+                  elif added and not removed:
+                      eu_a = (eu.get("updates") or {}).get("added_regions", [])
+                      if eu.get("region_count", 0) > 0 and len(eu_a) == eu.get("region_count"):
+                          tag = "🆕 New in Europe"
+                      else:
+                          tag = "📈 Expanded"
+                  elif added and removed:
+                      tag = "🔀 Mixed"
+                  elif removed:
+                      tag = "📉 Reduced"
+                  else:
+                      tag = "ℹ️ Changed"
+
+                  out.append(f"### {tag} — {model}\n")
+
+                  if ch.get("model_removed"):
+                      out.append("_Fully retired from all regions._\n")
+                      continue
+
+                  if added or removed:
+                      out.append("```diff")
+                      for r in added: out.append(f"+ {r}")
+                      for r in removed: out.append(f"- {r}")
+                      out.append("```\n")
+
+                  for sk, sc in sorted((ch.get("skus") or {}).items()):
+                      sa, sr = sorted(sc.get("added", [])), sorted(sc.get("removed", []))
+                      lb = sc.get("label", sk)
+                      if sa or sr or sc.get("sku_removed"):
+                          if sc.get("sku_removed"):
+                              out.append(f"~~{lb}~~ — _SKU removed_\n")
+                          else:
+                              out.append(f"**{lb}:**")
+                              out.append("```diff")
+                              for r in sa: out.append(f"+ {r}")
+                              for r in sr: out.append(f"- {r}")
+                              out.append("```\n")
+
+          repo = os.environ.get("GITHUB_REPOSITORY", "")
+          out.append("---")
+          if repo:
+              owner = repo.split("/")[0]
+              name = repo.split("/")[-1]
+              out.append(f"_[Dashboard](https://{owner}.github.io/{name}/) · "
+                         f"[Previous scans](https://github.com/{repo}/issues?q=label:region-watch)_")
+
+          Path("LATEST_CHANGES.md").write_text("\n".join(out) + "\n", "utf-8")
+          print("Generated LATEST_CHANGES.md")
+          PY
+
       - name: Detect changes
         id: detect
         run: |
@@ -82,7 +175,7 @@ jobs:
         run: |
           git config user.email "bot@users.noreply.github.com"
           git config user.name "region-bot"
-          git add .region-watch/regions_snapshot.json .region-watch/history region_diff.json region_diff_europe.json region_diff_europe_flat.json region_diff_europe_summary.md region_diff_worldwide.json region_diff_worldwide_flat.json region_diff_worldwide_summary.md REGION_AVAILABILITY.md
+          git add .region-watch/regions_snapshot.json .region-watch/history region_diff.json region_diff_europe.json region_diff_europe_flat.json region_diff_europe_summary.md region_diff_worldwide.json region_diff_worldwide_flat.json region_diff_worldwide_summary.md REGION_AVAILABILITY.md LATEST_CHANGES.md
           git diff --cached --quiet || git commit -m "Update region snapshot"
           git push
 
@@ -242,17 +335,23 @@ jobs:
                   const skuChanges = new Map((m.updates.sku_updates || []).map(sk => [sk.sku, sk]));
 
                   if (skus.length && skuDetail === 'full') {
-                    s += `| | SKU | Regions | Availability |\n|---|-----|:---:|-----|\n`;
+                    // Diff-focused: show only what changed per SKU, not all regions
+                    s += `| | SKU | Regions | Changes |\n|---|-----|:---:|-----|\n`;
                     for (const sk of skus) {
                       const cat = skuCategory(sk.sku);
-                      const regionList = (sk.regions || []).sort();
+                      const regionCount = (sk.regions || []).length;
                       const change = skuChanges.get(sk.sku);
-                      let changeNote = '';
-                      if (change?.added_regions?.length)   changeNote += ` 🟢 +${change.added_regions.length}`;
-                      if (change?.removed_regions?.length)  changeNote += ` 🔴 -${change.removed_regions.length}`;
-                      s += `| ${cat.icon}\xa0${cat.label} | ${sk.label || sk.sku}${changeNote} | **${regionList.length}** | ${regionList.map(fmt).join(', ')} |\n`;
+                      let diffCol = '';
+                      if (change?.added_regions?.length)
+                        diffCol += `🟢 ${change.added_regions.sort().map(fmt).join(', ')}`;
+                      if (change?.removed_regions?.length) {
+                        if (diffCol) diffCol += '<br>';
+                        diffCol += `🔴 ${change.removed_regions.sort().map(fmt).join(', ')}`;
+                      }
+                      if (!diffCol) diffCol = '—';
+                      s += `| ${cat.icon}\xa0${cat.label} | ${sk.label || sk.sku} | **${regionCount}** | ${diffCol} |\n`;
                     }
-                    // Show removed SKUs that no longer appear in current
+                    // Show removed SKUs
                     for (const sk of (m.updates.sku_updates || [])) {
                       if (sk.sku_removed && !skus.find(s => s.sku === sk.sku)) {
                         s += `| ⛔ | ~~${sk.label || sk.sku}~~ | **0** | _Removed_ |\n`;
@@ -278,7 +377,8 @@ jobs:
             let body = '';
 
             // ─ 1. Header + TL;DR ───────────────────────────────────────
-            body += `# 📊 Azure AI Foundry — Model Availability Update\n\n`;
+            body += `# 📊 Azure AI Foundry — Model Availability Changes\n\n`;
+            body += `> _Showing only what changed since the previous scan._\n\n`;
 
             // Auto-generate a human TL;DR
             const tldrParts = [];
