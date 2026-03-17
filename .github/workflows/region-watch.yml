@@ -1,6 +1,6 @@
 name: Region watch (GitHub Markdown)
 on:
-  # schedule disabled — use private repo instead
+  schedule: [{ cron: "0 */6 * * *" }]
   workflow_dispatch:
 
 permissions:
