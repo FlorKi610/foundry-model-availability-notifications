@@ -1,6 +1,6 @@
 # Europe Model Availability Daily Summary
 
-Generated: 2026-03-22T00:31:01.778075+00:00
+Generated: 2026-03-22T06:20:25.292086+00:00
 Update source: diff-20260310T074227536Z.json (2026-03-10T07:42:27.536859+00:00)
 
 ## Snapshot
