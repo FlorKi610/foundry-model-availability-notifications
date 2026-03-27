@@ -1,18 +1,18 @@
 # Worldwide Model Availability Daily Summary
 
-Generated: 2026-03-27T06:30:34.932181+00:00
-Update source: latest-refresh (2026-03-27T06:30:34.932181+00:00)
+Generated: 2026-03-27T12:21:51.112576+00:00
+Update source: diff-20260327T063034932Z.json (2026-03-27T06:30:34.932181+00:00)
 
 ## Snapshot
 
-- Regions tracked: 32
+- Regions tracked: 31
 - Models currently available in Worldwide: 88
-- Regions with current availability: 32
-- Models with updates: 22
+- Regions with current availability: 31
+- Models with updates: 21
 - Added region placements: 62
-- Removed region placements: 16
+- Removed region placements: 0
 - Added models by region: 62
-- Removed models by region: 16
+- Removed models by region: 0
 
 ## Regional Changes
 
@@ -33,7 +33,6 @@ Update source: latest-refresh (2026-03-27T06:30:34.932181+00:00)
 | North Central US | 57 | 2 | 0 |
 | Norway East | 56 | 2 | 0 |
 | Poland Central | 60 | 3 | 0 |
-| Qatar Central | 0 | 0 | 16 |
 | South Africa North | 54 | 2 | 0 |
 | South Central US | 57 | 3 | 0 |
 | South India | 56 | 2 | 0 |
@@ -52,25 +51,24 @@ Update source: latest-refresh (2026-03-27T06:30:34.932181+00:00)
 
 | Model | Current Regions | Added Regions | Removed Regions |
 | --- | ---: | ---: | ---: |
-| gpt-4.1 | 28 | 0 | 1 |
-| gpt-4.1-mini | 28 | 0 | 1 |
-| gpt-4.1-nano | 28 | 0 | 1 |
-| gpt-4o | 28 | 0 | 1 |
-| gpt-4o-mini | 28 | 0 | 1 |
-| gpt-5 | 28 | 0 | 1 |
-| gpt-5-mini | 28 | 0 | 1 |
+| gpt-4.1 | 28 | 0 | 0 |
+| gpt-4.1-mini | 28 | 0 | 0 |
+| gpt-4.1-nano | 28 | 0 | 0 |
+| gpt-4o | 28 | 0 | 0 |
+| gpt-4o-mini | 28 | 0 | 0 |
+| gpt-5 | 28 | 0 | 0 |
+| gpt-5-mini | 28 | 0 | 0 |
 | gpt-5-pro | 27 | 24 | 0 |
-| gpt-5.1 | 28 | 0 | 1 |
+| gpt-5.1 | 28 | 0 | 0 |
 | gpt-5.1-chat | 28 | 3 | 0 |
-| gpt-5.1-codex | 28 | 0 | 1 |
+| gpt-5.1-codex | 28 | 0 | 0 |
 | gpt-5.1-codex-mini | 28 | 3 | 0 |
-| gpt-5.2 | 28 | 0 | 1 |
-| gpt-5.2-codex | 28 | 0 | 1 |
-| gpt-5.3-codex | 28 | 0 | 1 |
+| gpt-5.2 | 28 | 0 | 0 |
+| gpt-5.3-codex | 28 | 0 | 0 |
 | gpt-5.4 | 28 | 24 | 0 |
 | gpt-5.4-mini | 4 | 4 | 0 |
 | gpt-5.4-nano | 4 | 4 | 0 |
-| o1 | 28 | 0 | 1 |
-| o3 | 28 | 0 | 1 |
-| o3-mini | 28 | 0 | 1 |
-| o4-mini | 28 | 0 | 1 |
+| o1 | 28 | 0 | 0 |
+| o3 | 28 | 0 | 0 |
+| o3-mini | 28 | 0 | 0 |
+| o4-mini | 28 | 0 | 0 |
