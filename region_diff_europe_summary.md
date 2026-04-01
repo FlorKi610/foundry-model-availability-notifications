@@ -1,46 +1,36 @@
 # Europe Model Availability Daily Summary
 
-Generated: 2026-04-01T12:23:42.282746+00:00
-Update source: diff-20260327T063034932Z.json (2026-03-27T06:30:34.932181+00:00)
+Generated: 2026-04-01T18:21:55.836410+00:00
+Update source: latest-refresh (2026-04-01T18:21:55.836410+00:00)
 
 ## Snapshot
 
 - Regions tracked: 19
 - Models currently available in Europe: 86
 - Regions with current availability: 11
-- Models with updates: 10
-- Added region placements: 25
+- Models with updates: 4
+- Added region placements: 7
 - Removed region placements: 0
-- Added models by region: 25
+- Added models by region: 7
 - Removed models by region: 0
 
 ## Regional Changes
 
 | Region | Current Models | Added Models | Removed Models |
 | --- | ---: | ---: | ---: |
-| France Central | 60 | 2 | 0 |
-| Germany West Central | 54 | 2 | 0 |
-| Italy North | 54 | 2 | 0 |
-| Norway East | 56 | 2 | 0 |
-| Poland Central | 60 | 3 | 0 |
-| Spain Central | 54 | 2 | 0 |
-| Sweden Central | 85 | 2 | 0 |
-| Switzerland North | 55 | 2 | 0 |
-| Switzerland West | 50 | 2 | 0 |
-| UK South | 54 | 2 | 0 |
-| West Europe | 55 | 4 | 0 |
+| France Central | 61 | 1 | 0 |
+| Germany West Central | 55 | 1 | 0 |
+| Norway East | 57 | 1 | 0 |
+| Spain Central | 55 | 1 | 0 |
+| Switzerland North | 56 | 1 | 0 |
+| UK South | 55 | 1 | 0 |
+| West Europe | 56 | 1 | 0 |
 
 ## Model Changes
 
 | Model | Current Regions | Added Regions | Removed Regions |
 | --- | ---: | ---: | ---: |
-| gpt-4.1 | 11 | 0 | 0 |
-| gpt-5-pro | 11 | 10 | 0 |
-| gpt-5.1 | 11 | 0 | 0 |
-| gpt-5.1-chat | 11 | 1 | 0 |
-| gpt-5.1-codex | 11 | 0 | 0 |
-| gpt-5.1-codex-mini | 11 | 1 | 0 |
-| gpt-5.2 | 11 | 0 | 0 |
-| gpt-5.4 | 11 | 9 | 0 |
-| gpt-5.4-mini | 2 | 2 | 0 |
-| gpt-5.4-nano | 2 | 2 | 0 |
+| gpt-5-mini | 11 | 0 | 0 |
+| gpt-5.4 | 11 | 0 | 0 |
+| gpt-5.4-mini | 9 | 7 | 0 |
+| o4-mini | 11 | 0 | 0 |

@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-01T12:23:42.282746+00:00",
+  "timestamp": "2026-04-01T18:21:55.836410+00:00",
   "updates": {
-    "source": "diff-20260327T063034932Z.json",
-    "timestamp": "2026-03-27T06:30:34.932181+00:00"
+    "source": "latest-refresh",
+    "timestamp": "2026-04-01T18:21:55.836410+00:00"
   },
   "filter": {
     "scope": "Europe",
@@ -762,36 +762,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "provisioned-models",
-              "label": "Provisioned (PTU managed)",
-              "added_regions": [
-                "Germany West Central"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            },
-            {
-              "sku": "standard-global-priority-processing",
-              "label": "Standard Global Priority Processing",
-              "added_regions": [
-                "France Central",
-                "Germany West Central",
-                "Italy North",
-                "Norway East",
-                "Poland Central",
-                "Spain Central",
-                "Sweden Central",
-                "Switzerland North",
-                "Switzerland West",
-                "UK South",
-                "West Europe"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -1781,7 +1752,17 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": []
+          "sku_updates": [
+            {
+              "sku": "provisioned-models",
+              "label": "Provisioned (PTU managed)",
+              "added_regions": [
+                "UK South"
+              ],
+              "removed_regions": [],
+              "sku_removed": false
+            }
+          ]
         },
         "skus": [
           {
@@ -1825,6 +1806,13 @@
               "Switzerland West",
               "UK South",
               "West Europe"
+            ]
+          },
+          {
+            "sku": "provisioned-models",
+            "label": "Provisioned (PTU managed)",
+            "regions": [
+              "UK South"
             ]
           },
           {
@@ -1915,40 +1903,10 @@
         ],
         "region_count": 11,
         "updates": {
-          "added_regions": [
-            "France Central",
-            "Germany West Central",
-            "Italy North",
-            "Norway East",
-            "Poland Central",
-            "Spain Central",
-            "Switzerland North",
-            "Switzerland West",
-            "UK South",
-            "West Europe"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "France Central",
-                "Germany West Central",
-                "Italy North",
-                "Norway East",
-                "Poland Central",
-                "Spain Central",
-                "Switzerland North",
-                "Switzerland West",
-                "UK South",
-                "West Europe"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -1990,45 +1948,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West Europe"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            },
-            {
-              "sku": "standard-global-priority-processing",
-              "label": "Standard Global Priority Processing",
-              "added_regions": [
-                "France Central",
-                "Germany West Central",
-                "Italy North",
-                "Norway East",
-                "Poland Central",
-                "Spain Central",
-                "Sweden Central",
-                "Switzerland North",
-                "Switzerland West",
-                "UK South",
-                "West Europe"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            },
-            {
-              "sku": "standard-models",
-              "label": "Standard (all)",
-              "added_regions": [
-                "Sweden Central"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -2151,22 +2071,10 @@
         ],
         "region_count": 11,
         "updates": {
-          "added_regions": [
-            "West Europe"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West Europe"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -2208,17 +2116,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West Europe"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -2309,22 +2207,10 @@
         ],
         "region_count": 11,
         "updates": {
-          "added_regions": [
-            "West Europe"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West Europe"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -2366,27 +2252,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global-priority-processing",
-              "label": "Standard Global Priority Processing",
-              "added_regions": [
-                "France Central",
-                "Germany West Central",
-                "Italy North",
-                "Norway East",
-                "Poland Central",
-                "Spain Central",
-                "Sweden Central",
-                "Switzerland North",
-                "Switzerland West",
-                "UK South",
-                "West Europe"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -2621,60 +2487,21 @@
         ],
         "region_count": 11,
         "updates": {
-          "added_regions": [
-            "France Central",
-            "Germany West Central",
-            "Italy North",
-            "Norway East",
-            "Spain Central",
-            "Switzerland North",
-            "Switzerland West",
-            "UK South",
-            "West Europe"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "datazone-provisioned-managed",
-              "label": "Datazone provisioned managed",
+              "sku": "standard-global",
+              "label": "Standard global deployments",
               "added_regions": [
                 "France Central",
                 "Germany West Central",
-                "Italy North",
-                "Poland Central",
-                "Spain Central",
-                "Sweden Central",
-                "West Europe"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            },
-            {
-              "sku": "provisioned-global",
-              "label": "Provisioned global",
-              "added_regions": [
-                "France Central",
-                "Germany West Central",
-                "Italy North",
                 "Norway East",
-                "Poland Central",
                 "Spain Central",
-                "Sweden Central",
                 "Switzerland North",
-                "Switzerland West",
                 "UK South",
                 "West Europe"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            },
-            {
-              "sku": "standard-global-priority-processing",
-              "label": "Standard Global Priority Processing",
-              "added_regions": [
-                "Poland Central",
-                "Sweden Central"
               ],
               "removed_regions": [],
               "sku_removed": false
@@ -2716,8 +2543,15 @@
             "sku": "standard-global",
             "label": "Standard global deployments",
             "regions": [
+              "France Central",
+              "Germany West Central",
+              "Norway East",
               "Poland Central",
-              "Sweden Central"
+              "Spain Central",
+              "Sweden Central",
+              "Switzerland North",
+              "UK South",
+              "West Europe"
             ]
           },
           {
@@ -2733,14 +2567,26 @@
       {
         "model": "gpt-5.4-mini",
         "available_regions": [
+          "France Central",
+          "Germany West Central",
+          "Norway East",
           "Poland Central",
-          "Sweden Central"
+          "Spain Central",
+          "Sweden Central",
+          "Switzerland North",
+          "UK South",
+          "West Europe"
         ],
-        "region_count": 2,
+        "region_count": 9,
         "updates": {
           "added_regions": [
-            "Poland Central",
-            "Sweden Central"
+            "France Central",
+            "Germany West Central",
+            "Norway East",
+            "Spain Central",
+            "Switzerland North",
+            "UK South",
+            "West Europe"
           ],
           "removed_regions": [],
           "model_removed": false,
@@ -2749,8 +2595,13 @@
               "sku": "standard-global",
               "label": "Standard global deployments",
               "added_regions": [
-                "Poland Central",
-                "Sweden Central"
+                "France Central",
+                "Germany West Central",
+                "Norway East",
+                "Spain Central",
+                "Switzerland North",
+                "UK South",
+                "West Europe"
               ],
               "removed_regions": [],
               "sku_removed": false
@@ -2762,8 +2613,15 @@
             "sku": "standard-global",
             "label": "Standard global deployments",
             "regions": [
+              "France Central",
+              "Germany West Central",
+              "Norway East",
               "Poland Central",
-              "Sweden Central"
+              "Spain Central",
+              "Sweden Central",
+              "Switzerland North",
+              "UK South",
+              "West Europe"
             ]
           }
         ]
@@ -2776,24 +2634,10 @@
         ],
         "region_count": 2,
         "updates": {
-          "added_regions": [
-            "Poland Central",
-            "Sweden Central"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "Poland Central",
-                "Sweden Central"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -4168,7 +4012,17 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": []
+          "sku_updates": [
+            {
+              "sku": "standard-global",
+              "label": "Standard global deployments",
+              "added_regions": [
+                "Switzerland West"
+              ],
+              "removed_regions": [],
+              "sku_removed": false
+            }
+          ]
         },
         "skus": [
           {
@@ -4258,6 +4112,7 @@
               "Spain Central",
               "Sweden Central",
               "Switzerland North",
+              "Switzerland West",
               "UK South",
               "West Europe"
             ]
@@ -4619,6 +4474,7 @@
           "gpt-5.2-codex",
           "gpt-5.3-codex",
           "gpt-5.4",
+          "gpt-5.4-mini",
           "gpt-realtime",
           "gpt-realtime-1.5",
           "gpt-realtime-mini",
@@ -4645,11 +4501,10 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 60,
+        "model_count": 61,
         "updates": {
           "added_models": [
-            "gpt-5-pro",
-            "gpt-5.4"
+            "gpt-5.4-mini"
           ],
           "removed_models": []
         }
@@ -4689,6 +4544,7 @@
           "gpt-5.2-codex",
           "gpt-5.3-codex",
           "gpt-5.4",
+          "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
           "grok-4-fast-non-reasoning",
@@ -4712,11 +4568,10 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 54,
+        "model_count": 55,
         "updates": {
           "added_models": [
-            "gpt-5-pro",
-            "gpt-5.4"
+            "gpt-5.4-mini"
           ],
           "removed_models": []
         }
@@ -4781,10 +4636,7 @@
         ],
         "model_count": 54,
         "updates": {
-          "added_models": [
-            "gpt-5-pro",
-            "gpt-5.4"
-          ],
+          "added_models": [],
           "removed_models": []
         }
       },
@@ -4823,6 +4675,7 @@
           "gpt-5.2-codex",
           "gpt-5.3-codex",
           "gpt-5.4",
+          "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
           "grok-4-fast-non-reasoning",
@@ -4848,11 +4701,10 @@
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 56,
+        "model_count": 57,
         "updates": {
           "added_models": [
-            "gpt-5-pro",
-            "gpt-5.4"
+            "gpt-5.4-mini"
           ],
           "removed_models": []
         }
@@ -4923,11 +4775,7 @@
         ],
         "model_count": 60,
         "updates": {
-          "added_models": [
-            "gpt-5-pro",
-            "gpt-5.4-mini",
-            "gpt-5.4-nano"
-          ],
+          "added_models": [],
           "removed_models": []
         }
       },
@@ -4966,6 +4814,7 @@
           "gpt-5.2-codex",
           "gpt-5.3-codex",
           "gpt-5.4",
+          "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
           "grok-4-fast-non-reasoning",
@@ -4989,11 +4838,10 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 54,
+        "model_count": 55,
         "updates": {
           "added_models": [
-            "gpt-5-pro",
-            "gpt-5.4"
+            "gpt-5.4-mini"
           ],
           "removed_models": []
         }
@@ -5089,10 +4937,7 @@
         ],
         "model_count": 85,
         "updates": {
-          "added_models": [
-            "gpt-5.4-mini",
-            "gpt-5.4-nano"
-          ],
+          "added_models": [],
           "removed_models": []
         }
       },
@@ -5131,6 +4976,7 @@
           "gpt-5.2-codex",
           "gpt-5.3-codex",
           "gpt-5.4",
+          "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
           "grok-4-fast-non-reasoning",
@@ -5155,11 +5001,10 @@
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 55,
+        "model_count": 56,
         "updates": {
           "added_models": [
-            "gpt-5-pro",
-            "gpt-5.4"
+            "gpt-5.4-mini"
           ],
           "removed_models": []
         }
@@ -5220,10 +5065,7 @@
         ],
         "model_count": 50,
         "updates": {
-          "added_models": [
-            "gpt-5-pro",
-            "gpt-5.4"
-          ],
+          "added_models": [],
           "removed_models": []
         }
       },
@@ -5262,6 +5104,7 @@
           "gpt-5.2-codex",
           "gpt-5.3-codex",
           "gpt-5.4",
+          "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
           "grok-4-fast-non-reasoning",
@@ -5285,11 +5128,10 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 54,
+        "model_count": 55,
         "updates": {
           "added_models": [
-            "gpt-5-pro",
-            "gpt-5.4"
+            "gpt-5.4-mini"
           ],
           "removed_models": []
         }
@@ -5329,6 +5171,7 @@
           "gpt-5.2-codex",
           "gpt-5.3-codex",
           "gpt-5.4",
+          "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
           "grok-4-fast-non-reasoning",
@@ -5353,13 +5196,10 @@
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 55,
+        "model_count": 56,
         "updates": {
           "added_models": [
-            "gpt-5-pro",
-            "gpt-5.1-chat",
-            "gpt-5.1-codex-mini",
-            "gpt-5.4"
+            "gpt-5.4-mini"
           ],
           "removed_models": []
         }
