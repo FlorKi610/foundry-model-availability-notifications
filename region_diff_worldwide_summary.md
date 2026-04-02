@@ -1,7 +1,7 @@
 # Worldwide Model Availability Daily Summary
 
-Generated: 2026-04-01T18:21:55.836410+00:00
-Update source: latest-refresh (2026-04-01T18:21:55.836410+00:00)
+Generated: 2026-04-02T00:30:49.908436+00:00
+Update source: diff-20260401T182155836Z.json (2026-04-01T18:21:55.836410+00:00)
 
 ## Snapshot
 
