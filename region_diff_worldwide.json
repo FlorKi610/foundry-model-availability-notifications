@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-02T18:20:59.851192+00:00",
+  "timestamp": "2026-04-03T00:32:45.650019+00:00",
   "updates": {
-    "source": "diff-20260401T182155836Z.json",
-    "timestamp": "2026-04-01T18:21:55.836410+00:00"
+    "source": "latest-refresh",
+    "timestamp": "2026-04-03T00:32:45.650019+00:00"
   },
   "filter": {
     "scope": "Worldwide",
@@ -1068,7 +1068,19 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": []
+          "sku_updates": [
+            {
+              "sku": "data-zone-standard",
+              "label": "Data Zone Standard",
+              "added_regions": [],
+              "removed_regions": [
+                "Norway East",
+                "Switzerland North",
+                "Switzerland West"
+              ],
+              "sku_removed": false
+            }
+          ]
         },
         "skus": [
           {
@@ -1082,13 +1094,10 @@
               "Germany West Central",
               "Italy North",
               "North Central US",
-              "Norway East",
               "Poland Central",
               "South Central US",
               "Spain Central",
               "Sweden Central",
-              "Switzerland North",
-              "Switzerland West",
               "West Central US",
               "West Europe",
               "West US",
@@ -1173,7 +1182,19 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": []
+          "sku_updates": [
+            {
+              "sku": "data-zone-standard",
+              "label": "Data Zone Standard",
+              "added_regions": [],
+              "removed_regions": [
+                "Norway East",
+                "Switzerland North",
+                "Switzerland West"
+              ],
+              "sku_removed": false
+            }
+          ]
         },
         "skus": [
           {
@@ -1187,13 +1208,10 @@
               "Germany West Central",
               "Italy North",
               "North Central US",
-              "Norway East",
               "Poland Central",
               "South Central US",
               "Spain Central",
               "Sweden Central",
-              "Switzerland North",
-              "Switzerland West",
               "West Central US",
               "West Europe",
               "West US",
@@ -1201,6 +1219,156 @@
               "West US 3"
             ]
           },
+          {
+            "sku": "global-standard",
+            "label": "Global Standard",
+            "regions": [
+              "Australia East",
+              "Brazil South",
+              "Canada Central",
+              "Canada East",
+              "Central US",
+              "East US",
+              "East US 2",
+              "France Central",
+              "Germany West Central",
+              "Italy North",
+              "Japan East",
+              "Japan West",
+              "Korea Central",
+              "North Central US",
+              "Norway East",
+              "Poland Central",
+              "South Africa North",
+              "South Central US",
+              "South India",
+              "Spain Central",
+              "Sweden Central",
+              "Switzerland North",
+              "Switzerland West",
+              "UAE North",
+              "UK South",
+              "West Central US",
+              "West Europe",
+              "West US",
+              "West US 2",
+              "West US 3"
+            ]
+          }
+        ]
+      },
+      {
+        "model": "FLUX.2-flex",
+        "available_regions": [
+          "Australia East",
+          "Brazil South",
+          "Canada Central",
+          "Canada East",
+          "Central US",
+          "East US",
+          "East US 2",
+          "France Central",
+          "Germany West Central",
+          "Italy North",
+          "Japan East",
+          "Japan West",
+          "Korea Central",
+          "North Central US",
+          "Norway East",
+          "Poland Central",
+          "South Africa North",
+          "South Central US",
+          "South India",
+          "Spain Central",
+          "Sweden Central",
+          "Switzerland North",
+          "Switzerland West",
+          "UAE North",
+          "UK South",
+          "West Central US",
+          "West Europe",
+          "West US",
+          "West US 2",
+          "West US 3"
+        ],
+        "region_count": 30,
+        "updates": {
+          "added_regions": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "removed_regions": [],
+          "model_removed": false,
+          "sku_updates": [
+            {
+              "sku": "global-standard",
+              "label": "Global Standard",
+              "added_regions": [
+                "Australia East",
+                "Brazil South",
+                "Canada Central",
+                "Canada East",
+                "Central US",
+                "East US",
+                "East US 2",
+                "France Central",
+                "Germany West Central",
+                "Italy North",
+                "Japan East",
+                "Japan West",
+                "Korea Central",
+                "North Central US",
+                "Norway East",
+                "Poland Central",
+                "South Africa North",
+                "South Central US",
+                "South India",
+                "Spain Central",
+                "Sweden Central",
+                "Switzerland North",
+                "Switzerland West",
+                "UAE North",
+                "UK South",
+                "West Central US",
+                "West Europe",
+                "West US",
+                "West US 2",
+                "West US 3"
+              ],
+              "removed_regions": [],
+              "sku_removed": false
+            }
+          ]
+        },
+        "skus": [
           {
             "sku": "global-standard",
             "label": "Global Standard",
@@ -1278,7 +1446,19 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": []
+          "sku_updates": [
+            {
+              "sku": "data-zone-standard",
+              "label": "Data Zone Standard",
+              "added_regions": [],
+              "removed_regions": [
+                "Norway East",
+                "Switzerland North",
+                "Switzerland West"
+              ],
+              "sku_removed": false
+            }
+          ]
         },
         "skus": [
           {
@@ -1292,13 +1472,10 @@
               "Germany West Central",
               "Italy North",
               "North Central US",
-              "Norway East",
               "Poland Central",
               "South Central US",
               "Spain Central",
               "Sweden Central",
-              "Switzerland North",
-              "Switzerland West",
               "West Central US",
               "West Europe",
               "West US",
@@ -1381,26 +1558,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "provisioned-models",
-              "label": "Provisioned (PTU managed)",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            },
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -1676,26 +1834,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "provisioned-models",
-              "label": "Provisioned (PTU managed)",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            },
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -1928,26 +2067,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "provisioned-models",
-              "label": "Provisioned (PTU managed)",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            },
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -2161,26 +2281,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "provisioned-models",
-              "label": "Provisioned (PTU managed)",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            },
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -2451,26 +2552,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "provisioned-models",
-              "label": "Provisioned (PTU managed)",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            },
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -2886,26 +2968,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "provisioned-models",
-              "label": "Provisioned (PTU managed)",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            },
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -3258,27 +3321,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "provisioned-models",
-              "label": "Provisioned (PTU managed)",
-              "added_regions": [
-                "UK South",
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            },
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -3435,17 +3478,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -3612,26 +3645,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "provisioned-models",
-              "label": "Provisioned (PTU managed)",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            },
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -3883,21 +3897,9 @@
         "region_count": 27,
         "updates": {
           "added_regions": [],
-          "removed_regions": [
-            "West US 3"
-          ],
+          "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -3972,17 +3974,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -4130,21 +4122,9 @@
         "region_count": 27,
         "updates": {
           "added_regions": [],
-          "removed_regions": [
-            "West US 3"
-          ],
+          "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -4219,17 +4199,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -4656,35 +4626,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "Australia East",
-                "Brazil South",
-                "Canada East",
-                "Central US",
-                "East US",
-                "France Central",
-                "Germany West Central",
-                "Japan East",
-                "Korea Central",
-                "North Central US",
-                "Norway East",
-                "South Africa North",
-                "South India",
-                "Spain Central",
-                "Switzerland North",
-                "UAE North",
-                "UK South",
-                "West Europe",
-                "West US"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -4841,58 +4783,10 @@
         ],
         "region_count": 23,
         "updates": {
-          "added_regions": [
-            "Australia East",
-            "Brazil South",
-            "Canada East",
-            "Central US",
-            "East US",
-            "France Central",
-            "Germany West Central",
-            "Japan East",
-            "Korea Central",
-            "North Central US",
-            "Norway East",
-            "South Africa North",
-            "South India",
-            "Spain Central",
-            "Switzerland North",
-            "UAE North",
-            "UK South",
-            "West Europe",
-            "West US"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "Australia East",
-                "Brazil South",
-                "Canada East",
-                "Central US",
-                "East US",
-                "France Central",
-                "Germany West Central",
-                "Japan East",
-                "Korea Central",
-                "North Central US",
-                "Norway East",
-                "South Africa North",
-                "South India",
-                "Spain Central",
-                "Switzerland North",
-                "UAE North",
-                "UK South",
-                "West Europe",
-                "West US"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -5079,21 +4973,9 @@
         "region_count": 4,
         "updates": {
           "added_regions": [],
-          "removed_regions": [
-            "West US 3"
-          ],
+          "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -5119,21 +5001,9 @@
         "region_count": 4,
         "updates": {
           "added_regions": [],
-          "removed_regions": [
-            "West US 3"
-          ],
+          "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -5162,17 +5032,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -5478,6 +5338,370 @@
         ]
       },
       {
+        "model": "grok-4-1-fast-non-reasoning",
+        "available_regions": [
+          "Australia East",
+          "Brazil South",
+          "Canada Central",
+          "Canada East",
+          "Central US",
+          "East US",
+          "East US 2",
+          "France Central",
+          "Germany West Central",
+          "Italy North",
+          "Japan East",
+          "Japan West",
+          "Korea Central",
+          "North Central US",
+          "Norway East",
+          "Poland Central",
+          "South Africa North",
+          "South Central US",
+          "South India",
+          "Spain Central",
+          "Sweden Central",
+          "Switzerland North",
+          "Switzerland West",
+          "UAE North",
+          "UK South",
+          "West Central US",
+          "West Europe",
+          "West US",
+          "West US 2",
+          "West US 3"
+        ],
+        "region_count": 30,
+        "updates": {
+          "added_regions": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "removed_regions": [],
+          "model_removed": false,
+          "sku_updates": [
+            {
+              "sku": "data-zone-standard",
+              "label": "Data Zone Standard",
+              "added_regions": [
+                "Central US",
+                "East US",
+                "East US 2",
+                "North Central US",
+                "South Central US",
+                "West Central US",
+                "West US",
+                "West US 2",
+                "West US 3"
+              ],
+              "removed_regions": [],
+              "sku_removed": false
+            },
+            {
+              "sku": "global-standard",
+              "label": "Global Standard",
+              "added_regions": [
+                "Australia East",
+                "Brazil South",
+                "Canada Central",
+                "Canada East",
+                "Central US",
+                "East US",
+                "East US 2",
+                "France Central",
+                "Germany West Central",
+                "Italy North",
+                "Japan East",
+                "Japan West",
+                "Korea Central",
+                "North Central US",
+                "Norway East",
+                "Poland Central",
+                "South Africa North",
+                "South Central US",
+                "South India",
+                "Spain Central",
+                "Sweden Central",
+                "Switzerland North",
+                "Switzerland West",
+                "UAE North",
+                "UK South",
+                "West Central US",
+                "West Europe",
+                "West US",
+                "West US 2",
+                "West US 3"
+              ],
+              "removed_regions": [],
+              "sku_removed": false
+            }
+          ]
+        },
+        "skus": [
+          {
+            "sku": "data-zone-standard",
+            "label": "Data Zone Standard",
+            "regions": [
+              "Central US",
+              "East US",
+              "East US 2",
+              "North Central US",
+              "South Central US",
+              "West Central US",
+              "West US",
+              "West US 2",
+              "West US 3"
+            ]
+          },
+          {
+            "sku": "global-standard",
+            "label": "Global Standard",
+            "regions": [
+              "Australia East",
+              "Brazil South",
+              "Canada Central",
+              "Canada East",
+              "Central US",
+              "East US",
+              "East US 2",
+              "France Central",
+              "Germany West Central",
+              "Italy North",
+              "Japan East",
+              "Japan West",
+              "Korea Central",
+              "North Central US",
+              "Norway East",
+              "Poland Central",
+              "South Africa North",
+              "South Central US",
+              "South India",
+              "Spain Central",
+              "Sweden Central",
+              "Switzerland North",
+              "Switzerland West",
+              "UAE North",
+              "UK South",
+              "West Central US",
+              "West Europe",
+              "West US",
+              "West US 2",
+              "West US 3"
+            ]
+          }
+        ]
+      },
+      {
+        "model": "grok-4-1-fast-reasoning",
+        "available_regions": [
+          "Australia East",
+          "Brazil South",
+          "Canada Central",
+          "Canada East",
+          "Central US",
+          "East US",
+          "East US 2",
+          "France Central",
+          "Germany West Central",
+          "Italy North",
+          "Japan East",
+          "Japan West",
+          "Korea Central",
+          "North Central US",
+          "Norway East",
+          "Poland Central",
+          "South Africa North",
+          "South Central US",
+          "South India",
+          "Spain Central",
+          "Sweden Central",
+          "Switzerland North",
+          "Switzerland West",
+          "UAE North",
+          "UK South",
+          "West Central US",
+          "West Europe",
+          "West US",
+          "West US 2",
+          "West US 3"
+        ],
+        "region_count": 30,
+        "updates": {
+          "added_regions": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "removed_regions": [],
+          "model_removed": false,
+          "sku_updates": [
+            {
+              "sku": "data-zone-standard",
+              "label": "Data Zone Standard",
+              "added_regions": [
+                "Central US",
+                "East US",
+                "East US 2",
+                "North Central US",
+                "South Central US",
+                "West Central US",
+                "West US",
+                "West US 2",
+                "West US 3"
+              ],
+              "removed_regions": [],
+              "sku_removed": false
+            },
+            {
+              "sku": "global-standard",
+              "label": "Global Standard",
+              "added_regions": [
+                "Australia East",
+                "Brazil South",
+                "Canada Central",
+                "Canada East",
+                "Central US",
+                "East US",
+                "East US 2",
+                "France Central",
+                "Germany West Central",
+                "Italy North",
+                "Japan East",
+                "Japan West",
+                "Korea Central",
+                "North Central US",
+                "Norway East",
+                "Poland Central",
+                "South Africa North",
+                "South Central US",
+                "South India",
+                "Spain Central",
+                "Sweden Central",
+                "Switzerland North",
+                "Switzerland West",
+                "UAE North",
+                "UK South",
+                "West Central US",
+                "West Europe",
+                "West US",
+                "West US 2",
+                "West US 3"
+              ],
+              "removed_regions": [],
+              "sku_removed": false
+            }
+          ]
+        },
+        "skus": [
+          {
+            "sku": "data-zone-standard",
+            "label": "Data Zone Standard",
+            "regions": [
+              "Central US",
+              "East US",
+              "East US 2",
+              "North Central US",
+              "South Central US",
+              "West Central US",
+              "West US",
+              "West US 2",
+              "West US 3"
+            ]
+          },
+          {
+            "sku": "global-standard",
+            "label": "Global Standard",
+            "regions": [
+              "Australia East",
+              "Brazil South",
+              "Canada Central",
+              "Canada East",
+              "Central US",
+              "East US",
+              "East US 2",
+              "France Central",
+              "Germany West Central",
+              "Italy North",
+              "Japan East",
+              "Japan West",
+              "Korea Central",
+              "North Central US",
+              "Norway East",
+              "Poland Central",
+              "South Africa North",
+              "South Central US",
+              "South India",
+              "Spain Central",
+              "Sweden Central",
+              "Switzerland North",
+              "Switzerland West",
+              "UAE North",
+              "UK South",
+              "West Central US",
+              "West Europe",
+              "West US",
+              "West US 2",
+              "West US 3"
+            ]
+          }
+        ]
+      },
+      {
         "model": "grok-4-fast-non-reasoning",
         "available_regions": [
           "Australia East",
@@ -5669,243 +5893,249 @@
       },
       {
         "model": "grok-4.1-fast-non-reasoning",
-        "available_regions": [
-          "Australia East",
-          "Brazil South",
-          "Canada Central",
-          "Canada East",
-          "Central US",
-          "East US",
-          "East US 2",
-          "France Central",
-          "Germany West Central",
-          "Italy North",
-          "Japan East",
-          "Japan West",
-          "Korea Central",
-          "North Central US",
-          "Norway East",
-          "Poland Central",
-          "South Africa North",
-          "South Central US",
-          "South India",
-          "Spain Central",
-          "Sweden Central",
-          "Switzerland North",
-          "Switzerland West",
-          "UAE North",
-          "UK South",
-          "West Central US",
-          "West Europe",
-          "West US",
-          "West US 2",
-          "West US 3"
-        ],
-        "region_count": 30,
+        "available_regions": [],
+        "region_count": 0,
         "updates": {
           "added_regions": [],
-          "removed_regions": [],
-          "model_removed": false,
-          "sku_updates": []
+          "removed_regions": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "model_removed": true,
+          "sku_updates": [
+            {
+              "sku": "global-standard",
+              "label": "Global Standard",
+              "added_regions": [],
+              "removed_regions": [
+                "Australia East",
+                "Brazil South",
+                "Canada Central",
+                "Canada East",
+                "Central US",
+                "East US",
+                "East US 2",
+                "France Central",
+                "Germany West Central",
+                "Italy North",
+                "Japan East",
+                "Japan West",
+                "Korea Central",
+                "North Central US",
+                "Norway East",
+                "Poland Central",
+                "South Africa North",
+                "South Central US",
+                "South India",
+                "Spain Central",
+                "Sweden Central",
+                "Switzerland North",
+                "Switzerland West",
+                "UAE North",
+                "UK South",
+                "West Central US",
+                "West Europe",
+                "West US",
+                "West US 2",
+                "West US 3"
+              ],
+              "sku_removed": true
+            }
+          ]
         },
-        "skus": [
-          {
-            "sku": "global-standard",
-            "label": "Global Standard",
-            "regions": [
-              "Australia East",
-              "Brazil South",
-              "Canada Central",
-              "Canada East",
-              "Central US",
-              "East US",
-              "East US 2",
-              "France Central",
-              "Germany West Central",
-              "Italy North",
-              "Japan East",
-              "Japan West",
-              "Korea Central",
-              "North Central US",
-              "Norway East",
-              "Poland Central",
-              "South Africa North",
-              "South Central US",
-              "South India",
-              "Spain Central",
-              "Sweden Central",
-              "Switzerland North",
-              "Switzerland West",
-              "UAE North",
-              "UK South",
-              "West Central US",
-              "West Europe",
-              "West US",
-              "West US 2",
-              "West US 3"
-            ]
-          }
-        ]
+        "skus": []
       },
       {
         "model": "grok-4.1-fast-reasoning",
-        "available_regions": [
-          "Australia East",
-          "Brazil South",
-          "Canada Central",
-          "Canada East",
-          "Central US",
-          "East US",
-          "East US 2",
-          "France Central",
-          "Germany West Central",
-          "Italy North",
-          "Japan East",
-          "Japan West",
-          "Korea Central",
-          "North Central US",
-          "Norway East",
-          "Poland Central",
-          "South Africa North",
-          "South Central US",
-          "South India",
-          "Spain Central",
-          "Sweden Central",
-          "Switzerland North",
-          "Switzerland West",
-          "UAE North",
-          "UK South",
-          "West Central US",
-          "West Europe",
-          "West US",
-          "West US 2",
-          "West US 3"
-        ],
-        "region_count": 30,
+        "available_regions": [],
+        "region_count": 0,
         "updates": {
           "added_regions": [],
-          "removed_regions": [],
-          "model_removed": false,
-          "sku_updates": []
+          "removed_regions": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "model_removed": true,
+          "sku_updates": [
+            {
+              "sku": "global-standard",
+              "label": "Global Standard",
+              "added_regions": [],
+              "removed_regions": [
+                "Australia East",
+                "Brazil South",
+                "Canada Central",
+                "Canada East",
+                "Central US",
+                "East US",
+                "East US 2",
+                "France Central",
+                "Germany West Central",
+                "Italy North",
+                "Japan East",
+                "Japan West",
+                "Korea Central",
+                "North Central US",
+                "Norway East",
+                "Poland Central",
+                "South Africa North",
+                "South Central US",
+                "South India",
+                "Spain Central",
+                "Sweden Central",
+                "Switzerland North",
+                "Switzerland West",
+                "UAE North",
+                "UK South",
+                "West Central US",
+                "West Europe",
+                "West US",
+                "West US 2",
+                "West US 3"
+              ],
+              "sku_removed": true
+            }
+          ]
         },
-        "skus": [
-          {
-            "sku": "global-standard",
-            "label": "Global Standard",
-            "regions": [
-              "Australia East",
-              "Brazil South",
-              "Canada Central",
-              "Canada East",
-              "Central US",
-              "East US",
-              "East US 2",
-              "France Central",
-              "Germany West Central",
-              "Italy North",
-              "Japan East",
-              "Japan West",
-              "Korea Central",
-              "North Central US",
-              "Norway East",
-              "Poland Central",
-              "South Africa North",
-              "South Central US",
-              "South India",
-              "Spain Central",
-              "Sweden Central",
-              "Switzerland North",
-              "Switzerland West",
-              "UAE North",
-              "UK South",
-              "West Central US",
-              "West Europe",
-              "West US",
-              "West US 2",
-              "West US 3"
-            ]
-          }
-        ]
+        "skus": []
       },
       {
         "model": "Kimi-K2-Thinking",
-        "available_regions": [
-          "Australia East",
-          "Brazil South",
-          "Canada Central",
-          "Canada East",
-          "Central US",
-          "East US",
-          "East US 2",
-          "France Central",
-          "Germany West Central",
-          "Italy North",
-          "Japan East",
-          "Japan West",
-          "Korea Central",
-          "North Central US",
-          "Norway East",
-          "Poland Central",
-          "South Africa North",
-          "South Central US",
-          "South India",
-          "Spain Central",
-          "Sweden Central",
-          "Switzerland North",
-          "Switzerland West",
-          "UAE North",
-          "UK South",
-          "West Central US",
-          "West Europe",
-          "West US",
-          "West US 2",
-          "West US 3"
-        ],
-        "region_count": 30,
+        "available_regions": [],
+        "region_count": 0,
         "updates": {
           "added_regions": [],
-          "removed_regions": [],
-          "model_removed": false,
-          "sku_updates": []
+          "removed_regions": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "model_removed": true,
+          "sku_updates": [
+            {
+              "sku": "global-standard",
+              "label": "Global Standard",
+              "added_regions": [],
+              "removed_regions": [
+                "Australia East",
+                "Brazil South",
+                "Canada Central",
+                "Canada East",
+                "Central US",
+                "East US",
+                "East US 2",
+                "France Central",
+                "Germany West Central",
+                "Italy North",
+                "Japan East",
+                "Japan West",
+                "Korea Central",
+                "North Central US",
+                "Norway East",
+                "Poland Central",
+                "South Africa North",
+                "South Central US",
+                "South India",
+                "Spain Central",
+                "Sweden Central",
+                "Switzerland North",
+                "Switzerland West",
+                "UAE North",
+                "UK South",
+                "West Central US",
+                "West Europe",
+                "West US",
+                "West US 2",
+                "West US 3"
+              ],
+              "sku_removed": true
+            }
+          ]
         },
-        "skus": [
-          {
-            "sku": "global-standard",
-            "label": "Global Standard",
-            "regions": [
-              "Australia East",
-              "Brazil South",
-              "Canada Central",
-              "Canada East",
-              "Central US",
-              "East US",
-              "East US 2",
-              "France Central",
-              "Germany West Central",
-              "Italy North",
-              "Japan East",
-              "Japan West",
-              "Korea Central",
-              "North Central US",
-              "Norway East",
-              "Poland Central",
-              "South Africa North",
-              "South Central US",
-              "South India",
-              "Spain Central",
-              "Sweden Central",
-              "Switzerland North",
-              "Switzerland West",
-              "UAE North",
-              "UK South",
-              "West Central US",
-              "West Europe",
-              "West US",
-              "West US 2",
-              "West US 3"
-            ]
-          }
-        ]
+        "skus": []
       },
       {
         "model": "Kimi-K2.5",
@@ -6185,163 +6415,221 @@
       },
       {
         "model": "MAI-DS-R1",
-        "available_regions": [
-          "Australia East",
-          "Brazil South",
-          "Canada Central",
-          "Canada East",
-          "Central US",
-          "East US",
-          "East US 2",
-          "France Central",
-          "Germany West Central",
-          "Italy North",
-          "Japan East",
-          "Japan West",
-          "Korea Central",
-          "North Central US",
-          "Norway East",
-          "Poland Central",
-          "South Africa North",
-          "South Central US",
-          "South India",
-          "Spain Central",
-          "Sweden Central",
-          "Switzerland North",
-          "Switzerland West",
-          "UAE North",
-          "UK South",
-          "West Central US",
-          "West Europe",
-          "West US",
-          "West US 2",
-          "West US 3"
-        ],
-        "region_count": 30,
+        "available_regions": [],
+        "region_count": 0,
         "updates": {
           "added_regions": [],
+          "removed_regions": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "model_removed": true,
+          "sku_updates": [
+            {
+              "sku": "global-standard",
+              "label": "Global Standard",
+              "added_regions": [],
+              "removed_regions": [
+                "Australia East",
+                "Brazil South",
+                "Canada Central",
+                "Canada East",
+                "Central US",
+                "East US",
+                "East US 2",
+                "France Central",
+                "Germany West Central",
+                "Italy North",
+                "Japan East",
+                "Japan West",
+                "Korea Central",
+                "North Central US",
+                "Norway East",
+                "Poland Central",
+                "South Africa North",
+                "South Central US",
+                "South India",
+                "Spain Central",
+                "Sweden Central",
+                "Switzerland North",
+                "Switzerland West",
+                "UAE North",
+                "UK South",
+                "West Central US",
+                "West Europe",
+                "West US",
+                "West US 2",
+                "West US 3"
+              ],
+              "sku_removed": true
+            }
+          ]
+        },
+        "skus": []
+      },
+      {
+        "model": "MAI-Image-2",
+        "available_regions": [
+          "East US",
+          "South India",
+          "Sweden Central",
+          "West Central US",
+          "West Europe",
+          "West US"
+        ],
+        "region_count": 6,
+        "updates": {
+          "added_regions": [
+            "East US",
+            "South India",
+            "Sweden Central",
+            "West Central US",
+            "West Europe",
+            "West US"
+          ],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": []
+          "sku_updates": [
+            {
+              "sku": "global-standard",
+              "label": "Global Standard",
+              "added_regions": [
+                "East US",
+                "South India",
+                "Sweden Central",
+                "West Central US",
+                "West Europe",
+                "West US"
+              ],
+              "removed_regions": [],
+              "sku_removed": false
+            }
+          ]
         },
         "skus": [
           {
             "sku": "global-standard",
             "label": "Global Standard",
             "regions": [
-              "Australia East",
-              "Brazil South",
-              "Canada Central",
-              "Canada East",
-              "Central US",
               "East US",
-              "East US 2",
-              "France Central",
-              "Germany West Central",
-              "Italy North",
-              "Japan East",
-              "Japan West",
-              "Korea Central",
-              "North Central US",
-              "Norway East",
-              "Poland Central",
-              "South Africa North",
-              "South Central US",
               "South India",
-              "Spain Central",
               "Sweden Central",
-              "Switzerland North",
-              "Switzerland West",
-              "UAE North",
-              "UK South",
               "West Central US",
               "West Europe",
-              "West US",
-              "West US 2",
-              "West US 3"
+              "West US"
             ]
           }
         ]
       },
       {
         "model": "Meta-Llama-3-70B-Instruct",
-        "available_regions": [
-          "Australia East",
-          "Brazil South",
-          "Canada Central",
-          "Canada East",
-          "Central US",
-          "East US",
-          "East US 2",
-          "France Central",
-          "Germany West Central",
-          "Italy North",
-          "Japan East",
-          "Japan West",
-          "Korea Central",
-          "North Central US",
-          "Norway East",
-          "Poland Central",
-          "South Africa North",
-          "South Central US",
-          "South India",
-          "Spain Central",
-          "Sweden Central",
-          "Switzerland North",
-          "Switzerland West",
-          "UAE North",
-          "UK South",
-          "West Central US",
-          "West Europe",
-          "West US",
-          "West US 2",
-          "West US 3"
-        ],
-        "region_count": 30,
+        "available_regions": [],
+        "region_count": 0,
         "updates": {
           "added_regions": [],
-          "removed_regions": [],
-          "model_removed": false,
-          "sku_updates": []
+          "removed_regions": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "model_removed": true,
+          "sku_updates": [
+            {
+              "sku": "global-standard",
+              "label": "Global Standard",
+              "added_regions": [],
+              "removed_regions": [
+                "Australia East",
+                "Brazil South",
+                "Canada Central",
+                "Canada East",
+                "Central US",
+                "East US",
+                "East US 2",
+                "France Central",
+                "Germany West Central",
+                "Italy North",
+                "Japan East",
+                "Japan West",
+                "Korea Central",
+                "North Central US",
+                "Norway East",
+                "Poland Central",
+                "South Africa North",
+                "South Central US",
+                "South India",
+                "Spain Central",
+                "Sweden Central",
+                "Switzerland North",
+                "Switzerland West",
+                "UAE North",
+                "UK South",
+                "West Central US",
+                "West Europe",
+                "West US",
+                "West US 2",
+                "West US 3"
+              ],
+              "sku_removed": true
+            }
+          ]
         },
-        "skus": [
-          {
-            "sku": "global-standard",
-            "label": "Global Standard",
-            "regions": [
-              "Australia East",
-              "Brazil South",
-              "Canada Central",
-              "Canada East",
-              "Central US",
-              "East US",
-              "East US 2",
-              "France Central",
-              "Germany West Central",
-              "Italy North",
-              "Japan East",
-              "Japan West",
-              "Korea Central",
-              "North Central US",
-              "Norway East",
-              "Poland Central",
-              "South Africa North",
-              "South Central US",
-              "South India",
-              "Spain Central",
-              "Sweden Central",
-              "Switzerland North",
-              "Switzerland West",
-              "UAE North",
-              "UK South",
-              "West Central US",
-              "West Europe",
-              "West US",
-              "West US 2",
-              "West US 3"
-            ]
-          }
-        ]
+        "skus": []
       },
       {
         "model": "mistral-document-ai-2505",
@@ -6382,7 +6670,19 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": []
+          "sku_updates": [
+            {
+              "sku": "data-zone-standard",
+              "label": "Data Zone Standard",
+              "added_regions": [],
+              "removed_regions": [
+                "Norway East",
+                "Switzerland North",
+                "Switzerland West"
+              ],
+              "sku_removed": false
+            }
+          ]
         },
         "skus": [
           {
@@ -6396,13 +6696,10 @@
               "Germany West Central",
               "Italy North",
               "North Central US",
-              "Norway East",
               "Poland Central",
               "South Central US",
               "Spain Central",
               "Sweden Central",
-              "Switzerland North",
-              "Switzerland West",
               "West Central US",
               "West Europe",
               "West US",
@@ -6487,7 +6784,19 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": []
+          "sku_updates": [
+            {
+              "sku": "data-zone-standard",
+              "label": "Data Zone Standard",
+              "added_regions": [],
+              "removed_regions": [
+                "Norway East",
+                "Switzerland North",
+                "Switzerland West"
+              ],
+              "sku_removed": false
+            }
+          ]
         },
         "skus": [
           {
@@ -6501,13 +6810,10 @@
               "Germany West Central",
               "Italy North",
               "North Central US",
-              "Norway East",
               "Poland Central",
               "South Central US",
               "Spain Central",
               "Sweden Central",
-              "Switzerland North",
-              "Switzerland West",
               "West Central US",
               "West Europe",
               "West US",
@@ -6592,7 +6898,19 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": []
+          "sku_updates": [
+            {
+              "sku": "data-zone-standard",
+              "label": "Data Zone Standard",
+              "added_regions": [],
+              "removed_regions": [
+                "Norway East",
+                "Switzerland North",
+                "Switzerland West"
+              ],
+              "sku_removed": false
+            }
+          ]
         },
         "skus": [
           {
@@ -6606,13 +6924,10 @@
               "Germany West Central",
               "Italy North",
               "North Central US",
-              "Norway East",
               "Poland Central",
               "South Central US",
               "Spain Central",
               "Sweden Central",
-              "Switzerland North",
-              "Switzerland West",
               "West Central US",
               "West Europe",
               "West US",
@@ -6743,17 +7058,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -6918,26 +7223,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "provisioned-models",
-              "label": "Provisioned (PTU managed)",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            },
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -7166,17 +7452,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -7402,29 +7678,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "provisioned-models",
-              "label": "Provisioned (PTU managed)",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            },
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "Canada Central",
-                "Switzerland West"
-              ],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -7698,17 +7952,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -7822,17 +8066,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -7935,17 +8169,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "West US 3"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -8130,6 +8354,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -8153,16 +8378,13 @@
           "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -8174,12 +8396,20 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 56,
+        "model_count": 54,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -8197,6 +8427,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -8220,16 +8451,13 @@
           "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -8241,12 +8469,20 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 55,
+        "model_count": 53,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -8264,6 +8500,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -8291,16 +8528,13 @@
           "gpt-realtime-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -8309,10 +8543,20 @@
           "o3-mini",
           "o4-mini"
         ],
-        "model_count": 56,
+        "model_count": 54,
         "updates": {
-          "added_models": [],
-          "removed_models": []
+          "added_models": [
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
+          ],
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -8330,6 +8574,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -8353,16 +8598,13 @@
           "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -8374,12 +8616,20 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 55,
+        "model_count": 53,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -8398,6 +8648,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -8430,16 +8681,13 @@
           "gpt-realtime-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -8452,12 +8700,20 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 66,
+        "model_count": 64,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -8476,6 +8732,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -8500,16 +8757,14 @@
           "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
+          "MAI-Image-2",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -8521,12 +8776,21 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 57,
+        "model_count": 56,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning",
+            "MAI-Image-2"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -8546,6 +8810,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -8591,16 +8856,13 @@
           "gpt-realtime-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -8617,10 +8879,20 @@
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 84,
+        "model_count": 82,
         "updates": {
-          "added_models": [],
-          "removed_models": []
+          "added_models": [
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
+          ],
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -8638,6 +8910,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -8667,16 +8940,13 @@
           "gpt-realtime-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -8688,12 +8958,20 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 61,
+        "model_count": 59,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -8711,6 +8989,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -8734,16 +9013,13 @@
           "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -8755,12 +9031,20 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 55,
+        "model_count": 53,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -8778,6 +9062,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -8800,16 +9085,13 @@
           "gpt-5.4",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -8821,10 +9103,20 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 54,
+        "model_count": 52,
         "updates": {
-          "added_models": [],
-          "removed_models": []
+          "added_models": [
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
+          ],
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -8842,6 +9134,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -8865,16 +9158,13 @@
           "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -8886,12 +9176,20 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 55,
+        "model_count": 53,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -8909,27 +9207,35 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3"
         ],
-        "model_count": 28,
+        "model_count": 26,
         "updates": {
-          "added_models": [],
-          "removed_models": []
+          "added_models": [
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
+          ],
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -8947,6 +9253,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -8970,16 +9277,13 @@
           "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -8991,12 +9295,20 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 55,
+        "model_count": 53,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -9014,6 +9326,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -9037,16 +9350,13 @@
           "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -9061,12 +9371,20 @@
           "tts-hd",
           "whisper"
         ],
-        "model_count": 58,
+        "model_count": 56,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -9084,6 +9402,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -9107,16 +9426,13 @@
           "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -9130,12 +9446,20 @@
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 57,
+        "model_count": 55,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -9153,6 +9477,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -9181,16 +9506,13 @@
           "gpt-image-1.5",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -9202,10 +9524,20 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 60,
+        "model_count": 58,
         "updates": {
-          "added_models": [],
-          "removed_models": []
+          "added_models": [
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
+          ],
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -9223,6 +9555,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -9246,16 +9579,13 @@
           "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -9267,12 +9597,20 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 55,
+        "model_count": 53,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -9290,6 +9628,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -9315,16 +9654,13 @@
           "gpt-5.4-pro",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -9336,10 +9672,20 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 57,
+        "model_count": 55,
         "updates": {
-          "added_models": [],
-          "removed_models": []
+          "added_models": [
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
+          ],
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -9358,6 +9704,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -9381,16 +9728,14 @@
           "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
+          "MAI-Image-2",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -9403,12 +9748,21 @@
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 57,
+        "model_count": 56,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning",
+            "MAI-Image-2"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -9460,6 +9814,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -9483,16 +9838,13 @@
           "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -9504,12 +9856,20 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 55,
+        "model_count": 53,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -9530,6 +9890,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -9573,16 +9934,14 @@
           "gpt-realtime-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
+          "MAI-Image-2",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -9601,10 +9960,21 @@
           "tts-hd",
           "whisper"
         ],
-        "model_count": 85,
+        "model_count": 84,
         "updates": {
-          "added_models": [],
-          "removed_models": []
+          "added_models": [
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning",
+            "MAI-Image-2"
+          ],
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -9622,6 +9992,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -9645,16 +10016,13 @@
           "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -9667,12 +10035,20 @@
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 56,
+        "model_count": 54,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -9690,6 +10066,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -9711,16 +10088,13 @@
           "gpt-5.4",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -9729,10 +10103,20 @@
           "o3-mini",
           "o4-mini"
         ],
-        "model_count": 50,
+        "model_count": 48,
         "updates": {
-          "added_models": [],
-          "removed_models": []
+          "added_models": [
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
+          ],
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -9750,6 +10134,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -9776,16 +10161,13 @@
           "gpt-image-1.5",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -9798,12 +10180,20 @@
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 59,
+        "model_count": 57,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -9821,6 +10211,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -9844,16 +10235,13 @@
           "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -9865,12 +10253,20 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 55,
+        "model_count": 53,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -9888,27 +10284,37 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
+          "MAI-Image-2",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3"
         ],
-        "model_count": 28,
+        "model_count": 27,
         "updates": {
-          "added_models": [],
-          "removed_models": []
+          "added_models": [
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning",
+            "MAI-Image-2"
+          ],
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -9926,6 +10332,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -9949,16 +10356,14 @@
           "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
+          "MAI-Image-2",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -9971,12 +10376,21 @@
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 56,
+        "model_count": 55,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning",
+            "MAI-Image-2"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -9994,6 +10408,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -10017,16 +10432,14 @@
           "gpt-5.4-mini",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
+          "MAI-Image-2",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -10039,12 +10452,21 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 56,
+        "model_count": 55,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning",
+            "MAI-Image-2"
           ],
-          "removed_models": []
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -10062,27 +10484,35 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3"
         ],
-        "model_count": 28,
+        "model_count": 26,
         "updates": {
-          "added_models": [],
-          "removed_models": []
+          "added_models": [
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
+          ],
+          "removed_models": [
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
+          ]
         }
       },
       {
@@ -10100,6 +10530,7 @@
           "embed-v-4-0",
           "FLUX-1.1-pro",
           "FLUX.1-Kontext-pro",
+          "FLUX.2-flex",
           "FLUX.2-pro",
           "gpt-4.1",
           "gpt-4.1-mini",
@@ -10118,16 +10549,13 @@
           "gpt-image-1.5",
           "grok-3",
           "grok-3-mini",
+          "grok-4-1-fast-non-reasoning",
+          "grok-4-1-fast-reasoning",
           "grok-4-fast-non-reasoning",
           "grok-4-fast-reasoning",
-          "grok-4.1-fast-non-reasoning",
-          "grok-4.1-fast-reasoning",
-          "Kimi-K2-Thinking",
           "Kimi-K2.5",
           "Llama-3.3-70B-Instruct",
           "Llama-4-Maverick-17B-128E-Instruct-FP8",
-          "MAI-DS-R1",
-          "Meta-Llama-3-70B-Instruct",
           "mistral-document-ai-2505",
           "mistral-document-ai-2512",
           "Mistral-Large-3",
@@ -10141,14 +10569,19 @@
           "tts",
           "tts-hd"
         ],
-        "model_count": 52,
+        "model_count": 50,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "FLUX.2-flex",
+            "grok-4-1-fast-non-reasoning",
+            "grok-4-1-fast-reasoning"
+          ],
           "removed_models": [
-            "gpt-5.1-chat",
-            "gpt-5.1-codex-mini",
-            "gpt-image-1",
-            "gpt-image-1-mini"
+            "grok-4.1-fast-non-reasoning",
+            "grok-4.1-fast-reasoning",
+            "Kimi-K2-Thinking",
+            "MAI-DS-R1",
+            "Meta-Llama-3-70B-Instruct"
           ]
         }
       }

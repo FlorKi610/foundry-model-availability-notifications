@@ -1,70 +1,70 @@
 # Worldwide Model Availability Daily Summary
 
-Generated: 2026-04-02T18:20:59.851192+00:00
-Update source: diff-20260401T182155836Z.json (2026-04-01T18:21:55.836410+00:00)
+Generated: 2026-04-03T00:32:45.650019+00:00
+Update source: latest-refresh (2026-04-03T00:32:45.650019+00:00)
 
 ## Snapshot
 
 - Regions tracked: 31
-- Models currently available in Worldwide: 88
+- Models currently available in Worldwide: 92
 - Regions with current availability: 31
-- Models with updates: 25
-- Added region placements: 19
-- Removed region placements: 4
-- Added models by region: 19
-- Removed models by region: 4
+- Models with updates: 15
+- Added region placements: 96
+- Removed region placements: 150
+- Added models by region: 96
+- Removed models by region: 150
 
 ## Regional Changes
 
 | Region | Current Models | Added Models | Removed Models |
 | --- | ---: | ---: | ---: |
-| Australia East | 56 | 1 | 0 |
-| Brazil South | 55 | 1 | 0 |
-| Canada East | 55 | 1 | 0 |
-| Central US | 66 | 1 | 0 |
-| East US | 57 | 1 | 0 |
-| France Central | 61 | 1 | 0 |
-| Germany West Central | 55 | 1 | 0 |
-| Japan East | 55 | 1 | 0 |
-| Korea Central | 55 | 1 | 0 |
-| North Central US | 58 | 1 | 0 |
-| Norway East | 57 | 1 | 0 |
-| South Africa North | 55 | 1 | 0 |
-| South India | 57 | 1 | 0 |
-| Spain Central | 55 | 1 | 0 |
-| Switzerland North | 56 | 1 | 0 |
-| UAE North | 59 | 1 | 0 |
-| UK South | 55 | 1 | 0 |
-| West Europe | 56 | 1 | 0 |
-| West US | 56 | 1 | 0 |
-| West US 3 | 52 | 0 | 4 |
+| Australia East | 54 | 3 | 5 |
+| Brazil South | 53 | 3 | 5 |
+| Canada Central | 54 | 3 | 5 |
+| Canada East | 53 | 3 | 5 |
+| Central US | 64 | 3 | 5 |
+| East US | 56 | 4 | 5 |
+| East US 2 | 82 | 3 | 5 |
+| France Central | 59 | 3 | 5 |
+| Germany West Central | 53 | 3 | 5 |
+| Italy North | 52 | 3 | 5 |
+| Japan East | 53 | 3 | 5 |
+| Japan West | 26 | 3 | 5 |
+| Korea Central | 53 | 3 | 5 |
+| North Central US | 56 | 3 | 5 |
+| Norway East | 55 | 3 | 5 |
+| Poland Central | 58 | 3 | 5 |
+| South Africa North | 53 | 3 | 5 |
+| South Central US | 55 | 3 | 5 |
+| South India | 56 | 4 | 5 |
+| Spain Central | 53 | 3 | 5 |
+| Sweden Central | 84 | 4 | 5 |
+| Switzerland North | 54 | 3 | 5 |
+| Switzerland West | 48 | 3 | 5 |
+| UAE North | 57 | 3 | 5 |
+| UK South | 53 | 3 | 5 |
+| West Central US | 27 | 4 | 5 |
+| West Europe | 55 | 4 | 5 |
+| West US | 55 | 4 | 5 |
+| West US 2 | 26 | 3 | 5 |
+| West US 3 | 50 | 3 | 5 |
 
 ## Model Changes
 
 | Model | Current Regions | Added Regions | Removed Regions |
 | --- | ---: | ---: | ---: |
-| gpt-4.1 | 28 | 0 | 0 |
-| gpt-4.1-mini | 28 | 0 | 0 |
-| gpt-4.1-nano | 28 | 0 | 0 |
-| gpt-4o | 28 | 0 | 0 |
-| gpt-4o-mini | 28 | 0 | 0 |
-| gpt-5 | 28 | 0 | 0 |
-| gpt-5-mini | 28 | 0 | 0 |
-| gpt-5-nano | 26 | 0 | 0 |
-| gpt-5.1 | 28 | 0 | 0 |
-| gpt-5.1-chat | 27 | 0 | 1 |
-| gpt-5.1-codex | 28 | 0 | 0 |
-| gpt-5.1-codex-mini | 27 | 0 | 1 |
-| gpt-5.2 | 28 | 0 | 0 |
-| gpt-5.4 | 28 | 0 | 0 |
-| gpt-5.4-mini | 23 | 19 | 0 |
-| gpt-image-1 | 4 | 0 | 1 |
-| gpt-image-1-mini | 4 | 0 | 1 |
-| gpt-image-1.5 | 5 | 0 | 0 |
-| o1 | 28 | 0 | 0 |
-| o3 | 28 | 0 | 0 |
-| o3-mini | 28 | 0 | 0 |
-| o4-mini | 28 | 0 | 0 |
-| text-embedding-3-large | 26 | 0 | 0 |
-| text-embedding-3-small | 25 | 0 | 0 |
-| text-embedding-ada-002 | 25 | 0 | 0 |
+| FLUX-1.1-pro | 30 | 0 | 0 |
+| FLUX.1-Kontext-pro | 30 | 0 | 0 |
+| FLUX.2-flex | 30 | 30 | 0 |
+| FLUX.2-pro | 30 | 0 | 0 |
+| grok-4-1-fast-non-reasoning | 30 | 30 | 0 |
+| grok-4-1-fast-reasoning | 30 | 30 | 0 |
+| grok-4.1-fast-non-reasoning | 0 | 0 | 30 |
+| grok-4.1-fast-reasoning | 0 | 0 | 30 |
+| Kimi-K2-Thinking | 0 | 0 | 30 |
+| MAI-DS-R1 | 0 | 0 | 30 |
+| MAI-Image-2 | 6 | 6 | 0 |
+| Meta-Llama-3-70B-Instruct | 0 | 0 | 30 |
+| mistral-document-ai-2505 | 30 | 0 | 0 |
+| mistral-document-ai-2512 | 30 | 0 | 0 |
+| Mistral-Large-3 | 30 | 0 | 0 |

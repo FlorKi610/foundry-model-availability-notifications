@@ -1,36 +1,51 @@
 # Europe Model Availability Daily Summary
 
-Generated: 2026-04-02T18:20:59.851192+00:00
-Update source: diff-20260401T182155836Z.json (2026-04-01T18:21:55.836410+00:00)
+Generated: 2026-04-03T00:32:45.650019+00:00
+Update source: latest-refresh (2026-04-03T00:32:45.650019+00:00)
 
 ## Snapshot
 
 - Regions tracked: 19
-- Models currently available in Europe: 86
+- Models currently available in Europe: 90
 - Regions with current availability: 11
-- Models with updates: 4
-- Added region placements: 7
-- Removed region placements: 0
-- Added models by region: 7
-- Removed models by region: 0
+- Models with updates: 15
+- Added region placements: 35
+- Removed region placements: 55
+- Added models by region: 35
+- Removed models by region: 55
 
 ## Regional Changes
 
 | Region | Current Models | Added Models | Removed Models |
 | --- | ---: | ---: | ---: |
-| France Central | 61 | 1 | 0 |
-| Germany West Central | 55 | 1 | 0 |
-| Norway East | 57 | 1 | 0 |
-| Spain Central | 55 | 1 | 0 |
-| Switzerland North | 56 | 1 | 0 |
-| UK South | 55 | 1 | 0 |
-| West Europe | 56 | 1 | 0 |
+| France Central | 59 | 3 | 5 |
+| Germany West Central | 53 | 3 | 5 |
+| Italy North | 52 | 3 | 5 |
+| Norway East | 55 | 3 | 5 |
+| Poland Central | 58 | 3 | 5 |
+| Spain Central | 53 | 3 | 5 |
+| Sweden Central | 84 | 4 | 5 |
+| Switzerland North | 54 | 3 | 5 |
+| Switzerland West | 48 | 3 | 5 |
+| UK South | 53 | 3 | 5 |
+| West Europe | 55 | 4 | 5 |
 
 ## Model Changes
 
 | Model | Current Regions | Added Regions | Removed Regions |
 | --- | ---: | ---: | ---: |
-| gpt-5-mini | 11 | 0 | 0 |
-| gpt-5.4 | 11 | 0 | 0 |
-| gpt-5.4-mini | 9 | 7 | 0 |
-| o4-mini | 11 | 0 | 0 |
+| FLUX-1.1-pro | 11 | 0 | 0 |
+| FLUX.1-Kontext-pro | 11 | 0 | 0 |
+| FLUX.2-flex | 11 | 11 | 0 |
+| FLUX.2-pro | 11 | 0 | 0 |
+| grok-4-1-fast-non-reasoning | 11 | 11 | 0 |
+| grok-4-1-fast-reasoning | 11 | 11 | 0 |
+| grok-4.1-fast-non-reasoning | 0 | 0 | 11 |
+| grok-4.1-fast-reasoning | 0 | 0 | 11 |
+| Kimi-K2-Thinking | 0 | 0 | 11 |
+| MAI-DS-R1 | 0 | 0 | 11 |
+| MAI-Image-2 | 2 | 2 | 0 |
+| Meta-Llama-3-70B-Instruct | 0 | 0 | 11 |
+| mistral-document-ai-2505 | 11 | 0 | 0 |
+| mistral-document-ai-2512 | 11 | 0 | 0 |
+| Mistral-Large-3 | 11 | 0 | 0 |

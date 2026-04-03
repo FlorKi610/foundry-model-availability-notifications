@@ -1,6 +1,776 @@
 {
-  "timestamp": "2026-04-02T18:20:59.851192+00:00",
-  "changes": {},
+  "timestamp": "2026-04-03T00:32:45.650019+00:00",
+  "changes": {
+    "FLUX-1.1-pro": {
+      "all": {
+        "added": [],
+        "removed": []
+      },
+      "skus": {
+        "data-zone-standard": {
+          "label": "Data Zone Standard",
+          "added": [],
+          "removed": [
+            "Norway East",
+            "Switzerland North",
+            "Switzerland West"
+          ]
+        }
+      }
+    },
+    "FLUX.1-Kontext-pro": {
+      "all": {
+        "added": [],
+        "removed": []
+      },
+      "skus": {
+        "data-zone-standard": {
+          "label": "Data Zone Standard",
+          "added": [],
+          "removed": [
+            "Norway East",
+            "Switzerland North",
+            "Switzerland West"
+          ]
+        }
+      }
+    },
+    "FLUX.2-flex": {
+      "all": {
+        "added": [
+          "Australia East",
+          "Brazil South",
+          "Canada Central",
+          "Canada East",
+          "Central US",
+          "East US",
+          "East US 2",
+          "France Central",
+          "Germany West Central",
+          "Italy North",
+          "Japan East",
+          "Japan West",
+          "Korea Central",
+          "North Central US",
+          "Norway East",
+          "Poland Central",
+          "South Africa North",
+          "South Central US",
+          "South India",
+          "Spain Central",
+          "Sweden Central",
+          "Switzerland North",
+          "Switzerland West",
+          "UAE North",
+          "UK South",
+          "West Central US",
+          "West Europe",
+          "West US",
+          "West US 2",
+          "West US 3"
+        ],
+        "removed": []
+      },
+      "skus": {
+        "global-standard": {
+          "label": "Global Standard",
+          "added": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "removed": []
+        }
+      }
+    },
+    "FLUX.2-pro": {
+      "all": {
+        "added": [],
+        "removed": []
+      },
+      "skus": {
+        "data-zone-standard": {
+          "label": "Data Zone Standard",
+          "added": [],
+          "removed": [
+            "Norway East",
+            "Switzerland North",
+            "Switzerland West"
+          ]
+        }
+      }
+    },
+    "grok-4-1-fast-non-reasoning": {
+      "all": {
+        "added": [
+          "Australia East",
+          "Brazil South",
+          "Canada Central",
+          "Canada East",
+          "Central US",
+          "East US",
+          "East US 2",
+          "France Central",
+          "Germany West Central",
+          "Italy North",
+          "Japan East",
+          "Japan West",
+          "Korea Central",
+          "North Central US",
+          "Norway East",
+          "Poland Central",
+          "South Africa North",
+          "South Central US",
+          "South India",
+          "Spain Central",
+          "Sweden Central",
+          "Switzerland North",
+          "Switzerland West",
+          "UAE North",
+          "UK South",
+          "West Central US",
+          "West Europe",
+          "West US",
+          "West US 2",
+          "West US 3"
+        ],
+        "removed": []
+      },
+      "skus": {
+        "data-zone-standard": {
+          "label": "Data Zone Standard",
+          "added": [
+            "Central US",
+            "East US",
+            "East US 2",
+            "North Central US",
+            "South Central US",
+            "West Central US",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "removed": []
+        },
+        "global-standard": {
+          "label": "Global Standard",
+          "added": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "removed": []
+        }
+      }
+    },
+    "grok-4-1-fast-reasoning": {
+      "all": {
+        "added": [
+          "Australia East",
+          "Brazil South",
+          "Canada Central",
+          "Canada East",
+          "Central US",
+          "East US",
+          "East US 2",
+          "France Central",
+          "Germany West Central",
+          "Italy North",
+          "Japan East",
+          "Japan West",
+          "Korea Central",
+          "North Central US",
+          "Norway East",
+          "Poland Central",
+          "South Africa North",
+          "South Central US",
+          "South India",
+          "Spain Central",
+          "Sweden Central",
+          "Switzerland North",
+          "Switzerland West",
+          "UAE North",
+          "UK South",
+          "West Central US",
+          "West Europe",
+          "West US",
+          "West US 2",
+          "West US 3"
+        ],
+        "removed": []
+      },
+      "skus": {
+        "data-zone-standard": {
+          "label": "Data Zone Standard",
+          "added": [
+            "Central US",
+            "East US",
+            "East US 2",
+            "North Central US",
+            "South Central US",
+            "West Central US",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "removed": []
+        },
+        "global-standard": {
+          "label": "Global Standard",
+          "added": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "removed": []
+        }
+      }
+    },
+    "MAI-Image-2": {
+      "all": {
+        "added": [
+          "East US",
+          "South India",
+          "Sweden Central",
+          "West Central US",
+          "West Europe",
+          "West US"
+        ],
+        "removed": []
+      },
+      "skus": {
+        "global-standard": {
+          "label": "Global Standard",
+          "added": [
+            "East US",
+            "South India",
+            "Sweden Central",
+            "West Central US",
+            "West Europe",
+            "West US"
+          ],
+          "removed": []
+        }
+      }
+    },
+    "mistral-document-ai-2505": {
+      "all": {
+        "added": [],
+        "removed": []
+      },
+      "skus": {
+        "data-zone-standard": {
+          "label": "Data Zone Standard",
+          "added": [],
+          "removed": [
+            "Norway East",
+            "Switzerland North",
+            "Switzerland West"
+          ]
+        }
+      }
+    },
+    "mistral-document-ai-2512": {
+      "all": {
+        "added": [],
+        "removed": []
+      },
+      "skus": {
+        "data-zone-standard": {
+          "label": "Data Zone Standard",
+          "added": [],
+          "removed": [
+            "Norway East",
+            "Switzerland North",
+            "Switzerland West"
+          ]
+        }
+      }
+    },
+    "Mistral-Large-3": {
+      "all": {
+        "added": [],
+        "removed": []
+      },
+      "skus": {
+        "data-zone-standard": {
+          "label": "Data Zone Standard",
+          "added": [],
+          "removed": [
+            "Norway East",
+            "Switzerland North",
+            "Switzerland West"
+          ]
+        }
+      }
+    },
+    "Kimi-K2-Thinking": {
+      "all": {
+        "added": [],
+        "removed": [
+          "Australia East",
+          "Brazil South",
+          "Canada Central",
+          "Canada East",
+          "Central US",
+          "East US",
+          "East US 2",
+          "France Central",
+          "Germany West Central",
+          "Italy North",
+          "Japan East",
+          "Japan West",
+          "Korea Central",
+          "North Central US",
+          "Norway East",
+          "Poland Central",
+          "South Africa North",
+          "South Central US",
+          "South India",
+          "Spain Central",
+          "Sweden Central",
+          "Switzerland North",
+          "Switzerland West",
+          "UAE North",
+          "UK South",
+          "West Central US",
+          "West Europe",
+          "West US",
+          "West US 2",
+          "West US 3"
+        ]
+      },
+      "skus": {
+        "global-standard": {
+          "label": "Global Standard",
+          "added": [],
+          "removed": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "sku_removed": true
+        }
+      },
+      "model_removed": true
+    },
+    "MAI-DS-R1": {
+      "all": {
+        "added": [],
+        "removed": [
+          "Australia East",
+          "Brazil South",
+          "Canada Central",
+          "Canada East",
+          "Central US",
+          "East US",
+          "East US 2",
+          "France Central",
+          "Germany West Central",
+          "Italy North",
+          "Japan East",
+          "Japan West",
+          "Korea Central",
+          "North Central US",
+          "Norway East",
+          "Poland Central",
+          "South Africa North",
+          "South Central US",
+          "South India",
+          "Spain Central",
+          "Sweden Central",
+          "Switzerland North",
+          "Switzerland West",
+          "UAE North",
+          "UK South",
+          "West Central US",
+          "West Europe",
+          "West US",
+          "West US 2",
+          "West US 3"
+        ]
+      },
+      "skus": {
+        "global-standard": {
+          "label": "Global Standard",
+          "added": [],
+          "removed": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "sku_removed": true
+        }
+      },
+      "model_removed": true
+    },
+    "Meta-Llama-3-70B-Instruct": {
+      "all": {
+        "added": [],
+        "removed": [
+          "Australia East",
+          "Brazil South",
+          "Canada Central",
+          "Canada East",
+          "Central US",
+          "East US",
+          "East US 2",
+          "France Central",
+          "Germany West Central",
+          "Italy North",
+          "Japan East",
+          "Japan West",
+          "Korea Central",
+          "North Central US",
+          "Norway East",
+          "Poland Central",
+          "South Africa North",
+          "South Central US",
+          "South India",
+          "Spain Central",
+          "Sweden Central",
+          "Switzerland North",
+          "Switzerland West",
+          "UAE North",
+          "UK South",
+          "West Central US",
+          "West Europe",
+          "West US",
+          "West US 2",
+          "West US 3"
+        ]
+      },
+      "skus": {
+        "global-standard": {
+          "label": "Global Standard",
+          "added": [],
+          "removed": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "sku_removed": true
+        }
+      },
+      "model_removed": true
+    },
+    "grok-4.1-fast-non-reasoning": {
+      "all": {
+        "added": [],
+        "removed": [
+          "Australia East",
+          "Brazil South",
+          "Canada Central",
+          "Canada East",
+          "Central US",
+          "East US",
+          "East US 2",
+          "France Central",
+          "Germany West Central",
+          "Italy North",
+          "Japan East",
+          "Japan West",
+          "Korea Central",
+          "North Central US",
+          "Norway East",
+          "Poland Central",
+          "South Africa North",
+          "South Central US",
+          "South India",
+          "Spain Central",
+          "Sweden Central",
+          "Switzerland North",
+          "Switzerland West",
+          "UAE North",
+          "UK South",
+          "West Central US",
+          "West Europe",
+          "West US",
+          "West US 2",
+          "West US 3"
+        ]
+      },
+      "skus": {
+        "global-standard": {
+          "label": "Global Standard",
+          "added": [],
+          "removed": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "sku_removed": true
+        }
+      },
+      "model_removed": true
+    },
+    "grok-4.1-fast-reasoning": {
+      "all": {
+        "added": [],
+        "removed": [
+          "Australia East",
+          "Brazil South",
+          "Canada Central",
+          "Canada East",
+          "Central US",
+          "East US",
+          "East US 2",
+          "France Central",
+          "Germany West Central",
+          "Italy North",
+          "Japan East",
+          "Japan West",
+          "Korea Central",
+          "North Central US",
+          "Norway East",
+          "Poland Central",
+          "South Africa North",
+          "South Central US",
+          "South India",
+          "Spain Central",
+          "Sweden Central",
+          "Switzerland North",
+          "Switzerland West",
+          "UAE North",
+          "UK South",
+          "West Central US",
+          "West Europe",
+          "West US",
+          "West US 2",
+          "West US 3"
+        ]
+      },
+      "skus": {
+        "global-standard": {
+          "label": "Global Standard",
+          "added": [],
+          "removed": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ],
+          "sku_removed": true
+        }
+      },
+      "model_removed": true
+    }
+  },
   "current": {
     "codex-mini": {
       "all": [
@@ -912,13 +1682,10 @@
             "Germany West Central",
             "Italy North",
             "North Central US",
-            "Norway East",
             "Poland Central",
             "South Central US",
             "Spain Central",
             "Sweden Central",
-            "Switzerland North",
-            "Switzerland West",
             "West Central US",
             "West Europe",
             "West US",
@@ -1007,13 +1774,10 @@
             "Germany West Central",
             "Italy North",
             "North Central US",
-            "Norway East",
             "Poland Central",
             "South Central US",
             "Spain Central",
             "Sweden Central",
-            "Switzerland North",
-            "Switzerland West",
             "West Central US",
             "West Europe",
             "West US",
@@ -1021,6 +1785,77 @@
             "West US 3"
           ]
         },
+        "global-standard": {
+          "label": "Global Standard",
+          "regions": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ]
+        }
+      }
+    },
+    "FLUX.2-flex": {
+      "all": [
+        "Australia East",
+        "Brazil South",
+        "Canada Central",
+        "Canada East",
+        "Central US",
+        "East US",
+        "East US 2",
+        "France Central",
+        "Germany West Central",
+        "Italy North",
+        "Japan East",
+        "Japan West",
+        "Korea Central",
+        "North Central US",
+        "Norway East",
+        "Poland Central",
+        "South Africa North",
+        "South Central US",
+        "South India",
+        "Spain Central",
+        "Sweden Central",
+        "Switzerland North",
+        "Switzerland West",
+        "UAE North",
+        "UK South",
+        "West Central US",
+        "West Europe",
+        "West US",
+        "West US 2",
+        "West US 3"
+      ],
+      "skus": {
         "global-standard": {
           "label": "Global Standard",
           "regions": [
@@ -1102,13 +1937,10 @@
             "Germany West Central",
             "Italy North",
             "North Central US",
-            "Norway East",
             "Poland Central",
             "South Central US",
             "Spain Central",
             "Sweden Central",
-            "Switzerland North",
-            "Switzerland West",
             "West Central US",
             "West Europe",
             "West US",
@@ -4495,6 +5327,176 @@
         }
       }
     },
+    "grok-4-1-fast-non-reasoning": {
+      "all": [
+        "Australia East",
+        "Brazil South",
+        "Canada Central",
+        "Canada East",
+        "Central US",
+        "East US",
+        "East US 2",
+        "France Central",
+        "Germany West Central",
+        "Italy North",
+        "Japan East",
+        "Japan West",
+        "Korea Central",
+        "North Central US",
+        "Norway East",
+        "Poland Central",
+        "South Africa North",
+        "South Central US",
+        "South India",
+        "Spain Central",
+        "Sweden Central",
+        "Switzerland North",
+        "Switzerland West",
+        "UAE North",
+        "UK South",
+        "West Central US",
+        "West Europe",
+        "West US",
+        "West US 2",
+        "West US 3"
+      ],
+      "skus": {
+        "data-zone-standard": {
+          "label": "Data Zone Standard",
+          "regions": [
+            "Central US",
+            "East US",
+            "East US 2",
+            "North Central US",
+            "South Central US",
+            "West Central US",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ]
+        },
+        "global-standard": {
+          "label": "Global Standard",
+          "regions": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ]
+        }
+      }
+    },
+    "grok-4-1-fast-reasoning": {
+      "all": [
+        "Australia East",
+        "Brazil South",
+        "Canada Central",
+        "Canada East",
+        "Central US",
+        "East US",
+        "East US 2",
+        "France Central",
+        "Germany West Central",
+        "Italy North",
+        "Japan East",
+        "Japan West",
+        "Korea Central",
+        "North Central US",
+        "Norway East",
+        "Poland Central",
+        "South Africa North",
+        "South Central US",
+        "South India",
+        "Spain Central",
+        "Sweden Central",
+        "Switzerland North",
+        "Switzerland West",
+        "UAE North",
+        "UK South",
+        "West Central US",
+        "West Europe",
+        "West US",
+        "West US 2",
+        "West US 3"
+      ],
+      "skus": {
+        "data-zone-standard": {
+          "label": "Data Zone Standard",
+          "regions": [
+            "Central US",
+            "East US",
+            "East US 2",
+            "North Central US",
+            "South Central US",
+            "West Central US",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ]
+        },
+        "global-standard": {
+          "label": "Global Standard",
+          "regions": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "East US 2",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Japan West",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "Poland Central",
+            "South Africa North",
+            "South Central US",
+            "South India",
+            "Spain Central",
+            "Sweden Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Central US",
+            "West Europe",
+            "West US",
+            "West US 2",
+            "West US 3"
+          ]
+        }
+      }
+    },
     "grok-4-fast-non-reasoning": {
       "all": [
         "Australia East",
@@ -4628,219 +5630,6 @@
             "West US 3"
           ]
         },
-        "global-standard": {
-          "label": "Global Standard",
-          "regions": [
-            "Australia East",
-            "Brazil South",
-            "Canada Central",
-            "Canada East",
-            "Central US",
-            "East US",
-            "East US 2",
-            "France Central",
-            "Germany West Central",
-            "Italy North",
-            "Japan East",
-            "Japan West",
-            "Korea Central",
-            "North Central US",
-            "Norway East",
-            "Poland Central",
-            "South Africa North",
-            "South Central US",
-            "South India",
-            "Spain Central",
-            "Sweden Central",
-            "Switzerland North",
-            "Switzerland West",
-            "UAE North",
-            "UK South",
-            "West Central US",
-            "West Europe",
-            "West US",
-            "West US 2",
-            "West US 3"
-          ]
-        }
-      }
-    },
-    "grok-4.1-fast-non-reasoning": {
-      "all": [
-        "Australia East",
-        "Brazil South",
-        "Canada Central",
-        "Canada East",
-        "Central US",
-        "East US",
-        "East US 2",
-        "France Central",
-        "Germany West Central",
-        "Italy North",
-        "Japan East",
-        "Japan West",
-        "Korea Central",
-        "North Central US",
-        "Norway East",
-        "Poland Central",
-        "South Africa North",
-        "South Central US",
-        "South India",
-        "Spain Central",
-        "Sweden Central",
-        "Switzerland North",
-        "Switzerland West",
-        "UAE North",
-        "UK South",
-        "West Central US",
-        "West Europe",
-        "West US",
-        "West US 2",
-        "West US 3"
-      ],
-      "skus": {
-        "global-standard": {
-          "label": "Global Standard",
-          "regions": [
-            "Australia East",
-            "Brazil South",
-            "Canada Central",
-            "Canada East",
-            "Central US",
-            "East US",
-            "East US 2",
-            "France Central",
-            "Germany West Central",
-            "Italy North",
-            "Japan East",
-            "Japan West",
-            "Korea Central",
-            "North Central US",
-            "Norway East",
-            "Poland Central",
-            "South Africa North",
-            "South Central US",
-            "South India",
-            "Spain Central",
-            "Sweden Central",
-            "Switzerland North",
-            "Switzerland West",
-            "UAE North",
-            "UK South",
-            "West Central US",
-            "West Europe",
-            "West US",
-            "West US 2",
-            "West US 3"
-          ]
-        }
-      }
-    },
-    "grok-4.1-fast-reasoning": {
-      "all": [
-        "Australia East",
-        "Brazil South",
-        "Canada Central",
-        "Canada East",
-        "Central US",
-        "East US",
-        "East US 2",
-        "France Central",
-        "Germany West Central",
-        "Italy North",
-        "Japan East",
-        "Japan West",
-        "Korea Central",
-        "North Central US",
-        "Norway East",
-        "Poland Central",
-        "South Africa North",
-        "South Central US",
-        "South India",
-        "Spain Central",
-        "Sweden Central",
-        "Switzerland North",
-        "Switzerland West",
-        "UAE North",
-        "UK South",
-        "West Central US",
-        "West Europe",
-        "West US",
-        "West US 2",
-        "West US 3"
-      ],
-      "skus": {
-        "global-standard": {
-          "label": "Global Standard",
-          "regions": [
-            "Australia East",
-            "Brazil South",
-            "Canada Central",
-            "Canada East",
-            "Central US",
-            "East US",
-            "East US 2",
-            "France Central",
-            "Germany West Central",
-            "Italy North",
-            "Japan East",
-            "Japan West",
-            "Korea Central",
-            "North Central US",
-            "Norway East",
-            "Poland Central",
-            "South Africa North",
-            "South Central US",
-            "South India",
-            "Spain Central",
-            "Sweden Central",
-            "Switzerland North",
-            "Switzerland West",
-            "UAE North",
-            "UK South",
-            "West Central US",
-            "West Europe",
-            "West US",
-            "West US 2",
-            "West US 3"
-          ]
-        }
-      }
-    },
-    "Kimi-K2-Thinking": {
-      "all": [
-        "Australia East",
-        "Brazil South",
-        "Canada Central",
-        "Canada East",
-        "Central US",
-        "East US",
-        "East US 2",
-        "France Central",
-        "Germany West Central",
-        "Italy North",
-        "Japan East",
-        "Japan West",
-        "Korea Central",
-        "North Central US",
-        "Norway East",
-        "Poland Central",
-        "South Africa North",
-        "South Central US",
-        "South India",
-        "Spain Central",
-        "Sweden Central",
-        "Switzerland North",
-        "Switzerland West",
-        "UAE North",
-        "UK South",
-        "West Central US",
-        "West Europe",
-        "West US",
-        "West US 2",
-        "West US 3"
-      ],
-      "skus": {
         "global-standard": {
           "label": "Global Standard",
           "regions": [
@@ -5126,144 +5915,25 @@
         }
       }
     },
-    "MAI-DS-R1": {
+    "MAI-Image-2": {
       "all": [
-        "Australia East",
-        "Brazil South",
-        "Canada Central",
-        "Canada East",
-        "Central US",
         "East US",
-        "East US 2",
-        "France Central",
-        "Germany West Central",
-        "Italy North",
-        "Japan East",
-        "Japan West",
-        "Korea Central",
-        "North Central US",
-        "Norway East",
-        "Poland Central",
-        "South Africa North",
-        "South Central US",
         "South India",
-        "Spain Central",
         "Sweden Central",
-        "Switzerland North",
-        "Switzerland West",
-        "UAE North",
-        "UK South",
         "West Central US",
         "West Europe",
-        "West US",
-        "West US 2",
-        "West US 3"
+        "West US"
       ],
       "skus": {
         "global-standard": {
           "label": "Global Standard",
           "regions": [
-            "Australia East",
-            "Brazil South",
-            "Canada Central",
-            "Canada East",
-            "Central US",
             "East US",
-            "East US 2",
-            "France Central",
-            "Germany West Central",
-            "Italy North",
-            "Japan East",
-            "Japan West",
-            "Korea Central",
-            "North Central US",
-            "Norway East",
-            "Poland Central",
-            "South Africa North",
-            "South Central US",
             "South India",
-            "Spain Central",
             "Sweden Central",
-            "Switzerland North",
-            "Switzerland West",
-            "UAE North",
-            "UK South",
             "West Central US",
             "West Europe",
-            "West US",
-            "West US 2",
-            "West US 3"
-          ]
-        }
-      }
-    },
-    "Meta-Llama-3-70B-Instruct": {
-      "all": [
-        "Australia East",
-        "Brazil South",
-        "Canada Central",
-        "Canada East",
-        "Central US",
-        "East US",
-        "East US 2",
-        "France Central",
-        "Germany West Central",
-        "Italy North",
-        "Japan East",
-        "Japan West",
-        "Korea Central",
-        "North Central US",
-        "Norway East",
-        "Poland Central",
-        "South Africa North",
-        "South Central US",
-        "South India",
-        "Spain Central",
-        "Sweden Central",
-        "Switzerland North",
-        "Switzerland West",
-        "UAE North",
-        "UK South",
-        "West Central US",
-        "West Europe",
-        "West US",
-        "West US 2",
-        "West US 3"
-      ],
-      "skus": {
-        "global-standard": {
-          "label": "Global Standard",
-          "regions": [
-            "Australia East",
-            "Brazil South",
-            "Canada Central",
-            "Canada East",
-            "Central US",
-            "East US",
-            "East US 2",
-            "France Central",
-            "Germany West Central",
-            "Italy North",
-            "Japan East",
-            "Japan West",
-            "Korea Central",
-            "North Central US",
-            "Norway East",
-            "Poland Central",
-            "South Africa North",
-            "South Central US",
-            "South India",
-            "Spain Central",
-            "Sweden Central",
-            "Switzerland North",
-            "Switzerland West",
-            "UAE North",
-            "UK South",
-            "West Central US",
-            "West Europe",
-            "West US",
-            "West US 2",
-            "West US 3"
+            "West US"
           ]
         }
       }
@@ -5312,13 +5982,10 @@
             "Germany West Central",
             "Italy North",
             "North Central US",
-            "Norway East",
             "Poland Central",
             "South Central US",
             "Spain Central",
             "Sweden Central",
-            "Switzerland North",
-            "Switzerland West",
             "West Central US",
             "West Europe",
             "West US",
@@ -5407,13 +6074,10 @@
             "Germany West Central",
             "Italy North",
             "North Central US",
-            "Norway East",
             "Poland Central",
             "South Central US",
             "Spain Central",
             "Sweden Central",
-            "Switzerland North",
-            "Switzerland West",
             "West Central US",
             "West Europe",
             "West US",
@@ -5502,13 +6166,10 @@
             "Germany West Central",
             "Italy North",
             "North Central US",
-            "Norway East",
             "Poland Central",
             "South Central US",
             "Spain Central",
             "Sweden Central",
-            "Switzerland North",
-            "Switzerland West",
             "West Central US",
             "West Europe",
             "West US",
