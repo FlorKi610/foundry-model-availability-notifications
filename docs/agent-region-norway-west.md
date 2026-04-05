@@ -30,7 +30,6 @@ Jede Zeile zeigt ein Modell mit seiner SKU-Variante (Deployment-Typ).
 | 🔒 Data Zone Standard | Datenzone Standard (EU Data Residency) |
 | Global batch | Batch-Verarbeitung, kostengünstig |
 | Global batch datazone | Batch mit Datenzone |
-| Global coverage | Globale Abdeckung, Standard-Routing |
 
 ⚠️ Provisioned (PTU) erfordert vorab reservierte Kapazität.
 🔒 Datazone = Daten bleiben in der EU-Datenzone (DSGVO-konform).

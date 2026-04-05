@@ -1488,6 +1488,8 @@ def generate_agent_region_page(
 
         sku_labels = model_region_skus.get(model, {}).get(region, [])
         for sku in sorted(sku_labels):
+            if sku == DEFAULT_LABEL:
+                continue
             normalized = SKU_LABEL_NORMALIZATION.get(sku, sku)
             status = "Verfügbar"
             if is_model_removed:
@@ -1524,7 +1526,6 @@ def generate_agent_region_page(
         "| 🔒 Data Zone Standard | Datenzone Standard (EU Data Residency) |",
         "| Global batch | Batch-Verarbeitung, kostengünstig |",
         "| Global batch datazone | Batch mit Datenzone |",
-        "| Global coverage | Globale Abdeckung, Standard-Routing |",
         "",
         "⚠️ Provisioned (PTU) erfordert vorab reservierte Kapazität.",
         "🔒 Datazone = Daten bleiben in der EU-Datenzone (DSGVO-konform).",

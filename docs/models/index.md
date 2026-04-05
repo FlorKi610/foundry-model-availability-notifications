@@ -1133,4 +1133,4 @@ Complete catalog of AI Foundry models with availability details. Each SKU column
 
 ---
 
-_Last updated: 2026-04-05 21:49 UTC_
+_Last updated: 2026-04-05 22:03 UTC_
