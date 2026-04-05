@@ -1451,6 +1451,120 @@ _Last updated: {datetime.utcnow():%Y-%m-%d %H:%M UTC}_
 """
 
 
+def generate_agent_europe_page(
+    model_regions: Dict[str, Set[str]],
+    model_region_skus: Dict[str, Dict[str, List[str]]],
+    model_sku_regions: Dict[str, Dict[str, List[str]]],
+) -> str:
+    """Generate a flat, crawlable page with all Europe SKU availability for Copilot Studio agents."""
+
+    eu_regions = sorted([
+        "Finland Central", "France Central", "France South", "Germany North",
+        "Germany West Central", "Italy North", "Netherlands West", "North Europe",
+        "Norway East", "Norway West", "Poland Central", "Spain Central",
+        "Sweden Central", "Sweden South", "Switzerland North", "Switzerland West",
+        "UK South", "UK West", "West Europe",
+    ])
+
+    diff_path = HERE / "region_diff_europe.json"
+    change_map: Dict[str, Dict] = {}
+    timestamp = ""
+    if diff_path.exists():
+        diff_data = json.loads(diff_path.read_text("utf-8"))
+        timestamp = diff_data.get("timestamp", "")
+        for entry in diff_data.get("views", {}).get("by_model", []):
+            change_map[entry["model"]] = entry.get("updates", {})
+
+    lines = [
+        "# Europa: Modell × Region × SKU Verfügbarkeit",
+        "",
+        f"Stand: {timestamp}" if timestamp else "",
+        "",
+        "Diese Seite enthält alle Azure AI Modelle mit ihren SKU-Varianten und Regionen in Europa.",
+        "Sie wird täglich automatisch aktualisiert.",
+        "",
+        "---",
+        "",
+        "## Alle Modelle nach SKU und Region",
+        "",
+        "| Modell | Region | SKU Variante | Status |",
+        "| --- | --- | --- | --- |",
+    ]
+
+    for model in sorted(model_regions.keys(), key=str.lower):
+        updates = change_map.get(model, {})
+        added_regions = set(updates.get("added_regions", []))
+        removed_regions = set(updates.get("removed_regions", []))
+        is_model_removed = updates.get("model_removed", False)
+
+        for region in eu_regions:
+            if region not in model_region_skus.get(model, {}):
+                continue
+            sku_labels = model_region_skus[model][region]
+            for sku in sorted(sku_labels):
+                normalized = SKU_LABEL_NORMALIZATION.get(sku, sku)
+                status = "Verfügbar"
+                if is_model_removed:
+                    status = "Retired"
+                elif region in added_regions:
+                    status = "Neu"
+                lines.append(f"| {model} | {region} | {normalized} | {status} |")
+
+        for region in sorted(removed_regions):
+            if region not in eu_regions:
+                continue
+            if region in model_region_skus.get(model, {}):
+                continue
+            lines.append(f"| {model} | {region} | — | Entfernt |")
+
+    lines += [
+        "",
+        "---",
+        "",
+        "## Modelle pro Region",
+        "",
+        "| Region | Anzahl Modelle | Modelle |",
+        "| --- | ---: | --- |",
+    ]
+
+    for region in eu_regions:
+        models_in_region = sorted(
+            [m for m in model_regions if region in model_regions[m]],
+            key=str.lower,
+        )
+        if models_in_region:
+            model_list = ", ".join(models_in_region[:15])
+            if len(models_in_region) > 15:
+                model_list += f" (+{len(models_in_region) - 15} weitere)"
+            lines.append(f"| {region} | {len(models_in_region)} | {model_list} |")
+
+    lines += [
+        "",
+        "---",
+        "",
+        "## SKU-Varianten erklärt",
+        "",
+        "| SKU Variante | Kategorie | Beschreibung | Geeignet für |",
+        "| --- | --- | --- | --- |",
+        "| Standard | Standard | Pay-as-you-go, regionale Bereitstellung | Variable Workloads, Prototyping |",
+        "| Global Standard | Global | Globales Routing, pay-per-token | Foundry-Modelle (Cohere, DeepSeek, Llama) |",
+        "| Provisioned (PTU managed) | Provisioned | Reservierte Kapazität, garantierter Durchsatz | Enterprise-Workloads mit SLA |",
+        "| Provisioned global | Provisioned | PTU mit globalem Routing | Enterprise + globale Verfügbarkeit |",
+        "| Global Provisioned Managed | Provisioned | MaaS mit reservierter Kapazität | Foundry-Modelle mit garantiertem Durchsatz |",
+        "| Datazone standard | Datazone | Standard mit EU-Datenresidenz | DSGVO-sensitive Workloads |",
+        "| Datazone provisioned managed | Datazone | PTU mit EU-Datenresidenz | Enterprise EU mit Durchsatzgarantie |",
+        "| Global batch | Batch | Batch-Verarbeitung, kostengünstig | Große Datenmengen, nicht Echtzeit |",
+        "| Global batch datazone | Batch | Batch mit Datenzone | Batch + Data Residency |",
+        "",
+        "---",
+        "",
+        "*Datenquelle: [Azure AI Docs](https://learn.microsoft.com/azure/ai-services/openai/concepts/models) — automatisiert gescannt.*",
+        "",
+    ]
+
+    return "\n".join(lines)
+
+
 def generate_history_page(history: List[Dict]) -> str:
     """Generate the change history page with clean grouped format."""
     
@@ -1642,6 +1756,7 @@ def main():
         "by-sku.md": generate_by_sku_page(model_regions, model_sku_regions, all_labels, all_regions),
         "history.md": generate_history_page(history),
         "retirements.md": generate_retirements_page(retirement_data, model_regions_normalized),
+        "agent-europe.md": generate_agent_europe_page(model_regions, model_region_skus, model_sku_regions),
     }
     
     for filename, content in pages.items():

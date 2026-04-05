@@ -1,8 +1,8 @@
 site_name: Azure OpenAI Foundry Model Availability
 site_description: Track Azure OpenAI Foundry model availability across regions and SKUs
-site_url: https://JinLee794.github.io/foundry-model-availability-notifications
-repo_url: https://github.com/JinLee794/foundry-model-availability-notifications
-repo_name: JinLee794/foundry-model-availability-notifications
+site_url: https://FlorKi610.github.io/foundry-model-availability-notifications
+repo_url: https://github.com/FlorKi610/foundry-model-availability-notifications
+repo_name: FlorKi610/foundry-model-availability-notifications
 
 theme:
   name: material
@@ -214,3 +214,4 @@ nav:
   - By SKU Type: by-sku.md
   - Retirements: retirements.md
   - Change History: history.md
+  - Europa SKU Übersicht (Agent): agent-europe.md
