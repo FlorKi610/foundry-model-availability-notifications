@@ -174,3 +174,23 @@ nav:
     - West Europe: agent-region-west-europe.md
     - North Europe: agent-region-north-europe.md
     - Finland Central: agent-region-finland-central.md
+  - Weltweit (Agent):
+    - Alle Regionen: agent-worldwide.md
+    - East US 2: agent-region-east-us-2.md
+    - Central US: agent-region-central-us.md
+    - East US: agent-region-east-us.md
+    - South Central US: agent-region-south-central-us.md
+    - North Central US: agent-region-north-central-us.md
+    - West US: agent-region-west-us.md
+    - West US 3: agent-region-west-us-3.md
+    - Canada Central: agent-region-canada-central.md
+    - Canada East: agent-region-canada-east.md
+    - Brazil South: agent-region-brazil-south.md
+    - Japan East: agent-region-japan-east.md
+    - Japan West: agent-region-japan-west.md
+    - Korea Central: agent-region-korea-central.md
+    - Australia East: agent-region-australia-east.md
+    - Southeast Asia: agent-region-southeast-asia.md
+    - South India: agent-region-south-india.md
+    - UAE North: agent-region-uae-north.md
+    - South Africa North: agent-region-south-africa-north.md

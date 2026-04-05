@@ -1573,6 +1573,41 @@ def generate_agent_europe_index(
     return "\n".join(lines)
 
 
+def generate_agent_worldwide_index(
+    model_regions: Dict[str, Set[str]],
+    all_regions: List[str],
+    timestamp: str,
+) -> str:
+    """Generate a worldwide index page linking to all per-region agent pages."""
+
+    lines = [
+        "# Weltweit: AI Modell-Verfügbarkeit nach Region",
+        "",
+        f"Stand: {timestamp}",
+        "",
+        "Alle Azure-Regionen weltweit. Wähle eine Region um alle verfügbaren Modelle mit SKU-Varianten zu sehen.",
+        "",
+        "| Region | Anzahl Modelle | Link |",
+        "| --- | ---: | --- |",
+    ]
+
+    for region in all_regions:
+        count = sum(1 for m in model_regions if region in model_regions[m])
+        slug = region.lower().replace(" ", "-")
+        if count > 0:
+            lines.append(f"| {region} | {count} | [Alle Modelle anzeigen](../agent-region-{slug}/) |")
+
+    lines += [
+        "",
+        "---",
+        "",
+        "*Täglich automatisch aktualisiert via GitHub Actions.*",
+        "",
+    ]
+
+    return "\n".join(lines)
+
+
 def generate_history_page(history: List[Dict]) -> str:
     """Generate the change history page with clean grouped format."""
     
@@ -1790,6 +1825,26 @@ def main():
         slug = region.lower().replace(" ", "-")
         pages[f"agent-region-{slug}.md"] = generate_agent_region_page(
             region, model_regions, model_region_skus, change_map, agent_timestamp,
+        )
+
+    # Generate worldwide region pages (non-EU regions)
+    ww_diff_path = HERE / "region_diff_worldwide.json"
+    ww_change_map: Dict[str, Dict] = {}
+    ww_timestamp = agent_timestamp
+    if ww_diff_path.exists():
+        ww_diff_data = json.loads(ww_diff_path.read_text("utf-8"))
+        ww_timestamp = ww_diff_data.get("timestamp", "") or agent_timestamp
+        for entry in ww_diff_data.get("views", {}).get("by_model", []):
+            ww_change_map[entry["model"]] = entry.get("updates", {})
+
+    all_regions_sorted = sorted(all_regions)
+    pages["agent-worldwide.md"] = generate_agent_worldwide_index(model_regions, all_regions_sorted, ww_timestamp)
+
+    non_eu_regions = sorted(set(all_regions) - set(eu_regions))
+    for region in non_eu_regions:
+        slug = region.lower().replace(" ", "-")
+        pages[f"agent-region-{slug}.md"] = generate_agent_region_page(
+            region, model_regions, model_region_skus, ww_change_map, ww_timestamp,
         )
     
     for filename, content in pages.items():
