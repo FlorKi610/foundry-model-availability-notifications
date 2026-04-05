@@ -5,6 +5,11 @@ Stand: 2026-04-05T18:12:59.837359+00:00
 In **France Central** sind aktuell **59 Modelle** verfügbar.
 Jede Zeile zeigt ein Modell mit seiner SKU-Variante (Deployment-Typ).
 
+⚠️ **Wichtig:** Diese Daten stammen aus der offiziellen Microsoft-Dokumentation (Azure AI Docs).
+Dokumentation kann Vorab-Informationen enthalten, die noch nicht allgemein verfügbar (GA) sind.
+Bitte die tatsächliche Verfügbarkeit immer im Azure Portal oder über die Azure CLI verifizieren,
+bevor Kunden verbindliche Zusagen gemacht werden.
+
 ---
 
 ## Modelle und SKU-Varianten
@@ -24,83 +29,83 @@ Jede Zeile zeigt ein Modell mit seiner SKU-Variante (Deployment-Typ).
 | DeepSeek-V3.2 | Global Standard | Verfügbar |
 | DeepSeek-V3.2-Speciale | Global Standard | Verfügbar |
 | embed-v-4-0 | Global Standard | Verfügbar |
-| FLUX-1.1-pro | 🔒 Datazone standard | Verfügbar |
+| FLUX-1.1-pro | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | FLUX-1.1-pro | Global Standard | Verfügbar |
-| FLUX.1-Kontext-pro | 🔒 Datazone standard | Verfügbar |
+| FLUX.1-Kontext-pro | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | FLUX.1-Kontext-pro | Global Standard | Verfügbar |
 | FLUX.2-flex | Global Standard | Verfügbar |
-| FLUX.2-pro | 🔒 Datazone standard | Verfügbar |
+| FLUX.2-pro | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | FLUX.2-pro | Global Standard | Verfügbar |
-| gpt-4.1 | 🔒 Datazone provisioned managed | Verfügbar |
-| gpt-4.1 | 🔒 Datazone standard | Verfügbar |
+| gpt-4.1 | ⚠️🔒 Datazone provisioned managed | Verfügbar (Docs — bitte im Portal verifizieren) |
+| gpt-4.1 | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | gpt-4.1 | Global Standard | Verfügbar |
 | gpt-4.1 | Global batch | Verfügbar |
-| gpt-4.1 | 🔒 Global batch datazone | Verfügbar |
+| gpt-4.1 | ⚠️🔒 Global batch datazone | Verfügbar (Docs — bitte im Portal verifizieren) |
 | gpt-4.1 | Provisioned global | Verfügbar |
 | gpt-4.1 | Standard Global Priority Processing | Verfügbar |
-| gpt-4.1-mini | 🔒 Datazone provisioned managed | Verfügbar |
-| gpt-4.1-mini | 🔒 Datazone standard | Verfügbar |
+| gpt-4.1-mini | ⚠️🔒 Datazone provisioned managed | Verfügbar (Docs — bitte im Portal verifizieren) |
+| gpt-4.1-mini | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | gpt-4.1-mini | Global Standard | Verfügbar |
 | gpt-4.1-mini | Global batch | Verfügbar |
-| gpt-4.1-mini | 🔒 Global batch datazone | Verfügbar |
+| gpt-4.1-mini | ⚠️🔒 Global batch datazone | Verfügbar (Docs — bitte im Portal verifizieren) |
 | gpt-4.1-mini | Provisioned global | Verfügbar |
 | gpt-4.1-mini | Standard | Verfügbar |
-| gpt-4.1-nano | 🔒 Datazone provisioned managed | Verfügbar |
-| gpt-4.1-nano | 🔒 Datazone standard | Verfügbar |
+| gpt-4.1-nano | ⚠️🔒 Datazone provisioned managed | Verfügbar (Docs — bitte im Portal verifizieren) |
+| gpt-4.1-nano | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | gpt-4.1-nano | Global Standard | Verfügbar |
 | gpt-4.1-nano | Global batch | Verfügbar |
-| gpt-4.1-nano | 🔒 Global batch datazone | Verfügbar |
+| gpt-4.1-nano | ⚠️🔒 Global batch datazone | Verfügbar (Docs — bitte im Portal verifizieren) |
 | gpt-4.1-nano | Provisioned global | Verfügbar |
-| gpt-4o | 🔒 Datazone provisioned managed | Verfügbar |
-| gpt-4o | 🔒 Datazone standard | Verfügbar |
+| gpt-4o | ⚠️🔒 Datazone provisioned managed | Verfügbar (Docs — bitte im Portal verifizieren) |
+| gpt-4o | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | gpt-4o | Global Standard | Verfügbar |
 | gpt-4o | Global batch | Verfügbar |
-| gpt-4o | 🔒 Global batch datazone | Verfügbar |
+| gpt-4o | ⚠️🔒 Global batch datazone | Verfügbar (Docs — bitte im Portal verifizieren) |
 | gpt-4o | Provisioned (PTU managed) | Verfügbar |
 | gpt-4o | Provisioned global | Verfügbar |
 | gpt-4o | Standard | Verfügbar |
-| gpt-4o-mini | 🔒 Datazone provisioned managed | Verfügbar |
-| gpt-4o-mini | 🔒 Datazone standard | Verfügbar |
+| gpt-4o-mini | ⚠️🔒 Datazone provisioned managed | Verfügbar (Docs — bitte im Portal verifizieren) |
+| gpt-4o-mini | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | gpt-4o-mini | Global Standard | Verfügbar |
 | gpt-4o-mini | Global batch | Verfügbar |
-| gpt-4o-mini | 🔒 Global batch datazone | Verfügbar |
+| gpt-4o-mini | ⚠️🔒 Global batch datazone | Verfügbar (Docs — bitte im Portal verifizieren) |
 | gpt-4o-mini | Provisioned (PTU managed) | Verfügbar |
 | gpt-4o-mini | Provisioned global | Verfügbar |
 | gpt-4o-mini-transcribe | Global Standard | Verfügbar |
 | gpt-4o-transcribe | Global Standard | Verfügbar |
 | gpt-4o-transcribe-diarize | Global Standard | Verfügbar |
-| gpt-5 | 🔒 Datazone provisioned managed | Verfügbar |
-| gpt-5 | 🔒 Datazone standard | Verfügbar |
+| gpt-5 | ⚠️🔒 Datazone provisioned managed | Verfügbar (Docs — bitte im Portal verifizieren) |
+| gpt-5 | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | gpt-5 | Global Standard | Verfügbar |
 | gpt-5 | Global batch | Verfügbar |
 | gpt-5 | Provisioned global | Verfügbar |
 | gpt-5-chat | Global Standard | Verfügbar |
 | gpt-5-codex | Global Standard | Verfügbar |
-| gpt-5-mini | 🔒 Datazone provisioned managed | Verfügbar |
-| gpt-5-mini | 🔒 Datazone standard | Verfügbar |
+| gpt-5-mini | ⚠️🔒 Datazone provisioned managed | Verfügbar (Docs — bitte im Portal verifizieren) |
+| gpt-5-mini | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | gpt-5-mini | Global Standard | Verfügbar |
 | gpt-5-mini | Provisioned global | Verfügbar |
-| gpt-5-nano | 🔒 Datazone standard | Verfügbar |
+| gpt-5-nano | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | gpt-5-nano | Global Standard | Verfügbar |
 | gpt-5-pro | Global Standard | Verfügbar |
-| gpt-5.1 | 🔒 Datazone provisioned managed | Verfügbar |
-| gpt-5.1 | 🔒 Datazone standard | Verfügbar |
+| gpt-5.1 | ⚠️🔒 Datazone provisioned managed | Verfügbar (Docs — bitte im Portal verifizieren) |
+| gpt-5.1 | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | gpt-5.1 | Global Standard | Verfügbar |
 | gpt-5.1 | Global batch | Verfügbar |
 | gpt-5.1 | Provisioned global | Verfügbar |
 | gpt-5.1 | Standard Global Priority Processing | Verfügbar |
 | gpt-5.1-chat | Global Standard | Verfügbar |
-| gpt-5.1-codex | 🔒 Datazone provisioned managed | Verfügbar |
+| gpt-5.1-codex | ⚠️🔒 Datazone provisioned managed | Verfügbar (Docs — bitte im Portal verifizieren) |
 | gpt-5.1-codex | Global Standard | Verfügbar |
 | gpt-5.1-codex | Provisioned global | Verfügbar |
 | gpt-5.1-codex-mini | Global Standard | Verfügbar |
-| gpt-5.2 | 🔒 Datazone provisioned managed | Verfügbar |
+| gpt-5.2 | ⚠️🔒 Datazone provisioned managed | Verfügbar (Docs — bitte im Portal verifizieren) |
 | gpt-5.2 | Global Standard | Verfügbar |
 | gpt-5.2 | Provisioned global | Verfügbar |
 | gpt-5.2 | Standard Global Priority Processing | Verfügbar |
 | gpt-5.2-codex | Provisioned global | Verfügbar |
 | gpt-5.3-codex | Provisioned global | Verfügbar |
-| gpt-5.4 | 🔒 Datazone provisioned managed | Verfügbar |
+| gpt-5.4 | ⚠️🔒 Datazone provisioned managed | Verfügbar (Docs — bitte im Portal verifizieren) |
 | gpt-5.4 | Global Standard | Verfügbar |
 | gpt-5.4 | Provisioned global | Verfügbar |
 | gpt-5.4-mini | Global Standard | Verfügbar |
@@ -117,39 +122,39 @@ Jede Zeile zeigt ein Modell mit seiner SKU-Variante (Deployment-Typ).
 | Llama-3.3-70B-Instruct | Global Provisioned Managed | Verfügbar |
 | Llama-3.3-70B-Instruct | Global Standard | Verfügbar |
 | Llama-4-Maverick-17B-128E-Instruct-FP8 | Global Standard | Verfügbar |
-| mistral-document-ai-2505 | 🔒 Datazone standard | Verfügbar |
+| mistral-document-ai-2505 | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | mistral-document-ai-2505 | Global Standard | Verfügbar |
-| mistral-document-ai-2512 | 🔒 Datazone standard | Verfügbar |
+| mistral-document-ai-2512 | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | mistral-document-ai-2512 | Global Standard | Verfügbar |
-| Mistral-Large-3 | 🔒 Datazone standard | Verfügbar |
+| Mistral-Large-3 | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | Mistral-Large-3 | Global Standard | Verfügbar |
-| o1 | 🔒 Datazone provisioned managed | Verfügbar |
-| o1 | 🔒 Datazone standard | Verfügbar |
+| o1 | ⚠️🔒 Datazone provisioned managed | Verfügbar (Docs — bitte im Portal verifizieren) |
+| o1 | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | o1 | Global Standard | Verfügbar |
 | o1 | Provisioned global | Verfügbar |
-| o3 | 🔒 Datazone provisioned managed | Verfügbar |
-| o3 | 🔒 Datazone standard | Verfügbar |
+| o3 | ⚠️🔒 Datazone provisioned managed | Verfügbar (Docs — bitte im Portal verifizieren) |
+| o3 | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | o3 | Global Standard | Verfügbar |
 | o3 | Global batch | Verfügbar |
-| o3 | 🔒 Global batch datazone | Verfügbar |
+| o3 | ⚠️🔒 Global batch datazone | Verfügbar (Docs — bitte im Portal verifizieren) |
 | o3 | Provisioned global | Verfügbar |
-| o3-mini | 🔒 Datazone provisioned managed | Verfügbar |
-| o3-mini | 🔒 Datazone standard | Verfügbar |
+| o3-mini | ⚠️🔒 Datazone provisioned managed | Verfügbar (Docs — bitte im Portal verifizieren) |
+| o3-mini | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | o3-mini | Global Standard | Verfügbar |
 | o3-mini | Global batch | Verfügbar |
 | o3-mini | Provisioned global | Verfügbar |
-| o4-mini | 🔒 Datazone provisioned managed | Verfügbar |
-| o4-mini | 🔒 Datazone standard | Verfügbar |
+| o4-mini | ⚠️🔒 Datazone provisioned managed | Verfügbar (Docs — bitte im Portal verifizieren) |
+| o4-mini | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | o4-mini | Global Standard | Verfügbar |
 | o4-mini | Global batch | Verfügbar |
-| o4-mini | 🔒 Global batch datazone | Verfügbar |
+| o4-mini | ⚠️🔒 Global batch datazone | Verfügbar (Docs — bitte im Portal verifizieren) |
 | o4-mini | Provisioned global | Verfügbar |
-| text-embedding-3-large | 🔒 Datazone standard | Verfügbar |
+| text-embedding-3-large | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | text-embedding-3-large | Global Standard | Verfügbar |
 | text-embedding-3-large | Standard | Verfügbar |
-| text-embedding-3-small | 🔒 Datazone standard | Verfügbar |
+| text-embedding-3-small | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | text-embedding-3-small | Global Standard | Verfügbar |
-| text-embedding-ada-002 | 🔒 Datazone standard | Verfügbar |
+| text-embedding-ada-002 | ⚠️🔒 Datazone standard | Verfügbar (Docs — bitte im Portal verifizieren) |
 | text-embedding-ada-002 | Global Standard | Verfügbar |
 | text-embedding-ada-002 | Standard | Verfügbar |
 

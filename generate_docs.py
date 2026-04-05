@@ -1465,6 +1465,16 @@ def generate_agent_region_page(
         key=str.lower,
     )
 
+    # Determine if this is an EU region (for datazone sensitivity)
+    eu_region_set = {
+        "Finland Central", "France Central", "France South", "Germany North",
+        "Germany West Central", "Italy North", "Netherlands West", "North Europe",
+        "Norway East", "Norway West", "Poland Central", "Spain Central",
+        "Sweden Central", "Sweden South", "Switzerland North", "Switzerland West",
+        "UK South", "UK West", "West Europe",
+    }
+    is_eu = region in eu_region_set
+
     lines = [
         f"# {region} — Alle verfügbaren AI Modelle",
         "",
@@ -1472,6 +1482,11 @@ def generate_agent_region_page(
         "",
         f"In **{region}** sind aktuell **{len(models_here)} Modelle** verfügbar.",
         "Jede Zeile zeigt ein Modell mit seiner SKU-Variante (Deployment-Typ).",
+        "",
+        "⚠️ **Wichtig:** Diese Daten stammen aus der offiziellen Microsoft-Dokumentation (Azure AI Docs).",
+        "Dokumentation kann Vorab-Informationen enthalten, die noch nicht allgemein verfügbar (GA) sind.",
+        "Bitte die tatsächliche Verfügbarkeit immer im Azure Portal oder über die Azure CLI verifizieren,",
+        "bevor Kunden verbindliche Zusagen gemacht werden.",
         "",
         "---",
         "",
@@ -1491,12 +1506,21 @@ def generate_agent_region_page(
             if sku == DEFAULT_LABEL:
                 continue
             normalized = SKU_LABEL_NORMALIZATION.get(sku, sku)
+            is_datazone = "datazone" in normalized.lower() or "data zone" in normalized.lower()
             status = "Verfügbar"
             if is_model_removed:
                 status = "Retired"
             elif region in added_regions:
                 status = "Neu"
-            datazone_marker = "🔒 " if "datazone" in normalized.lower() or "data zone" in normalized.lower() else ""
+
+            # Flag datazone SKUs in EU regions as unverified
+            if is_datazone and is_eu:
+                datazone_marker = "⚠️🔒 "
+                status += " (Docs — bitte im Portal verifizieren)"
+            elif is_datazone:
+                datazone_marker = "🔒 "
+            else:
+                datazone_marker = ""
             lines.append(f"| {model} | {datazone_marker}{normalized} | {status} |")
 
     # Removed models
