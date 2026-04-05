@@ -108,7 +108,7 @@ jobs:
           HISTORY_FILE: ${{ steps.history.outputs.file }}
 
       - name: Create demo issue
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           title: ${{ steps.summary.outputs.title }}
           body: ${{ steps.summary.outputs.body }}
