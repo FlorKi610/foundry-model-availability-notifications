@@ -722,6 +722,83 @@ def build_flat_rows(payload: dict) -> list[dict]:
     return rows
 
 
+def build_sku_flat_rows(payload: dict) -> list[dict]:
+    """Build SKU-exploded flat rows: one row per model+region+sku combination.
+
+    This format is optimized for Teams agents and BI tools that need to query
+    by individual SKU/deployment type rather than by SKU-label arrays.
+    """
+    rows = []
+    timestamp = payload.get("timestamp")
+    update_source = payload.get("updates", {}).get("source")
+    update_timestamp = payload.get("updates", {}).get("timestamp")
+    scope = payload.get("filter", {}).get("scope")
+
+    for model_entry in payload.get("views", {}).get("by_model", []):
+        model_name = model_entry.get("model")
+        region_count = model_entry.get("region_count", 0)
+        added_regions = set(model_entry.get("updates", {}).get("added_regions", []))
+        removed_regions = set(model_entry.get("updates", {}).get("removed_regions", []))
+        model_removed = model_entry.get("updates", {}).get("model_removed", False)
+        sku_updates = {
+            u["sku"]: u for u in model_entry.get("updates", {}).get("sku_updates", [])
+        }
+
+        for sku_entry in model_entry.get("skus", []):
+            sku_key = sku_entry.get("sku", "")
+            sku_label = sku_entry.get("label", sku_key)
+            sku_update = sku_updates.get(sku_key, {})
+            sku_added = set(sku_update.get("added_regions", []))
+            sku_removed = set(sku_update.get("removed_regions", []))
+
+            for region in sku_entry.get("regions", []):
+                region_change = "unchanged"
+                if region in added_regions:
+                    region_change = "added"
+                sku_change = "unchanged"
+                if region in sku_added:
+                    sku_change = "added"
+
+                rows.append({
+                    "timestamp": timestamp,
+                    "update_source": update_source,
+                    "update_timestamp": update_timestamp,
+                    "scope": scope,
+                    "model": model_name,
+                    "region": region,
+                    "sku": sku_key,
+                    "sku_label": sku_label,
+                    "is_available": True,
+                    "change_status": region_change,
+                    "sku_change_status": sku_change,
+                    "model_removed": model_removed,
+                    "region_count": region_count,
+                })
+
+        # Emit removed-region rows (no SKU info available after removal)
+        for region in sorted(removed_regions):
+            if region in {r for s in model_entry.get("skus", []) for r in s.get("regions", [])}:
+                continue
+            rows.append({
+                "timestamp": timestamp,
+                "update_source": update_source,
+                "update_timestamp": update_timestamp,
+                "scope": scope,
+                "model": model_name,
+                "region": region,
+                "sku": "",
+                "sku_label": "",
+                "is_available": False,
+                "change_status": "removed",
+                "sku_change_status": "removed",
+                "model_removed": model_removed,
+                "region_count": region_count,
+            })
+
+    rows.sort(key=lambda r: (r["model"].lower(), r["sku"].lower(), r["region"].lower()))
+    return rows
+
+
 def build_summary_markdown(payload: dict) -> str:
     by_model = payload.get("views", {}).get("by_model", [])
     by_region = payload.get("views", {}).get("by_region", [])
@@ -825,6 +902,20 @@ def write_filtered_views(current: dict, changes: dict, timestamp: str) -> None:
 
         with open(f"{base_name}_summary.md", "w", encoding="utf-8") as handle:
             handle.write(summary_markdown)
+
+        # SKU-exploded flat: one row per model+region+sku (for Teams agents / BI)
+        sku_flat_payload = {
+            "timestamp": payload.get("timestamp"),
+            "updates": payload.get("updates", {}),
+            "filter": payload.get("filter", {}),
+            "count": 0,
+            "rows": [],
+        }
+        sku_flat_payload["rows"] = build_sku_flat_rows(payload)
+        sku_flat_payload["count"] = len(sku_flat_payload["rows"])
+
+        with open(f"{base_name}_sku_flat.json", "w", encoding="utf-8") as handle:
+            json.dump(sku_flat_payload, handle, indent=2, sort_keys=False)
 
 def filter_models(data: dict) -> dict:
     """Filter models based on environment variables.

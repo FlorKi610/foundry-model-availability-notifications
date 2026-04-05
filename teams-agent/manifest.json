@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "{{APP_ID}}",
+  "developer": {
+    "name": "Azure AI Model Availability",
+    "websiteUrl": "https://FlorKi610.github.io/foundry-model-availability-notifications/",
+    "privacyUrl": "https://github.com/FlorKi610/foundry-model-availability-notifications/blob/main/SECURITY.md",
+    "termsOfUseUrl": "https://github.com/FlorKi610/foundry-model-availability-notifications/blob/main/LICENSE"
+  },
+  "name": {
+    "short": "AI Model Checker",
+    "full": "Azure AI Foundry Model Availability Checker"
+  },
+  "description": {
+    "short": "Prüfe welche AI Modelle in welcher Azure Region und SKU verfügbar sind",
+    "full": "Dieser Agent hilft deutschen Account Teams schnell herauszufinden, welche Azure AI Modelle (GPT-4o, GPT-5, DeepSeek, Llama, etc.) in welcher europäischen Region und in welcher SKU-Variante (Standard, Provisioned PTU, Global Standard, Datazone, Batch) verfügbar sind. Er erkennt automatisch neue Modelle, Region-Erweiterungen und Retirements."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#0078D4",
+  "copilotAgents": {
+    "declarativeAgents": [
+      {
+        "id": "aiModelAvailabilityAgent",
+        "file": "declarativeAgent.json"
+      }
+    ]
+  },
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "raw.githubusercontent.com",
+    "github.com",
+    "FlorKi610.github.io"
+  ]
+}

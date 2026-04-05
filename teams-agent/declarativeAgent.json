@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.3/schema.json",
+  "version": "v1.3",
+  "name": "Azure AI Model Availability Agent",
+  "description": "Hilft deutschen Account Teams herauszufinden, welche Azure AI Modelle in welcher Region und welcher SKU/Deployment-Variante verfügbar sind. Erkennt neue Modelle, Retirements und Änderungen.",
+  "instructions": "$[file('instructions.md')]",
+  "conversation_starters": [
+    {
+      "title": "Modelle in Deutschland",
+      "text": "Welche AI Modelle sind aktuell in Germany West Central verfügbar?"
+    },
+    {
+      "title": "GPT-5 SKU Check",
+      "text": "In welchen SKU-Varianten ist GPT-5 in Europa verfügbar?"
+    },
+    {
+      "title": "Was ist neu?",
+      "text": "Welche neuen Modelle oder Regionen sind diese Woche dazugekommen?"
+    },
+    {
+      "title": "Provisioned PTU",
+      "text": "Welche Modelle gibt es als Provisioned (PTU) in Sweden Central?"
+    },
+    {
+      "title": "Retirement Check",
+      "text": "Welche Modelle wurden kürzlich retired oder aus Regionen entfernt?"
+    },
+    {
+      "title": "Region-Vergleich",
+      "text": "Vergleiche die Modellverfügbarkeit zwischen France Central und Germany West Central"
+    }
+  ],
+  "capabilities": [
+    {
+      "name": "OneDriveAndSharePoint",
+      "items_by_url": [
+        {
+          "url": "https://raw.githubusercontent.com/FlorKi610/foundry-model-availability-notifications/main/region_diff_europe_sku_flat.json"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/FlorKi610/foundry-model-availability-notifications/main/region_diff_europe_summary.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 name: Region watch (GitHub Markdown)
 on:
-  schedule: [{ cron: "0 */6 * * *" }]
+  schedule: [{ cron: "0 6 * * *" }]
   workflow_dispatch:
 
 permissions:
@@ -33,6 +33,8 @@ jobs:
           cat region_diff_worldwide.json
           cat region_diff_worldwide_flat.json
           cat region_diff_worldwide_summary.md
+          cat region_diff_europe_sku_flat.json
+          cat region_diff_worldwide_sku_flat.json
 
       - name: Generate diff view
         run: |
@@ -175,7 +177,7 @@ jobs:
         run: |
           git config user.email "bot@users.noreply.github.com"
           git config user.name "region-bot"
-          git add .region-watch/regions_snapshot.json .region-watch/history region_diff.json region_diff_europe.json region_diff_europe_flat.json region_diff_europe_summary.md region_diff_worldwide.json region_diff_worldwide_flat.json region_diff_worldwide_summary.md REGION_AVAILABILITY.md LATEST_CHANGES.md
+          git add .region-watch/regions_snapshot.json .region-watch/history region_diff.json region_diff_europe.json region_diff_europe_flat.json region_diff_europe_sku_flat.json region_diff_europe_summary.md region_diff_worldwide.json region_diff_worldwide_flat.json region_diff_worldwide_sku_flat.json region_diff_worldwide_summary.md REGION_AVAILABILITY.md LATEST_CHANGES.md
           git diff --cached --quiet || git commit -m "Update region snapshot"
           git push
 

@@ -62,6 +62,10 @@ app.get('/api/europe/flat', (_req, res) => {
   res.json(service.loadEuropeFlatPayload());
 });
 
+app.get('/api/europe/sku-flat', (_req, res) => {
+  res.json(service.loadEuropeSkuFlatPayload());
+});
+
 app.get('/api/europe/summary', (req, res) => {
   const payload = service.loadEuropeSummaryPayload();
 
@@ -79,6 +83,10 @@ app.get('/api/worldwide/latest', (_req, res) => {
 
 app.get('/api/worldwide/flat', (_req, res) => {
   res.json(service.loadWorldwideFlatPayload());
+});
+
+app.get('/api/worldwide/sku-flat', (_req, res) => {
+  res.json(service.loadWorldwideSkuFlatPayload());
 });
 
 app.get('/api/worldwide/summary', (req, res) => {
