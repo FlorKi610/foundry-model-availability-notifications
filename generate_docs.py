@@ -1451,92 +1451,58 @@ _Last updated: {datetime.utcnow():%Y-%m-%d %H:%M UTC}_
 """
 
 
-def generate_agent_europe_page(
+def generate_agent_region_page(
+    region: str,
     model_regions: Dict[str, Set[str]],
     model_region_skus: Dict[str, Dict[str, List[str]]],
-    model_sku_regions: Dict[str, Dict[str, List[str]]],
+    change_map: Dict[str, Dict],
+    timestamp: str,
 ) -> str:
-    """Generate a flat, crawlable page with all Europe SKU availability for Copilot Studio agents."""
+    """Generate a per-region page listing all models and SKUs for Copilot Studio agents."""
 
-    eu_regions = sorted([
-        "Finland Central", "France Central", "France South", "Germany North",
-        "Germany West Central", "Italy North", "Netherlands West", "North Europe",
-        "Norway East", "Norway West", "Poland Central", "Spain Central",
-        "Sweden Central", "Sweden South", "Switzerland North", "Switzerland West",
-        "UK South", "UK West", "West Europe",
-    ])
-
-    diff_path = HERE / "region_diff_europe.json"
-    change_map: Dict[str, Dict] = {}
-    timestamp = ""
-    if diff_path.exists():
-        diff_data = json.loads(diff_path.read_text("utf-8"))
-        timestamp = diff_data.get("timestamp", "")
-        for entry in diff_data.get("views", {}).get("by_model", []):
-            change_map[entry["model"]] = entry.get("updates", {})
+    models_here = sorted(
+        [m for m in model_regions if region in model_regions[m]],
+        key=str.lower,
+    )
 
     lines = [
-        "# Europa: Modell × Region × SKU Verfügbarkeit",
+        f"# {region} — Alle verfügbaren AI Modelle",
         "",
-        f"Stand: {timestamp}" if timestamp else "",
+        f"Stand: {timestamp}",
         "",
-        "Diese Seite enthält alle Azure AI Modelle mit ihren SKU-Varianten und Regionen in Europa.",
-        "Sie wird täglich automatisch aktualisiert.",
+        f"In **{region}** sind aktuell **{len(models_here)} Modelle** verfügbar.",
+        "Jede Zeile zeigt ein Modell mit seiner SKU-Variante (Deployment-Typ).",
         "",
         "---",
         "",
-        "## Alle Modelle nach SKU und Region",
+        "## Modelle und SKU-Varianten",
         "",
-        "| Modell | Region | SKU Variante | Status |",
-        "| --- | --- | --- | --- |",
+        "| Modell | SKU Variante | Status |",
+        "| --- | --- | --- |",
     ]
 
-    for model in sorted(model_regions.keys(), key=str.lower):
+    for model in models_here:
         updates = change_map.get(model, {})
         added_regions = set(updates.get("added_regions", []))
-        removed_regions = set(updates.get("removed_regions", []))
         is_model_removed = updates.get("model_removed", False)
 
-        for region in eu_regions:
-            if region not in model_region_skus.get(model, {}):
-                continue
-            sku_labels = model_region_skus[model][region]
-            for sku in sorted(sku_labels):
-                normalized = SKU_LABEL_NORMALIZATION.get(sku, sku)
-                status = "Verfügbar"
-                if is_model_removed:
-                    status = "Retired"
-                elif region in added_regions:
-                    status = "Neu"
-                lines.append(f"| {model} | {region} | {normalized} | {status} |")
+        sku_labels = model_region_skus.get(model, {}).get(region, [])
+        for sku in sorted(sku_labels):
+            normalized = SKU_LABEL_NORMALIZATION.get(sku, sku)
+            status = "Verfügbar"
+            if is_model_removed:
+                status = "Retired"
+            elif region in added_regions:
+                status = "Neu"
+            datazone_marker = "🔒 " if "datazone" in normalized.lower() or "data zone" in normalized.lower() else ""
+            lines.append(f"| {model} | {datazone_marker}{normalized} | {status} |")
 
-        for region in sorted(removed_regions):
-            if region not in eu_regions:
-                continue
-            if region in model_region_skus.get(model, {}):
-                continue
-            lines.append(f"| {model} | {region} | — | Entfernt |")
-
-    lines += [
-        "",
-        "---",
-        "",
-        "## Modelle pro Region",
-        "",
-        "| Region | Anzahl Modelle | Modelle |",
-        "| --- | ---: | --- |",
-    ]
-
-    for region in eu_regions:
-        models_in_region = sorted(
-            [m for m in model_regions if region in model_regions[m]],
-            key=str.lower,
-        )
-        if models_in_region:
-            model_list = ", ".join(models_in_region[:15])
-            if len(models_in_region) > 15:
-                model_list += f" (+{len(models_in_region) - 15} weitere)"
-            lines.append(f"| {region} | {len(models_in_region)} | {model_list} |")
+    # Removed models
+    for model in sorted(model_regions.keys(), key=str.lower):
+        updates = change_map.get(model, {})
+        removed_regions = set(updates.get("removed_regions", []))
+        if region in removed_regions and region not in model_regions.get(model, set()):
+            lines.append(f"| {model} | — | Entfernt |")
 
     lines += [
         "",
@@ -1544,21 +1510,63 @@ def generate_agent_europe_page(
         "",
         "## SKU-Varianten erklärt",
         "",
-        "| SKU Variante | Kategorie | Beschreibung | Geeignet für |",
-        "| --- | --- | --- | --- |",
-        "| Standard | Standard | Pay-as-you-go, regionale Bereitstellung | Variable Workloads, Prototyping |",
-        "| Global Standard | Global | Globales Routing, pay-per-token | Foundry-Modelle (Cohere, DeepSeek, Llama) |",
-        "| Provisioned (PTU managed) | Provisioned | Reservierte Kapazität, garantierter Durchsatz | Enterprise-Workloads mit SLA |",
-        "| Provisioned global | Provisioned | PTU mit globalem Routing | Enterprise + globale Verfügbarkeit |",
-        "| Global Provisioned Managed | Provisioned | MaaS mit reservierter Kapazität | Foundry-Modelle mit garantiertem Durchsatz |",
-        "| Datazone standard | Datazone | Standard mit EU-Datenresidenz | DSGVO-sensitive Workloads |",
-        "| Datazone provisioned managed | Datazone | PTU mit EU-Datenresidenz | Enterprise EU mit Durchsatzgarantie |",
-        "| Global batch | Batch | Batch-Verarbeitung, kostengünstig | Große Datenmengen, nicht Echtzeit |",
-        "| Global batch datazone | Batch | Batch mit Datenzone | Batch + Data Residency |",
+        "| SKU Variante | Beschreibung |",
+        "| --- | --- |",
+        "| Standard | Pay-as-you-go, regionale Bereitstellung |",
+        "| Global Standard | Globales Routing, pay-per-token, für Foundry-Modelle |",
+        "| Standard global deployments | Globales Routing, Azure-managed |",
+        "| Standard Global Priority Processing | Priority-Routing mit höherer Durchsatz-Garantie |",
+        "| Provisioned (PTU managed) | Reservierte Kapazität, garantierter Durchsatz |",
+        "| Provisioned global | PTU mit globalem Routing |",
+        "| Global Provisioned Managed | MaaS-Modelle mit reservierter Kapazität |",
+        "| 🔒 Datazone standard | Standard mit EU-Datenresidenz (DSGVO) |",
+        "| 🔒 Datazone provisioned managed | PTU mit EU-Datenresidenz |",
+        "| 🔒 Data Zone Standard | Datenzone Standard (EU Data Residency) |",
+        "| Global batch | Batch-Verarbeitung, kostengünstig |",
+        "| Global batch datazone | Batch mit Datenzone |",
+        "| Global coverage | Globale Abdeckung, Standard-Routing |",
+        "",
+        "⚠️ Provisioned (PTU) erfordert vorab reservierte Kapazität.",
+        "🔒 Datazone = Daten bleiben in der EU-Datenzone (DSGVO-konform).",
         "",
         "---",
         "",
-        "*Datenquelle: [Azure AI Docs](https://learn.microsoft.com/azure/ai-services/openai/concepts/models) — automatisiert gescannt.*",
+        f"*Datenquelle: Azure AI Docs — automatisiert gescannt. {len(models_here)} Modelle in {region}.*",
+        "",
+    ]
+
+    return "\n".join(lines)
+
+
+def generate_agent_europe_index(
+    model_regions: Dict[str, Set[str]],
+    eu_regions: List[str],
+    timestamp: str,
+) -> str:
+    """Generate an index page linking to all per-region agent pages."""
+
+    lines = [
+        "# Europa: AI Modell-Verfügbarkeit nach Region",
+        "",
+        f"Stand: {timestamp}",
+        "",
+        "Wähle eine Region um alle verfügbaren Modelle mit SKU-Varianten zu sehen.",
+        "",
+        "| Region | Anzahl Modelle | Link |",
+        "| --- | ---: | --- |",
+    ]
+
+    for region in eu_regions:
+        count = sum(1 for m in model_regions if region in model_regions[m])
+        slug = region.lower().replace(" ", "-")
+        if count > 0:
+            lines.append(f"| {region} | {count} | [Alle Modelle anzeigen](../agent-region-{slug}/) |")
+
+    lines += [
+        "",
+        "---",
+        "",
+        "*Täglich automatisch aktualisiert via GitHub Actions.*",
         "",
     ]
 
@@ -1756,8 +1764,33 @@ def main():
         "by-sku.md": generate_by_sku_page(model_regions, model_sku_regions, all_labels, all_regions),
         "history.md": generate_history_page(history),
         "retirements.md": generate_retirements_page(retirement_data, model_regions_normalized),
-        "agent-europe.md": generate_agent_europe_page(model_regions, model_region_skus, model_sku_regions),
     }
+
+    # Generate per-region agent pages for Copilot Studio
+    eu_regions = sorted([
+        "Finland Central", "France Central", "France South", "Germany North",
+        "Germany West Central", "Italy North", "Netherlands West", "North Europe",
+        "Norway East", "Norway West", "Poland Central", "Spain Central",
+        "Sweden Central", "Sweden South", "Switzerland North", "Switzerland West",
+        "UK South", "UK West", "West Europe",
+    ])
+
+    diff_path = HERE / "region_diff_europe.json"
+    change_map: Dict[str, Dict] = {}
+    agent_timestamp = ""
+    if diff_path.exists():
+        diff_data = json.loads(diff_path.read_text("utf-8"))
+        agent_timestamp = diff_data.get("timestamp", "")
+        for entry in diff_data.get("views", {}).get("by_model", []):
+            change_map[entry["model"]] = entry.get("updates", {})
+
+    pages["agent-europe.md"] = generate_agent_europe_index(model_regions, eu_regions, agent_timestamp)
+
+    for region in eu_regions:
+        slug = region.lower().replace(" ", "-")
+        pages[f"agent-region-{slug}.md"] = generate_agent_region_page(
+            region, model_regions, model_region_skus, change_map, agent_timestamp,
+        )
     
     for filename, content in pages.items():
         path = DOCS_DIR / filename

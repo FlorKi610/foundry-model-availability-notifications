@@ -159,4 +159,18 @@ nav:
   - By SKU Type: by-sku.md
   - Retirements: retirements.md
   - Change History: history.md
-  - Europa SKU Übersicht (Agent): agent-europe.md
+  - Europa SKU Übersicht (Agent):
+    - Regionen: agent-europe.md
+    - France Central: agent-region-france-central.md
+    - Germany West Central: agent-region-germany-west-central.md
+    - Italy North: agent-region-italy-north.md
+    - Norway East: agent-region-norway-east.md
+    - Poland Central: agent-region-poland-central.md
+    - Spain Central: agent-region-spain-central.md
+    - Sweden Central: agent-region-sweden-central.md
+    - Switzerland North: agent-region-switzerland-north.md
+    - Switzerland West: agent-region-switzerland-west.md
+    - UK South: agent-region-uk-south.md
+    - West Europe: agent-region-west-europe.md
+    - North Europe: agent-region-north-europe.md
+    - Finland Central: agent-region-finland-central.md
