@@ -1,6 +1,6 @@
 # gpt-4o-mini-transcribe
 
-<span class="badge badge-emerging">Emerging</span> Available in **5** of 32 regions
+<span class="badge badge-emerging">Emerging</span> Available in **5** of 31 regions
 
 
 !!! warning "Retirement Notice"
@@ -69,4 +69,4 @@ This table shows exactly which SKU types are available in each region.
 
 [← Back to All Models](index.md)
 
-_Last updated: 2026-03-11 11:51 UTC_
+_Last updated: 2026-04-05 21:29 UTC_

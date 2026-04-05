@@ -1,6 +1,6 @@
-# gpt-realtime-1.5
+# MAI-Image-2
 
-<span class="badge badge-emerging">Emerging</span> Available in **5** of 31 regions
+<span class="badge badge-emerging">Emerging</span> Available in **6** of 31 regions
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Regions | 5 |
-| Coverage | 16% |
+| Total Regions | 6 |
+| Coverage | 19% |
 | SKU Types | 2 |
 | Categories | Global |
 
@@ -24,12 +24,12 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Global Standard | 5 | 16% |
-| Global coverage | 5 | 16% |
+| Global Standard | 6 | 19% |
+| Global coverage | 6 | 19% |
 
 **Available Regions:**
 
-`Canada Central`, `Central US`, `East US 2`, `France Central`, `Sweden Central`
+`East US`, `South India`, `Sweden Central`, `West Central US`, `West Europe`, `West US`
 
 
 ---
@@ -44,11 +44,12 @@ This table shows exactly which SKU types are available in each region.
 <tr><th>Region</th><th>Global Standard</th><th>Global coverage</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Canada Central</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
-<tr><td><strong>Central US</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
-<tr><td><strong>East US 2</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
-<tr><td><strong>France Central</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
+<tr><td><strong>East US</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
+<tr><td><strong>South India</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 <tr><td><strong>Sweden Central</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
+<tr><td><strong>West Central US</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
+<tr><td><strong>West Europe</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
+<tr><td><strong>West US</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 </tbody>
 </table>
 </div>

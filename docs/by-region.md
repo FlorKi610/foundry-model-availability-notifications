@@ -8,7 +8,7 @@ Find which AI models are available in your Azure region, including their deploym
 
 <div class="stats-cards">
   <div class="stat-card">
-    <div class="stat-value">32</div>
+    <div class="stat-value">31</div>
     <div class="stat-label">Regions</div>
   </div>
   <div class="stat-card">
@@ -16,7 +16,7 @@ Find which AI models are available in your Azure region, including their deploym
     <div class="stat-label">Models</div>
   </div>
   <div class="stat-card">
-    <div class="stat-value">1624</div>
+    <div class="stat-value">1634</div>
     <div class="stat-label">Deployments</div>
   </div>
 </div>
@@ -46,7 +46,6 @@ Find which AI models are available in your Azure region, including their deploym
       <option value="North Central US">North Central US</option>
       <option value="Norway East">Norway East</option>
       <option value="Poland Central">Poland Central</option>
-      <option value="Qatar Central">Qatar Central</option>
       <option value="South Africa North">South Africa North</option>
       <option value="South Central US">South Central US</option>
       <option value="South India">South India</option>
@@ -157,13 +156,13 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Australia East</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Australia East</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -182,18 +181,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Australia East</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Australia East</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Australia East</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -224,8 +211,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Australia East</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Australia East</strong></td>
@@ -283,9 +270,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Australia East</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Australia East</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Australia East</strong></td>
@@ -308,8 +301,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Australia East</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Australia East</strong></td>
@@ -325,6 +318,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Australia East</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Global, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>Australia East</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Australia East</strong></td>
       <td><a href="../models/grok-3/">grok-3</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -337,6 +342,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Australia East</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Australia East</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Australia East</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -344,18 +361,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Australia East</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Australia East</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Australia East</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -475,13 +480,13 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Brazil South</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Brazil South</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -500,18 +505,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Brazil South</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Brazil South</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Brazil South</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -536,8 +529,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Brazil South</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Brazil South</strong></td>
@@ -595,9 +588,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Brazil South</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Brazil South</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Brazil South</strong></td>
@@ -620,8 +619,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Brazil South</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Brazil South</strong></td>
@@ -637,6 +636,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Brazil South</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Global, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>Brazil South</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Brazil South</strong></td>
       <td><a href="../models/grok-3/">grok-3</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -649,6 +660,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Brazil South</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Brazil South</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Brazil South</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -656,18 +679,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Brazil South</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Brazil South</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Brazil South</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -787,13 +798,13 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Canada Central</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Canada Central</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -812,18 +823,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Canada Central</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Canada Central</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Canada Central</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -848,32 +847,32 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Canada Central</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Canada Central</strong></td>
       <td><a href="../models/gpt-4-1-mini/">gpt-4.1-mini</a></td>
       <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global coverage, Provisioned global</td>
     </tr>
     <tr>
       <td><strong>Canada Central</strong></td>
       <td><a href="../models/gpt-4-1-nano/">gpt-4.1-nano</a></td>
       <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global coverage, Provisioned global</td>
     </tr>
     <tr>
       <td><strong>Canada Central</strong></td>
       <td><a href="../models/gpt-4o/">gpt-4o</a></td>
       <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global coverage, Provisioned (PTU managed), Provisioned global</td>
     </tr>
     <tr>
       <td><strong>Canada Central</strong></td>
       <td><a href="../models/gpt-4o-mini/">gpt-4o-mini</a></td>
       <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global coverage, Provisioned (PTU managed), Provisioned global</td>
     </tr>
     <tr>
       <td><strong>Canada Central</strong></td>
@@ -919,9 +918,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Canada Central</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Canada Central</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Canada Central</strong></td>
@@ -944,8 +949,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Canada Central</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Canada Central</strong></td>
@@ -958,6 +963,18 @@ Find which AI models are available in your Azure region, including their deploym
       <td><a href="../models/gpt-5-3-codex/">gpt-5.3-codex</a></td>
       <td>Global, Provisioned</td>
       <td>Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>Canada Central</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Global, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>Canada Central</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Canada Central</strong></td>
@@ -991,6 +1008,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Canada Central</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Canada Central</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Canada Central</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -998,18 +1027,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Canada Central</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Canada Central</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Canada Central</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -1111,13 +1128,13 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Canada East</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Canada East</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -1136,18 +1153,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Canada East</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Canada East</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Canada East</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -1172,8 +1177,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Canada East</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Canada East</strong></td>
@@ -1231,9 +1236,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Canada East</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Canada East</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Canada East</strong></td>
@@ -1256,8 +1267,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Canada East</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Canada East</strong></td>
@@ -1273,6 +1284,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Canada East</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Global, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>Canada East</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Canada East</strong></td>
       <td><a href="../models/grok-3/">grok-3</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -1285,6 +1308,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Canada East</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Canada East</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Canada East</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -1292,18 +1327,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Canada East</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Canada East</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Canada East</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -1423,15 +1446,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Central US</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Central US</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Central US</strong></td>
@@ -1448,18 +1471,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Central US</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Central US</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Central US</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -1490,8 +1501,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Central US</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone Standard Priority Processing, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Central US</strong></td>
@@ -1574,8 +1585,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Central US</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned, Standard</td>
+      <td>Datazone Standard Priority Processing, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global, Standard, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Central US</strong></td>
@@ -1598,8 +1609,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Central US</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone standard, Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone Standard Priority Processing, Datazone standard, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Central US</strong></td>
@@ -1610,8 +1621,20 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Central US</strong></td>
       <td><a href="../models/gpt-5-3-codex/">gpt-5.3-codex</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Provisioned</td>
+      <td>Datazone standard, Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>Central US</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone Standard Priority Processing, Datazone standard, Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>Central US</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Central US</strong></td>
@@ -1663,6 +1686,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Central US</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Central US</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Central US</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
@@ -1672,18 +1707,6 @@ Find which AI models are available in your Azure region, including their deploym
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Central US</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Central US</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Central US</strong></td>
@@ -1807,15 +1830,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>East US</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>East US</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>East US</strong></td>
@@ -1837,13 +1860,7 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>East US</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>East US</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
+      <td><a href="../models/mai-image-2/">MAI-Image-2</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -1874,8 +1891,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>East US</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Datazone, Global, Provisioned, Standard</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard</td>
+      <td>Datazone, Global, Other, Provisioned, Standard</td>
+      <td>Datazone Standard Priority Processing, Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>East US</strong></td>
@@ -1900,12 +1917,6 @@ Find which AI models are available in your Azure region, including their deploym
       <td><a href="../models/gpt-4o-mini/">gpt-4o-mini</a></td>
       <td>Datazone, Global, Provisioned, Standard</td>
       <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard</td>
-    </tr>
-    <tr>
-      <td><strong>East US</strong></td>
-      <td><a href="../models/gpt-4o-mini-audio-preview/">gpt-4o-mini-audio-preview</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>East US</strong></td>
@@ -1939,9 +1950,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>East US</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>East US</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned, Standard</td>
+      <td>Datazone Standard Priority Processing, Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global, Standard, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>East US</strong></td>
@@ -1964,8 +1981,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>East US</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone Standard Priority Processing, Datazone provisioned managed, Datazone standard, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>East US</strong></td>
@@ -1976,8 +1993,20 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>East US</strong></td>
       <td><a href="../models/gpt-5-3-codex/">gpt-5.3-codex</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Provisioned</td>
+      <td>Datazone standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>East US</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone Standard Priority Processing, Datazone provisioned managed, Datazone standard, Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>East US</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>East US</strong></td>
@@ -1993,6 +2022,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>East US</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>East US</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>East US</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
@@ -2002,18 +2043,6 @@ Find which AI models are available in your Azure region, including their deploym
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>East US</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>East US</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>East US</strong></td>
@@ -2131,15 +2160,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>East US 2</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>East US 2</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>East US 2</strong></td>
@@ -2156,18 +2185,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>East US 2</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>East US 2</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>East US 2</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -2227,27 +2244,9 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>East US 2</strong></td>
-      <td><a href="../models/gpt-4o-audio-preview/">gpt-4o-audio-preview</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>East US 2</strong></td>
       <td><a href="../models/gpt-4o-mini/">gpt-4o-mini</a></td>
       <td>Datazone, Global, Provisioned, Standard</td>
       <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard</td>
-    </tr>
-    <tr>
-      <td><strong>East US 2</strong></td>
-      <td><a href="../models/gpt-4o-mini-audio-preview/">gpt-4o-mini-audio-preview</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>East US 2</strong></td>
-      <td><a href="../models/gpt-4o-mini-realtime-preview/">gpt-4o-mini-realtime-preview</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>East US 2</strong></td>
@@ -2258,12 +2257,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>East US 2</strong></td>
       <td><a href="../models/gpt-4o-mini-tts/">gpt-4o-mini-tts</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>East US 2</strong></td>
-      <td><a href="../models/gpt-4o-realtime-preview/">gpt-4o-realtime-preview</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -2318,8 +2311,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>East US 2</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Provisioned, Standard</td>
+      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global, Standard</td>
     </tr>
     <tr>
       <td><strong>East US 2</strong></td>
@@ -2372,12 +2365,24 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>East US 2</strong></td>
       <td><a href="../models/gpt-5-3-codex/">gpt-5.3-codex</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Provisioned</td>
+      <td>Datazone standard, Global Standard, Global coverage, Provisioned global</td>
     </tr>
     <tr>
       <td><strong>East US 2</strong></td>
       <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Datazone, Global, Provisioned</td>
+      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>East US 2</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>East US 2</strong></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
@@ -2455,6 +2460,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>East US 2</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>East US 2</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>East US 2</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
@@ -2464,18 +2481,6 @@ Find which AI models are available in your Azure region, including their deploym
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>East US 2</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>East US 2</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>East US 2</strong></td>
@@ -2529,7 +2534,7 @@ Find which AI models are available in your Azure region, including their deploym
       <td><strong>East US 2</strong></td>
       <td><a href="../models/sora/">sora</a></td>
       <td>Global, Standard</td>
-      <td>Global Standard, Global coverage, Standard</td>
+      <td>Global coverage, Standard</td>
     </tr>
     <tr>
       <td><strong>East US 2</strong></td>
@@ -2623,15 +2628,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>France Central</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>France Central</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>France Central</strong></td>
@@ -2648,18 +2653,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>France Central</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>France Central</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>France Central</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -2684,8 +2677,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>France Central</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>France Central</strong></td>
@@ -2761,9 +2754,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>France Central</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>France Central</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>France Central</strong></td>
@@ -2786,8 +2785,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>France Central</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>France Central</strong></td>
@@ -2800,6 +2799,18 @@ Find which AI models are available in your Azure region, including their deploym
       <td><a href="../models/gpt-5-3-codex/">gpt-5.3-codex</a></td>
       <td>Global, Provisioned</td>
       <td>Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>France Central</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Datazone, Global, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>France Central</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>France Central</strong></td>
@@ -2833,6 +2844,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>France Central</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>France Central</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>France Central</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -2840,18 +2863,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>France Central</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>France Central</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>France Central</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -2971,15 +2982,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Germany West Central</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Germany West Central</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Germany West Central</strong></td>
@@ -2996,18 +3007,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Germany West Central</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Germany West Central</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Germany West Central</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -3032,8 +3031,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Germany West Central</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Germany West Central</strong></td>
@@ -3091,9 +3090,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Germany West Central</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Germany West Central</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global batch, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global batch, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Germany West Central</strong></td>
@@ -3116,8 +3121,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Germany West Central</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Germany West Central</strong></td>
@@ -3133,6 +3138,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Germany West Central</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Datazone, Global, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>Germany West Central</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Germany West Central</strong></td>
       <td><a href="../models/grok-3/">grok-3</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -3145,6 +3162,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Germany West Central</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Germany West Central</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Germany West Central</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -3152,18 +3181,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Germany West Central</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Germany West Central</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Germany West Central</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -3283,15 +3300,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Italy North</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Italy North</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Italy North</strong></td>
@@ -3308,18 +3325,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Italy North</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Italy North</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Italy North</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -3344,8 +3349,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Italy North</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Italy North</strong></td>
@@ -3403,9 +3408,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Italy North</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Italy North</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Italy North</strong></td>
@@ -3428,8 +3439,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Italy North</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Italy North</strong></td>
@@ -3445,6 +3456,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Italy North</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Datazone, Global, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>Italy North</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Italy North</strong></td>
       <td><a href="../models/grok-3/">grok-3</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -3457,6 +3480,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Italy North</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Italy North</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Italy North</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -3464,18 +3499,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Italy North</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Italy North</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Italy North</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -3595,13 +3618,13 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Japan East</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Japan East</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -3620,18 +3643,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Japan East</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Japan East</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Japan East</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -3656,8 +3667,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Japan East</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Japan East</strong></td>
@@ -3705,7 +3716,7 @@ Find which AI models are available in your Azure region, including their deploym
       <td><strong>Japan East</strong></td>
       <td><a href="../models/gpt-5-mini/">gpt-5-mini</a></td>
       <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
     </tr>
     <tr>
       <td><strong>Japan East</strong></td>
@@ -3715,9 +3726,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Japan East</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Japan East</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Japan East</strong></td>
@@ -3740,8 +3757,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Japan East</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Japan East</strong></td>
@@ -3757,6 +3774,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Japan East</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Global, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>Japan East</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Japan East</strong></td>
       <td><a href="../models/grok-3/">grok-3</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -3769,6 +3798,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Japan East</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Japan East</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Japan East</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -3776,18 +3817,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Japan East</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Japan East</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Japan East</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -3907,13 +3936,13 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Japan West</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Japan West</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -3932,18 +3961,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Japan West</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Japan West</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Japan West</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -3979,6 +3996,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Japan West</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Japan West</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Japan West</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -3986,18 +4015,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Japan West</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Japan West</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Japan West</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -4075,13 +4092,13 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Korea Central</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Korea Central</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -4100,18 +4117,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Korea Central</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Korea Central</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Korea Central</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -4136,8 +4141,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Korea Central</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Korea Central</strong></td>
@@ -4195,9 +4200,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Korea Central</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Korea Central</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Korea Central</strong></td>
@@ -4220,8 +4231,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Korea Central</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Korea Central</strong></td>
@@ -4237,6 +4248,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Korea Central</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Global, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>Korea Central</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Korea Central</strong></td>
       <td><a href="../models/grok-3/">grok-3</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -4249,6 +4272,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Korea Central</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Korea Central</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Korea Central</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -4256,18 +4291,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Korea Central</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Korea Central</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Korea Central</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -4387,15 +4410,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>North Central US</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>North Central US</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>North Central US</strong></td>
@@ -4412,18 +4435,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>North Central US</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>North Central US</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>North Central US</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -4448,8 +4459,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>North Central US</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Datazone, Global, Provisioned, Standard</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard</td>
+      <td>Datazone, Global, Other, Provisioned, Standard</td>
+      <td>Datazone Standard Priority Processing, Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>North Central US</strong></td>
@@ -4507,9 +4518,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>North Central US</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>North Central US</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned, Standard</td>
+      <td>Datazone Standard Priority Processing, Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global, Standard, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>North Central US</strong></td>
@@ -4532,8 +4549,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>North Central US</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone Standard Priority Processing, Datazone provisioned managed, Datazone standard, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>North Central US</strong></td>
@@ -4544,8 +4561,20 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>North Central US</strong></td>
       <td><a href="../models/gpt-5-3-codex/">gpt-5.3-codex</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Provisioned</td>
+      <td>Datazone standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>North Central US</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone Standard Priority Processing, Datazone provisioned managed, Datazone standard, Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>North Central US</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>North Central US</strong></td>
@@ -4561,6 +4590,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>North Central US</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>North Central US</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>North Central US</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
@@ -4570,18 +4611,6 @@ Find which AI models are available in your Azure region, including their deploym
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>North Central US</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>North Central US</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>North Central US</strong></td>
@@ -4706,24 +4735,24 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Norway East</strong></td>
       <td><a href="../models/flux-1-1-pro/">FLUX-1.1-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Norway East</strong></td>
       <td><a href="../models/flux-1-kontext-pro/">FLUX.1-Kontext-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Norway East</strong></td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Norway East</strong></td>
       <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Norway East</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -4747,21 +4776,9 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Norway East</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Norway East</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Norway East</strong></td>
       <td><a href="../models/mistral-large-3/">Mistral-Large-3</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Norway East</strong></td>
@@ -4778,8 +4795,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Norway East</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Norway East</strong></td>
@@ -4837,9 +4854,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Norway East</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Norway East</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Norway East</strong></td>
@@ -4862,8 +4885,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Norway East</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Norway East</strong></td>
@@ -4879,6 +4902,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Norway East</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Global, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>Norway East</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Norway East</strong></td>
       <td><a href="../models/grok-3/">grok-3</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -4886,6 +4921,18 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Norway East</strong></td>
       <td><a href="../models/grok-3-mini/">grok-3-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Norway East</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Norway East</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -4903,27 +4950,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Norway East</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Norway East</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Norway East</strong></td>
       <td><a href="../models/mistral-document-ai-2505/">mistral-document-ai-2505</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Norway East</strong></td>
       <td><a href="../models/mistral-document-ai-2512/">mistral-document-ai-2512</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Norway East</strong></td>
@@ -5041,15 +5076,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Poland Central</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Poland Central</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Poland Central</strong></td>
@@ -5066,18 +5101,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Poland Central</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Poland Central</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Poland Central</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -5102,8 +5125,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Poland Central</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Poland Central</strong></td>
@@ -5161,9 +5184,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Poland Central</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Poland Central</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global batch, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global batch, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Poland Central</strong></td>
@@ -5186,8 +5215,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Poland Central</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Poland Central</strong></td>
@@ -5204,6 +5233,18 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Poland Central</strong></td>
       <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
+    </tr>
+    <tr>
+      <td><strong>Poland Central</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Poland Central</strong></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -5245,6 +5286,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Poland Central</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Poland Central</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Poland Central</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -5252,18 +5305,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Poland Central</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Poland Central</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Poland Central</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -5322,102 +5363,6 @@ Find which AI models are available in your Azure region, including their deploym
       <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
-      <td><strong>Qatar Central</strong></td>
-      <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
-    </tr>
-    <tr>
-      <td><strong>Qatar Central</strong></td>
-      <td><a href="../models/gpt-4-1-mini/">gpt-4.1-mini</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
-    </tr>
-    <tr>
-      <td><strong>Qatar Central</strong></td>
-      <td><a href="../models/gpt-4-1-nano/">gpt-4.1-nano</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
-    </tr>
-    <tr>
-      <td><strong>Qatar Central</strong></td>
-      <td><a href="../models/gpt-4o/">gpt-4o</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
-    </tr>
-    <tr>
-      <td><strong>Qatar Central</strong></td>
-      <td><a href="../models/gpt-4o-mini/">gpt-4o-mini</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
-    </tr>
-    <tr>
-      <td><strong>Qatar Central</strong></td>
-      <td><a href="../models/gpt-5/">gpt-5</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
-    </tr>
-    <tr>
-      <td><strong>Qatar Central</strong></td>
-      <td><a href="../models/gpt-5-mini/">gpt-5-mini</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
-    </tr>
-    <tr>
-      <td><strong>Qatar Central</strong></td>
-      <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
-    </tr>
-    <tr>
-      <td><strong>Qatar Central</strong></td>
-      <td><a href="../models/gpt-5-1-codex/">gpt-5.1-codex</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
-    </tr>
-    <tr>
-      <td><strong>Qatar Central</strong></td>
-      <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
-    </tr>
-    <tr>
-      <td><strong>Qatar Central</strong></td>
-      <td><a href="../models/gpt-5-2-codex/">gpt-5.2-codex</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
-    </tr>
-    <tr>
-      <td><strong>Qatar Central</strong></td>
-      <td><a href="../models/gpt-5-3-codex/">gpt-5.3-codex</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
-    </tr>
-    <tr>
-      <td><strong>Qatar Central</strong></td>
-      <td><a href="../models/o1/">o1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
-    </tr>
-    <tr>
-      <td><strong>Qatar Central</strong></td>
-      <td><a href="../models/o3/">o3</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
-    </tr>
-    <tr>
-      <td><strong>Qatar Central</strong></td>
-      <td><a href="../models/o3-mini/">o3-mini</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
-    </tr>
-    <tr>
-      <td><strong>Qatar Central</strong></td>
-      <td><a href="../models/o4-mini/">o4-mini</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
-    </tr>
-    <tr>
       <td><strong>South Africa North</strong></td>
       <td><a href="../models/cohere-rerank-v4-0-fast/">Cohere-rerank-v4.0-fast</a></td>
       <td>Global</td>
@@ -5479,13 +5424,13 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>South Africa North</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>South Africa North</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -5504,18 +5449,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>South Africa North</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>South Africa North</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>South Africa North</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -5540,8 +5473,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>South Africa North</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>South Africa North</strong></td>
@@ -5599,9 +5532,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>South Africa North</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>South Africa North</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>South Africa North</strong></td>
@@ -5624,8 +5563,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>South Africa North</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>South Africa North</strong></td>
@@ -5641,6 +5580,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>South Africa North</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Global, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>South Africa North</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>South Africa North</strong></td>
       <td><a href="../models/grok-3/">grok-3</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -5653,6 +5604,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>South Africa North</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>South Africa North</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>South Africa North</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -5660,18 +5623,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>South Africa North</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>South Africa North</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>South Africa North</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -5791,15 +5742,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>South Central US</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>South Central US</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>South Central US</strong></td>
@@ -5816,18 +5767,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>South Central US</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>South Central US</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>South Central US</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -5852,8 +5791,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>South Central US</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Datazone, Global, Provisioned, Standard</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard</td>
+      <td>Datazone, Global, Other, Provisioned, Standard</td>
+      <td>Datazone Standard Priority Processing, Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>South Central US</strong></td>
@@ -5911,9 +5850,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>South Central US</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>South Central US</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned, Standard</td>
+      <td>Datazone Standard Priority Processing, Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global, Standard, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>South Central US</strong></td>
@@ -5936,8 +5881,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>South Central US</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone Standard Priority Processing, Datazone provisioned managed, Datazone standard, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>South Central US</strong></td>
@@ -5948,14 +5893,26 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>South Central US</strong></td>
       <td><a href="../models/gpt-5-3-codex/">gpt-5.3-codex</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Provisioned</td>
+      <td>Datazone standard, Global Standard, Global coverage, Provisioned global</td>
     </tr>
     <tr>
       <td><strong>South Central US</strong></td>
       <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone Standard Priority Processing, Datazone provisioned managed, Datazone standard, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
+    </tr>
+    <tr>
+      <td><strong>South Central US</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>South Central US</strong></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>South Central US</strong></td>
@@ -5977,6 +5934,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>South Central US</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>South Central US</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>South Central US</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
@@ -5986,18 +5955,6 @@ Find which AI models are available in your Azure region, including their deploym
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>South Central US</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>South Central US</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>South Central US</strong></td>
@@ -6115,13 +6072,13 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>South India</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>South India</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -6145,13 +6102,7 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>South India</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>South India</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
+      <td><a href="../models/mai-image-2/">MAI-Image-2</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -6182,8 +6133,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>South India</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>South India</strong></td>
@@ -6241,9 +6192,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>South India</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>South India</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>South India</strong></td>
@@ -6266,8 +6223,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>South India</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>South India</strong></td>
@@ -6283,6 +6240,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>South India</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Global, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>South India</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>South India</strong></td>
       <td><a href="../models/grok-3/">grok-3</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -6295,6 +6264,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>South India</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>South India</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>South India</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -6302,18 +6283,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>South India</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>South India</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>South India</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -6380,8 +6349,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Southeast Asia</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Southeast Asia</strong></td>
@@ -6399,13 +6368,13 @@ Find which AI models are available in your Azure region, including their deploym
       <td><strong>Southeast Asia</strong></td>
       <td><a href="../models/gpt-4o/">gpt-4o</a></td>
       <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global coverage, Provisioned (PTU managed), Provisioned global</td>
     </tr>
     <tr>
       <td><strong>Southeast Asia</strong></td>
       <td><a href="../models/gpt-4o-mini/">gpt-4o-mini</a></td>
       <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global coverage, Provisioned (PTU managed), Provisioned global</td>
     </tr>
     <tr>
       <td><strong>Southeast Asia</strong></td>
@@ -6439,9 +6408,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Southeast Asia</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Southeast Asia</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Southeast Asia</strong></td>
@@ -6464,8 +6439,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Southeast Asia</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Southeast Asia</strong></td>
@@ -6478,6 +6453,18 @@ Find which AI models are available in your Azure region, including their deploym
       <td><a href="../models/gpt-5-3-codex/">gpt-5.3-codex</a></td>
       <td>Global, Provisioned</td>
       <td>Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>Southeast Asia</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Global, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>Southeast Asia</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Southeast Asia</strong></td>
@@ -6571,15 +6558,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Spain Central</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Spain Central</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Spain Central</strong></td>
@@ -6596,18 +6583,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Spain Central</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Spain Central</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Spain Central</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -6632,8 +6607,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Spain Central</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Spain Central</strong></td>
@@ -6691,9 +6666,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Spain Central</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Spain Central</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Spain Central</strong></td>
@@ -6716,8 +6697,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Spain Central</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Spain Central</strong></td>
@@ -6733,6 +6714,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Spain Central</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Datazone, Global, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>Spain Central</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Spain Central</strong></td>
       <td><a href="../models/grok-3/">grok-3</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -6745,6 +6738,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Spain Central</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Spain Central</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Spain Central</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -6752,18 +6757,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Spain Central</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Spain Central</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Spain Central</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -6883,15 +6876,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Sweden Central</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Sweden Central</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Sweden Central</strong></td>
@@ -6913,13 +6906,7 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Sweden Central</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Sweden Central</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
+      <td><a href="../models/mai-image-2/">MAI-Image-2</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -6962,8 +6949,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Sweden Central</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Datazone, Global, Provisioned, Standard</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard</td>
+      <td>Datazone, Global, Other, Provisioned, Standard</td>
+      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Sweden Central</strong></td>
@@ -7064,8 +7051,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Sweden Central</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned, Standard</td>
+      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global coverage, Provisioned global, Standard, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Sweden Central</strong></td>
@@ -7094,8 +7081,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Sweden Central</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Sweden Central</strong></td>
@@ -7124,6 +7111,18 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Sweden Central</strong></td>
       <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
+    </tr>
+    <tr>
+      <td><strong>Sweden Central</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Sweden Central</strong></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -7201,6 +7200,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Sweden Central</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Sweden Central</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Sweden Central</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -7208,18 +7219,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Sweden Central</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Sweden Central</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Sweden Central</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -7273,12 +7272,6 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Sweden Central</strong></td>
-      <td><a href="../models/sora/">sora</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Sweden Central</strong></td>
       <td><a href="../models/sora-2/">sora-2</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -7370,24 +7363,24 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Switzerland North</strong></td>
       <td><a href="../models/flux-1-1-pro/">FLUX-1.1-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Switzerland North</strong></td>
       <td><a href="../models/flux-1-kontext-pro/">FLUX.1-Kontext-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Switzerland North</strong></td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Switzerland North</strong></td>
       <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Switzerland North</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -7411,21 +7404,9 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Switzerland North</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Switzerland North</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Switzerland North</strong></td>
       <td><a href="../models/mistral-large-3/">Mistral-Large-3</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Switzerland North</strong></td>
@@ -7442,8 +7423,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Switzerland North</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Global, Provisioned, Standard</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global, Standard</td>
+      <td>Global, Other, Provisioned, Standard</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global, Standard, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Switzerland North</strong></td>
@@ -7501,9 +7482,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Switzerland North</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Switzerland North</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Switzerland North</strong></td>
@@ -7526,8 +7513,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Switzerland North</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Switzerland North</strong></td>
@@ -7543,6 +7530,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Switzerland North</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Global, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>Switzerland North</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Switzerland North</strong></td>
       <td><a href="../models/grok-3/">grok-3</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -7550,6 +7549,18 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Switzerland North</strong></td>
       <td><a href="../models/grok-3-mini/">grok-3-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Switzerland North</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Switzerland North</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -7567,27 +7578,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Switzerland North</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Switzerland North</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Switzerland North</strong></td>
       <td><a href="../models/mistral-document-ai-2505/">mistral-document-ai-2505</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Switzerland North</strong></td>
       <td><a href="../models/mistral-document-ai-2512/">mistral-document-ai-2512</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Switzerland North</strong></td>
@@ -7688,24 +7687,24 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Switzerland West</strong></td>
       <td><a href="../models/flux-1-1-pro/">FLUX-1.1-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Switzerland West</strong></td>
       <td><a href="../models/flux-1-kontext-pro/">FLUX.1-Kontext-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Switzerland West</strong></td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Switzerland West</strong></td>
       <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Switzerland West</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -7729,21 +7728,9 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Switzerland West</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Switzerland West</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Switzerland West</strong></td>
       <td><a href="../models/mistral-large-3/">Mistral-Large-3</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Switzerland West</strong></td>
@@ -7760,32 +7747,32 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Switzerland West</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Switzerland West</strong></td>
       <td><a href="../models/gpt-4-1-mini/">gpt-4.1-mini</a></td>
       <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global coverage, Provisioned global</td>
     </tr>
     <tr>
       <td><strong>Switzerland West</strong></td>
       <td><a href="../models/gpt-4-1-nano/">gpt-4.1-nano</a></td>
       <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global coverage, Provisioned global</td>
     </tr>
     <tr>
       <td><strong>Switzerland West</strong></td>
       <td><a href="../models/gpt-4o/">gpt-4o</a></td>
       <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global coverage, Provisioned (PTU managed), Provisioned global</td>
     </tr>
     <tr>
       <td><strong>Switzerland West</strong></td>
       <td><a href="../models/gpt-4o-mini/">gpt-4o-mini</a></td>
       <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global coverage, Provisioned (PTU managed), Provisioned global</td>
     </tr>
     <tr>
       <td><strong>Switzerland West</strong></td>
@@ -7813,9 +7800,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Switzerland West</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Switzerland West</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Switzerland West</strong></td>
@@ -7838,8 +7831,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Switzerland West</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>Switzerland West</strong></td>
@@ -7855,6 +7848,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Switzerland West</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Global, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>Switzerland West</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Switzerland West</strong></td>
       <td><a href="../models/grok-3/">grok-3</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -7862,6 +7867,18 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>Switzerland West</strong></td>
       <td><a href="../models/grok-3-mini/">grok-3-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Switzerland West</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>Switzerland West</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -7879,27 +7896,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>Switzerland West</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Switzerland West</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>Switzerland West</strong></td>
       <td><a href="../models/mistral-document-ai-2505/">mistral-document-ai-2505</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Switzerland West</strong></td>
       <td><a href="../models/mistral-document-ai-2512/">mistral-document-ai-2512</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>Switzerland West</strong></td>
@@ -7987,13 +7992,13 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>UAE North</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>UAE North</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -8012,18 +8017,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>UAE North</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>UAE North</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>UAE North</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -8048,8 +8041,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>UAE North</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>UAE North</strong></td>
@@ -8107,9 +8100,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>UAE North</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>UAE North</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>UAE North</strong></td>
@@ -8132,8 +8131,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>UAE North</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>UAE North</strong></td>
@@ -8146,6 +8145,18 @@ Find which AI models are available in your Azure region, including their deploym
       <td><a href="../models/gpt-5-3-codex/">gpt-5.3-codex</a></td>
       <td>Global, Provisioned</td>
       <td>Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>UAE North</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Global, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>UAE North</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>UAE North</strong></td>
@@ -8179,6 +8190,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>UAE North</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>UAE North</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>UAE North</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -8186,18 +8209,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>UAE North</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>UAE North</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>UAE North</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -8323,13 +8334,13 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>UK South</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>UK South</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -8348,18 +8359,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>UK South</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>UK South</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>UK South</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -8384,8 +8383,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>UK South</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>UK South</strong></td>
@@ -8433,7 +8432,7 @@ Find which AI models are available in your Azure region, including their deploym
       <td><strong>UK South</strong></td>
       <td><a href="../models/gpt-5-mini/">gpt-5-mini</a></td>
       <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned global</td>
+      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
     </tr>
     <tr>
       <td><strong>UK South</strong></td>
@@ -8443,9 +8442,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>UK South</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>UK South</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global batch, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>UK South</strong></td>
@@ -8468,8 +8473,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>UK South</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Global, Other, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>UK South</strong></td>
@@ -8485,6 +8490,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>UK South</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Global, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>UK South</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>UK South</strong></td>
       <td><a href="../models/grok-3/">grok-3</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -8497,6 +8514,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>UK South</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>UK South</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>UK South</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -8504,18 +8533,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>UK South</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>UK South</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>UK South</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -8635,15 +8652,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>West Central US</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West Central US</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West Central US</strong></td>
@@ -8665,13 +8682,7 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>West Central US</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>West Central US</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
+      <td><a href="../models/mai-image-2/">MAI-Image-2</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -8707,6 +8718,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>West Central US</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>West Central US</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>West Central US</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
@@ -8716,18 +8739,6 @@ Find which AI models are available in your Azure region, including their deploym
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>West Central US</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>West Central US</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West Central US</strong></td>
@@ -8803,15 +8814,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>West Europe</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West Europe</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West Europe</strong></td>
@@ -8833,13 +8844,7 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>West Europe</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>West Europe</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
+      <td><a href="../models/mai-image-2/">MAI-Image-2</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -8864,8 +8869,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>West Europe</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>West Europe</strong></td>
@@ -8923,21 +8928,39 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>West Europe</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>West Europe</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global batch, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global batch, Global coverage, Provisioned global, Standard Global Priority Processing</td>
+    </tr>
+    <tr>
+      <td><strong>West Europe</strong></td>
+      <td><a href="../models/gpt-5-1-chat/">gpt-5.1-chat</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West Europe</strong></td>
       <td><a href="../models/gpt-5-1-codex/">gpt-5.1-codex</a></td>
       <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global coverage, Provisioned global</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>West Europe</strong></td>
+      <td><a href="../models/gpt-5-1-codex-mini/">gpt-5.1-codex-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West Europe</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>West Europe</strong></td>
@@ -8953,6 +8976,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>West Europe</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Datazone, Global, Provisioned</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>West Europe</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>West Europe</strong></td>
       <td><a href="../models/grok-3/">grok-3</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -8965,6 +9000,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>West Europe</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>West Europe</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>West Europe</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
@@ -8972,18 +9019,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>West Europe</strong></td>
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>West Europe</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>West Europe</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -9109,15 +9144,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>West US</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West US</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West US</strong></td>
@@ -9139,13 +9174,7 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>West US</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>West US</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
+      <td><a href="../models/mai-image-2/">MAI-Image-2</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -9170,8 +9199,8 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>West US</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Datazone, Global, Provisioned, Standard</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard</td>
+      <td>Datazone, Global, Other, Provisioned, Standard</td>
+      <td>Datazone Standard Priority Processing, Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>West US</strong></td>
@@ -9229,21 +9258,39 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>West US</strong></td>
+      <td><a href="../models/gpt-5-pro/">gpt-5-pro</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>West US</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global batch, Global batch datazone, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned, Standard</td>
+      <td>Datazone Standard Priority Processing, Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global, Standard, Standard Global Priority Processing</td>
+    </tr>
+    <tr>
+      <td><strong>West US</strong></td>
+      <td><a href="../models/gpt-5-1-chat/">gpt-5.1-chat</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West US</strong></td>
       <td><a href="../models/gpt-5-1-codex/">gpt-5.1-codex</a></td>
       <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global coverage, Provisioned global</td>
+      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>West US</strong></td>
+      <td><a href="../models/gpt-5-1-codex-mini/">gpt-5.1-codex-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West US</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone Standard Priority Processing, Datazone provisioned managed, Datazone standard, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>West US</strong></td>
@@ -9254,8 +9301,20 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>West US</strong></td>
       <td><a href="../models/gpt-5-3-codex/">gpt-5.3-codex</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Provisioned</td>
+      <td>Datazone standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>West US</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone Standard Priority Processing, Datazone provisioned managed, Datazone standard, Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>West US</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West US</strong></td>
@@ -9271,6 +9330,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>West US</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>West US</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>West US</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
@@ -9280,18 +9351,6 @@ Find which AI models are available in your Azure region, including their deploym
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>West US</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>West US</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West US</strong></td>
@@ -9415,15 +9474,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>West US 2</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West US 2</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West US 2</strong></td>
@@ -9440,18 +9499,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>West US 2</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>West US 2</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>West US 2</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -9487,6 +9534,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>West US 2</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>West US 2</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>West US 2</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
@@ -9496,18 +9555,6 @@ Find which AI models are available in your Azure region, including their deploym
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>West US 2</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>West US 2</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West US 2</strong></td>
@@ -9583,15 +9630,15 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
-      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
-      <td>Datazone, Global</td>
-      <td>Datazone standard, Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-flex/">FLUX.2-flex</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
-      <td><a href="../models/kimi-k2-thinking/">Kimi-K2-Thinking</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
+      <td><a href="../models/flux-2-pro/">FLUX.2-pro</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
@@ -9608,18 +9655,6 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>West US 3</strong></td>
       <td><a href="../models/llama-4-maverick-17b-128e-instruct-fp8/">Llama-4-Maverick-17B-128E-Instruct-FP8</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>West US 3</strong></td>
-      <td><a href="../models/mai-ds-r1/">MAI-DS-R1</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>West US 3</strong></td>
-      <td><a href="../models/meta-llama-3-70b-instruct/">Meta-Llama-3-70B-Instruct</a></td>
       <td>Global</td>
       <td>Global Standard, Global coverage</td>
     </tr>
@@ -9644,44 +9679,44 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>West US 3</strong></td>
       <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
-      <td>Datazone, Global, Provisioned, Standard</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard</td>
+      <td>Datazone, Global, Other, Provisioned, Standard</td>
+      <td>Datazone Standard Priority Processing, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
       <td><a href="../models/gpt-4-1-mini/">gpt-4.1-mini</a></td>
       <td>Datazone, Global, Provisioned, Standard</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard</td>
+      <td>Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
       <td><a href="../models/gpt-4-1-nano/">gpt-4.1-nano</a></td>
       <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
       <td><a href="../models/gpt-4o/">gpt-4o</a></td>
       <td>Datazone, Global, Provisioned, Standard</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard</td>
+      <td>Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
       <td><a href="../models/gpt-4o-mini/">gpt-4o-mini</a></td>
       <td>Datazone, Global, Provisioned, Standard</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard</td>
+      <td>Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
       <td><a href="../models/gpt-5/">gpt-5</a></td>
       <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
       <td><a href="../models/gpt-5-mini/">gpt-5-mini</a></td>
       <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Datazone standard, Global Standard, Global coverage, Provisioned (PTU managed), Provisioned global</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
@@ -9692,20 +9727,32 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>West US 3</strong></td>
       <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned, Standard</td>
+      <td>Datazone Standard Priority Processing, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard, Standard Global Priority Processing</td>
+    </tr>
+    <tr>
+      <td><strong>West US 3</strong></td>
+      <td><a href="../models/gpt-5-1-chat/">gpt-5.1-chat</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
       <td><a href="../models/gpt-5-1-codex/">gpt-5.1-codex</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global coverage, Provisioned global</td>
+      <td>Global, Provisioned</td>
+      <td>Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>West US 3</strong></td>
+      <td><a href="../models/gpt-5-1-codex-mini/">gpt-5.1-codex-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
       <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
-      <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Global Standard, Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone Standard Priority Processing, Datazone standard, Global Standard, Global coverage, Provisioned global, Standard Global Priority Processing</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
@@ -9716,8 +9763,20 @@ Find which AI models are available in your Azure region, including their deploym
     <tr>
       <td><strong>West US 3</strong></td>
       <td><a href="../models/gpt-5-3-codex/">gpt-5.3-codex</a></td>
-      <td>Global, Provisioned</td>
-      <td>Global coverage, Provisioned global</td>
+      <td>Datazone, Global, Provisioned</td>
+      <td>Datazone standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>West US 3</strong></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>Datazone, Global, Other, Provisioned</td>
+      <td>Datazone Standard Priority Processing, Datazone standard, Global Standard, Global coverage, Provisioned global</td>
+    </tr>
+    <tr>
+      <td><strong>West US 3</strong></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Global</td>
+      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
@@ -9751,6 +9810,18 @@ Find which AI models are available in your Azure region, including their deploym
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
+      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4-1-fast-non-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>West US 3</strong></td>
+      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4-1-fast-reasoning</a></td>
+      <td>Datazone, Global</td>
+      <td>Datazone standard, Global Standard, Global coverage</td>
+    </tr>
+    <tr>
+      <td><strong>West US 3</strong></td>
       <td><a href="../models/grok-4-fast-non-reasoning/">grok-4-fast-non-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
@@ -9760,18 +9831,6 @@ Find which AI models are available in your Azure region, including their deploym
       <td><a href="../models/grok-4-fast-reasoning/">grok-4-fast-reasoning</a></td>
       <td>Datazone, Global</td>
       <td>Datazone standard, Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>West US 3</strong></td>
-      <td><a href="../models/grok-4-1-fast-non-reasoning/">grok-4.1-fast-non-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
-    </tr>
-    <tr>
-      <td><strong>West US 3</strong></td>
-      <td><a href="../models/grok-4-1-fast-reasoning/">grok-4.1-fast-reasoning</a></td>
-      <td>Global</td>
-      <td>Global Standard, Global coverage</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
@@ -9789,25 +9848,25 @@ Find which AI models are available in your Azure region, including their deploym
       <td><strong>West US 3</strong></td>
       <td><a href="../models/o1/">o1</a></td>
       <td>Datazone, Global, Provisioned, Standard</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global coverage, Provisioned global, Standard</td>
+      <td>Datazone standard, Global Standard, Global coverage, Provisioned global, Standard</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
       <td><a href="../models/o3/">o3</a></td>
       <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global</td>
+      <td>Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
       <td><a href="../models/o3-mini/">o3-mini</a></td>
       <td>Datazone, Global, Provisioned</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global</td>
+      <td>Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned global</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
       <td><a href="../models/o4-mini/">o4-mini</a></td>
       <td>Datazone, Global, Provisioned, Standard</td>
-      <td>Datazone provisioned managed, Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard</td>
+      <td>Datazone standard, Global Standard, Global batch, Global batch datazone, Global coverage, Provisioned (PTU managed), Provisioned global, Standard</td>
     </tr>
     <tr>
       <td><strong>West US 3</strong></td>
@@ -9845,4 +9904,4 @@ Find which AI models are available in your Azure region, including their deploym
 
 ---
 
-_Last updated: 2026-03-11 11:51 UTC_
+_Last updated: 2026-04-05 21:29 UTC_

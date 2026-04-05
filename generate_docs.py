@@ -1784,7 +1784,19 @@ def main():
         path.write_text(content, encoding="utf-8")
         print(f"Generated: {path}")
     
-    print(f"\nDone! Generated {len(pages) + len(model_regions)} pages.")
+    # Clean up orphaned model pages that are no longer in the snapshot
+    current_slugs = {slugify(m) for m in model_regions.keys()}
+    models_dir = DOCS_DIR / "models"
+    removed_count = 0
+    for old_page in models_dir.glob("*.md"):
+        if old_page.name == "index.md":
+            continue
+        if old_page.stem not in current_slugs:
+            old_page.unlink()
+            removed_count += 1
+            print(f"Removed orphan: {old_page}")
+    
+    print(f"\nDone! Generated {len(pages) + len(model_regions)} pages, removed {removed_count} orphans.")
 
 
 if __name__ == "__main__":

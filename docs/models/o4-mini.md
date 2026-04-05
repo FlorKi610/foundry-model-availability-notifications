@@ -1,6 +1,6 @@
 # o4-mini
 
-<span class="badge badge-broad">Broad</span> Available in **29** of 32 regions
+<span class="badge badge-broad">Broad</span> Available in **28** of 31 regions
 
 
 !!! warning "Retirement Notice"
@@ -19,8 +19,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Regions | 29 |
-| Coverage | 91% |
+| Total Regions | 28 |
+| Coverage | 90% |
 | SKU Types | 9 |
 | Categories | Datazone, Global, Provisioned, Standard |
 
@@ -35,14 +35,14 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Global Standard | 26 | 81% |
-| Global batch | 22 | 69% |
-| Global batch datazone | 12 | 38% |
-| Global coverage | 29 | 91% |
+| Global Standard | 26 | 84% |
+| Global batch | 22 | 71% |
+| Global batch datazone | 12 | 39% |
+| Global coverage | 28 | 90% |
 
 **Available Regions:**
 
-`Australia East`, `Brazil South`, `Canada Central`, `Canada East`, `Central US`, `East US`, `East US 2`, `France Central`, `Germany West Central`, `Italy North`, `Japan East`, `Korea Central`, `North Central US`, `Norway East`, `Poland Central`, `Qatar Central`, `South Africa North`, `South Central US`, `South India`, `Southeast Asia`, `Spain Central`, `Sweden Central`, `Switzerland North`, `Switzerland West`, `UAE North`, `UK South`, `West Europe`, `West US`, `West US 3`
+`Australia East`, `Brazil South`, `Canada Central`, `Canada East`, `Central US`, `East US`, `East US 2`, `France Central`, `Germany West Central`, `Italy North`, `Japan East`, `Korea Central`, `North Central US`, `Norway East`, `Poland Central`, `South Africa North`, `South Central US`, `South India`, `Southeast Asia`, `Spain Central`, `Sweden Central`, `Switzerland North`, `Switzerland West`, `UAE North`, `UK South`, `West Europe`, `West US`, `West US 3`
 
 ### Datazone Deployments
 
@@ -51,8 +51,8 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Datazone provisioned managed | 13 | 41% |
-| Datazone standard | 14 | 44% |
+| Datazone provisioned managed | 12 | 39% |
+| Datazone standard | 14 | 45% |
 
 **Available Regions:**
 
@@ -65,7 +65,7 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Standard | 7 | 22% |
+| Standard | 7 | 23% |
 
 **Available Regions:**
 
@@ -78,12 +78,12 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Provisioned (PTU managed) | 9 | 28% |
-| Provisioned global | 29 | 91% |
+| Provisioned (PTU managed) | 9 | 29% |
+| Provisioned global | 28 | 90% |
 
 **Available Regions:**
 
-`Australia East`, `Brazil South`, `Canada Central`, `Canada East`, `Central US`, `East US`, `East US 2`, `France Central`, `Germany West Central`, `Italy North`, `Japan East`, `Korea Central`, `North Central US`, `Norway East`, `Poland Central`, `Qatar Central`, `South Africa North`, `South Central US`, `South India`, `Southeast Asia`, `Spain Central`, `Sweden Central`, `Switzerland North`, `Switzerland West`, `UAE North`, `UK South`, `West Europe`, `West US`, `West US 3`
+`Australia East`, `Brazil South`, `Canada Central`, `Canada East`, `Central US`, `East US`, `East US 2`, `France Central`, `Germany West Central`, `Italy North`, `Japan East`, `Korea Central`, `North Central US`, `Norway East`, `Poland Central`, `South Africa North`, `South Central US`, `South India`, `Southeast Asia`, `Spain Central`, `Sweden Central`, `Switzerland North`, `Switzerland West`, `UAE North`, `UK South`, `West Europe`, `West US`, `West US 3`
 
 
 ---
@@ -113,7 +113,6 @@ This table shows exactly which SKU types are available in each region.
 <tr><td><strong>North Central US</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 <tr><td><strong>Norway East</strong></td><td class="matrix-no">&mdash;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td></tr>
 <tr><td><strong>Poland Central</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td></tr>
-<tr><td><strong>Qatar Central</strong></td><td class="matrix-no">&mdash;</td><td class="matrix-no">&mdash;</td><td class="matrix-no">&mdash;</td><td class="matrix-no">&mdash;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td></tr>
 <tr><td><strong>South Africa North</strong></td><td class="matrix-no">&mdash;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td></tr>
 <tr><td><strong>South Central US</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 <tr><td><strong>South India</strong></td><td class="matrix-no">&mdash;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td></tr>
@@ -126,7 +125,7 @@ This table shows exactly which SKU types are available in each region.
 <tr><td><strong>UK South</strong></td><td class="matrix-no">&mdash;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td></tr>
 <tr><td><strong>West Europe</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td></tr>
 <tr><td><strong>West US</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
-<tr><td><strong>West US 3</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
+<tr><td><strong>West US 3</strong></td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 </tbody>
 </table>
 </div>
@@ -135,4 +134,4 @@ This table shows exactly which SKU types are available in each region.
 
 [← Back to All Models](index.md)
 
-_Last updated: 2026-03-11 11:51 UTC_
+_Last updated: 2026-04-05 21:29 UTC_

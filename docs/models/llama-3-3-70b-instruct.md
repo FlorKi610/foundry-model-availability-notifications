@@ -1,6 +1,6 @@
 # Llama-3.3-70B-Instruct
 
-<span class="badge badge-broad">Broad</span> Available in **30** of 32 regions
+<span class="badge badge-broad">Broad</span> Available in **30** of 31 regions
 
 ---
 
@@ -9,7 +9,7 @@
 | Metric | Value |
 |--------|-------|
 | Total Regions | 30 |
-| Coverage | 94% |
+| Coverage | 97% |
 | SKU Types | 3 |
 | Categories | Global, Provisioned |
 
@@ -24,8 +24,8 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Global Standard | 30 | 94% |
-| Global coverage | 30 | 94% |
+| Global Standard | 30 | 97% |
+| Global coverage | 30 | 97% |
 
 **Available Regions:**
 
@@ -38,7 +38,7 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Global Provisioned Managed | 30 | 94% |
+| Global Provisioned Managed | 30 | 97% |
 
 **Available Regions:**
 
@@ -95,4 +95,4 @@ This table shows exactly which SKU types are available in each region.
 
 [← Back to All Models](index.md)
 
-_Last updated: 2026-03-11 11:51 UTC_
+_Last updated: 2026-04-05 21:29 UTC_

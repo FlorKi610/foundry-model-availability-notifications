@@ -1,6 +1,6 @@
 # gpt-4o-mini-realtime-preview
 
-<span class="badge badge-emerging">Emerging</span> Available in **2** of 32 regions
+<span class="badge badge-emerging">Emerging</span> Available in **1** of 31 regions
 
 
 !!! warning "Retirement Notice"
@@ -19,8 +19,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Regions | 2 |
-| Coverage | 6% |
+| Total Regions | 1 |
+| Coverage | 3% |
 | SKU Types | 2 |
 | Categories | Global |
 
@@ -35,12 +35,12 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Global Standard | 2 | 6% |
-| Global coverage | 2 | 6% |
+| Global Standard | 1 | 3% |
+| Global coverage | 1 | 3% |
 
 **Available Regions:**
 
-`East US 2`, `Sweden Central`
+`Sweden Central`
 
 
 ---
@@ -55,7 +55,6 @@ This table shows exactly which SKU types are available in each region.
 <tr><th>Region</th><th>Global Standard</th><th>Global coverage</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>East US 2</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 <tr><td><strong>Sweden Central</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 </tbody>
 </table>
@@ -65,4 +64,4 @@ This table shows exactly which SKU types are available in each region.
 
 [← Back to All Models](index.md)
 
-_Last updated: 2026-03-11 11:51 UTC_
+_Last updated: 2026-04-05 21:29 UTC_

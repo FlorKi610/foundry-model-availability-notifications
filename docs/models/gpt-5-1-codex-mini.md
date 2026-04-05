@@ -1,6 +1,6 @@
 # gpt-5.1-codex-mini
 
-<span class="badge badge-broad">Broad</span> Available in **25** of 32 regions
+<span class="badge badge-broad">Broad</span> Available in **28** of 31 regions
 
 
 !!! warning "Retirement Notice"
@@ -19,8 +19,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Regions | 25 |
-| Coverage | 78% |
+| Total Regions | 28 |
+| Coverage | 90% |
 | SKU Types | 2 |
 | Categories | Global |
 
@@ -35,12 +35,12 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Global Standard | 25 | 78% |
-| Global coverage | 25 | 78% |
+| Global Standard | 28 | 90% |
+| Global coverage | 28 | 90% |
 
 **Available Regions:**
 
-`Australia East`, `Brazil South`, `Canada Central`, `Canada East`, `Central US`, `East US`, `East US 2`, `France Central`, `Germany West Central`, `Italy North`, `Japan East`, `Korea Central`, `North Central US`, `Norway East`, `Poland Central`, `South Africa North`, `South Central US`, `South India`, `Southeast Asia`, `Spain Central`, `Sweden Central`, `Switzerland North`, `Switzerland West`, `UAE North`, `UK South`
+`Australia East`, `Brazil South`, `Canada Central`, `Canada East`, `Central US`, `East US`, `East US 2`, `France Central`, `Germany West Central`, `Italy North`, `Japan East`, `Korea Central`, `North Central US`, `Norway East`, `Poland Central`, `South Africa North`, `South Central US`, `South India`, `Southeast Asia`, `Spain Central`, `Sweden Central`, `Switzerland North`, `Switzerland West`, `UAE North`, `UK South`, `West Europe`, `West US`, `West US 3`
 
 
 ---
@@ -80,6 +80,9 @@ This table shows exactly which SKU types are available in each region.
 <tr><td><strong>Switzerland West</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 <tr><td><strong>UAE North</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 <tr><td><strong>UK South</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
+<tr><td><strong>West Europe</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
+<tr><td><strong>West US</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
+<tr><td><strong>West US 3</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 </tbody>
 </table>
 </div>
@@ -88,4 +91,4 @@ This table shows exactly which SKU types are available in each region.
 
 [← Back to All Models](index.md)
 
-_Last updated: 2026-03-11 11:51 UTC_
+_Last updated: 2026-04-05 21:29 UTC_

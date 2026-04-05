@@ -1,6 +1,6 @@
 # whisper
 
-<span class="badge badge-emerging">Emerging</span> Available in **8** of 32 regions
+<span class="badge badge-emerging">Emerging</span> Available in **8** of 31 regions
 
 
 !!! warning "Retirement Notice"
@@ -20,7 +20,7 @@
 | Metric | Value |
 |--------|-------|
 | Total Regions | 8 |
-| Coverage | 25% |
+| Coverage | 26% |
 | SKU Types | 2 |
 | Categories | Global, Standard |
 
@@ -35,7 +35,7 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Global coverage | 8 | 25% |
+| Global coverage | 8 | 26% |
 
 **Available Regions:**
 
@@ -48,7 +48,7 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Standard | 8 | 25% |
+| Standard | 8 | 26% |
 
 **Available Regions:**
 
@@ -83,4 +83,4 @@ This table shows exactly which SKU types are available in each region.
 
 [← Back to All Models](index.md)
 
-_Last updated: 2026-03-11 11:51 UTC_
+_Last updated: 2026-04-05 21:29 UTC_

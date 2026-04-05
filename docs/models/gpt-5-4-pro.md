@@ -1,6 +1,6 @@
 # gpt-5.4-pro
 
-<span class="badge badge-emerging">Emerging</span> Available in **4** of 32 regions
+<span class="badge badge-emerging">Emerging</span> Available in **4** of 31 regions
 
 ---
 
@@ -9,7 +9,7 @@
 | Metric | Value |
 |--------|-------|
 | Total Regions | 4 |
-| Coverage | 12% |
+| Coverage | 13% |
 | SKU Types | 2 |
 | Categories | Global |
 
@@ -24,8 +24,8 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Global Standard | 4 | 12% |
-| Global coverage | 4 | 12% |
+| Global Standard | 4 | 13% |
+| Global coverage | 4 | 13% |
 
 **Available Regions:**
 
@@ -56,4 +56,4 @@ This table shows exactly which SKU types are available in each region.
 
 [← Back to All Models](index.md)
 
-_Last updated: 2026-03-11 11:51 UTC_
+_Last updated: 2026-04-05 21:29 UTC_

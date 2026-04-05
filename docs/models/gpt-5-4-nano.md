@@ -1,17 +1,6 @@
-# model-router
+# gpt-5.4-nano
 
-<span class="badge badge-emerging">Emerging</span> Available in **2** of 31 regions
-
-
-!!! warning "Retirement Notice"
-    This model has scheduled retirement dates. Plan your migration to the replacement model.
-
-## :material-clock-alert: Retirement Schedule
-
-| Version | Status | Deprecation Date | Retirement Date | Timeline | Replacement |
-|---------|--------|------------------|-----------------|----------|-------------|
-| 2025-11-18 | Generally Available | 2026-11-18 | 2027-05-20 | <span class="badge badge-scheduled">Scheduled</span> | - |
-
+<span class="badge badge-emerging">Emerging</span> Available in **4** of 31 regions
 
 ---
 
@@ -19,8 +8,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Total Regions | 2 |
-| Coverage | 6% |
+| Total Regions | 4 |
+| Coverage | 13% |
 | SKU Types | 3 |
 | Categories | Datazone, Global |
 
@@ -35,12 +24,12 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Global Standard | 2 | 6% |
-| Global coverage | 2 | 6% |
+| Global Standard | 4 | 13% |
+| Global coverage | 4 | 13% |
 
 **Available Regions:**
 
-`East US 2`, `Sweden Central`
+`East US 2`, `Poland Central`, `South Central US`, `Sweden Central`
 
 ### Datazone Deployments
 
@@ -53,7 +42,7 @@
 
 **Available Regions:**
 
-`East US 2`, `Sweden Central`
+`East US 2`, `South Central US`
 
 
 ---
@@ -69,7 +58,9 @@ This table shows exactly which SKU types are available in each region.
 </thead>
 <tbody>
 <tr><td><strong>East US 2</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
-<tr><td><strong>Sweden Central</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
+<tr><td><strong>Poland Central</strong></td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
+<tr><td><strong>South Central US</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
+<tr><td><strong>Sweden Central</strong></td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 </tbody>
 </table>
 </div>
