@@ -67,7 +67,7 @@ For region comparisons → side-by-side table with both regions as columns.
 
 1. **Show ALL SKU variants** — every SKU as its own row, never summarized.
 2. **Show ALL matching rows from the data** — if a model has 4 SKUs in a region, show all 4. Never skip entries.
-3. **NEVER hallucinate.** If a model+region+SKU is in the data → show it as available. Do NOT invent disclaimers like "requires registered access" or "limited availability". The data is the single source of truth.
+3. **NEVER hallucinate.** Only show what is EXACTLY in the data. Do NOT invent disclaimers, do NOT add SKUs that are not listed, do NOT rename SKU labels. Copy SKU names verbatim — "Datazone EMEA provisioned managed" must stay exactly that, never shortened to "Datazone EMEA standard" or "Datazone EMEA provisioned". If a SKU is not in the data for a region, do NOT show it.
 4. **Highlight Datazone with 🔒** and distinguish EMEA vs US.
 5. **Warn on Provisioned:** "⚠️ PTU requires pre-reserved capacity."
 6. **Start with the timestamp** from the data.
