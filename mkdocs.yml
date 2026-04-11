@@ -80,9 +80,6 @@ nav:
     - GPT-4o:
       - gpt-4o: models/gpt-4o.md
       - gpt-4o-mini: models/gpt-4o-mini.md
-      - gpt-4o-audio-preview: models/gpt-4o-audio-preview.md
-      - gpt-4o-realtime-preview: models/gpt-4o-realtime-preview.md
-      - gpt-4o-mini-realtime-preview: models/gpt-4o-mini-realtime-preview.md
       - gpt-4o-transcribe: models/gpt-4o-transcribe.md
       - gpt-4o-transcribe-diarize: models/gpt-4o-transcribe-diarize.md
       - gpt-4o-mini-transcribe: models/gpt-4o-mini-transcribe.md
@@ -102,12 +99,20 @@ nav:
       - gpt-5-2: models/gpt-5-2.md
       - gpt-5-2-chat: models/gpt-5-2-chat.md
       - gpt-5-2-codex: models/gpt-5-2-codex.md
+      - gpt-5-3-chat: models/gpt-5-3-chat.md
+      - gpt-5-3-codex: models/gpt-5-3-codex.md
+      - gpt-5-4: models/gpt-5-4.md
+      - gpt-5-4-mini: models/gpt-5-4-mini.md
+      - gpt-5-4-nano: models/gpt-5-4-nano.md
+      - gpt-5-4-pro: models/gpt-5-4-pro.md
     - GPT Audio:
       - gpt-audio: models/gpt-audio.md
       - gpt-audio-mini: models/gpt-audio-mini.md
+      - gpt-audio-1-5: models/gpt-audio-1-5.md
     - GPT Realtime:
       - gpt-realtime: models/gpt-realtime.md
       - gpt-realtime-mini: models/gpt-realtime-mini.md
+      - gpt-realtime-1-5: models/gpt-realtime-1-5.md
     - GPT Image:
       - gpt-image-1: models/gpt-image-1.md
       - gpt-image-1-mini: models/gpt-image-1-mini.md
@@ -125,11 +130,17 @@ nav:
       - text-embedding-ada-002: models/text-embedding-ada-002.md
       - text-embedding-3-small: models/text-embedding-3-small.md
       - text-embedding-3-large: models/text-embedding-3-large.md
+      - embed-v-4-0: models/embed-v-4-0.md
     - Image Generation:
       - dall-e-3: models/dall-e-3.md
+      - mai-image-2: models/mai-image-2.md
     - Video:
       - sora: models/sora.md
       - sora-2: models/sora-2.md
+    - Cohere:
+      - cohere-command-a: models/cohere-command-a.md
+      - cohere-rerank-v4-0-fast: models/cohere-rerank-v4-0-fast.md
+      - cohere-rerank-v4-0-pro: models/cohere-rerank-v4-0-pro.md
     - Audio:
       - whisper: models/whisper.md
       - tts: models/tts.md
@@ -142,19 +153,29 @@ nav:
       - deepseek-r1-0528: models/deepseek-r1-0528.md
       - deepseek-v3-0324: models/deepseek-v3-0324.md
       - deepseek-v3-1: models/deepseek-v3-1.md
+      - deepseek-v3-2: models/deepseek-v3-2.md
+      - deepseek-v3-2-speciale: models/deepseek-v3-2-speciale.md
     - FLUX:
       - flux-1-1-pro: models/flux-1-1-pro.md
       - flux-1-kontext-pro: models/flux-1-kontext-pro.md
+      - flux-2-flex: models/flux-2-flex.md
+      - flux-2-pro: models/flux-2-pro.md
     - Grok:
       - grok-3: models/grok-3.md
       - grok-3-mini: models/grok-3-mini.md
       - grok-4-fast-reasoning: models/grok-4-fast-reasoning.md
       - grok-4-fast-non-reasoning: models/grok-4-fast-non-reasoning.md
+      - grok-4-1-fast-reasoning: models/grok-4-1-fast-reasoning.md
+      - grok-4-1-fast-non-reasoning: models/grok-4-1-fast-non-reasoning.md
     - Llama (Meta):
       - llama-3-3-70b-instruct: models/llama-3-3-70b-instruct.md
       - llama-4-maverick: models/llama-4-maverick-17b-128e-instruct-fp8.md
     - Mistral:
       - mistral-document-ai-2505: models/mistral-document-ai-2505.md
+      - mistral-document-ai-2512: models/mistral-document-ai-2512.md
+      - mistral-large-3: models/mistral-large-3.md
+    - Kimi:
+      - kimi-k2-5: models/kimi-k2-5.md
   - By Region: by-region.md
   - By SKU Type: by-sku.md
   - Retirements: retirements.md
@@ -174,6 +195,12 @@ nav:
     - West Europe: agent-region-west-europe.md
     - North Europe: agent-region-north-europe.md
     - Finland Central: agent-region-finland-central.md
+    - France South: agent-region-france-south.md
+    - Germany North: agent-region-germany-north.md
+    - Netherlands West: agent-region-netherlands-west.md
+    - Norway West: agent-region-norway-west.md
+    - Sweden South: agent-region-sweden-south.md
+    - UK West: agent-region-uk-west.md
   - Weltweit (Agent):
     - Alle Regionen: agent-worldwide.md
     - East US 2: agent-region-east-us-2.md
@@ -194,3 +221,5 @@ nav:
     - South India: agent-region-south-india.md
     - UAE North: agent-region-uae-north.md
     - South Africa North: agent-region-south-africa-north.md
+    - West Central US: agent-region-west-central-us.md
+    - West US 2: agent-region-west-us-2.md
