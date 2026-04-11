@@ -132,10 +132,8 @@ nav:
       - text-embedding-3-large: models/text-embedding-3-large.md
       - embed-v-4-0: models/embed-v-4-0.md
     - Image Generation:
-      - dall-e-3: models/dall-e-3.md
       - mai-image-2: models/mai-image-2.md
     - Video:
-      - sora: models/sora.md
       - sora-2: models/sora-2.md
     - Cohere:
       - cohere-command-a: models/cohere-command-a.md
@@ -223,3 +221,4 @@ nav:
     - South Africa North: agent-region-south-africa-north.md
     - West Central US: agent-region-west-central-us.md
     - West US 2: agent-region-west-us-2.md
+    - US Gov Arizona: agent-region-usgovarizona.md
