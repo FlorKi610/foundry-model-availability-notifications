@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-07T06:41:29.811868+00:00",
+  "timestamp": "2026-04-11T12:36:23.245212+00:00",
   "updates": {
-    "source": "diff-20260404T003033954Z.json",
-    "timestamp": "2026-04-04T00:30:33.954678+00:00"
+    "source": "latest-refresh",
+    "timestamp": "2026-04-11T12:36:23.245212+00:00"
   },
   "filter": {
     "scope": "Europe",
@@ -203,25 +203,27 @@
       },
       {
         "model": "dall-e-3",
-        "available_regions": [
-          "Sweden Central"
-        ],
-        "region_count": 1,
+        "available_regions": [],
+        "region_count": 0,
         "updates": {
           "added_regions": [],
-          "removed_regions": [],
-          "model_removed": false,
-          "sku_updates": []
+          "removed_regions": [
+            "Sweden Central"
+          ],
+          "model_removed": true,
+          "sku_updates": [
+            {
+              "sku": "standard-models",
+              "label": "Standard (all)",
+              "added_regions": [],
+              "removed_regions": [
+                "Sweden Central"
+              ],
+              "sku_removed": true
+            }
+          ]
         },
-        "skus": [
-          {
-            "sku": "standard-models",
-            "label": "Standard (all)",
-            "regions": [
-              "Sweden Central"
-            ]
-          }
-        ]
+        "skus": []
       },
       {
         "model": "DeepSeek-R1",
@@ -795,17 +797,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "Switzerland West"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -949,17 +941,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "Switzerland West"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -1089,13 +1071,13 @@
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
+              "sku": "standard-models",
+              "label": "Standard (all)",
               "added_regions": [],
               "removed_regions": [
-                "Switzerland West"
+                "Sweden Central"
               ],
-              "sku_removed": false
+              "sku_removed": true
             }
           ]
         },
@@ -1190,13 +1172,6 @@
               "UK South",
               "West Europe"
             ]
-          },
-          {
-            "sku": "standard-models",
-            "label": "Standard (all)",
-            "regions": [
-              "Sweden Central"
-            ]
           }
         ]
       },
@@ -1220,17 +1195,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "Switzerland West"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -1347,25 +1312,27 @@
       },
       {
         "model": "gpt-4o-audio-preview",
-        "available_regions": [
-          "Sweden Central"
-        ],
-        "region_count": 1,
+        "available_regions": [],
+        "region_count": 0,
         "updates": {
           "added_regions": [],
-          "removed_regions": [],
-          "model_removed": false,
-          "sku_updates": []
+          "removed_regions": [
+            "Sweden Central"
+          ],
+          "model_removed": true,
+          "sku_updates": [
+            {
+              "sku": "standard-global",
+              "label": "Standard global deployments",
+              "added_regions": [],
+              "removed_regions": [
+                "Sweden Central"
+              ],
+              "sku_removed": true
+            }
+          ]
         },
-        "skus": [
-          {
-            "sku": "standard-global",
-            "label": "Standard global deployments",
-            "regions": [
-              "Sweden Central"
-            ]
-          }
-        ]
+        "skus": []
       },
       {
         "model": "gpt-4o-mini",
@@ -1387,17 +1354,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "Switzerland West"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -1506,46 +1463,28 @@
         ]
       },
       {
-        "model": "gpt-4o-mini-audio-preview",
+        "model": "gpt-4o-mini-realtime-preview",
         "available_regions": [],
         "region_count": 0,
         "updates": {
           "added_regions": [],
-          "removed_regions": [],
+          "removed_regions": [
+            "Sweden Central"
+          ],
           "model_removed": true,
           "sku_updates": [
             {
               "sku": "standard-global",
               "label": "Standard global deployments",
               "added_regions": [],
-              "removed_regions": [],
+              "removed_regions": [
+                "Sweden Central"
+              ],
               "sku_removed": true
             }
           ]
         },
         "skus": []
-      },
-      {
-        "model": "gpt-4o-mini-realtime-preview",
-        "available_regions": [
-          "Sweden Central"
-        ],
-        "region_count": 1,
-        "updates": {
-          "added_regions": [],
-          "removed_regions": [],
-          "model_removed": false,
-          "sku_updates": []
-        },
-        "skus": [
-          {
-            "sku": "standard-global",
-            "label": "Standard global deployments",
-            "regions": [
-              "Sweden Central"
-            ]
-          }
-        ]
       },
       {
         "model": "gpt-4o-mini-transcribe",
@@ -1573,25 +1512,27 @@
       },
       {
         "model": "gpt-4o-realtime-preview",
-        "available_regions": [
-          "Sweden Central"
-        ],
-        "region_count": 1,
+        "available_regions": [],
+        "region_count": 0,
         "updates": {
           "added_regions": [],
-          "removed_regions": [],
-          "model_removed": false,
-          "sku_updates": []
+          "removed_regions": [
+            "Sweden Central"
+          ],
+          "model_removed": true,
+          "sku_updates": [
+            {
+              "sku": "standard-global",
+              "label": "Standard global deployments",
+              "added_regions": [],
+              "removed_regions": [
+                "Sweden Central"
+              ],
+              "sku_removed": true
+            }
+          ]
         },
-        "skus": [
-          {
-            "sku": "standard-global",
-            "label": "Standard global deployments",
-            "regions": [
-              "Sweden Central"
-            ]
-          }
-        ]
+        "skus": []
       },
       {
         "model": "gpt-4o-transcribe",
@@ -2578,18 +2519,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "Italy North",
-                "Switzerland West"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -2666,24 +2596,10 @@
         ],
         "region_count": 11,
         "updates": {
-          "added_regions": [
-            "Italy North",
-            "Switzerland West"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "Italy North",
-                "Switzerland West"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -2708,23 +2624,69 @@
       {
         "model": "gpt-5.4-nano",
         "available_regions": [
+          "France Central",
+          "Germany West Central",
+          "Italy North",
+          "Norway East",
           "Poland Central",
-          "Sweden Central"
+          "Spain Central",
+          "Sweden Central",
+          "Switzerland North",
+          "Switzerland West",
+          "UK South",
+          "West Europe"
         ],
-        "region_count": 2,
+        "region_count": 11,
         "updates": {
-          "added_regions": [],
+          "added_regions": [
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Norway East",
+            "Spain Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UK South",
+            "West Europe"
+          ],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": []
+          "sku_updates": [
+            {
+              "sku": "standard-global",
+              "label": "Standard global deployments",
+              "added_regions": [
+                "France Central",
+                "Germany West Central",
+                "Italy North",
+                "Norway East",
+                "Spain Central",
+                "Switzerland North",
+                "Switzerland West",
+                "UK South",
+                "West Europe"
+              ],
+              "removed_regions": [],
+              "sku_removed": false
+            }
+          ]
         },
         "skus": [
           {
             "sku": "standard-global",
             "label": "Standard global deployments",
             "regions": [
+              "France Central",
+              "Germany West Central",
+              "Italy North",
+              "Norway East",
               "Poland Central",
-              "Sweden Central"
+              "Spain Central",
+              "Sweden Central",
+              "Switzerland North",
+              "Switzerland West",
+              "UK South",
+              "West Europe"
             ]
           }
         ]
@@ -3980,17 +3942,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "Switzerland West"
-              ],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -4099,18 +4051,14 @@
         "region_count": 0,
         "updates": {
           "added_regions": [],
-          "removed_regions": [
-            "Sweden Central"
-          ],
-          "model_removed": false,
+          "removed_regions": [],
+          "model_removed": true,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
+              "sku": "standard-models",
+              "label": "Standard (all)",
               "added_regions": [],
-              "removed_regions": [
-                "Sweden Central"
-              ],
+              "removed_regions": [],
               "sku_removed": true
             }
           ]
@@ -4445,6 +4393,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "gpt-realtime",
           "gpt-realtime-1.5",
           "gpt-realtime-mini",
@@ -4468,9 +4417,11 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 59,
+        "model_count": 60,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -4511,6 +4462,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -4531,9 +4483,11 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 53,
+        "model_count": 54,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -4574,6 +4528,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -4594,10 +4549,10 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 53,
+        "model_count": 54,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "gpt-5.4-nano"
           ],
           "removed_models": []
         }
@@ -4639,6 +4594,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -4661,9 +4617,11 @@
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 55,
+        "model_count": 56,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -4772,6 +4730,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -4792,9 +4751,11 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 53,
+        "model_count": 54,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -4806,7 +4767,6 @@
           "Cohere-rerank-v4.0-fast",
           "Cohere-rerank-v4.0-pro",
           "computer-use-preview",
-          "dall-e-3",
           "DeepSeek-R1",
           "DeepSeek-R1-0528",
           "DeepSeek-V3-0324",
@@ -4822,11 +4782,8 @@
           "gpt-4.1-mini",
           "gpt-4.1-nano",
           "gpt-4o",
-          "gpt-4o-audio-preview",
           "gpt-4o-mini",
-          "gpt-4o-mini-realtime-preview",
           "gpt-4o-mini-transcribe",
-          "gpt-4o-realtime-preview",
           "gpt-4o-transcribe",
           "gpt-4o-transcribe-diarize",
           "gpt-5",
@@ -4885,11 +4842,14 @@
           "tts-hd",
           "whisper"
         ],
-        "model_count": 83,
+        "model_count": 79,
         "updates": {
           "added_models": [],
           "removed_models": [
-            "sora"
+            "dall-e-3",
+            "gpt-4o-audio-preview",
+            "gpt-4o-mini-realtime-preview",
+            "gpt-4o-realtime-preview"
           ]
         }
       },
@@ -4930,6 +4890,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -4951,9 +4912,11 @@
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 54,
+        "model_count": 55,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -4993,6 +4956,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -5010,10 +4974,10 @@
           "o3-mini",
           "o4-mini"
         ],
-        "model_count": 49,
+        "model_count": 50,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "gpt-5.4-nano"
           ],
           "removed_models": []
         }
@@ -5055,6 +5019,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -5075,9 +5040,11 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 53,
+        "model_count": 54,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -5118,6 +5085,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -5140,9 +5108,11 @@
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 55,
+        "model_count": 56,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       }

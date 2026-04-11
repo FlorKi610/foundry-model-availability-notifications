@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-07T06:41:29.811868+00:00",
+  "timestamp": "2026-04-11T12:36:23.245212+00:00",
   "updates": {
-    "source": "diff-20260404T003033954Z.json",
-    "timestamp": "2026-04-04T00:30:33.954678+00:00"
+    "source": "latest-refresh",
+    "timestamp": "2026-04-11T12:36:23.245212+00:00"
   },
   "filter": {
     "scope": "Worldwide",
@@ -34,6 +34,7 @@
       "Switzerland West",
       "UAE North",
       "UK South",
+      "usgovarizona",
       "West Central US",
       "West Europe",
       "West US",
@@ -337,29 +338,31 @@
       },
       {
         "model": "dall-e-3",
-        "available_regions": [
-          "Australia East",
-          "East US",
-          "Sweden Central"
-        ],
-        "region_count": 3,
+        "available_regions": [],
+        "region_count": 0,
         "updates": {
           "added_regions": [],
-          "removed_regions": [],
-          "model_removed": false,
-          "sku_updates": []
+          "removed_regions": [
+            "Australia East",
+            "East US",
+            "Sweden Central"
+          ],
+          "model_removed": true,
+          "sku_updates": [
+            {
+              "sku": "standard-models",
+              "label": "Standard (all)",
+              "added_regions": [],
+              "removed_regions": [
+                "Australia East",
+                "East US",
+                "Sweden Central"
+              ],
+              "sku_removed": true
+            }
+          ]
         },
-        "skus": [
-          {
-            "sku": "standard-models",
-            "label": "Standard (all)",
-            "regions": [
-              "Australia East",
-              "East US",
-              "Sweden Central"
-            ]
-          }
-        ]
+        "skus": []
       },
       {
         "model": "DeepSeek-R1",
@@ -1445,24 +1448,42 @@
           "UK South",
           "West Europe",
           "West US",
-          "West US 3"
+          "West US 3",
+          "usgovarizona"
         ],
-        "region_count": 28,
+        "region_count": 29,
         "updates": {
-          "added_regions": [],
+          "added_regions": [
+            "usgovarizona"
+          ],
           "removed_regions": [],
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
                 "West US 3"
               ],
-              "removed_regions": [
-                "Canada Central",
-                "Switzerland West"
+              "sku_removed": false
+            },
+            {
+              "sku": "datazone-standard-gov",
+              "label": "Datazone Standard Gov",
+              "added_regions": [
+                "usgovarizona"
               ],
+              "removed_regions": [],
+              "sku_removed": false
+            },
+            {
+              "sku": "standard-models-gov",
+              "label": "Standard Models Gov",
+              "added_regions": [
+                "usgovarizona"
+              ],
+              "removed_regions": [],
               "sku_removed": false
             }
           ]
@@ -1502,8 +1523,14 @@
               "Spain Central",
               "Sweden Central",
               "West Europe",
-              "West US",
-              "West US 3"
+              "West US"
+            ]
+          },
+          {
+            "sku": "datazone-standard-gov",
+            "label": "Datazone Standard Gov",
+            "regions": [
+              "usgovarizona"
             ]
           },
           {
@@ -1700,6 +1727,13 @@
               "West US",
               "West US 3"
             ]
+          },
+          {
+            "sku": "standard-models-gov",
+            "label": "Standard Models Gov",
+            "regions": [
+              "usgovarizona"
+            ]
           }
         ]
       },
@@ -1733,24 +1767,51 @@
           "UK South",
           "West Europe",
           "West US",
-          "West US 3"
+          "West US 3",
+          "usgovarizona"
         ],
-        "region_count": 28,
+        "region_count": 29,
         "updates": {
-          "added_regions": [],
+          "added_regions": [
+            "usgovarizona"
+          ],
           "removed_regions": [],
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
+              "sku": "datazone-provisioned-managed-gov",
+              "label": "Datazone Provisioned Managed Gov",
               "added_regions": [
+                "usgovarizona"
+              ],
+              "removed_regions": [],
+              "sku_removed": false
+            },
+            {
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
                 "West US 3"
               ],
-              "removed_regions": [
-                "Canada Central",
-                "Switzerland West"
+              "sku_removed": false
+            },
+            {
+              "sku": "datazone-standard-gov",
+              "label": "Datazone Standard Gov",
+              "added_regions": [
+                "usgovarizona"
               ],
+              "removed_regions": [],
+              "sku_removed": false
+            },
+            {
+              "sku": "standard-models-gov",
+              "label": "Standard Models Gov",
+              "added_regions": [
+                "usgovarizona"
+              ],
+              "removed_regions": [],
               "sku_removed": false
             }
           ]
@@ -1774,6 +1835,13 @@
             ]
           },
           {
+            "sku": "datazone-provisioned-managed-gov",
+            "label": "Datazone Provisioned Managed Gov",
+            "regions": [
+              "usgovarizona"
+            ]
+          },
+          {
             "sku": "datazone-standard",
             "label": "Datazone standard",
             "regions": [
@@ -1789,8 +1857,14 @@
               "Spain Central",
               "Sweden Central",
               "West Europe",
-              "West US",
-              "West US 3"
+              "West US"
+            ]
+          },
+          {
+            "sku": "datazone-standard-gov",
+            "label": "Datazone Standard Gov",
+            "regions": [
+              "usgovarizona"
             ]
           },
           {
@@ -1944,6 +2018,13 @@
               "West Europe",
               "West US",
               "West US 3"
+            ]
+          },
+          {
+            "sku": "standard-models-gov",
+            "label": "Standard Models Gov",
+            "regions": [
+              "usgovarizona"
             ]
           }
         ]
@@ -1987,16 +2068,23 @@
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
                 "West US 3"
               ],
-              "removed_regions": [
-                "Canada Central",
-                "Switzerland West"
-              ],
               "sku_removed": false
+            },
+            {
+              "sku": "standard-models",
+              "label": "Standard (all)",
+              "added_regions": [],
+              "removed_regions": [
+                "North Central US",
+                "Sweden Central"
+              ],
+              "sku_removed": true
             }
           ]
         },
@@ -2035,8 +2123,7 @@
               "Spain Central",
               "Sweden Central",
               "West Europe",
-              "West US",
-              "West US 3"
+              "West US"
             ]
           },
           {
@@ -2162,14 +2249,6 @@
               "West Europe",
               "West US",
               "West US 3"
-            ]
-          },
-          {
-            "sku": "standard-models",
-            "label": "Standard (all)",
-            "regions": [
-              "North Central US",
-              "Sweden Central"
             ]
           }
         ]
@@ -2204,25 +2283,60 @@
           "UK South",
           "West Europe",
           "West US",
-          "West US 3"
+          "West US 3",
+          "usgovarizona"
         ],
-        "region_count": 28,
+        "region_count": 29,
         "updates": {
-          "added_regions": [],
+          "added_regions": [
+            "usgovarizona"
+          ],
           "removed_regions": [],
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
+              "sku": "datazone-provisioned-managed-gov",
+              "label": "Datazone Provisioned Managed Gov",
               "added_regions": [
+                "usgovarizona"
+              ],
+              "removed_regions": [],
+              "sku_removed": false
+            },
+            {
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
                 "West US 3"
               ],
-              "removed_regions": [
-                "Canada Central",
-                "Southeast Asia",
-                "Switzerland West"
+              "sku_removed": false
+            },
+            {
+              "sku": "datazone-standard-gov",
+              "label": "Datazone Standard Gov",
+              "added_regions": [
+                "usgovarizona"
               ],
+              "removed_regions": [],
+              "sku_removed": false
+            },
+            {
+              "sku": "provisioned-models-gov",
+              "label": "Provisioned Models Gov",
+              "added_regions": [
+                "usgovarizona"
+              ],
+              "removed_regions": [],
+              "sku_removed": false
+            },
+            {
+              "sku": "standard-models-gov",
+              "label": "Standard Models Gov",
+              "added_regions": [
+                "usgovarizona"
+              ],
+              "removed_regions": [],
               "sku_removed": false
             }
           ]
@@ -2246,6 +2360,13 @@
             ]
           },
           {
+            "sku": "datazone-provisioned-managed-gov",
+            "label": "Datazone Provisioned Managed Gov",
+            "regions": [
+              "usgovarizona"
+            ]
+          },
+          {
             "sku": "datazone-standard",
             "label": "Datazone standard",
             "regions": [
@@ -2261,8 +2382,14 @@
               "Spain Central",
               "Sweden Central",
               "West Europe",
-              "West US",
-              "West US 3"
+              "West US"
+            ]
+          },
+          {
+            "sku": "datazone-standard-gov",
+            "label": "Datazone Standard Gov",
+            "regions": [
+              "usgovarizona"
             ]
           },
           {
@@ -2379,6 +2506,13 @@
             ]
           },
           {
+            "sku": "provisioned-models-gov",
+            "label": "Provisioned Models Gov",
+            "regions": [
+              "usgovarizona"
+            ]
+          },
+          {
             "sku": "standard-global",
             "label": "Standard global deployments",
             "regions": [
@@ -2430,42 +2564,39 @@
               "West US",
               "West US 3"
             ]
+          },
+          {
+            "sku": "standard-models-gov",
+            "label": "Standard Models Gov",
+            "regions": [
+              "usgovarizona"
+            ]
           }
         ]
       },
       {
         "model": "gpt-4o-audio-preview",
-        "available_regions": [
-          "Sweden Central"
-        ],
-        "region_count": 1,
+        "available_regions": [],
+        "region_count": 0,
         "updates": {
           "added_regions": [],
           "removed_regions": [
-            "East US 2"
+            "Sweden Central"
           ],
-          "model_removed": false,
+          "model_removed": true,
           "sku_updates": [
             {
               "sku": "standard-global",
               "label": "Standard global deployments",
               "added_regions": [],
               "removed_regions": [
-                "East US 2"
+                "Sweden Central"
               ],
-              "sku_removed": false
+              "sku_removed": true
             }
           ]
         },
-        "skus": [
-          {
-            "sku": "standard-global",
-            "label": "Standard global deployments",
-            "regions": [
-              "Sweden Central"
-            ]
-          }
-        ]
+        "skus": []
       },
       {
         "model": "gpt-4o-mini",
@@ -2506,15 +2637,11 @@
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
               "removed_regions": [
-                "Canada Central",
-                "Southeast Asia",
-                "Switzerland West"
+                "West US 3"
               ],
               "sku_removed": false
             }
@@ -2554,8 +2681,7 @@
               "Spain Central",
               "Sweden Central",
               "West Europe",
-              "West US",
-              "West US 3"
+              "West US"
             ]
           },
           {
@@ -2712,14 +2838,13 @@
         ]
       },
       {
-        "model": "gpt-4o-mini-audio-preview",
+        "model": "gpt-4o-mini-realtime-preview",
         "available_regions": [],
         "region_count": 0,
         "updates": {
           "added_regions": [],
           "removed_regions": [
-            "East US",
-            "East US 2"
+            "Sweden Central"
           ],
           "model_removed": true,
           "sku_updates": [
@@ -2728,48 +2853,13 @@
               "label": "Standard global deployments",
               "added_regions": [],
               "removed_regions": [
-                "East US",
-                "East US 2"
+                "Sweden Central"
               ],
               "sku_removed": true
             }
           ]
         },
         "skus": []
-      },
-      {
-        "model": "gpt-4o-mini-realtime-preview",
-        "available_regions": [
-          "Sweden Central"
-        ],
-        "region_count": 1,
-        "updates": {
-          "added_regions": [],
-          "removed_regions": [
-            "East US 2"
-          ],
-          "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [],
-              "removed_regions": [
-                "East US 2"
-              ],
-              "sku_removed": false
-            }
-          ]
-        },
-        "skus": [
-          {
-            "sku": "standard-global",
-            "label": "Standard global deployments",
-            "regions": [
-              "Sweden Central"
-            ]
-          }
-        ]
       },
       {
         "model": "gpt-4o-mini-transcribe",
@@ -2825,37 +2915,27 @@
       },
       {
         "model": "gpt-4o-realtime-preview",
-        "available_regions": [
-          "Sweden Central"
-        ],
-        "region_count": 1,
+        "available_regions": [],
+        "region_count": 0,
         "updates": {
           "added_regions": [],
           "removed_regions": [
-            "East US 2"
+            "Sweden Central"
           ],
-          "model_removed": false,
+          "model_removed": true,
           "sku_updates": [
             {
               "sku": "standard-global",
               "label": "Standard global deployments",
               "added_regions": [],
               "removed_regions": [
-                "East US 2"
+                "Sweden Central"
               ],
-              "sku_removed": false
+              "sku_removed": true
             }
           ]
         },
-        "skus": [
-          {
-            "sku": "standard-global",
-            "label": "Standard global deployments",
-            "regions": [
-              "Sweden Central"
-            ]
-          }
-        ]
+        "skus": []
       },
       {
         "model": "gpt-4o-transcribe",
@@ -2956,12 +3036,12 @@
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
                 "West US 3"
               ],
-              "removed_regions": [],
               "sku_removed": false
             }
           ]
@@ -3001,8 +3081,7 @@
               "Spain Central",
               "Sweden Central",
               "West Europe",
-              "West US",
-              "West US 3"
+              "West US"
             ]
           },
           {
@@ -3320,12 +3399,12 @@
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
                 "West US 3"
               ],
-              "removed_regions": [],
               "sku_removed": false
             }
           ]
@@ -3365,8 +3444,7 @@
               "Spain Central",
               "Sweden Central",
               "West Europe",
-              "West US",
-              "West US 3"
+              "West US"
             ]
           },
           {
@@ -3488,12 +3566,12 @@
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
                 "West US 3"
               ],
-              "removed_regions": [],
               "sku_removed": false
             }
           ]
@@ -3515,8 +3593,7 @@
               "Spain Central",
               "Sweden Central",
               "West Europe",
-              "West US",
-              "West US 3"
+              "West US"
             ]
           },
           {
@@ -3657,19 +3734,31 @@
           "UK South",
           "West Europe",
           "West US",
-          "West US 3"
+          "West US 3",
+          "usgovarizona"
         ],
-        "region_count": 28,
+        "region_count": 29,
         "updates": {
-          "added_regions": [],
+          "added_regions": [
+            "usgovarizona"
+          ],
           "removed_regions": [],
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
                 "West US 3"
+              ],
+              "sku_removed": false
+            },
+            {
+              "sku": "datazone-standard-gov",
+              "label": "Datazone Standard Gov",
+              "added_regions": [
+                "usgovarizona"
               ],
               "removed_regions": [],
               "sku_removed": false
@@ -3706,8 +3795,14 @@
               "North Central US",
               "South Central US",
               "Sweden Central",
-              "West US",
-              "West US 3"
+              "West US"
+            ]
+          },
+          {
+            "sku": "datazone-standard-gov",
+            "label": "Datazone Standard Gov",
+            "regions": [
+              "usgovarizona"
             ]
           },
           {
@@ -3927,22 +4022,10 @@
         ],
         "region_count": 28,
         "updates": {
-          "added_regions": [
-            "West US 3"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -4018,17 +4101,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -4177,22 +4250,10 @@
         ],
         "region_count": 28,
         "updates": {
-          "added_regions": [
-            "West US 3"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -4270,8 +4331,17 @@
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
+                "West US 3"
+              ],
+              "sku_removed": false
+            },
+            {
+              "sku": "provisioned-models",
+              "label": "Provisioned (PTU managed)",
               "added_regions": [
                 "West US 3"
               ],
@@ -4308,8 +4378,7 @@
               "East US 2",
               "North Central US",
               "South Central US",
-              "West US",
-              "West US 3"
+              "West US"
             ]
           },
           {
@@ -4366,7 +4435,8 @@
               "Canada East",
               "Japan East",
               "Korea Central",
-              "UK South"
+              "UK South",
+              "West US 3"
             ]
           },
           {
@@ -4607,7 +4677,17 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": []
+          "sku_updates": [
+            {
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
+                "West US 3"
+              ],
+              "sku_removed": false
+            }
+          ]
         },
         "skus": [
           {
@@ -4619,8 +4699,7 @@
               "East US 2",
               "North Central US",
               "South Central US",
-              "West US",
-              "West US 3"
+              "West US"
             ]
           },
           {
@@ -4708,16 +4787,12 @@
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "Canada Central",
-                "Italy North",
-                "Southeast Asia",
-                "Switzerland West",
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
                 "West US 3"
               ],
-              "removed_regions": [],
               "sku_removed": false
             }
           ]
@@ -4750,8 +4825,7 @@
               "East US 2",
               "North Central US",
               "South Central US",
-              "West US",
-              "West US 3"
+              "West US"
             ]
           },
           {
@@ -4887,25 +4961,20 @@
         ],
         "region_count": 28,
         "updates": {
-          "added_regions": [
-            "Canada Central",
-            "Italy North",
-            "Southeast Asia",
-            "Switzerland West",
-            "West US 3"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
               "added_regions": [
-                "Canada Central",
-                "Italy North",
-                "Southeast Asia",
-                "Switzerland West",
-                "West US 3"
+                "Central US",
+                "East US",
+                "East US 2",
+                "North Central US",
+                "South Central US",
+                "West US"
               ],
               "removed_regions": [],
               "sku_removed": false
@@ -4913,6 +4982,18 @@
           ]
         },
         "skus": [
+          {
+            "sku": "datazone-standard",
+            "label": "Datazone standard",
+            "regions": [
+              "Central US",
+              "East US",
+              "East US 2",
+              "North Central US",
+              "South Central US",
+              "West US"
+            ]
+          },
           {
             "sku": "standard-global",
             "label": "Standard global deployments",
@@ -4952,35 +5033,157 @@
       {
         "model": "gpt-5.4-nano",
         "available_regions": [
+          "Australia East",
+          "Brazil South",
+          "Canada Central",
+          "Canada East",
+          "Central US",
+          "East US",
           "East US 2",
+          "France Central",
+          "Germany West Central",
+          "Italy North",
+          "Japan East",
+          "Korea Central",
+          "North Central US",
+          "Norway East",
           "Poland Central",
+          "South Africa North",
           "South Central US",
-          "Sweden Central"
+          "South India",
+          "Southeast Asia",
+          "Spain Central",
+          "Sweden Central",
+          "Switzerland North",
+          "Switzerland West",
+          "UAE North",
+          "UK South",
+          "West Europe",
+          "West US",
+          "West US 3"
         ],
-        "region_count": 4,
+        "region_count": 28,
         "updates": {
-          "added_regions": [],
+          "added_regions": [
+            "Australia East",
+            "Brazil South",
+            "Canada Central",
+            "Canada East",
+            "Central US",
+            "East US",
+            "France Central",
+            "Germany West Central",
+            "Italy North",
+            "Japan East",
+            "Korea Central",
+            "North Central US",
+            "Norway East",
+            "South Africa North",
+            "South India",
+            "Southeast Asia",
+            "Spain Central",
+            "Switzerland North",
+            "Switzerland West",
+            "UAE North",
+            "UK South",
+            "West Europe",
+            "West US",
+            "West US 3"
+          ],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": []
+          "sku_updates": [
+            {
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [
+                "Central US",
+                "East US",
+                "North Central US",
+                "West US"
+              ],
+              "removed_regions": [],
+              "sku_removed": false
+            },
+            {
+              "sku": "standard-global",
+              "label": "Standard global deployments",
+              "added_regions": [
+                "Australia East",
+                "Brazil South",
+                "Canada Central",
+                "Canada East",
+                "Central US",
+                "East US",
+                "France Central",
+                "Germany West Central",
+                "Italy North",
+                "Japan East",
+                "Korea Central",
+                "North Central US",
+                "Norway East",
+                "South Africa North",
+                "South India",
+                "Southeast Asia",
+                "Spain Central",
+                "Switzerland North",
+                "Switzerland West",
+                "UAE North",
+                "UK South",
+                "West Europe",
+                "West US",
+                "West US 3"
+              ],
+              "removed_regions": [],
+              "sku_removed": false
+            }
+          ]
         },
         "skus": [
           {
             "sku": "datazone-standard",
             "label": "Datazone standard",
             "regions": [
+              "Central US",
+              "East US",
               "East US 2",
-              "South Central US"
+              "North Central US",
+              "South Central US",
+              "West US"
             ]
           },
           {
             "sku": "standard-global",
             "label": "Standard global deployments",
             "regions": [
+              "Australia East",
+              "Brazil South",
+              "Canada Central",
+              "Canada East",
+              "Central US",
+              "East US",
               "East US 2",
+              "France Central",
+              "Germany West Central",
+              "Italy North",
+              "Japan East",
+              "Korea Central",
+              "North Central US",
+              "Norway East",
               "Poland Central",
+              "South Africa North",
               "South Central US",
-              "Sweden Central"
+              "South India",
+              "Southeast Asia",
+              "Spain Central",
+              "Sweden Central",
+              "Switzerland North",
+              "Switzerland West",
+              "UAE North",
+              "UK South",
+              "West Europe",
+              "West US",
+              "West US 3"
             ]
           }
         ]
@@ -5102,22 +5305,10 @@
         ],
         "region_count": 5,
         "updates": {
-          "added_regions": [
-            "West US 3"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -5144,22 +5335,10 @@
         ],
         "region_count": 5,
         "updates": {
-          "added_regions": [
-            "West US 3"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -5191,12 +5370,12 @@
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
                 "West US 3"
               ],
-              "removed_regions": [],
               "sku_removed": false
             }
           ]
@@ -5208,8 +5387,7 @@
             "regions": [
               "East US 2",
               "Poland Central",
-              "Sweden Central",
-              "West US 3"
+              "Sweden Central"
             ]
           },
           {
@@ -6586,12 +6764,12 @@
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
                 "West US 3"
               ],
-              "removed_regions": [],
               "sku_removed": false
             }
           ]
@@ -6630,8 +6808,7 @@
               "Spain Central",
               "Sweden Central",
               "West Europe",
-              "West US",
-              "West US 3"
+              "West US"
             ]
           },
           {
@@ -6762,12 +6939,12 @@
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
                 "West US 3"
               ],
-              "removed_regions": [],
               "sku_removed": false
             }
           ]
@@ -6807,8 +6984,7 @@
               "Spain Central",
               "Sweden Central",
               "West Europe",
-              "West US",
-              "West US 3"
+              "West US"
             ]
           },
           {
@@ -6993,19 +7169,40 @@
           "UK South",
           "West Europe",
           "West US",
-          "West US 3"
+          "West US 3",
+          "usgovarizona"
         ],
-        "region_count": 28,
+        "region_count": 29,
         "updates": {
-          "added_regions": [],
+          "added_regions": [
+            "usgovarizona"
+          ],
           "removed_regions": [],
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
+              "sku": "datazone-provisioned-managed-gov",
+              "label": "Datazone Provisioned Managed Gov",
               "added_regions": [
+                "usgovarizona"
+              ],
+              "removed_regions": [],
+              "sku_removed": false
+            },
+            {
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
                 "West US 3"
+              ],
+              "sku_removed": false
+            },
+            {
+              "sku": "datazone-standard-gov",
+              "label": "Datazone Standard Gov",
+              "added_regions": [
+                "usgovarizona"
               ],
               "removed_regions": [],
               "sku_removed": false
@@ -7031,6 +7228,13 @@
             ]
           },
           {
+            "sku": "datazone-provisioned-managed-gov",
+            "label": "Datazone Provisioned Managed Gov",
+            "regions": [
+              "usgovarizona"
+            ]
+          },
+          {
             "sku": "datazone-standard",
             "label": "Datazone standard",
             "regions": [
@@ -7046,8 +7250,14 @@
               "Spain Central",
               "Sweden Central",
               "West Europe",
-              "West US",
-              "West US 3"
+              "West US"
+            ]
+          },
+          {
+            "sku": "datazone-standard-gov",
+            "label": "Datazone Standard Gov",
+            "regions": [
+              "usgovarizona"
             ]
           },
           {
@@ -7239,14 +7449,11 @@
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
               "removed_regions": [
-                "Canada Central",
-                "Switzerland West"
+                "West US 3"
               ],
               "sku_removed": false
             }
@@ -7287,8 +7494,7 @@
               "Spain Central",
               "Sweden Central",
               "West Europe",
-              "West US",
-              "West US 3"
+              "West US"
             ]
           },
           {
@@ -7435,38 +7641,27 @@
       },
       {
         "model": "sora",
-        "available_regions": [
-          "East US 2"
-        ],
-        "region_count": 1,
+        "available_regions": [],
+        "region_count": 0,
         "updates": {
           "added_regions": [],
           "removed_regions": [
-            "Sweden Central"
+            "East US 2"
           ],
-          "model_removed": false,
+          "model_removed": true,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
+              "sku": "standard-models",
+              "label": "Standard (all)",
               "added_regions": [],
               "removed_regions": [
-                "East US 2",
-                "Sweden Central"
+                "East US 2"
               ],
               "sku_removed": true
             }
           ]
         },
-        "skus": [
-          {
-            "sku": "standard-models",
-            "label": "Standard (all)",
-            "regions": [
-              "East US 2"
-            ]
-          }
-        ]
+        "skus": []
       },
       {
         "model": "sora-2",
@@ -7520,19 +7715,31 @@
           "UK South",
           "West Europe",
           "West US",
-          "West US 3"
+          "West US 3",
+          "usgovarizona"
         ],
-        "region_count": 26,
+        "region_count": 27,
         "updates": {
-          "added_regions": [],
+          "added_regions": [
+            "usgovarizona"
+          ],
           "removed_regions": [],
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
                 "West US 3"
+              ],
+              "sku_removed": false
+            },
+            {
+              "sku": "standard-models-gov",
+              "label": "Standard Models Gov",
+              "added_regions": [
+                "usgovarizona"
               ],
               "removed_regions": [],
               "sku_removed": false
@@ -7556,8 +7763,7 @@
               "Spain Central",
               "Sweden Central",
               "West Europe",
-              "West US",
-              "West US 3"
+              "West US"
             ]
           },
           {
@@ -7615,6 +7821,13 @@
               "UK South",
               "West US 3"
             ]
+          },
+          {
+            "sku": "standard-models-gov",
+            "label": "Standard Models Gov",
+            "regions": [
+              "usgovarizona"
+            ]
           }
         ]
       },
@@ -7645,19 +7858,31 @@
           "UK South",
           "West Europe",
           "West US",
-          "West US 3"
+          "West US 3",
+          "usgovarizona"
         ],
-        "region_count": 25,
+        "region_count": 26,
         "updates": {
-          "added_regions": [],
+          "added_regions": [
+            "usgovarizona"
+          ],
           "removed_regions": [],
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
                 "West US 3"
+              ],
+              "sku_removed": false
+            },
+            {
+              "sku": "standard-models-gov",
+              "label": "Standard Models Gov",
+              "added_regions": [
+                "usgovarizona"
               ],
               "removed_regions": [],
               "sku_removed": false
@@ -7681,8 +7906,7 @@
               "Spain Central",
               "Sweden Central",
               "West Europe",
-              "West US",
-              "West US 3"
+              "West US"
             ]
           },
           {
@@ -7729,6 +7953,13 @@
               "UAE North",
               "West US"
             ]
+          },
+          {
+            "sku": "standard-models-gov",
+            "label": "Standard Models Gov",
+            "regions": [
+              "usgovarizona"
+            ]
           }
         ]
       },
@@ -7759,19 +7990,31 @@
           "UK South",
           "West Europe",
           "West US",
-          "West US 3"
+          "West US 3",
+          "usgovarizona"
         ],
-        "region_count": 25,
+        "region_count": 26,
         "updates": {
-          "added_regions": [],
+          "added_regions": [
+            "usgovarizona"
+          ],
           "removed_regions": [],
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
+              "sku": "datazone-standard",
+              "label": "Datazone standard",
+              "added_regions": [],
+              "removed_regions": [
                 "West US 3"
+              ],
+              "sku_removed": false
+            },
+            {
+              "sku": "standard-models-gov",
+              "label": "Standard Models Gov",
+              "added_regions": [
+                "usgovarizona"
               ],
               "removed_regions": [],
               "sku_removed": false
@@ -7795,8 +8038,7 @@
               "Spain Central",
               "Sweden Central",
               "West Europe",
-              "West US",
-              "West US 3"
+              "West US"
             ]
           },
           {
@@ -7852,6 +8094,13 @@
               "West Europe",
               "West US",
               "West US 3"
+            ]
+          },
+          {
+            "sku": "standard-models-gov",
+            "label": "Standard Models Gov",
+            "regions": [
+              "usgovarizona"
             ]
           }
         ]
@@ -7952,7 +8201,6 @@
           "cohere-command-a",
           "Cohere-rerank-v4.0-fast",
           "Cohere-rerank-v4.0-pro",
-          "dall-e-3",
           "DeepSeek-R1",
           "DeepSeek-R1-0528",
           "DeepSeek-V3-0324",
@@ -7984,6 +8232,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -8006,8 +8255,12 @@
         ],
         "model_count": 54,
         "updates": {
-          "added_models": [],
-          "removed_models": []
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
+          "removed_models": [
+            "dall-e-3"
+          ]
         }
       },
       {
@@ -8047,6 +8300,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -8067,9 +8321,11 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 53,
+        "model_count": 54,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -8112,6 +8368,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "gpt-realtime",
           "gpt-realtime-1.5",
           "gpt-realtime-mini",
@@ -8132,10 +8389,10 @@
           "o3-mini",
           "o4-mini"
         ],
-        "model_count": 55,
+        "model_count": 56,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "gpt-5.4-nano"
           ],
           "removed_models": []
         }
@@ -8177,6 +8434,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -8197,9 +8455,11 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 53,
+        "model_count": 54,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -8244,6 +8504,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "gpt-audio",
           "gpt-audio-1.5",
           "gpt-audio-mini",
@@ -8271,9 +8532,11 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 64,
+        "model_count": 65,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -8283,7 +8546,6 @@
           "cohere-command-a",
           "Cohere-rerank-v4.0-fast",
           "Cohere-rerank-v4.0-pro",
-          "dall-e-3",
           "DeepSeek-R1",
           "DeepSeek-R1-0528",
           "DeepSeek-V3-0324",
@@ -8315,6 +8577,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -8338,9 +8601,11 @@
         ],
         "model_count": 55,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": [
-            "gpt-4o-mini-audio-preview"
+            "dall-e-3"
           ]
         }
       },
@@ -8419,21 +8684,17 @@
           "o3-mini",
           "o3-pro",
           "o4-mini",
-          "sora",
           "sora-2",
           "text-embedding-3-large",
           "text-embedding-3-small",
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 78,
+        "model_count": 77,
         "updates": {
           "added_models": [],
           "removed_models": [
-            "gpt-4o-audio-preview",
-            "gpt-4o-mini-audio-preview",
-            "gpt-4o-mini-realtime-preview",
-            "gpt-4o-realtime-preview"
+            "sora"
           ]
         }
       },
@@ -8477,6 +8738,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "gpt-realtime",
           "gpt-realtime-1.5",
           "gpt-realtime-mini",
@@ -8500,9 +8762,11 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 59,
+        "model_count": 60,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -8543,6 +8807,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -8563,9 +8828,11 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 53,
+        "model_count": 54,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -8606,6 +8873,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -8626,10 +8894,10 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 53,
+        "model_count": 54,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "gpt-5.4-nano"
           ],
           "removed_models": []
         }
@@ -8671,6 +8939,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -8691,9 +8960,11 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 53,
+        "model_count": 54,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -8770,6 +9041,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -8790,9 +9062,11 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 53,
+        "model_count": 54,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -8833,6 +9107,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -8856,9 +9131,11 @@
           "tts-hd",
           "whisper"
         ],
-        "model_count": 56,
+        "model_count": 57,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -8899,6 +9176,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -8921,9 +9199,11 @@
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 55,
+        "model_count": 56,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -9032,6 +9312,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -9052,9 +9333,11 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 53,
+        "model_count": 54,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -9161,6 +9444,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -9183,9 +9467,11 @@
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 56,
+        "model_count": 57,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -9212,16 +9498,17 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "o1",
           "o3",
           "o3-mini",
           "o4-mini",
           "text-embedding-3-large"
         ],
-        "model_count": 25,
+        "model_count": 26,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "gpt-5.4-nano"
           ],
           "removed_models": []
         }
@@ -9263,6 +9550,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -9283,9 +9571,11 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 53,
+        "model_count": 54,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -9297,7 +9587,6 @@
           "Cohere-rerank-v4.0-fast",
           "Cohere-rerank-v4.0-pro",
           "computer-use-preview",
-          "dall-e-3",
           "DeepSeek-R1",
           "DeepSeek-R1-0528",
           "DeepSeek-V3-0324",
@@ -9313,11 +9602,8 @@
           "gpt-4.1-mini",
           "gpt-4.1-nano",
           "gpt-4o",
-          "gpt-4o-audio-preview",
           "gpt-4o-mini",
-          "gpt-4o-mini-realtime-preview",
           "gpt-4o-mini-transcribe",
-          "gpt-4o-realtime-preview",
           "gpt-4o-transcribe",
           "gpt-4o-transcribe-diarize",
           "gpt-5",
@@ -9376,11 +9662,14 @@
           "tts-hd",
           "whisper"
         ],
-        "model_count": 83,
+        "model_count": 79,
         "updates": {
           "added_models": [],
           "removed_models": [
-            "sora"
+            "dall-e-3",
+            "gpt-4o-audio-preview",
+            "gpt-4o-mini-realtime-preview",
+            "gpt-4o-realtime-preview"
           ]
         }
       },
@@ -9421,6 +9710,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -9442,9 +9732,11 @@
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 54,
+        "model_count": 55,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -9484,6 +9776,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -9501,10 +9794,10 @@
           "o3-mini",
           "o4-mini"
         ],
-        "model_count": 49,
+        "model_count": 50,
         "updates": {
           "added_models": [
-            "gpt-5.4-mini"
+            "gpt-5.4-nano"
           ],
           "removed_models": []
         }
@@ -9546,6 +9839,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "gpt-image-1",
           "gpt-image-1-mini",
           "gpt-image-1.5",
@@ -9570,9 +9864,11 @@
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 57,
+        "model_count": 58,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -9613,6 +9909,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -9633,9 +9930,11 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 53,
+        "model_count": 54,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -9713,6 +10012,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -9735,9 +10035,11 @@
           "text-embedding-ada-002",
           "whisper"
         ],
-        "model_count": 55,
+        "model_count": 56,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -9778,6 +10080,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "grok-3",
           "grok-3-mini",
           "grok-4-1-fast-non-reasoning",
@@ -9800,9 +10103,11 @@
           "text-embedding-3-small",
           "text-embedding-ada-002"
         ],
-        "model_count": 55,
+        "model_count": 56,
         "updates": {
-          "added_models": [],
+          "added_models": [
+            "gpt-5.4-nano"
+          ],
           "removed_models": []
         }
       },
@@ -9876,6 +10181,7 @@
           "gpt-5.3-codex",
           "gpt-5.4",
           "gpt-5.4-mini",
+          "gpt-5.4-nano",
           "gpt-image-1",
           "gpt-image-1-mini",
           "gpt-image-1.5",
@@ -9901,14 +10207,37 @@
           "tts",
           "tts-hd"
         ],
-        "model_count": 55,
+        "model_count": 56,
         "updates": {
           "added_models": [
-            "gpt-5.1-chat",
-            "gpt-5.1-codex-mini",
-            "gpt-5.4-mini",
-            "gpt-image-1",
-            "gpt-image-1-mini"
+            "gpt-5.4-nano"
+          ],
+          "removed_models": []
+        }
+      },
+      {
+        "region": "usgovarizona",
+        "available_models": [
+          "gpt-4.1",
+          "gpt-4.1-mini",
+          "gpt-4o",
+          "gpt-5.1",
+          "o3-mini",
+          "text-embedding-3-large",
+          "text-embedding-3-small",
+          "text-embedding-ada-002"
+        ],
+        "model_count": 8,
+        "updates": {
+          "added_models": [
+            "gpt-4.1",
+            "gpt-4.1-mini",
+            "gpt-4o",
+            "gpt-5.1",
+            "o3-mini",
+            "text-embedding-3-large",
+            "text-embedding-3-small",
+            "text-embedding-ada-002"
           ],
           "removed_models": []
         }

@@ -1,38 +1,42 @@
 # Europe Model Availability Daily Summary
 
-Generated: 2026-04-07T06:41:29.811868+00:00
-Update source: diff-20260404T003033954Z.json (2026-04-04T00:30:33.954678+00:00)
+Generated: 2026-04-11T12:36:23.245212+00:00
+Update source: latest-refresh (2026-04-11T12:36:23.245212+00:00)
 
 ## Snapshot
 
 - Regions tracked: 19
-- Models currently available in Europe: 86
+- Models currently available in Europe: 85
 - Regions with current availability: 11
-- Models with updates: 10
-- Added region placements: 2
-- Removed region placements: 1
-- Added models by region: 2
-- Removed models by region: 1
+- Models with updates: 7
+- Added region placements: 9
+- Removed region placements: 4
+- Added models by region: 9
+- Removed models by region: 4
 
 ## Regional Changes
 
 | Region | Current Models | Added Models | Removed Models |
 | --- | ---: | ---: | ---: |
-| Italy North | 53 | 1 | 0 |
-| Sweden Central | 83 | 0 | 1 |
-| Switzerland West | 49 | 1 | 0 |
+| France Central | 60 | 1 | 0 |
+| Germany West Central | 54 | 1 | 0 |
+| Italy North | 54 | 1 | 0 |
+| Norway East | 56 | 1 | 0 |
+| Spain Central | 54 | 1 | 0 |
+| Sweden Central | 79 | 0 | 4 |
+| Switzerland North | 55 | 1 | 0 |
+| Switzerland West | 50 | 1 | 0 |
+| UK South | 54 | 1 | 0 |
+| West Europe | 56 | 1 | 0 |
 
 ## Model Changes
 
 | Model | Current Regions | Added Regions | Removed Regions |
 | --- | ---: | ---: | ---: |
-| gpt-4.1 | 11 | 0 | 0 |
-| gpt-4.1-mini | 11 | 0 | 0 |
+| dall-e-3 | 0 | 0 | 1 |
 | gpt-4.1-nano | 11 | 0 | 0 |
-| gpt-4o | 11 | 0 | 0 |
-| gpt-4o-mini | 11 | 0 | 0 |
-| gpt-4o-mini-audio-preview | 0 | 0 | 0 |
-| gpt-5.4 | 11 | 0 | 0 |
-| gpt-5.4-mini | 11 | 2 | 0 |
-| o4-mini | 11 | 0 | 0 |
-| sora | 0 | 0 | 1 |
+| gpt-4o-audio-preview | 0 | 0 | 1 |
+| gpt-4o-mini-realtime-preview | 0 | 0 | 1 |
+| gpt-4o-realtime-preview | 0 | 0 | 1 |
+| gpt-5.4-nano | 11 | 9 | 0 |
+| sora | 0 | 0 | 0 |
