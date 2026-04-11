@@ -942,6 +942,41 @@ def write_filtered_views(current: dict, changes: dict, timestamp: str) -> None:
         with open(f"{base_name}_sku_flat.json", "w", encoding="utf-8") as handle:
             json.dump(sku_flat_payload, handle, indent=2, sort_keys=False)
 
+        # Agent-optimized: compact file with only available models (no wrapper, flat array)
+        # Small enough for Copilot Studio knowledge grounding (~100-200 KB vs 650+ KB)
+        agent_rows = []
+        for row in sku_flat_payload["rows"]:
+            if not row.get("is_available"):
+                continue
+            agent_rows.append({
+                "model": row["model"],
+                "region": row["region"],
+                "sku": row["sku_label"],
+                "status": "new" if row.get("change_status") == "added" else "available",
+            })
+        # Separate changes file — tiny, always parseable
+        changes_rows = [r for r in sku_flat_payload["rows"] if r.get("change_status") in ("added", "removed")]
+        changes_out = {
+            "timestamp": sku_flat_payload["timestamp"],
+            "scope": sku_flat_payload.get("filter", {}).get("scope", ""),
+            "total_changes": len(changes_rows),
+            "changes": [],
+        }
+        for r in changes_rows:
+            changes_out["changes"].append({
+                "model": r["model"],
+                "region": r["region"],
+                "sku": r["sku_label"],
+                "action": r["change_status"],
+                "is_available": r["is_available"],
+            })
+
+        with open(f"{base_name}_agent.json", "w", encoding="utf-8") as handle:
+            json.dump(agent_rows, handle, indent=1, sort_keys=False)
+
+        with open(f"{base_name}_changes.json", "w", encoding="utf-8") as handle:
+            json.dump(changes_out, handle, indent=2, sort_keys=False)
+
 def filter_models(data: dict) -> dict:
     """Filter models based on environment variables.
     
