@@ -62,7 +62,13 @@ jobs:
             [ -f "$f" ] && cp "$f" site/ && echo "Copied $f" || echo "Skipped $f (not found)"
           done
           for d in region_diff_europe_regions region_diff_worldwide_regions; do
-            [ -d "$d" ] && cp -r "$d" site/ && echo "Copied $d/" || echo "Skipped $d/"
+            if [ -d "$d" ]; then
+              for f in "$d"/*.md; do
+                base=$(basename "$f")
+                scope=$(echo "$d" | sed 's/region_diff_//' | sed 's/_regions//')
+                cp "$f" "site/${scope}-${base}" && echo "Copied ${scope}-${base}"
+              done
+            fi
           done
 
       - name: Setup Pages
