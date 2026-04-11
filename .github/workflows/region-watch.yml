@@ -177,7 +177,7 @@ jobs:
         run: |
           git config user.email "bot@users.noreply.github.com"
           git config user.name "region-bot"
-          git add .region-watch/regions_snapshot.json .region-watch/history region_diff.json region_diff_europe.json region_diff_europe_flat.json region_diff_europe_sku_flat.json region_diff_europe_summary.md region_diff_worldwide.json region_diff_worldwide_flat.json region_diff_worldwide_sku_flat.json region_diff_worldwide_summary.md region_diff_europe_agent.json region_diff_europe_changes.json region_diff_worldwide_agent.json region_diff_worldwide_changes.json region_diff_europe_agent.md region_diff_worldwide_agent.md REGION_AVAILABILITY.md LATEST_CHANGES.md
+          git add .region-watch/regions_snapshot.json .region-watch/history region_diff.json region_diff_europe.json region_diff_europe_flat.json region_diff_europe_sku_flat.json region_diff_europe_summary.md region_diff_worldwide.json region_diff_worldwide_flat.json region_diff_worldwide_sku_flat.json region_diff_worldwide_summary.md region_diff_europe_agent.json region_diff_europe_changes.json region_diff_worldwide_agent.json region_diff_worldwide_changes.json region_diff_europe_agent.md region_diff_worldwide_agent.md region_diff_europe_regions/ region_diff_worldwide_regions/ REGION_AVAILABILITY.md LATEST_CHANGES.md
           git diff --cached --quiet || git commit -m "Update region snapshot"
           git push
 

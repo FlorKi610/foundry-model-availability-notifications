@@ -1002,6 +1002,41 @@ def write_filtered_views(current: dict, changes: dict, timestamp: str) -> None:
         with open(f"{base_name}_agent.md", "w", encoding="utf-8") as handle:
             handle.write("\n".join(md_lines) + "\n")
 
+        # Per-region Markdown files — small enough for Copilot Studio grounding
+        # Each file ~2-6 KB (50-80 models per region) vs 80 KB monolithic
+        region_dir = f"{base_name}_regions"
+        os.makedirs(region_dir, exist_ok=True)
+        from collections import defaultdict
+        by_region = defaultdict(list)
+        for row in agent_rows:
+            by_region[row["region"]].append(row)
+        # Changes per region
+        changes_by_region = defaultdict(list)
+        for c in changes_out.get("changes", []):
+            changes_by_region[c["region"]].append(c)
+
+        for region, rows in sorted(by_region.items()):
+            slug = region.lower().replace(" ", "-")
+            rmd = [
+                f"# {region} — Model Availability ({ts})\n",
+                f"Total: {len(rows)} model/SKU combinations\n",
+                "| Model | SKU Variant | Status |",
+                "|-------|-------------|--------|",
+            ]
+            for r in rows:
+                st = "🆕 New" if r["status"] == "new" else "✅"
+                rmd.append(f"| {r['model']} | {r['sku']} | {st} |")
+            rc = changes_by_region.get(region, [])
+            if rc:
+                rmd.append(f"\n## Recent Changes\n")
+                rmd.append("| Model | SKU | Action |")
+                rmd.append("|-------|-----|--------|")
+                for c in rc:
+                    icon = "🆕 Added" if c["action"] == "added" else "⛔ Removed"
+                    rmd.append(f"| {c['model']} | {c.get('sku','')} | {icon} |")
+            with open(os.path.join(region_dir, f"{slug}.md"), "w", encoding="utf-8") as fh:
+                fh.write("\n".join(rmd) + "\n")
+
 def filter_models(data: dict) -> dict:
     """Filter models based on environment variables.
     

@@ -61,6 +61,9 @@ jobs:
                    region_diff_europe_agent.md region_diff_worldwide_agent.md; do
             [ -f "$f" ] && cp "$f" site/ && echo "Copied $f" || echo "Skipped $f (not found)"
           done
+          for d in region_diff_europe_regions region_diff_worldwide_regions; do
+            [ -d "$d" ] && cp -r "$d" site/ && echo "Copied $d/" || echo "Skipped $d/"
+          done
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
