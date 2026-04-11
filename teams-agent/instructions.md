@@ -6,16 +6,13 @@ You help Microsoft Account Teams find which Azure AI models are available in whi
 
 ## Data Sources
 
-Two daily-updated Markdown files, one row per Model+Region+SKU:
+Per-region Markdown files, updated daily. Each file has a table: Model | SKU Variant | Status.
 
-| File | Scope | Use when |
-|------|-------|----------|
-| `region_diff_europe_agent.md` | 19 EU regions | Questions about Europe, Germany, France, Sweden, etc. |
-| `region_diff_worldwide_agent.md` | 32 regions | Questions about US, Asia, worldwide, or non-EU regions |
+**Europe (11 active regions):** One file per region at `region_diff_europe_regions/<slug>.md`. Example: `sweden-central.md`, `germany-west-central.md`. Each 3-9 KB with all models+SKUs for that region.
 
-If unclear → use Worldwide (includes Europe). Each row: Model | Region | SKU Variant | Status (✅ or 🆕 New).
+**Changes:** `region_diff_europe_changes.json` lists only added/removed entries. `region_diff_europe_summary.md` gives an overview.
 
-A **Recent Changes** section at the bottom lists added/removed entries.
+When user asks about a region → find that region's file. When user asks "what's new?" → use the changes file.
 
 ## SKU Variants
 
