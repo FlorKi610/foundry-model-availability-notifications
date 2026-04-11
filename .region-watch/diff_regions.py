@@ -977,6 +977,31 @@ def write_filtered_views(current: dict, changes: dict, timestamp: str) -> None:
         with open(f"{base_name}_changes.json", "w", encoding="utf-8") as handle:
             json.dump(changes_out, handle, indent=2, sort_keys=False)
 
+        # Markdown table format — Copilot Studio parses this much better than JSON
+        ts = sku_flat_payload.get("timestamp", "")
+        scope_name = sku_flat_payload.get("filter", {}).get("scope", "")
+        md_lines = [
+            f"# {scope_name} Model Availability — {ts}\n",
+            f"Total: {len(agent_rows)} model/region/SKU combinations\n",
+            "| Model | Region | SKU Variant | Status |",
+            "|-------|--------|-------------|--------|",
+        ]
+        for row in agent_rows:
+            status = "🆕 New" if row["status"] == "new" else "✅"
+            md_lines.append(f"| {row['model']} | {row['region']} | {row['sku']} | {status} |")
+
+        # Changes section
+        if changes_out["total_changes"] > 0:
+            md_lines.append(f"\n## Recent Changes ({changes_out['total_changes']} total)\n")
+            md_lines.append("| Model | Region | SKU | Action |")
+            md_lines.append("|-------|--------|-----|--------|")
+            for c in changes_out["changes"]:
+                icon = "🆕 Added" if c["action"] == "added" else "⛔ Removed"
+                md_lines.append(f"| {c['model']} | {c['region']} | {c['sku']} | {icon} |")
+
+        with open(f"{base_name}_agent.md", "w", encoding="utf-8") as handle:
+            handle.write("\n".join(md_lines) + "\n")
+
 def filter_models(data: dict) -> dict:
     """Filter models based on environment variables.
     
