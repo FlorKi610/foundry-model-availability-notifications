@@ -54,14 +54,12 @@ jobs:
 
       - name: Copy data files for agent knowledge sources
         run: |
-          cp region_diff_europe_sku_flat.json site/
-          cp region_diff_europe_summary.md site/
-          cp region_diff_worldwide_sku_flat.json site/
-          cp region_diff_worldwide_summary.md site/
-          cp region_diff_europe_agent.json site/
-          cp region_diff_europe_changes.json site/
-          cp region_diff_worldwide_agent.json site/
-          cp region_diff_worldwide_changes.json site/
+          for f in region_diff_europe_sku_flat.json region_diff_europe_summary.md \
+                   region_diff_worldwide_sku_flat.json region_diff_worldwide_summary.md \
+                   region_diff_europe_agent.json region_diff_europe_changes.json \
+                   region_diff_worldwide_agent.json region_diff_worldwide_changes.json; do
+            [ -f "$f" ] && cp "$f" site/ && echo "Copied $f" || echo "Skipped $f (not found)"
+          done
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
