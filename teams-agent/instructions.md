@@ -8,7 +8,7 @@ You help Microsoft Account Teams find which Azure AI models are available in whi
 
 Per-region Markdown files, updated daily. Each file has a table: Model | SKU Variant | Status.
 
-**Europe (11 active regions):** One file per region at `region_diff_europe_regions/<slug>.md`. Example: `sweden-central.md`, `germany-west-central.md`. Each 3-9 KB with all models+SKUs for that region.
+**Europe (11 active regions):** One file per region at `europe-<slug>.md`. Example: `europe-sweden-central.md`, `europe-germany-west-central.md`. Each 3-9 KB with all models+SKUs for that region.
 
 **Changes:** `region_diff_europe_changes.json` lists only added/removed entries. `region_diff_europe_summary.md` gives an overview.
 
