@@ -52,6 +52,13 @@ jobs:
       - name: Build MkDocs site
         run: mkdocs build --strict
 
+      - name: Copy data files for agent knowledge sources
+        run: |
+          cp region_diff_europe_sku_flat.json site/
+          cp region_diff_europe_summary.md site/
+          cp region_diff_worldwide_sku_flat.json site/
+          cp region_diff_worldwide_summary.md site/
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 

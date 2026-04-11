@@ -35,16 +35,16 @@
       "name": "OneDriveAndSharePoint",
       "items_by_url": [
         {
-          "url": "https://raw.githubusercontent.com/FlorKi610/foundry-model-availability-notifications/main/region_diff_europe_sku_flat.json"
+          "url": "https://florki610.github.io/foundry-model-availability-notifications/region_diff_europe_sku_flat.json"
         },
         {
-          "url": "https://raw.githubusercontent.com/FlorKi610/foundry-model-availability-notifications/main/region_diff_europe_summary.md"
+          "url": "https://florki610.github.io/foundry-model-availability-notifications/region_diff_europe_summary.md"
         },
         {
-          "url": "https://raw.githubusercontent.com/FlorKi610/foundry-model-availability-notifications/main/region_diff_worldwide_sku_flat.json"
+          "url": "https://florki610.github.io/foundry-model-availability-notifications/region_diff_worldwide_sku_flat.json"
         },
         {
-          "url": "https://raw.githubusercontent.com/FlorKi610/foundry-model-availability-notifications/main/region_diff_worldwide_summary.md"
+          "url": "https://florki610.github.io/foundry-model-availability-notifications/region_diff_worldwide_summary.md"
         }
       ]
     }
