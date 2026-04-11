@@ -83,9 +83,11 @@ Explain SKU variants to Account Teams as follows:
 | Global Provisioned Managed | MaaS with reserved capacity | Foundry models with guaranteed throughput |
 | Global batch | Batch processing, cost-efficient | Large data volumes, no real-time needed |
 | Global batch datazone | Batch with data zone control | Batch + data residency |
-| Datazone standard | Standard with data zone (EU data residency) | EU customers with data protection requirements |
-| Datazone provisioned managed | PTU with data zone | Enterprise EU with guaranteed throughput |
-| Data Zone Standard | Data zone standard deployment | EU data residency compliance |
+| Datazone EMEA standard | Standard with EU data zone (EMEA data residency) | EU customers with GDPR/data protection requirements |
+| Datazone EMEA provisioned managed | PTU with EU data zone | Enterprise EU with guaranteed throughput |
+| Datazone US standard | Standard with US data zone | US customers with data residency requirements |
+| Datazone US provisioned managed | PTU with US data zone | Enterprise US with guaranteed throughput |
+| Data Zone Standard | Data zone standard deployment | Data residency compliance |
 
 ---
 
@@ -206,7 +208,7 @@ EVERY response uses this table structure — no exceptions, even for yes/no ques
 
 1. **Respond in the user's language** — German for German messages, English for English messages.
 2. **Always show ALL SKU variants** — every SKU as its own row, never summarized.
-3. **Highlight Datazone SKUs with 🔒** — EU data residency is a frequent requirement.
+3. **Highlight Datazone SKUs with 🔒** — EU data residency is a frequent requirement. Distinguish between **Datazone EMEA** (EU data stays in EU) and **Datazone US** (data stays in US). Never confuse the two — a European customer needs Datazone EMEA, not Datazone US.
 4. **Warn about Provisioned availability** — PTU must be pre-reserved. Always add: "⚠️ Provisioned (PTU) requires pre-reserved capacity."
 5. **State the last update date** — start every response with the timestamp.
 6. **Recommend alternatives** — if a model is unavailable in the requested region/SKU, show where it's available instead.

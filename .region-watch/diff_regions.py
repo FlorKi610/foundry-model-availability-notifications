@@ -98,6 +98,31 @@ SKU_LABEL_OVERRIDES = {
     "quota": "Quota",
 }
 
+# Regions belonging to the EMEA datazone (EU + Middle East + Africa)
+EMEA_REGIONS = {
+    "France Central", "France South", "Germany North", "Germany West Central",
+    "Italy North", "Netherlands West", "North Europe", "Norway East", "Norway West",
+    "Poland Central", "Spain Central", "Sweden Central", "Sweden South",
+    "Switzerland North", "Switzerland West", "UK South", "UK West", "West Europe",
+    "Finland Central", "South Africa North", "UAE North",
+}
+
+# Regions belonging to the US datazone
+US_REGIONS = {
+    "Central US", "East US", "East US 2", "North Central US", "South Central US",
+    "West US", "West US 2", "West US 3", "West Central US",
+}
+
+def datazone_label(base_label: str, region: str) -> str:
+    """Append geographic datazone qualifier (EMEA/US) to Datazone SKU labels."""
+    if "datazone" not in base_label.lower() and "Datazone" not in base_label:
+        return base_label
+    if region in EMEA_REGIONS:
+        return base_label.replace("Datazone", "Datazone EMEA").replace("datazone", "Datazone EMEA")
+    if region in US_REGIONS:
+        return base_label.replace("Datazone", "Datazone US").replace("datazone", "Datazone US")
+    return base_label
+
 def github_headers(accept: str) -> dict:
     headers = {"Accept": accept}
     token = os.getenv("GITHUB_TOKEN")
@@ -767,7 +792,7 @@ def build_sku_flat_rows(payload: dict) -> list[dict]:
                     "model": model_name,
                     "region": region,
                     "sku": sku_key,
-                    "sku_label": sku_label,
+                    "sku_label": datazone_label(sku_label, region),
                     "is_available": True,
                     "change_status": region_change,
                     "sku_change_status": sku_change,
