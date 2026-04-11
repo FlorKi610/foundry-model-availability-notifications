@@ -1,0 +1,98 @@
+{
+  "timestamp": "2026-04-11T20:00:34.524460+00:00",
+  "scope": "Europe",
+  "total_changes": 13,
+  "changes": [
+    {
+      "model": "dall-e-3",
+      "region": "Sweden Central",
+      "sku": "",
+      "action": "removed",
+      "is_available": false
+    },
+    {
+      "model": "gpt-4o-audio-preview",
+      "region": "Sweden Central",
+      "sku": "",
+      "action": "removed",
+      "is_available": false
+    },
+    {
+      "model": "gpt-4o-mini-realtime-preview",
+      "region": "Sweden Central",
+      "sku": "",
+      "action": "removed",
+      "is_available": false
+    },
+    {
+      "model": "gpt-4o-realtime-preview",
+      "region": "Sweden Central",
+      "sku": "",
+      "action": "removed",
+      "is_available": false
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "region": "France Central",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "region": "Germany West Central",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "region": "Italy North",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "region": "Norway East",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "region": "Spain Central",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "region": "Switzerland North",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "region": "Switzerland West",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "region": "UK South",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "region": "West Europe",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    }
+  ]
+}
