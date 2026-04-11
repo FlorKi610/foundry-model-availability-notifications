@@ -2,32 +2,32 @@
   "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.3/schema.json",
   "version": "v1.3",
   "name": "Azure AI Model Availability Agent",
-  "description": "Hilft deutschen Account Teams herauszufinden, welche Azure AI Modelle in welcher Region und welcher SKU/Deployment-Variante verfügbar sind. Erkennt neue Modelle, Retirements und Änderungen.",
+  "description": "Helps account teams find which Azure AI models are available in which region and SKU/deployment type — covering Europe and worldwide. Detects new models, retirements, and changes daily.",
   "instructions": "$[file('instructions.md')]",
   "conversation_starters": [
     {
-      "title": "Modelle in Deutschland",
-      "text": "Welche AI Modelle sind aktuell in Germany West Central verfügbar?"
+      "title": "Models in Germany",
+      "text": "Which AI models are currently available in Germany West Central?"
     },
     {
-      "title": "GPT-5 SKU Check",
-      "text": "In welchen SKU-Varianten ist GPT-5 in Europa verfügbar?"
+      "title": "GPT-5 in Europe",
+      "text": "In which SKU variants is GPT-5 available across European regions?"
     },
     {
-      "title": "Was ist neu?",
-      "text": "Welche neuen Modelle oder Regionen sind diese Woche dazugekommen?"
+      "title": "What's new?",
+      "text": "Which new models or regions were added in the last few days?"
     },
     {
-      "title": "Provisioned PTU",
-      "text": "Welche Modelle gibt es als Provisioned (PTU) in Sweden Central?"
+      "title": "Worldwide East US",
+      "text": "What models are available in East US 2 and what SKUs do they support?"
     },
     {
-      "title": "Retirement Check",
-      "text": "Welche Modelle wurden kürzlich retired oder aus Regionen entfernt?"
+      "title": "Region comparison",
+      "text": "Compare model availability between Sweden Central and East US 2"
     },
     {
-      "title": "Region-Vergleich",
-      "text": "Vergleiche die Modellverfügbarkeit zwischen France Central und Germany West Central"
+      "title": "Retirements",
+      "text": "Which models were recently retired or removed from regions?"
     }
   ],
   "capabilities": [
@@ -39,6 +39,12 @@
         },
         {
           "url": "https://raw.githubusercontent.com/FlorKi610/foundry-model-availability-notifications/main/region_diff_europe_summary.md"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/FlorKi610/foundry-model-availability-notifications/main/region_diff_worldwide_sku_flat.json"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/FlorKi610/foundry-model-availability-notifications/main/region_diff_worldwide_summary.md"
         }
       ]
     }

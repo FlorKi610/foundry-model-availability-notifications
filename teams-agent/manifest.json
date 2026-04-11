@@ -14,8 +14,8 @@
     "full": "Azure AI Foundry Model Availability Checker"
   },
   "description": {
-    "short": "Prüfe welche AI Modelle in welcher Azure Region und SKU verfügbar sind",
-    "full": "Dieser Agent hilft deutschen Account Teams schnell herauszufinden, welche Azure AI Modelle (GPT-4o, GPT-5, DeepSeek, Llama, etc.) in welcher europäischen Region und in welcher SKU-Variante (Standard, Provisioned PTU, Global Standard, Datazone, Batch) verfügbar sind. Er erkennt automatisch neue Modelle, Region-Erweiterungen und Retirements."
+    "short": "Check which AI models are available in which Azure region and SKU",
+    "full": "This agent helps account teams quickly find which Azure AI models (GPT-4o, GPT-5, DeepSeek, Llama, etc.) are available in which region and SKU variant (Standard, Provisioned PTU, Global Standard, Datazone, Batch) — covering Europe and worldwide. It automatically detects new models, region expansions, and retirements. Responds in German or English based on user language."
   },
   "icons": {
     "color": "color.png",

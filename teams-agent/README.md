@@ -1,121 +1,107 @@
 # 🤖 Teams Agent Setup Guide
 
-## Übersicht
+## Overview
 
-Dieser Ordner enthält einen **Microsoft 365 Copilot Declarative Agent**, der deutschen Account Teams hilft, die Verfügbarkeit von Azure AI Modellen in Europa abzufragen — mit voller SKU-Granularität.
+This folder contains a **Microsoft 365 Copilot Declarative Agent** that helps account teams check Azure AI model availability across **Europe and worldwide** — with full SKU granularity. The agent responds in German or English based on the user's language.
 
-## Dateien
+## Files
 
-| Datei | Beschreibung |
-|-------|-------------|
-| `manifest.json` | Teams App Manifest (für Teams Developer Portal) |
-| `declarativeAgent.json` | Agent-Definition mit Capabilities und Conversation Starters |
-| `instructions.md` | System-Prompt mit SKU-Erklärungen und Antwort-Formaten |
-| `color.png` | App-Icon 192×192 (muss noch erstellt werden) |
-| `outline.png` | App-Icon 32×32 transparent (muss noch erstellt werden) |
+| File | Description |
+|------|-------------|
+| `manifest.json` | Teams App Manifest (for Teams Developer Portal) |
+| `declarativeAgent.json` | Agent definition with capabilities and conversation starters |
+| `instructions.md` | System prompt with SKU explanations and response formats |
+| `color.png` | App icon 192×192 (needs to be created) |
+| `outline.png` | App icon 32×32 transparent (needs to be created) |
 
-## Setup-Optionen
+## Setup Options
 
-### Option A: Copilot Studio (Empfohlen — kein Code nötig)
+### Option A: Copilot Studio (Recommended — no code needed)
 
-1. Gehe zu [Copilot Studio](https://copilotstudio.microsoft.com)
-2. Erstelle einen neuen **Declarative Agent**
-3. Kopiere den Inhalt von `instructions.md` in das **Instructions**-Feld
-4. Unter **Knowledge** → **Add knowledge** → **Public website/data**:
+1. Go to [Copilot Studio](https://copilotstudio.microsoft.com)
+2. Create a new **Declarative Agent**
+3. Copy the content of `instructions.md` into the **Instructions** field
+4. Under **Knowledge** → **Add knowledge** → **Public website/data**, add these URLs:
    ```
    https://raw.githubusercontent.com/FlorKi610/foundry-model-availability-notifications/main/region_diff_europe_sku_flat.json
+   https://raw.githubusercontent.com/FlorKi610/foundry-model-availability-notifications/main/region_diff_europe_summary.md
+   https://raw.githubusercontent.com/FlorKi610/foundry-model-availability-notifications/main/region_diff_worldwide_sku_flat.json
+   https://raw.githubusercontent.com/FlorKi610/foundry-model-availability-notifications/main/region_diff_worldwide_summary.md
    ```
-5. Füge die Conversation Starters aus `declarativeAgent.json` hinzu
-6. Klicke **Publish** → **Microsoft Teams**
+5. Add the conversation starters from `declarativeAgent.json`
+6. Click **Publish** → **Microsoft Teams**
 
 ### Option B: Teams Developer Portal
 
-1. Gehe zu [Teams Developer Portal](https://dev.teams.microsoft.com)
-2. Erstelle eine neue App
-3. Lade `manifest.json` hoch
-4. Erstelle 2 Icons (192×192 und 32×32) und lade sie als `color.png` / `outline.png` hoch
-5. Ersetze `{{APP_ID}}` in manifest.json durch die generierte App-ID
-6. Unter **Copilot agents** → lade `declarativeAgent.json` hoch
+1. Go to [Teams Developer Portal](https://dev.teams.microsoft.com)
+2. Create a new app
+3. Upload `manifest.json`
+4. Create 2 icons (192×192 and 32×32) and upload as `color.png` / `outline.png`
+5. Replace `{{APP_ID}}` in manifest.json with the generated App ID
+6. Under **Copilot agents** → upload `declarativeAgent.json`
 7. Publish to organization
 
 ### Option C: Teams Toolkit (VS Code)
 
 ```bash
-# Installiere Teams Toolkit Extension in VS Code
-# Öffne diesen Ordner als Projekt
-# F5 zum Testen im Teams Developer Tenant
+# Install Teams Toolkit Extension in VS Code
+# Open this folder as project
+# F5 to test in Teams Developer Tenant
 ```
 
-## Datenquelle
+## Data Sources
 
-Der Agent nutzt diese automatisch aktualisierten Dateien:
+The agent uses these automatically updated files (daily at 06:00 UTC via GitHub Actions):
 
-| Datei | URL | Inhalt |
-|-------|-----|--------|
-| SKU Flat (Europa) | `region_diff_europe_sku_flat.json` | 1 Zeile = 1 Model+Region+SKU |
-| Summary (Europa) | `region_diff_europe_summary.md` | Markdown-Zusammenfassung |
-| SKU Flat (Weltweit) | `region_diff_worldwide_sku_flat.json` | Alle Regionen weltweit |
+| File | Scope | Content |
+|------|-------|---------|
+| `region_diff_europe_sku_flat.json` | Europe (19 regions) | 1 row = 1 Model+Region+SKU |
+| `region_diff_europe_summary.md` | Europe | Markdown summary of changes |
+| `region_diff_worldwide_sku_flat.json` | Worldwide (32 regions) | 1 row = 1 Model+Region+SKU |
+| `region_diff_worldwide_summary.md` | Worldwide | Markdown summary of changes |
 
-**Aktualisierung:** Täglich um 06:00 UTC via GitHub Actions.
+## Example Interactions
 
-## Beispiel-Interaktionen
+### "Which models are available in Germany West Central?"
 
-### "Welche Modelle gibt es in Germany West Central?"
-
-> 📍 **Germany West Central** — Stand: 17.03.2026
+> 📍 **Germany West Central** — as of 2026-04-11
 >
-> | Modell | SKU-Variante | Status |
-> |--------|-------------|--------|
-> | gpt-4o | Standard (all) | ✅ |
-> | gpt-4o | Provisioned (PTU managed) | ✅ |
-> | gpt-4o | Datazone standard | ✅ |
-> | gpt-5 | Standard global deployments | ✅ |
-> | gpt-5.2 | Standard global deployments | 🆕 Neu |
-> | DeepSeek-R1 | Global Standard | ✅ |
-> | DeepSeek-R1 | Global Provisioned Managed | ✅ |
+> | Model | SKU Variant | Status |
+> |-------|------------|--------|
+> | gpt-4o | Standard (all) | ✅ Available |
+> | gpt-4o | Provisioned (PTU managed) | ✅ Available |
+> | gpt-4o | 🔒 Datazone standard | ✅ Available |
+> | gpt-5 | Standard global deployments | ✅ Available |
+> | DeepSeek-R1 | Global Standard | ✅ Available |
 
-### "In welchen SKUs gibt es GPT-5.2 in Europa?"
+### "What models are available in East US 2?"
 
-> 🤖 **gpt-5.2** — verfügbar in 11 EU-Regionen
+> 📍 **East US 2** — as of 2026-04-11
 >
-> **SKU:** Standard global deployments
->
-> | Region | Verfügbar | Status |
-> |--------|-----------|--------|
-> | France Central | ✅ | 🆕 Neu |
-> | Germany West Central | ✅ | 🆕 Neu |
-> | Italy North | ✅ | 🆕 Neu |
-> | Sweden Central | ✅ | 🆕 Neu |
-> | ... | | |
->
-> ⚠️ **Hinweis:** gpt-5.2 ist aktuell nur als *Standard global deployment* verfügbar. Provisioned (PTU) und Datazone-SKUs gibt es noch nicht.
+> | Model | SKU Variant | Status |
+> |-------|------------|--------|
+> | gpt-4o | Standard (all) | ✅ Available |
+> | gpt-4o | Provisioned (PTU managed) | ✅ Available |
+> | gpt-5 | Standard global deployments | ✅ Available |
+> | gpt-5.4 | Standard global deployments | 🆕 New |
 
-### "Welche Modelle wurden kürzlich retired?"
+### "What's new this week?"
 
-> ⛔ **Retirements** (Stand: 10.03.2026)
+> 📊 **Latest changes** — as of 2026-04-11
 >
-> | Modell | Entfernt aus | SKU-Varianten betroffen |
-> |--------|-------------|------------------------|
-> | gpt-35-turbo | 8 EU-Regionen | Standard, Provisioned |
-> | gpt-4 | 7 EU-Regionen | Standard, Provisioned |
-> | gpt-4-32k | 7 EU-Regionen | Standard, Provisioned |
+> 🆕 **Newly available:**
+> - gpt-5.4 → Standard global — East US 2, Sweden Central, France Central
+> - Cohere-command-a → Global Standard — 30 regions worldwide
 >
-> 💡 **Empfehlung:** Kunden auf gpt-4o (Standard + Provisioned) oder gpt-5 (Standard global) migrieren.
+> ⛔ **Retired:**
+> - gpt-35-turbo → removed from all regions
 
-### "Hat Germany West Central Datazone-Support?"
+### "Compare Sweden Central and East US 2"
 
-> ✅ **Germany West Central unterstützt Datazone-SKUs!**
->
-> Modelle mit Datazone in Germany West Central:
-> | Modell | Datazone standard | Datazone provisioned |
-> |--------|------------------|---------------------|
-> | gpt-4o | ✅ | ✅ |
-> | gpt-4o-mini | ✅ | ✅ |
->
-> 🔒 **Datazone** garantiert, dass Daten innerhalb der EU-Datenzone verarbeitet werden — ideal für DSGVO-sensitive Workloads.
+> Shows a side-by-side table of model availability in both regions with SKU details.
 
 ## Troubleshooting
 
-- **Agent antwortet nicht auf Modellfragen:** Prüfe ob die Knowledge Source URL erreichbar ist
-- **Daten sind veraltet:** Prüfe ob die GitHub Action `region-watch` erfolgreich läuft
-- **SKU-Daten fehlen:** Die SKU-Flat-Datei wird seit dem letzten Update generiert — einmal den Workflow manuell triggern
+- **Agent doesn't answer model questions:** Check if the knowledge source URLs are reachable
+- **Data is outdated:** Check if the GitHub Action `region-watch` runs successfully
+- **SKU data missing:** The SKU flat file is generated by the pipeline — manually trigger the workflow once
