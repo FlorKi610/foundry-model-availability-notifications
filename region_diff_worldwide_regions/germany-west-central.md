@@ -1,4 +1,4 @@
-# Germany West Central — Model Availability (2026-04-11T20:30:36.988811+00:00)
+# Germany West Central — Model Availability (2026-04-12T06:39:17.694439+00:00)
 
 Total: 132 model/SKU combinations
 
