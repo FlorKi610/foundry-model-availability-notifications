@@ -118,4 +118,4 @@ Germany West Central has **54** models available.
 | text-embedding-3-small | Datazone standard, Global Standard |
 | text-embedding-ada-002 | Datazone standard, Global Standard |
 
-_Last updated: 2026-04-13 07:12 UTC_
+_Last updated: 2026-04-13 10:20 UTC_

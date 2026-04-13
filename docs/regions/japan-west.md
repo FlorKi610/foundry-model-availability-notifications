@@ -62,4 +62,4 @@ Japan West has **26** models available.
 | mistral-document-ai-2505 | Global Standard |
 | mistral-document-ai-2512 | Global Standard |
 
-_Last updated: 2026-04-13 07:12 UTC_
+_Last updated: 2026-04-13 10:20 UTC_

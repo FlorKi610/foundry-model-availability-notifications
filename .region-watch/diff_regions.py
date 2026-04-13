@@ -1017,25 +1017,100 @@ def write_filtered_views(current: dict, changes: dict, timestamp: str) -> None:
 
         for region, rows in sorted(by_region.items()):
             slug = region.lower().replace(" ", "-")
-            rmd = [
-                f"# {region} — Model Availability ({ts})\n",
-                f"Total: {len(rows)} model/SKU combinations\n",
-                "| Model | SKU Variant | Status |",
-                "|-------|-------------|--------|",
-            ]
-            for r in rows:
-                st = "🆕 New" if r["status"] == "new" else "✅"
-                rmd.append(f"| {r['model']} | {r['sku']} | {st} |")
-            rc = changes_by_region.get(region, [])
-            if rc:
-                rmd.append(f"\n## Recent Changes\n")
-                rmd.append("| Model | SKU | Action |")
-                rmd.append("|-------|-----|--------|")
-                for c in rc:
-                    icon = "🆕 Added" if c["action"] == "added" else "⛔ Removed"
-                    rmd.append(f"| {c['model']} | {c.get('sku','')} | {icon} |")
+            rmd = _build_grouped_region_markdown(region, rows, changes_by_region.get(region, []), ts)
             with open(os.path.join(region_dir, f"{slug}.md"), "w", encoding="utf-8") as fh:
-                fh.write("\n".join(rmd) + "\n")
+                fh.write(rmd)
+
+def _categorize_model(name: str) -> str:
+    """Assign a model to a category for grouped region pages."""
+    n = name.lower()
+    if n.startswith("gpt-4o") or n.startswith("gpt-4.1"):
+        return "GPT-4 Modelle"
+    if n.startswith("gpt-5"):
+        return "GPT-5 Modelle"
+    if n.startswith("gpt-image"):
+        return "Bild-Generierung"
+    if n.startswith("gpt-audio") or n.startswith("gpt-realtime") or n in ("whisper", "tts", "tts-hd"):
+        return "Audio & Sprache"
+    if n.startswith("o1") or n.startswith("o3") or n.startswith("o4"):
+        return "Reasoning Modelle (o-Serie)"
+    if any(n.startswith(p) for p in ("deepseek", "llama", "mistral", "cohere", "grok", "kimi")):
+        return "Open-Source & Partner Modelle"
+    if n.startswith("flux") or n.startswith("dall-e") or n.startswith("sora") or n.startswith("mai-image"):
+        return "Bild-Generierung"
+    if "embedding" in n or n.startswith("embed-"):
+        return "Embedding Modelle"
+    if n in ("codex-mini", "computer-use-preview", "model-router"):
+        return "Weitere Modelle"
+    return "Weitere Modelle"
+
+
+def _build_grouped_region_markdown(region: str, rows: list, changes: list, ts: str) -> str:
+    """Build a chunking-optimized markdown page grouped by model category.
+
+    Design goals for Copilot Studio RAG:
+    - Region name repeated in every H2 header (survives chunking)
+    - Plain-text model list at the top (best for semantic search)
+    - Small tables per category (each fits in one chunk)
+    """
+    # Group rows by model name, collecting SKUs
+    model_skus = defaultdict(list)
+    for r in rows:
+        model_skus[r["model"]].append(r)
+
+    # Group models by category
+    cats = defaultdict(list)
+    for model_name in sorted(model_skus.keys()):
+        cat = _categorize_model(model_name)
+        cats[cat].append(model_name)
+
+    all_model_names = sorted(model_skus.keys())
+    lines = []
+
+    # H1 + summary
+    lines.append(f"# {region} — Modellverfügbarkeit\n")
+    lines.append(f"Stand: {ts}\n")
+    lines.append(f"In **{region}** sind **{len(all_model_names)} Modelle** verfügbar.\n")
+
+    # Plain-text model listing (semantic search optimized)
+    lines.append(f"## Alle Modelle in {region} (Übersicht)\n")
+    lines.append(", ".join(all_model_names) + "\n")
+
+    # Category order for consistent output
+    cat_order = [
+        "GPT-5 Modelle",
+        "GPT-4 Modelle",
+        "Reasoning Modelle (o-Serie)",
+        "Open-Source & Partner Modelle",
+        "Bild-Generierung",
+        "Audio & Sprache",
+        "Embedding Modelle",
+        "Weitere Modelle",
+    ]
+    for cat in cat_order:
+        models_in_cat = cats.get(cat)
+        if not models_in_cat:
+            continue
+        lines.append(f"## {region} — {cat}\n")
+        lines.append(f"| Modell | SKU-Varianten |")
+        lines.append(f"|--------|---------------|")
+        for model_name in models_in_cat:
+            skus = ", ".join(r["sku"] for r in model_skus[model_name])
+            lines.append(f"| {model_name} | {skus} |")
+        lines.append("")
+
+    # Recent changes
+    if changes:
+        lines.append(f"## {region} — Letzte Änderungen\n")
+        lines.append("| Modell | SKU | Aktion |")
+        lines.append("|--------|-----|--------|")
+        for c in changes:
+            icon = "🆕 Hinzugefügt" if c["action"] == "added" else "⛔ Entfernt"
+            lines.append(f"| {c['model']} | {c.get('sku', '')} | {icon} |")
+        lines.append("")
+
+    return "\n".join(lines) + "\n"
+
 
 def filter_models(data: dict) -> dict:
     """Filter models based on environment variables.

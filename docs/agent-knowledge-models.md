@@ -1,7 +1,7 @@
 # AI Model Availability by Model
 
 Complete availability data for 81 Azure AI Foundry models.
-Last updated: 2026-04-13 07:12 UTC
+Last updated: 2026-04-13 10:20 UTC
 
 ## Cohere-rerank-v4.0-fast
 

@@ -62,4 +62,4 @@ Southeast Asia has **26** models available.
 | o4-mini | Global Standard, Provisioned global |
 | text-embedding-3-large | Standard |
 
-_Last updated: 2026-04-13 07:12 UTC_
+_Last updated: 2026-04-13 10:20 UTC_

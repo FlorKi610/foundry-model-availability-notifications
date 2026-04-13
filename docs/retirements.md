@@ -33,7 +33,7 @@ Plan your migrations for these models.
 
 | Model | Version | Category | Retirement Date | Status | Replacement |
 |-------|---------|----------|-----------------|--------|-------------|
-| [gpt-4o](./models/gpt-4o/) | 2024-11-20 | Text Generation | 2026-06-05 | <span class="badge badge-retiring">Retiring</span> | [gpt-5.1](./models/gpt-5-1/) (28 regions) |
+| [gpt-4o](./models/gpt-4o/) | 2024-11-20 | Text Generation | 2026-06-05 | <span class="badge badge-retiring">Retiring</span> | [gpt-5.1](./models/gpt-5-1/) (29 regions) |
 
 
 ## :material-calendar-clock: All Scheduled Retirements
@@ -50,10 +50,10 @@ Complete list of model retirements with replacement recommendations.
 | [dall-e-3](./models/dall-e-3/) | 3 | Image And Video | 2026-02-18 | <span class="badge badge-retired">Retired</span> | [gpt-image-1-mini](./models/gpt-image-1-mini/) (5 regions) |
 | [gpt-5-chat](./models/gpt-5-chat/) | 2025-08-07 | Text Generation | 2026-03-01 | <span class="badge badge-retired">Retired</span> | [gpt-5.2-chat](./models/gpt-5-2-chat/) (2 regions) |
 | [gpt-5-chat](./models/gpt-5-chat/) | 2025-10-03 | Text Generation | 2026-03-01 | <span class="badge badge-retired">Retired</span> | [gpt-5.2-chat](./models/gpt-5-2-chat/) (2 regions) |
-| [gpt-4o](./models/gpt-4o/) | 2024-05-13 | Text Generation | 2026-03-31 | <span class="badge badge-retired">Retired</span> | [gpt-5.1](./models/gpt-5-1/) (28 regions) |
-| [gpt-4o](./models/gpt-4o/) | 2024-08-06 | Text Generation | 2026-03-31 | <span class="badge badge-retired">Retired</span> | [gpt-5.1](./models/gpt-5-1/) (28 regions) |
-| [gpt-4o-mini](./models/gpt-4o-mini/) | 2024-07-18 | Text Generation | 2026-03-31 | <span class="badge badge-retired">Retired</span> | [gpt-4.1-mini](./models/gpt-4-1-mini/) (28 regions) |
-| [gpt-4o](./models/gpt-4o/) | 2024-11-20 | Text Generation | 2026-06-05 | <span class="badge badge-retiring">Retiring</span> | [gpt-5.1](./models/gpt-5-1/) (28 regions) |
+| [gpt-4o](./models/gpt-4o/) | 2024-05-13 | Text Generation | 2026-03-31 | <span class="badge badge-retired">Retired</span> | [gpt-5.1](./models/gpt-5-1/) (29 regions) |
+| [gpt-4o](./models/gpt-4o/) | 2024-08-06 | Text Generation | 2026-03-31 | <span class="badge badge-retired">Retired</span> | [gpt-5.1](./models/gpt-5-1/) (29 regions) |
+| [gpt-4o-mini](./models/gpt-4o-mini/) | 2024-07-18 | Text Generation | 2026-03-31 | <span class="badge badge-retired">Retired</span> | [gpt-4.1-mini](./models/gpt-4-1-mini/) (29 regions) |
+| [gpt-4o](./models/gpt-4o/) | 2024-11-20 | Text Generation | 2026-06-05 | <span class="badge badge-retiring">Retiring</span> | [gpt-5.1](./models/gpt-5-1/) (29 regions) |
 | [o1](./models/o1/) | 2024-12-17 | Text Generation | 2026-07-15 | <span class="badge badge-scheduled">Scheduled</span> | [o3](./models/o3/) (28 regions) |
 | [o3-mini](./models/o3-mini/) | 2025-01-31 | Text Generation | 2026-08-02 | <span class="badge badge-scheduled">Scheduled</span> | [o4-mini](./models/o4-mini/) (28 regions) |
 | [o1-pro](./models/o1-pro/) | 2025-03-19 | Text Generation | 2026-09-18 | <span class="badge badge-scheduled">Scheduled</span> | [o3-pro](./models/o3-pro/) (3 regions) |
@@ -145,4 +145,4 @@ Fine-tuned models retire in two phases: training and deployment.
 
 _Data sourced from [Microsoft Azure AI Documentation](https://github.com/MicrosoftDocs/azure-ai-docs/blob/main/articles/foundry/openai/includes/retirement/models.md)_
 
-_Last updated: 2026-04-05 22:13 UTC_
+_Last updated: 2026-04-13 10:20 UTC_

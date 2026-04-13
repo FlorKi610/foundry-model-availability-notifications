@@ -62,4 +62,4 @@ West US 2 has **26** models available.
 | mistral-document-ai-2505 | Datazone standard, Global Standard |
 | mistral-document-ai-2512 | Datazone standard, Global Standard |
 
-_Last updated: 2026-04-13 07:12 UTC_
+_Last updated: 2026-04-13 10:20 UTC_

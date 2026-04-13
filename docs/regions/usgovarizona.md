@@ -26,4 +26,4 @@ usgovarizona has **8** models available.
 | text-embedding-3-small | Standard Models Gov |
 | text-embedding-ada-002 | Standard Models Gov |
 
-_Last updated: 2026-04-13 07:12 UTC_
+_Last updated: 2026-04-13 10:20 UTC_

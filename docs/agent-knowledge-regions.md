@@ -1,7 +1,7 @@
 # AI Model Availability by Region
 
 Complete availability data for all Azure AI Foundry models across 32 regions.
-Last updated: 2026-04-13 07:12 UTC
+Last updated: 2026-04-13 10:20 UTC
 
 ## Australia East
 

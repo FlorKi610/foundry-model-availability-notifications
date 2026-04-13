@@ -4,11 +4,11 @@ Real-time tracking of Azure AI Foundry model availability across regions and dep
 
 <div class="stats-grid">
   <div class="stat-card">
-    <div class="stat-value">86</div>
+    <div class="stat-value">81</div>
     <div class="stat-label">Models Tracked</div>
   </div>
   <div class="stat-card">
-    <div class="stat-value">31</div>
+    <div class="stat-value">32</div>
     <div class="stat-label">Azure Regions</div>
   </div>
   <div class="stat-card">
@@ -26,18 +26,18 @@ Real-time tracking of Azure AI Foundry model availability across regions and dep
 ???+ tip "Recent Availability Changes"
     | Date | Change | Model | Region | SKU Type |
     |------|--------|-------|--------|----------|
-    | 2026-04-04 | <span class="badge-added">Added</span> | [gpt-4.1](models/gpt-4-1/) | West US 3 | Standard global deployments |
-    | 2026-04-04 | <span class="badge-removed">Removed</span> | [gpt-4.1](models/gpt-4-1/) | Canada Central | Standard global deployments |
-    | 2026-04-04 | <span class="badge-removed">Removed</span> | [gpt-4.1](models/gpt-4-1/) | Switzerland West | Standard global deployments |
-    | 2026-04-04 | <span class="badge-added">Added</span> | [gpt-4.1-mini](models/gpt-4-1-mini/) | West US 3 | Standard global deployments |
-    | 2026-04-04 | <span class="badge-removed">Removed</span> | [gpt-4.1-mini](models/gpt-4-1-mini/) | Canada Central | Standard global deployments |
-    | 2026-04-04 | <span class="badge-removed">Removed</span> | [gpt-4.1-mini](models/gpt-4-1-mini/) | Switzerland West | Standard global deployments |
-    | 2026-04-04 | <span class="badge-added">Added</span> | [gpt-4.1-nano](models/gpt-4-1-nano/) | West US 3 | Standard global deployments |
-    | 2026-04-04 | <span class="badge-removed">Removed</span> | [gpt-4.1-nano](models/gpt-4-1-nano/) | Canada Central | Standard global deployments |
-    | 2026-04-04 | <span class="badge-removed">Removed</span> | [gpt-4.1-nano](models/gpt-4-1-nano/) | Switzerland West | Standard global deployments |
-    | 2026-04-04 | <span class="badge-added">Added</span> | [gpt-4o](models/gpt-4o/) | West US 3 | Standard global deployments |
+    | 2026-04-11 | <span class="badge-removed">Removed</span> | [dall-e-3](models/dall-e-3/) | Australia East | Standard (all) |
+    | 2026-04-11 | <span class="badge-removed">Removed</span> | [dall-e-3](models/dall-e-3/) | East US | Standard (all) |
+    | 2026-04-11 | <span class="badge-removed">Removed</span> | [dall-e-3](models/dall-e-3/) | Sweden Central | Standard (all) |
+    | 2026-04-11 | <span class="badge-removed">Removed</span> | dall-e-3 | (entire model) | - |
+    | 2026-04-11 | <span class="badge-removed">Removed</span> | [gpt-4.1](models/gpt-4-1/) | West US 3 | Datazone standard |
+    | 2026-04-11 | <span class="badge-added">Added</span> | [gpt-4.1](models/gpt-4-1/) | usgovarizona | Datazone Standard Gov |
+    | 2026-04-11 | <span class="badge-added">Added</span> | [gpt-4.1](models/gpt-4-1/) | usgovarizona | Standard Models Gov |
+    | 2026-04-11 | <span class="badge-added">Added</span> | [gpt-4.1-mini](models/gpt-4-1-mini/) | usgovarizona | Datazone Provisioned Managed Gov |
+    | 2026-04-11 | <span class="badge-removed">Removed</span> | [gpt-4.1-mini](models/gpt-4-1-mini/) | West US 3 | Datazone standard |
+    | 2026-04-11 | <span class="badge-added">Added</span> | [gpt-4.1-mini](models/gpt-4-1-mini/) | usgovarizona | Datazone Standard Gov |
 
-    *… and 4082 more — see [full change history](history.md)*
+    *… and 4145 more — see [full change history](history.md)*
 
 
 ---
@@ -94,4 +94,4 @@ Real-time tracking of Azure AI Foundry model availability across regions and dep
 
 ---
 
-_Last updated: 2026-04-05 22:13 UTC_
+_Last updated: 2026-04-13 10:20 UTC_

@@ -110,4 +110,4 @@ Switzerland West has **50** models available.
 | o3-mini | Provisioned global |
 | o4-mini | Provisioned global |
 
-_Last updated: 2026-04-13 07:12 UTC_
+_Last updated: 2026-04-13 10:20 UTC_

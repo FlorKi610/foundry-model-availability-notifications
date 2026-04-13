@@ -168,4 +168,4 @@ Sweden Central has **79** models available.
 | tts-hd | Standard |
 | whisper | Standard |
 
-_Last updated: 2026-04-13 07:12 UTC_
+_Last updated: 2026-04-13 10:20 UTC_

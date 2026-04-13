@@ -1,7 +1,7 @@
 # AI Model Retirements and Deprecations
 
 Planned retirements and migration recommendations for Azure AI Foundry models.
-Last updated: 2026-04-13 07:12 UTC
+Last updated: 2026-04-13 10:20 UTC
 
 - **audio (version 2024-12-17)** will be retired on 2026-02-02. Replacement: gpt-audio. Status: Preview.
 - **audio (version 2024-12-17)** will be retired on 2026-02-02. Replacement: gpt-realtime. Status: Preview.

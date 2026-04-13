@@ -124,4 +124,4 @@ South India has **57** models available.
 | text-embedding-ada-002 | Global Standard, Standard |
 | whisper | Standard |
 
-_Last updated: 2026-04-13 07:12 UTC_
+_Last updated: 2026-04-13 10:20 UTC_

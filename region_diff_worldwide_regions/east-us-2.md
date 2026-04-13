@@ -1,202 +1,133 @@
-# East US 2 — Model Availability (2026-04-13T06:53:38.100853+00:00)
+# East US 2 — Modellverfügbarkeit
 
-Total: 190 model/SKU combinations
+Stand: 2026-04-13T11:20:28.135527+00:00
 
-| Model | SKU Variant | Status |
-|-------|-------------|--------|
-| codex-mini | Standard global deployments | ✅ |
-| cohere-command-a | Global Standard | ✅ |
-| Cohere-rerank-v4.0-fast | Global Standard | ✅ |
-| Cohere-rerank-v4.0-pro | Global Standard | ✅ |
-| computer-use-preview | Standard global deployments | ✅ |
-| DeepSeek-R1 | Global Provisioned Managed | ✅ |
-| DeepSeek-R1 | Global Standard | ✅ |
-| DeepSeek-R1-0528 | Global Provisioned Managed | ✅ |
-| DeepSeek-R1-0528 | Global Standard | ✅ |
-| DeepSeek-V3-0324 | Global Provisioned Managed | ✅ |
-| DeepSeek-V3-0324 | Global Standard | ✅ |
-| DeepSeek-V3.1 | Global Standard | ✅ |
-| DeepSeek-V3.2 | Global Standard | ✅ |
-| DeepSeek-V3.2-Speciale | Global Standard | ✅ |
-| embed-v-4-0 | Global Standard | ✅ |
-| FLUX-1.1-pro | Data Zone Standard | ✅ |
-| FLUX-1.1-pro | Global Standard | ✅ |
-| FLUX.1-Kontext-pro | Data Zone Standard | ✅ |
-| FLUX.1-Kontext-pro | Global Standard | ✅ |
-| FLUX.2-flex | Global Standard | ✅ |
-| FLUX.2-pro | Data Zone Standard | ✅ |
-| FLUX.2-pro | Global Standard | ✅ |
-| gpt-4.1 | Datazone US provisioned managed | ✅ |
-| gpt-4.1 | Datazone US standard | ✅ |
-| gpt-4.1 | Global batch | ✅ |
-| gpt-4.1 | Global batch Datazone US | ✅ |
-| gpt-4.1 | Provisioned global | ✅ |
-| gpt-4.1 | Provisioned (PTU managed) | ✅ |
-| gpt-4.1 | Standard global deployments | ✅ |
-| gpt-4.1 | Standard (all) | ✅ |
-| gpt-4.1-mini | Datazone US provisioned managed | ✅ |
-| gpt-4.1-mini | Datazone US standard | ✅ |
-| gpt-4.1-mini | Global batch | ✅ |
-| gpt-4.1-mini | Global batch Datazone US | ✅ |
-| gpt-4.1-mini | Provisioned global | ✅ |
-| gpt-4.1-mini | Provisioned (PTU managed) | ✅ |
-| gpt-4.1-mini | Standard global deployments | ✅ |
-| gpt-4.1-mini | Standard (all) | ✅ |
-| gpt-4.1-nano | Datazone US provisioned managed | ✅ |
-| gpt-4.1-nano | Datazone US standard | ✅ |
-| gpt-4.1-nano | Global batch | ✅ |
-| gpt-4.1-nano | Global batch Datazone US | ✅ |
-| gpt-4.1-nano | Provisioned global | ✅ |
-| gpt-4.1-nano | Provisioned (PTU managed) | ✅ |
-| gpt-4.1-nano | Standard global deployments | ✅ |
-| gpt-4o | Datazone US provisioned managed | ✅ |
-| gpt-4o | Datazone US standard | ✅ |
-| gpt-4o | Global batch | ✅ |
-| gpt-4o | Global batch Datazone US | ✅ |
-| gpt-4o | Provisioned global | ✅ |
-| gpt-4o | Provisioned (PTU managed) | ✅ |
-| gpt-4o | Standard global deployments | ✅ |
-| gpt-4o | Standard (all) | ✅ |
-| gpt-4o-mini | Datazone US provisioned managed | ✅ |
-| gpt-4o-mini | Datazone US standard | ✅ |
-| gpt-4o-mini | Global batch | ✅ |
-| gpt-4o-mini | Global batch Datazone US | ✅ |
-| gpt-4o-mini | Provisioned global | ✅ |
-| gpt-4o-mini | Provisioned (PTU managed) | ✅ |
-| gpt-4o-mini | Standard global deployments | ✅ |
-| gpt-4o-mini | Standard (all) | ✅ |
-| gpt-4o-mini-transcribe | Standard global deployments | ✅ |
-| gpt-4o-mini-tts | Standard global deployments | ✅ |
-| gpt-4o-transcribe | Standard global deployments | ✅ |
-| gpt-4o-transcribe-diarize | Standard global deployments | ✅ |
-| gpt-5 | Datazone US provisioned managed | ✅ |
-| gpt-5 | Datazone US standard | ✅ |
-| gpt-5 | Global batch | ✅ |
-| gpt-5 | Global batch Datazone US | ✅ |
-| gpt-5 | Provisioned global | ✅ |
-| gpt-5 | Provisioned (PTU managed) | ✅ |
-| gpt-5 | Standard global deployments | ✅ |
-| gpt-5-chat | Standard global deployments | ✅ |
-| gpt-5-codex | Standard global deployments | ✅ |
-| gpt-5-mini | Datazone US provisioned managed | ✅ |
-| gpt-5-mini | Datazone US standard | ✅ |
-| gpt-5-mini | Provisioned global | ✅ |
-| gpt-5-mini | Provisioned (PTU managed) | ✅ |
-| gpt-5-mini | Standard global deployments | ✅ |
-| gpt-5-nano | Datazone US standard | ✅ |
-| gpt-5-nano | Standard global deployments | ✅ |
-| gpt-5-pro | Standard global deployments | ✅ |
-| gpt-5.1 | Datazone US provisioned managed | ✅ |
-| gpt-5.1 | Datazone US standard | ✅ |
-| gpt-5.1 | Global batch | ✅ |
-| gpt-5.1 | Global batch Datazone US | ✅ |
-| gpt-5.1 | Provisioned global | ✅ |
-| gpt-5.1 | Standard global deployments | ✅ |
-| gpt-5.1 | Standard (all) | ✅ |
-| gpt-5.1-chat | Standard global deployments | ✅ |
-| gpt-5.1-codex | Datazone US provisioned managed | ✅ |
-| gpt-5.1-codex | Provisioned global | ✅ |
-| gpt-5.1-codex | Standard global deployments | ✅ |
-| gpt-5.1-codex-max | Standard global deployments | ✅ |
-| gpt-5.1-codex-mini | Standard global deployments | ✅ |
-| gpt-5.2 | Datazone US provisioned managed | ✅ |
-| gpt-5.2 | Datazone US standard | ✅ |
-| gpt-5.2 | Provisioned global | ✅ |
-| gpt-5.2 | Standard global deployments | ✅ |
-| gpt-5.2-chat | Standard global deployments | ✅ |
-| gpt-5.2-codex | Provisioned global | ✅ |
-| gpt-5.2-codex | Standard global deployments | ✅ |
-| gpt-5.3-chat | Standard global deployments | ✅ |
-| gpt-5.3-codex | Datazone US standard | ✅ |
-| gpt-5.3-codex | Provisioned global | ✅ |
-| gpt-5.3-codex | Standard global deployments | ✅ |
-| gpt-5.4 | Datazone US provisioned managed | ✅ |
-| gpt-5.4 | Datazone US standard | ✅ |
-| gpt-5.4 | Provisioned global | ✅ |
-| gpt-5.4 | Standard global deployments | ✅ |
-| gpt-5.4-mini | Datazone US standard | ✅ |
-| gpt-5.4-mini | Standard global deployments | ✅ |
-| gpt-5.4-nano | Datazone US standard | ✅ |
-| gpt-5.4-nano | Standard global deployments | ✅ |
-| gpt-5.4-pro | Standard global deployments | ✅ |
-| gpt-audio | Standard global deployments | ✅ |
-| gpt-audio-1.5 | Standard global deployments | ✅ |
-| gpt-audio-mini | Standard global deployments | ✅ |
-| gpt-image-1 | Standard global deployments | ✅ |
-| gpt-image-1-mini | Standard global deployments | ✅ |
-| gpt-image-1.5 | Datazone US standard | ✅ |
-| gpt-image-1.5 | Standard global deployments | ✅ |
-| gpt-realtime | Standard global deployments | ✅ |
-| gpt-realtime-1.5 | Standard global deployments | ✅ |
-| gpt-realtime-mini | Standard global deployments | ✅ |
-| grok-3 | Data Zone Standard | ✅ |
-| grok-3 | Global Standard | ✅ |
-| grok-3-mini | Data Zone Standard | ✅ |
-| grok-3-mini | Global Standard | ✅ |
-| grok-4-1-fast-non-reasoning | Data Zone Standard | ✅ |
-| grok-4-1-fast-non-reasoning | Global Standard | ✅ |
-| grok-4-1-fast-reasoning | Data Zone Standard | ✅ |
-| grok-4-1-fast-reasoning | Global Standard | ✅ |
-| grok-4-fast-non-reasoning | Data Zone Standard | ✅ |
-| grok-4-fast-non-reasoning | Global Standard | ✅ |
-| grok-4-fast-reasoning | Data Zone Standard | ✅ |
-| grok-4-fast-reasoning | Global Standard | ✅ |
-| Kimi-K2.5 | Global Standard | ✅ |
-| Llama-3.3-70B-Instruct | Global Provisioned Managed | ✅ |
-| Llama-3.3-70B-Instruct | Global Standard | ✅ |
-| Llama-4-Maverick-17B-128E-Instruct-FP8 | Global Standard | ✅ |
-| mistral-document-ai-2505 | Data Zone Standard | ✅ |
-| mistral-document-ai-2505 | Global Standard | ✅ |
-| mistral-document-ai-2512 | Data Zone Standard | ✅ |
-| mistral-document-ai-2512 | Global Standard | ✅ |
-| Mistral-Large-3 | Data Zone Standard | ✅ |
-| Mistral-Large-3 | Global Standard | ✅ |
-| model-router | Data Zone Standard | ✅ |
-| model-router | Datazone US standard | ✅ |
-| model-router | Global Standard | ✅ |
-| model-router | Standard global deployments | ✅ |
-| o1 | Datazone US provisioned managed | ✅ |
-| o1 | Datazone US standard | ✅ |
-| o1 | Provisioned global | ✅ |
-| o1 | Standard global deployments | ✅ |
-| o1 | Standard (all) | ✅ |
-| o3 | Datazone US provisioned managed | ✅ |
-| o3 | Datazone US standard | ✅ |
-| o3 | Global batch | ✅ |
-| o3 | Global batch Datazone US | ✅ |
-| o3 | Provisioned global | ✅ |
-| o3 | Provisioned (PTU managed) | ✅ |
-| o3 | Standard global deployments | ✅ |
-| o3-mini | Datazone US provisioned managed | ✅ |
-| o3-mini | Datazone US standard | ✅ |
-| o3-mini | Global batch | ✅ |
-| o3-mini | Global batch Datazone US | ✅ |
-| o3-mini | Provisioned global | ✅ |
-| o3-mini | Provisioned (PTU managed) | ✅ |
-| o3-mini | Standard global deployments | ✅ |
-| o3-pro | Standard global deployments | ✅ |
-| o4-mini | Datazone US provisioned managed | ✅ |
-| o4-mini | Datazone US standard | ✅ |
-| o4-mini | Global batch | ✅ |
-| o4-mini | Global batch Datazone US | ✅ |
-| o4-mini | Provisioned global | ✅ |
-| o4-mini | Provisioned (PTU managed) | ✅ |
-| o4-mini | Standard global deployments | ✅ |
-| o4-mini | Standard (all) | ✅ |
-| sora-2 | Standard global deployments | ✅ |
-| text-embedding-3-large | Datazone US standard | ✅ |
-| text-embedding-3-large | Standard global deployments | ✅ |
-| text-embedding-3-large | Standard (all) | ✅ |
-| text-embedding-3-small | Datazone US standard | ✅ |
-| text-embedding-3-small | Standard global deployments | ✅ |
-| text-embedding-3-small | Standard (all) | ✅ |
-| text-embedding-ada-002 | Datazone US standard | ✅ |
-| text-embedding-ada-002 | Standard global deployments | ✅ |
-| text-embedding-ada-002 | Standard (all) | ✅ |
-| whisper | Standard (all) | ✅ |
+In **East US 2** sind **77 Modelle** verfügbar.
 
-## Recent Changes
+## Alle Modelle in East US 2 (Übersicht)
 
-| Model | SKU | Action |
-|-------|-----|--------|
-| sora |  | ⛔ Removed |
+Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, DeepSeek-V3-0324, DeepSeek-V3.1, DeepSeek-V3.2, DeepSeek-V3.2-Speciale, FLUX-1.1-pro, FLUX.1-Kontext-pro, FLUX.2-flex, FLUX.2-pro, Kimi-K2.5, Llama-3.3-70B-Instruct, Llama-4-Maverick-17B-128E-Instruct-FP8, Mistral-Large-3, codex-mini, cohere-command-a, computer-use-preview, embed-v-4-0, gpt-4.1, gpt-4.1-mini, gpt-4.1-nano, gpt-4o, gpt-4o-mini, gpt-4o-mini-transcribe, gpt-4o-mini-tts, gpt-4o-transcribe, gpt-4o-transcribe-diarize, gpt-5, gpt-5-chat, gpt-5-codex, gpt-5-mini, gpt-5-nano, gpt-5-pro, gpt-5.1, gpt-5.1-chat, gpt-5.1-codex, gpt-5.1-codex-max, gpt-5.1-codex-mini, gpt-5.2, gpt-5.2-chat, gpt-5.2-codex, gpt-5.3-chat, gpt-5.3-codex, gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, gpt-5.4-pro, gpt-audio, gpt-audio-1.5, gpt-audio-mini, gpt-image-1, gpt-image-1-mini, gpt-image-1.5, gpt-realtime, gpt-realtime-1.5, gpt-realtime-mini, grok-3, grok-3-mini, grok-4-1-fast-non-reasoning, grok-4-1-fast-reasoning, grok-4-fast-non-reasoning, grok-4-fast-reasoning, mistral-document-ai-2505, mistral-document-ai-2512, model-router, o1, o3, o3-mini, o3-pro, o4-mini, sora-2, text-embedding-3-large, text-embedding-3-small, text-embedding-ada-002, whisper
+
+## East US 2 — GPT-5 Modelle
+
+| Modell | SKU-Varianten |
+|--------|---------------|
+| gpt-5 | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments |
+| gpt-5-chat | Standard global deployments |
+| gpt-5-codex | Standard global deployments |
+| gpt-5-mini | Datazone US provisioned managed, Datazone US standard, Provisioned global, Provisioned (PTU managed), Standard global deployments |
+| gpt-5-nano | Datazone US standard, Standard global deployments |
+| gpt-5-pro | Standard global deployments |
+| gpt-5.1 | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Standard global deployments, Standard (all) |
+| gpt-5.1-chat | Standard global deployments |
+| gpt-5.1-codex | Datazone US provisioned managed, Provisioned global, Standard global deployments |
+| gpt-5.1-codex-max | Standard global deployments |
+| gpt-5.1-codex-mini | Standard global deployments |
+| gpt-5.2 | Datazone US provisioned managed, Datazone US standard, Provisioned global, Standard global deployments |
+| gpt-5.2-chat | Standard global deployments |
+| gpt-5.2-codex | Provisioned global, Standard global deployments |
+| gpt-5.3-chat | Standard global deployments |
+| gpt-5.3-codex | Datazone US standard, Provisioned global, Standard global deployments |
+| gpt-5.4 | Datazone US provisioned managed, Datazone US standard, Provisioned global, Standard global deployments |
+| gpt-5.4-mini | Datazone US standard, Standard global deployments |
+| gpt-5.4-nano | Datazone US standard, Standard global deployments |
+| gpt-5.4-pro | Standard global deployments |
+
+## East US 2 — GPT-4 Modelle
+
+| Modell | SKU-Varianten |
+|--------|---------------|
+| gpt-4.1 | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard (all) |
+| gpt-4.1-mini | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard (all) |
+| gpt-4.1-nano | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments |
+| gpt-4o | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard (all) |
+| gpt-4o-mini | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard (all) |
+| gpt-4o-mini-transcribe | Standard global deployments |
+| gpt-4o-mini-tts | Standard global deployments |
+| gpt-4o-transcribe | Standard global deployments |
+| gpt-4o-transcribe-diarize | Standard global deployments |
+
+## East US 2 — Reasoning Modelle (o-Serie)
+
+| Modell | SKU-Varianten |
+|--------|---------------|
+| o1 | Datazone US provisioned managed, Datazone US standard, Provisioned global, Standard global deployments, Standard (all) |
+| o3 | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments |
+| o3-mini | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments |
+| o3-pro | Standard global deployments |
+| o4-mini | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard (all) |
+
+## East US 2 — Open-Source & Partner Modelle
+
+| Modell | SKU-Varianten |
+|--------|---------------|
+| Cohere-rerank-v4.0-fast | Global Standard |
+| Cohere-rerank-v4.0-pro | Global Standard |
+| DeepSeek-R1 | Global Provisioned Managed, Global Standard |
+| DeepSeek-R1-0528 | Global Provisioned Managed, Global Standard |
+| DeepSeek-V3-0324 | Global Provisioned Managed, Global Standard |
+| DeepSeek-V3.1 | Global Standard |
+| DeepSeek-V3.2 | Global Standard |
+| DeepSeek-V3.2-Speciale | Global Standard |
+| Kimi-K2.5 | Global Standard |
+| Llama-3.3-70B-Instruct | Global Provisioned Managed, Global Standard |
+| Llama-4-Maverick-17B-128E-Instruct-FP8 | Global Standard |
+| Mistral-Large-3 | Data Zone Standard, Global Standard |
+| cohere-command-a | Global Standard |
+| grok-3 | Data Zone Standard, Global Standard |
+| grok-3-mini | Data Zone Standard, Global Standard |
+| grok-4-1-fast-non-reasoning | Data Zone Standard, Global Standard |
+| grok-4-1-fast-reasoning | Data Zone Standard, Global Standard |
+| grok-4-fast-non-reasoning | Data Zone Standard, Global Standard |
+| grok-4-fast-reasoning | Data Zone Standard, Global Standard |
+| mistral-document-ai-2505 | Data Zone Standard, Global Standard |
+| mistral-document-ai-2512 | Data Zone Standard, Global Standard |
+
+## East US 2 — Bild-Generierung
+
+| Modell | SKU-Varianten |
+|--------|---------------|
+| FLUX-1.1-pro | Data Zone Standard, Global Standard |
+| FLUX.1-Kontext-pro | Data Zone Standard, Global Standard |
+| FLUX.2-flex | Global Standard |
+| FLUX.2-pro | Data Zone Standard, Global Standard |
+| gpt-image-1 | Standard global deployments |
+| gpt-image-1-mini | Standard global deployments |
+| gpt-image-1.5 | Datazone US standard, Standard global deployments |
+| sora-2 | Standard global deployments |
+
+## East US 2 — Audio & Sprache
+
+| Modell | SKU-Varianten |
+|--------|---------------|
+| gpt-audio | Standard global deployments |
+| gpt-audio-1.5 | Standard global deployments |
+| gpt-audio-mini | Standard global deployments |
+| gpt-realtime | Standard global deployments |
+| gpt-realtime-1.5 | Standard global deployments |
+| gpt-realtime-mini | Standard global deployments |
+| whisper | Standard (all) |
+
+## East US 2 — Embedding Modelle
+
+| Modell | SKU-Varianten |
+|--------|---------------|
+| embed-v-4-0 | Global Standard |
+| text-embedding-3-large | Datazone US standard, Standard global deployments, Standard (all) |
+| text-embedding-3-small | Datazone US standard, Standard global deployments, Standard (all) |
+| text-embedding-ada-002 | Datazone US standard, Standard global deployments, Standard (all) |
+
+## East US 2 — Weitere Modelle
+
+| Modell | SKU-Varianten |
+|--------|---------------|
+| codex-mini | Standard global deployments |
+| computer-use-preview | Standard global deployments |
+| model-router | Data Zone Standard, Datazone US standard, Global Standard, Standard global deployments |
+
+## East US 2 — Letzte Änderungen
+
+| Modell | SKU | Aktion |
+|--------|-----|--------|
+| sora |  | ⛔ Entfernt |
+

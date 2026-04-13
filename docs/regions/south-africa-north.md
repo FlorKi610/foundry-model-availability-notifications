@@ -118,4 +118,4 @@ South Africa North has **54** models available.
 | text-embedding-3-small | Global Standard |
 | text-embedding-ada-002 | Global Standard, Standard |
 
-_Last updated: 2026-04-13 07:12 UTC_
+_Last updated: 2026-04-13 10:20 UTC_

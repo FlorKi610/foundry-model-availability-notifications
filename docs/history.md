@@ -4,15 +4,15 @@ Recent changes to AI Foundry model regional availability.
 
 <div class="stats-grid">
   <div class="stat-card">
-    <div class="stat-value">35</div>
+    <div class="stat-value">36</div>
     <div class="stat-label">Change Events</div>
   </div>
   <div class="stat-card">
-    <div class="stat-value" style="color: #22c55e;">1894</div>
+    <div class="stat-value" style="color: #22c55e;">1944</div>
     <div class="stat-label">Additions</div>
   </div>
   <div class="stat-card">
-    <div class="stat-value" style="color: #ef4444;">3401</div>
+    <div class="stat-value" style="color: #ef4444;">3434</div>
     <div class="stat-label">Removals</div>
   </div>
 </div>
@@ -28,6 +28,7 @@ Filter and search through all recent availability changes.
     <label for="history-date-filter">Date</label>
     <select id="history-date-filter" onchange="filterHistoryTable()">
       <option value="">All Dates</option>
+      <option value="2026-04-11">2026-04-11</option>
       <option value="2026-04-04">2026-04-04</option>
       <option value="2026-04-03">2026-04-03</option>
       <option value="2026-04-01">2026-04-01</option>
@@ -44,7 +45,6 @@ Filter and search through all recent availability changes.
       <option value="2026-01-22">2026-01-22</option>
       <option value="2026-01-15">2026-01-15</option>
       <option value="2026-01-08">2026-01-08</option>
-      <option value="2026-01-07">2026-01-07</option>
     </select>
   </div>
   <div class="filter-group">
@@ -239,6 +239,7 @@ Filter and search through all recent availability changes.
       <option value="West US">West US</option>
       <option value="West US 2">West US 2</option>
       <option value="West US 3">West US 3</option>
+      <option value="usgovarizona">usgovarizona</option>
     </select>
   </div>
   <div class="filter-group">
@@ -246,6 +247,8 @@ Filter and search through all recent availability changes.
     <select id="history-sku-filter" onchange="filterHistoryTable()">
       <option value="">All SKUs</option>
       <option value="Data Zone Standard">Data Zone Standard</option>
+      <option value="Datazone Provisioned Managed Gov">Datazone Provisioned Managed Gov</option>
+      <option value="Datazone Standard Gov">Datazone Standard Gov</option>
       <option value="Datazone Standard Priority Processing">Datazone Standard Priority Processing</option>
       <option value="Datazone provisioned managed">Datazone provisioned managed</option>
       <option value="Datazone standard">Datazone standard</option>
@@ -254,12 +257,14 @@ Filter and search through all recent availability changes.
       <option value="Global batch">Global batch</option>
       <option value="Global batch datazone">Global batch datazone</option>
       <option value="Provisioned (PTU managed)">Provisioned (PTU managed)</option>
+      <option value="Provisioned Models Gov">Provisioned Models Gov</option>
       <option value="Provisioned global">Provisioned global</option>
       <option value="Region Availability Maas">Region Availability Maas</option>
       <option value="Standard (all)">Standard (all)</option>
       <option value="Standard GPT-3.5 Turbo">Standard GPT-3.5 Turbo</option>
       <option value="Standard GPT-4">Standard GPT-4</option>
       <option value="Standard Global Priority Processing">Standard Global Priority Processing</option>
+      <option value="Standard Models Gov">Standard Models Gov</option>
       <option value="Standard audio">Standard audio</option>
       <option value="Standard chat completions">Standard chat completions</option>
       <option value="Standard completions">Standard completions</option>
@@ -286,6 +291,594 @@ Filter and search through all recent availability changes.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/dall-e-3/">dall-e-3</a></td>
+      <td>Australia East</td>
+      <td>Standard (all)</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/dall-e-3/">dall-e-3</a></td>
+      <td>East US</td>
+      <td>Standard (all)</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/dall-e-3/">dall-e-3</a></td>
+      <td>Sweden Central</td>
+      <td>Standard (all)</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/dall-e-3/">dall-e-3</a></td>
+      <td>(entire model)</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
+      <td>usgovarizona</td>
+      <td>Datazone Standard Gov</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-4-1/">gpt-4.1</a></td>
+      <td>usgovarizona</td>
+      <td>Standard Models Gov</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-4-1-mini/">gpt-4.1-mini</a></td>
+      <td>usgovarizona</td>
+      <td>Datazone Provisioned Managed Gov</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-4-1-mini/">gpt-4.1-mini</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-4-1-mini/">gpt-4.1-mini</a></td>
+      <td>usgovarizona</td>
+      <td>Datazone Standard Gov</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-4-1-mini/">gpt-4.1-mini</a></td>
+      <td>usgovarizona</td>
+      <td>Standard Models Gov</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-4-1-nano/">gpt-4.1-nano</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-4-1-nano/">gpt-4.1-nano</a></td>
+      <td>North Central US</td>
+      <td>Standard (all)</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-4-1-nano/">gpt-4.1-nano</a></td>
+      <td>Sweden Central</td>
+      <td>Standard (all)</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-4o/">gpt-4o</a></td>
+      <td>usgovarizona</td>
+      <td>Datazone Provisioned Managed Gov</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-4o/">gpt-4o</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-4o/">gpt-4o</a></td>
+      <td>usgovarizona</td>
+      <td>Datazone Standard Gov</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-4o/">gpt-4o</a></td>
+      <td>usgovarizona</td>
+      <td>Provisioned Models Gov</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-4o/">gpt-4o</a></td>
+      <td>usgovarizona</td>
+      <td>Standard Models Gov</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-4o-audio-preview/">gpt-4o-audio-preview</a></td>
+      <td>Sweden Central</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-4o-audio-preview/">gpt-4o-audio-preview</a></td>
+      <td>(entire model)</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-4o-mini/">gpt-4o-mini</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-4o-mini-realtime-preview/">gpt-4o-mini-realtime-preview</a></td>
+      <td>Sweden Central</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-4o-mini-realtime-preview/">gpt-4o-mini-realtime-preview</a></td>
+      <td>(entire model)</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-4o-realtime-preview/">gpt-4o-realtime-preview</a></td>
+      <td>Sweden Central</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-4o-realtime-preview/">gpt-4o-realtime-preview</a></td>
+      <td>(entire model)</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-5/">gpt-5</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-5-mini/">gpt-5-mini</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-5-nano/">gpt-5-nano</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-1/">gpt-5.1</a></td>
+      <td>usgovarizona</td>
+      <td>Datazone Standard Gov</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-2/">gpt-5.2</a></td>
+      <td>West US 3</td>
+      <td>Provisioned (PTU managed)</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-5-3-codex/">gpt-5.3-codex</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-5-4/">gpt-5.4</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>Central US</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>East US</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>East US 2</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>North Central US</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>South Central US</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-mini/">gpt-5.4-mini</a></td>
+      <td>West US</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>Central US</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>East US</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>North Central US</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>West US</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>Australia East</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>Brazil South</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>Canada Central</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>Canada East</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>Central US</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>East US</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>France Central</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>Germany West Central</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>Italy North</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>Japan East</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>Korea Central</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>North Central US</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>Norway East</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>South Africa North</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>South India</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>Southeast Asia</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>Spain Central</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>Switzerland North</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>Switzerland West</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>UAE North</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>UK South</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>West Europe</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>West US</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/gpt-5-4-nano/">gpt-5.4-nano</a></td>
+      <td>West US 3</td>
+      <td>Standard global deployments</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/gpt-image-1-5/">gpt-image-1.5</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/o1/">o1</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/o3/">o3</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/o3-mini/">o3-mini</a></td>
+      <td>usgovarizona</td>
+      <td>Datazone Provisioned Managed Gov</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/o3-mini/">o3-mini</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/o3-mini/">o3-mini</a></td>
+      <td>usgovarizona</td>
+      <td>Datazone Standard Gov</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/o4-mini/">o4-mini</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/sora/">sora</a></td>
+      <td>East US 2</td>
+      <td>Standard (all)</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/sora/">sora</a></td>
+      <td>(entire model)</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/text-embedding-3-large/">text-embedding-3-large</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/text-embedding-3-large/">text-embedding-3-large</a></td>
+      <td>usgovarizona</td>
+      <td>Standard Models Gov</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/text-embedding-3-small/">text-embedding-3-small</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/text-embedding-3-small/">text-embedding-3-small</a></td>
+      <td>usgovarizona</td>
+      <td>Standard Models Gov</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-removed">Removed</span></td>
+      <td><a href="../models/text-embedding-ada-002/">text-embedding-ada-002</a></td>
+      <td>West US 3</td>
+      <td>Datazone standard</td>
+    </tr>
+    <tr>
+      <td data-order="20260411123623">2026-04-11</td>
+      <td><span class="badge-added">Added</span></td>
+      <td><a href="../models/text-embedding-ada-002/">text-embedding-ada-002</a></td>
+      <td>usgovarizona</td>
+      <td>Standard Models Gov</td>
+    </tr>
     <tr>
       <td data-order="20260404003033">2026-04-04</td>
       <td><span class="badge-added">Added</span></td>
@@ -37344,17 +37937,10 @@ Filter and search through all recent availability changes.
       <td>West US 3</td>
       <td>Standard global deployments</td>
     </tr>
-    <tr>
-      <td data-order="20260107185245">2026-01-07</td>
-      <td><span class="badge-removed">Removed</span></td>
-      <td><a href="../models/gpt-4o-mini-tts/">gpt-4o-mini-tts</a></td>
-      <td>Sweden Central</td>
-      <td>Standard global deployments</td>
-    </tr>
   </tbody>
 </table>
 </div>
 
 ---
 
-_Last updated: 2026-04-05 22:13 UTC_
+_Last updated: 2026-04-13 10:20 UTC_
