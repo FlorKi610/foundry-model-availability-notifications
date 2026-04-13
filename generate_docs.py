@@ -1451,188 +1451,6 @@ _Last updated: {datetime.utcnow():%Y-%m-%d %H:%M UTC}_
 """
 
 
-def generate_agent_region_page(
-    region: str,
-    model_regions: Dict[str, Set[str]],
-    model_region_skus: Dict[str, Dict[str, List[str]]],
-    change_map: Dict[str, Dict],
-    timestamp: str,
-) -> str:
-    """Generate a per-region page listing all models and SKUs for Copilot Studio agents."""
-
-    models_here = sorted(
-        [m for m in model_regions if region in model_regions[m]],
-        key=str.lower,
-    )
-
-    # Determine if this is an EU region (for datazone sensitivity)
-    eu_region_set = {
-        "Finland Central", "France Central", "France South", "Germany North",
-        "Germany West Central", "Italy North", "Netherlands West", "North Europe",
-        "Norway East", "Norway West", "Poland Central", "Spain Central",
-        "Sweden Central", "Sweden South", "Switzerland North", "Switzerland West",
-        "UK South", "UK West", "West Europe",
-    }
-    is_eu = region in eu_region_set
-
-    lines = [
-        f"# {region} — Alle verfügbaren AI Modelle",
-        "",
-        f"Stand: {timestamp}",
-        "",
-        f"In **{region}** sind aktuell **{len(models_here)} Modelle** verfügbar.",
-        "Jede Zeile zeigt ein Modell mit seiner SKU-Variante (Deployment-Typ).",
-        "",
-        "⚠️ **Wichtig:** Diese Daten stammen aus der offiziellen Microsoft-Dokumentation (Azure AI Docs).",
-        "Dokumentation kann Vorab-Informationen enthalten, die noch nicht allgemein verfügbar (GA) sind.",
-        "Bitte die tatsächliche Verfügbarkeit immer im Azure Portal oder über die Azure CLI verifizieren,",
-        "bevor Kunden verbindliche Zusagen gemacht werden.",
-        "",
-        "---",
-        "",
-        "## Modelle und SKU-Varianten",
-        "",
-        "| Modell | SKU Variante | Status |",
-        "| --- | --- | --- |",
-    ]
-
-    for model in models_here:
-        updates = change_map.get(model, {})
-        added_regions = set(updates.get("added_regions", []))
-        is_model_removed = updates.get("model_removed", False)
-
-        sku_labels = model_region_skus.get(model, {}).get(region, [])
-        for sku in sorted(sku_labels):
-            if sku == DEFAULT_LABEL:
-                continue
-            normalized = SKU_LABEL_NORMALIZATION.get(sku, sku)
-            is_datazone = "datazone" in normalized.lower() or "data zone" in normalized.lower()
-            status = "Verfügbar"
-            if is_model_removed:
-                status = "Retired"
-            elif region in added_regions:
-                status = "Neu"
-
-            # Flag datazone SKUs in EU regions as unverified
-            if is_datazone and is_eu:
-                datazone_marker = "⚠️🔒 "
-                status += " (Docs — bitte im Portal verifizieren)"
-            elif is_datazone:
-                datazone_marker = "🔒 "
-            else:
-                datazone_marker = ""
-            lines.append(f"| {model} | {datazone_marker}{normalized} | {status} |")
-
-    # Removed models
-    for model in sorted(model_regions.keys(), key=str.lower):
-        updates = change_map.get(model, {})
-        removed_regions = set(updates.get("removed_regions", []))
-        if region in removed_regions and region not in model_regions.get(model, set()):
-            lines.append(f"| {model} | — | Entfernt |")
-
-    lines += [
-        "",
-        "---",
-        "",
-        "## SKU-Varianten erklärt",
-        "",
-        "| SKU Variante | Beschreibung |",
-        "| --- | --- |",
-        "| Standard | Pay-as-you-go, regionale Bereitstellung |",
-        "| Global Standard | Globales Routing, pay-per-token, für Foundry-Modelle |",
-        "| Standard global deployments | Globales Routing, Azure-managed |",
-        "| Standard Global Priority Processing | Priority-Routing mit höherer Durchsatz-Garantie |",
-        "| Provisioned (PTU managed) | Reservierte Kapazität, garantierter Durchsatz |",
-        "| Provisioned global | PTU mit globalem Routing |",
-        "| Global Provisioned Managed | MaaS-Modelle mit reservierter Kapazität |",
-        "| 🔒 Datazone standard | Standard mit EU-Datenresidenz (DSGVO) |",
-        "| 🔒 Datazone provisioned managed | PTU mit EU-Datenresidenz |",
-        "| 🔒 Data Zone Standard | Datenzone Standard (EU Data Residency) |",
-        "| Global batch | Batch-Verarbeitung, kostengünstig |",
-        "| Global batch datazone | Batch mit Datenzone |",
-        "",
-        "⚠️ Provisioned (PTU) erfordert vorab reservierte Kapazität.",
-        "🔒 Datazone = Daten bleiben in der EU-Datenzone (DSGVO-konform).",
-        "",
-        "---",
-        "",
-        f"*Datenquelle: Azure AI Docs — automatisiert gescannt. {len(models_here)} Modelle in {region}.*",
-        "",
-    ]
-
-    return "\n".join(lines)
-
-
-def generate_agent_europe_index(
-    model_regions: Dict[str, Set[str]],
-    eu_regions: List[str],
-    timestamp: str,
-) -> str:
-    """Generate an index page linking to all per-region agent pages."""
-
-    lines = [
-        "# Europa: AI Modell-Verfügbarkeit nach Region",
-        "",
-        f"Stand: {timestamp}",
-        "",
-        "Wähle eine Region um alle verfügbaren Modelle mit SKU-Varianten zu sehen.",
-        "",
-        "| Region | Anzahl Modelle | Link |",
-        "| --- | ---: | --- |",
-    ]
-
-    for region in eu_regions:
-        count = sum(1 for m in model_regions if region in model_regions[m])
-        slug = region.lower().replace(" ", "-")
-        if count > 0:
-            lines.append(f"| {region} | {count} | [Alle Modelle anzeigen](../agent-region-{slug}/) |")
-
-    lines += [
-        "",
-        "---",
-        "",
-        "*Täglich automatisch aktualisiert via GitHub Actions.*",
-        "",
-    ]
-
-    return "\n".join(lines)
-
-
-def generate_agent_worldwide_index(
-    model_regions: Dict[str, Set[str]],
-    all_regions: List[str],
-    timestamp: str,
-) -> str:
-    """Generate a worldwide index page linking to all per-region agent pages."""
-
-    lines = [
-        "# Weltweit: AI Modell-Verfügbarkeit nach Region",
-        "",
-        f"Stand: {timestamp}",
-        "",
-        "Alle Azure-Regionen weltweit. Wähle eine Region um alle verfügbaren Modelle mit SKU-Varianten zu sehen.",
-        "",
-        "| Region | Anzahl Modelle | Link |",
-        "| --- | ---: | --- |",
-    ]
-
-    for region in all_regions:
-        count = sum(1 for m in model_regions if region in model_regions[m])
-        slug = region.lower().replace(" ", "-")
-        if count > 0:
-            lines.append(f"| {region} | {count} | [Alle Modelle anzeigen](../agent-region-{slug}/) |")
-
-    lines += [
-        "",
-        "---",
-        "",
-        "*Täglich automatisch aktualisiert via GitHub Actions.*",
-        "",
-    ]
-
-    return "\n".join(lines)
-
-
 def generate_history_page(history: List[Dict]) -> str:
     """Generate the change history page with clean grouped format."""
     
@@ -1794,13 +1612,187 @@ _Last updated: {datetime.utcnow():%Y-%m-%d %H:%M UTC}_
 """
 
 
+def generate_region_detail_page(
+    region: str,
+    model_region_skus: Dict[str, Dict[str, Set[str]]],
+    now_utc: str,
+) -> str:
+    """Generate a retrieval-optimized per-region markdown page.
+
+    The page is designed for RAG / Copilot Studio knowledge retrieval:
+    1. Plain-language sentences at the top (best for semantic search)
+    2. Bullet list with model -> SKU mapping
+    3. Full table for structured lookup
+    """
+    # Collect models available in this region with their real SKUs (no pseudo-SKU)
+    models_here: List[Tuple[str, List[str]]] = []
+    for model in sorted(model_region_skus.keys()):
+        skus_in_region = model_region_skus[model].get(region)
+        if not skus_in_region:
+            continue
+        # Filter out the "Global coverage" pseudo-SKU — only keep real deployable SKUs
+        real_skus = sorted(s for s in skus_in_region if s != DEFAULT_LABEL)
+        if real_skus:
+            models_here.append((model, real_skus))
+
+    lines: List[str] = []
+    lines.append(f"# {region}\n")
+
+    # Plain-language summary (retrieval-optimized)
+    lines.append(f"{region} has **{len(models_here)}** models available.\n")
+
+    # Explicit availability sentences for each model (best for "is X in Y?" queries)
+    lines.append("## Model Availability\n")
+    for model_name, skus in models_here:
+        sku_str = ", ".join(skus)
+        lines.append(f"- **{model_name}** is available in {region}. SKUs: {sku_str}")
+
+    lines.append("")
+
+    # Full table (structured lookup)
+    lines.append("## Full Availability Table\n")
+    lines.append("| Model | Available SKU Types |")
+    lines.append("|-------|-------------------|")
+    for model_name, skus in models_here:
+        sku_str = ", ".join(skus)
+        lines.append(f"| {model_name} | {sku_str} |")
+
+    lines.append("")
+    lines.append(f"_Last updated: {now_utc}_")
+    return "\n".join(lines)
+
+
+def generate_agent_all_regions_page(
+    model_region_skus: Dict[str, Dict[str, Set[str]]],
+    all_regions: Set[str],
+    now_utc: str,
+) -> str:
+    """Generate a single consolidated agent knowledge page for ALL regions.
+
+    This page is designed as a Copilot Studio knowledge source (1 URL).
+    Contains plain-language sentences for every model in every region.
+    """
+    lines: List[str] = [
+        "# AI Model Availability by Region",
+        "",
+        f"Complete availability data for all Azure AI Foundry models across {len(all_regions)} regions.",
+        f"Last updated: {now_utc}",
+        "",
+    ]
+
+    for region in sorted(all_regions):
+        models_here: List[Tuple[str, List[str]]] = []
+        for model in sorted(model_region_skus.keys()):
+            skus_in_region = model_region_skus[model].get(region)
+            if not skus_in_region:
+                continue
+            real_skus = sorted(s for s in skus_in_region if s != DEFAULT_LABEL)
+            if real_skus:
+                models_here.append((model, real_skus))
+
+        if not models_here:
+            continue
+
+        lines.append(f"## {region}")
+        lines.append("")
+        lines.append(f"{region} has {len(models_here)} models available.")
+        lines.append("")
+        for model_name, skus in models_here:
+            sku_str = ", ".join(skus)
+            lines.append(f"- {model_name} is available in {region}. SKUs: {sku_str}")
+        lines.append("")
+
+    return "\n".join(lines)
+
+
+def generate_agent_all_models_page(
+    model_regions: Dict[str, Set[str]],
+    model_sku_regions: Dict[str, Dict[str, Set[str]]],
+    all_regions: Set[str],
+    now_utc: str,
+) -> str:
+    """Generate a single consolidated agent knowledge page for ALL models.
+
+    This page is designed as a Copilot Studio knowledge source (1 URL).
+    Contains plain-language sentences for every model with all its regions.
+    """
+    lines: List[str] = [
+        "# AI Model Availability by Model",
+        "",
+        f"Complete availability data for {len(model_regions)} Azure AI Foundry models.",
+        f"Last updated: {now_utc}",
+        "",
+    ]
+
+    for model in sorted(model_regions.keys()):
+        regions = sorted(model_regions[model])
+        total = len(all_regions)
+
+        lines.append(f"## {model}")
+        lines.append("")
+        lines.append(f"{model} is available in {len(regions)} of {total} regions.")
+        lines.append("")
+
+        # Group by SKU type (skip pseudo-SKU)
+        for sku_label, sku_regions_set in sorted(model_sku_regions[model].items()):
+            if sku_label == DEFAULT_LABEL:
+                continue
+            region_list = ", ".join(sorted(sku_regions_set))
+            lines.append(f"- **{sku_label}**: {region_list}")
+
+        lines.append("")
+
+    return "\n".join(lines)
+
+
+def generate_agent_retirements_page(
+    retirement_data: Dict,
+    now_utc: str,
+) -> str:
+    """Generate a plain-text agent knowledge page for model retirements."""
+    lines: List[str] = [
+        "# AI Model Retirements and Deprecations",
+        "",
+        f"Planned retirements and migration recommendations for Azure AI Foundry models.",
+        f"Last updated: {now_utc}",
+        "",
+    ]
+
+    models = retirement_data.get("models", {})
+    if not models:
+        lines.append("No retirement data available.")
+        return "\n".join(lines)
+
+    for model_name, versions in sorted(models.items()):
+        if not isinstance(versions, list):
+            versions = [versions]
+        for entry in versions:
+            version = entry.get("version", "")
+            ret_date = entry.get("retirement_date", "Unknown")
+            replacement = entry.get("replacement", "Not specified")
+            status = entry.get("status", "")
+
+            display = f"{model_name}"
+            if version:
+                display += f" (version {version})"
+
+            lines.append(f"- **{display}** will be retired on {ret_date}. "
+                         f"Replacement: {replacement}. Status: {status}.")
+
+    lines.append("")
+    return "\n".join(lines)
+
+
 def main():
     """Generate all MkDocs pages."""
+    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
     # Ensure directories exist
     DOCS_DIR.mkdir(exist_ok=True)
     (DOCS_DIR / "stylesheets").mkdir(exist_ok=True)
     (DOCS_DIR / "javascripts").mkdir(exist_ok=True)
     (DOCS_DIR / "models").mkdir(exist_ok=True)
+    (DOCS_DIR / "regions").mkdir(exist_ok=True)
     
     # Load data
     data = load_snapshot(SNAPSHOT_PATH)
@@ -1825,52 +1817,6 @@ def main():
         "history.md": generate_history_page(history),
         "retirements.md": generate_retirements_page(retirement_data, model_regions_normalized),
     }
-
-    # Generate per-region agent pages for Copilot Studio
-    eu_regions = sorted([
-        "Finland Central", "France Central", "France South", "Germany North",
-        "Germany West Central", "Italy North", "Netherlands West", "North Europe",
-        "Norway East", "Norway West", "Poland Central", "Spain Central",
-        "Sweden Central", "Sweden South", "Switzerland North", "Switzerland West",
-        "UK South", "UK West", "West Europe",
-    ])
-
-    diff_path = HERE / "region_diff_europe.json"
-    change_map: Dict[str, Dict] = {}
-    agent_timestamp = ""
-    if diff_path.exists():
-        diff_data = json.loads(diff_path.read_text("utf-8"))
-        agent_timestamp = diff_data.get("timestamp", "")
-        for entry in diff_data.get("views", {}).get("by_model", []):
-            change_map[entry["model"]] = entry.get("updates", {})
-
-    pages["agent-europe.md"] = generate_agent_europe_index(model_regions, eu_regions, agent_timestamp)
-
-    for region in eu_regions:
-        slug = region.lower().replace(" ", "-")
-        pages[f"agent-region-{slug}.md"] = generate_agent_region_page(
-            region, model_regions, model_region_skus, change_map, agent_timestamp,
-        )
-
-    # Generate worldwide region pages (non-EU regions)
-    ww_diff_path = HERE / "region_diff_worldwide.json"
-    ww_change_map: Dict[str, Dict] = {}
-    ww_timestamp = agent_timestamp
-    if ww_diff_path.exists():
-        ww_diff_data = json.loads(ww_diff_path.read_text("utf-8"))
-        ww_timestamp = ww_diff_data.get("timestamp", "") or agent_timestamp
-        for entry in ww_diff_data.get("views", {}).get("by_model", []):
-            ww_change_map[entry["model"]] = entry.get("updates", {})
-
-    all_regions_sorted = sorted(all_regions)
-    pages["agent-worldwide.md"] = generate_agent_worldwide_index(model_regions, all_regions_sorted, ww_timestamp)
-
-    non_eu_regions = sorted(set(all_regions) - set(eu_regions))
-    for region in non_eu_regions:
-        slug = region.lower().replace(" ", "-")
-        pages[f"agent-region-{slug}.md"] = generate_agent_region_page(
-            region, model_regions, model_region_skus, ww_change_map, ww_timestamp,
-        )
     
     for filename, content in pages.items():
         path = DOCS_DIR / filename
@@ -1897,19 +1843,47 @@ def main():
         path.write_text(content, encoding="utf-8")
         print(f"Generated: {path}")
     
-    # Clean up orphaned model pages that are no longer in the snapshot
-    current_slugs = {slugify(m) for m in model_regions.keys()}
-    models_dir = DOCS_DIR / "models"
-    removed_count = 0
-    for old_page in models_dir.glob("*.md"):
-        if old_page.name == "index.md":
-            continue
-        if old_page.stem not in current_slugs:
-            old_page.unlink()
-            removed_count += 1
-            print(f"Removed orphan: {old_page}")
+    # Generate per-region pages (retrieval-optimized for Copilot Studio agent)
+    region_count = 0
+    for region in sorted(all_regions):
+        content = generate_region_detail_page(
+            region=region,
+            model_region_skus=model_region_skus,
+            now_utc=now_utc,
+        )
+        path = DOCS_DIR / "regions" / f"{slugify(region)}.md"
+        path.write_text(content, encoding="utf-8")
+        print(f"Generated: {path}")
+        region_count += 1
     
-    print(f"\nDone! Generated {len(pages) + len(model_regions)} pages, removed {removed_count} orphans.")
+    total = len(pages) + len(model_regions) + region_count
+    print(f"\nDone! Generated {total} pages ({len(pages)} main, {len(model_regions)} models, {region_count} regions).")
+
+    # Generate consolidated agent knowledge pages (1 URL per page for Copilot Studio)
+    agent_pages = {
+        "agent-knowledge-regions.md": generate_agent_all_regions_page(
+            model_region_skus=model_region_skus,
+            all_regions=all_regions,
+            now_utc=now_utc,
+        ),
+        "agent-knowledge-models.md": generate_agent_all_models_page(
+            model_regions=model_regions,
+            model_sku_regions=model_sku_regions,
+            all_regions=all_regions,
+            now_utc=now_utc,
+        ),
+        "agent-knowledge-retirements.md": generate_agent_retirements_page(
+            retirement_data=retirement_data,
+            now_utc=now_utc,
+        ),
+    }
+
+    for filename, content in agent_pages.items():
+        path = DOCS_DIR / filename
+        path.write_text(content, encoding="utf-8")
+        print(f"Generated agent page: {path}")
+
+    print(f"Agent knowledge: {len(agent_pages)} pages (add these URLs to Copilot Studio)")
 
 
 if __name__ == "__main__":

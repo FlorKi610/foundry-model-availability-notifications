@@ -1,6 +1,6 @@
 # gpt-5-pro
 
-<span class="badge badge-broad">Broad</span> Available in **27** of 31 regions
+<span class="badge badge-broad">Broad</span> Available in **27** of 32 regions
 
 
 !!! warning "Retirement Notice"
@@ -20,7 +20,7 @@
 | Metric | Value |
 |--------|-------|
 | Total Regions | 27 |
-| Coverage | 87% |
+| Coverage | 84% |
 | SKU Types | 2 |
 | Categories | Global |
 
@@ -35,8 +35,8 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Global Standard | 27 | 87% |
-| Global coverage | 27 | 87% |
+| Global Standard | 27 | 84% |
+| Global coverage | 27 | 84% |
 
 **Available Regions:**
 
@@ -90,4 +90,4 @@ This table shows exactly which SKU types are available in each region.
 
 [← Back to All Models](index.md)
 
-_Last updated: 2026-04-05 22:13 UTC_
+_Last updated: 2026-04-13 07:12 UTC_

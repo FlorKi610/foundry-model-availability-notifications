@@ -1,6 +1,6 @@
 # gpt-5-nano
 
-<span class="badge badge-broad">Broad</span> Available in **26** of 31 regions
+<span class="badge badge-broad">Broad</span> Available in **26** of 32 regions
 
 
 !!! warning "Retirement Notice"
@@ -20,7 +20,7 @@
 | Metric | Value |
 |--------|-------|
 | Total Regions | 26 |
-| Coverage | 84% |
+| Coverage | 81% |
 | SKU Types | 3 |
 | Categories | Datazone, Global |
 
@@ -35,8 +35,8 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Global Standard | 26 | 84% |
-| Global coverage | 26 | 84% |
+| Global Standard | 26 | 81% |
+| Global coverage | 26 | 81% |
 
 **Available Regions:**
 
@@ -49,11 +49,11 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Datazone standard | 14 | 45% |
+| Datazone standard | 13 | 41% |
 
 **Available Regions:**
 
-`Central US`, `East US`, `East US 2`, `France Central`, `Germany West Central`, `Italy North`, `North Central US`, `Poland Central`, `South Central US`, `Spain Central`, `Sweden Central`, `West Europe`, `West US`, `West US 3`
+`Central US`, `East US`, `East US 2`, `France Central`, `Germany West Central`, `Italy North`, `North Central US`, `Poland Central`, `South Central US`, `Spain Central`, `Sweden Central`, `West Europe`, `West US`
 
 
 ---
@@ -93,7 +93,7 @@ This table shows exactly which SKU types are available in each region.
 <tr><td><strong>UK South</strong></td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 <tr><td><strong>West Europe</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 <tr><td><strong>West US</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
-<tr><td><strong>West US 3</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
+<tr><td><strong>West US 3</strong></td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 </tbody>
 </table>
 </div>
@@ -102,4 +102,4 @@ This table shows exactly which SKU types are available in each region.
 
 [← Back to All Models](index.md)
 
-_Last updated: 2026-04-05 22:13 UTC_
+_Last updated: 2026-04-13 07:12 UTC_

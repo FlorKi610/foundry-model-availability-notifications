@@ -1,8 +1,8 @@
 site_name: Azure OpenAI Foundry Model Availability
 site_description: Track Azure OpenAI Foundry model availability across regions and SKUs
-site_url: https://FlorKi610.github.io/foundry-model-availability-notifications
-repo_url: https://github.com/FlorKi610/foundry-model-availability-notifications
-repo_name: FlorKi610/foundry-model-availability-notifications
+site_url: https://FlorKi610.github.io/foundry-model-availability-notifications-private
+repo_url: https://github.com/FlorKi610/foundry-model-availability-notifications-private
+repo_name: FlorKi610/foundry-model-availability-notifications-private
 
 theme:
   name: material
@@ -73,13 +73,23 @@ nav:
   - Home: index.md
   - Models:
     - Overview: models/index.md
+    - GPT-3.5:
+      - gpt-35-turbo: models/gpt-35-turbo.md
+      - gpt-35-turbo-16k: models/gpt-35-turbo-16k.md
+      - gpt-35-turbo-instruct: models/gpt-35-turbo-instruct.md
     - GPT-4:
+      - gpt-4: models/gpt-4.md
+      - gpt-4-32k: models/gpt-4-32k.md
       - gpt-4-1: models/gpt-4-1.md
       - gpt-4-1-mini: models/gpt-4-1-mini.md
       - gpt-4-1-nano: models/gpt-4-1-nano.md
     - GPT-4o:
       - gpt-4o: models/gpt-4o.md
       - gpt-4o-mini: models/gpt-4o-mini.md
+      - gpt-4o-audio-preview: models/gpt-4o-audio-preview.md
+      - gpt-4o-mini-audio-preview: models/gpt-4o-mini-audio-preview.md
+      - gpt-4o-realtime-preview: models/gpt-4o-realtime-preview.md
+      - gpt-4o-mini-realtime-preview: models/gpt-4o-mini-realtime-preview.md
       - gpt-4o-transcribe: models/gpt-4o-transcribe.md
       - gpt-4o-transcribe-diarize: models/gpt-4o-transcribe-diarize.md
       - gpt-4o-mini-transcribe: models/gpt-4o-mini-transcribe.md
@@ -102,8 +112,6 @@ nav:
       - gpt-5-3-chat: models/gpt-5-3-chat.md
       - gpt-5-3-codex: models/gpt-5-3-codex.md
       - gpt-5-4: models/gpt-5-4.md
-      - gpt-5-4-mini: models/gpt-5-4-mini.md
-      - gpt-5-4-nano: models/gpt-5-4-nano.md
       - gpt-5-4-pro: models/gpt-5-4-pro.md
     - GPT Audio:
       - gpt-audio: models/gpt-audio.md
@@ -119,6 +127,8 @@ nav:
       - gpt-image-1-5: models/gpt-image-1-5.md
     - o-series:
       - o1: models/o1.md
+      - o1-mini: models/o1-mini.md
+      - o1-preview: models/o1-preview.md
       - o3: models/o3.md
       - o3-mini: models/o3-mini.md
       - o3-pro: models/o3-pro.md
@@ -130,15 +140,11 @@ nav:
       - text-embedding-ada-002: models/text-embedding-ada-002.md
       - text-embedding-3-small: models/text-embedding-3-small.md
       - text-embedding-3-large: models/text-embedding-3-large.md
-      - embed-v-4-0: models/embed-v-4-0.md
     - Image Generation:
-      - mai-image-2: models/mai-image-2.md
+      - dall-e-3: models/dall-e-3.md
     - Video:
+      - sora: models/sora.md
       - sora-2: models/sora-2.md
-    - Cohere:
-      - cohere-command-a: models/cohere-command-a.md
-      - cohere-rerank-v4-0-fast: models/cohere-rerank-v4-0-fast.md
-      - cohere-rerank-v4-0-pro: models/cohere-rerank-v4-0-pro.md
     - Audio:
       - whisper: models/whisper.md
       - tts: models/tts.md
@@ -146,6 +152,23 @@ nav:
     - Other:
       - computer-use-preview: models/computer-use-preview.md
       - model-router: models/model-router.md
+    - Anthropic (Claude):
+      - claude-haiku-4-5-preview: models/claude-haiku-4-5-(preview).md
+      - claude-opus-4-1-preview: models/claude-opus-4-1-(preview).md
+      - claude-opus-4-5-preview: models/claude-opus-4-5-(preview).md
+      - claude-opus-4-6-preview: models/claude-opus-4-6-(preview).md
+      - claude-sonnet-4-5-preview: models/claude-sonnet-4-5-(preview).md
+      - claude-sonnet-4-6-preview: models/claude-sonnet-4-6-(preview).md
+    - Cohere:
+      - cohere-command-a: models/cohere-command-a.md
+      - cohere-command-r-08-2024: models/cohere-command-r-08-2024.md
+      - cohere-command-r+-08-2024: models/cohere-command-r+-08-2024.md
+      - cohere-embed-v3-english: models/cohere-embed-v3---english.md
+      - cohere-embed-v3-multilingual: models/cohere-embed-v3---multilingual.md
+      - cohere-embed-v4-0: models/embed-v-4-0.md
+      - cohere-rerank-v3-5: models/cohere-rerank-v3-5.md
+      - cohere-rerank-v4-0-fast: models/cohere-rerank-v4-0-fast.md
+      - cohere-rerank-v4-0-pro: models/cohere-rerank-v4-0-pro.md
     - DeepSeek:
       - deepseek-r1: models/deepseek-r1.md
       - deepseek-r1-0528: models/deepseek-r1-0528.md
@@ -156,69 +179,63 @@ nav:
     - FLUX:
       - flux-1-1-pro: models/flux-1-1-pro.md
       - flux-1-kontext-pro: models/flux-1-kontext-pro.md
-      - flux-2-flex: models/flux-2-flex.md
       - flux-2-pro: models/flux-2-pro.md
     - Grok:
       - grok-3: models/grok-3.md
       - grok-3-mini: models/grok-3-mini.md
+      - grok-4: models/grok-4.md
       - grok-4-fast-reasoning: models/grok-4-fast-reasoning.md
       - grok-4-fast-non-reasoning: models/grok-4-fast-non-reasoning.md
       - grok-4-1-fast-reasoning: models/grok-4-1-fast-reasoning.md
       - grok-4-1-fast-non-reasoning: models/grok-4-1-fast-non-reasoning.md
+      - grok-code-fast-1: models/grok-code-fast-1.md
     - Llama (Meta):
+      - llama-3-1-8b-instruct: models/llama-3-1-8b-instruct.md
+      - llama-3-1-405b-instruct: models/llama-3-1-405b-instruct.md
+      - llama-3-2-1b: models/llama-3-2-1b.md
+      - llama-3-2-1b-instruct: models/llama-3-2-1b-instruct.md
+      - llama-3-2-3b: models/llama-3-2-3b.md
+      - llama-3-2-3b-instruct: models/llama-3-2-3b-instruct.md
+      - llama-3-2-11b-vision-instruct: models/llama-3-2-11b-vision-instruct.md
+      - llama-3-2-90b-vision-instruct: models/llama-3-2-90b-vision-instruct.md
       - llama-3-3-70b-instruct: models/llama-3-3-70b-instruct.md
       - llama-4-maverick: models/llama-4-maverick-17b-128e-instruct-fp8.md
+      - meta-llama-3-70b-instruct: models/meta-llama-3-70b-instruct.md
+      - llama-guard-3-1b: models/llama-guard-3-1b.md
+      - llama-guard-3-11b-vision: models/llama-guard-3-11b-vision.md
+    - Microsoft (Phi):
+      - phi-4: models/phi-4.md
+      - phi-4-mini-instruct: models/phi-4-mini-instruct.md
+      - phi-4-mini-reasoning: models/phi-4-mini-reasoning.md
+      - phi-4-multimodal-instruct: models/phi-4-multimodal-instruct.md
+      - phi-4-reasoning: models/phi-4-reasoning.md
+      - mai-ds-r1: models/mai-ds-r1.md
     - Mistral:
+      - mistral-nemo: models/mistral-nemo.md
+      - mistral-small-25-03: models/mistral-small-25-03.md
+      - mistral-medium-3-25-05: models/mistral-medium-3-(25-05).md
+      - mistral-large-2411: models/mistral-large-(2411).md
+      - mistral-ocr-25-03: models/mistral-ocr-25-03.md
       - mistral-document-ai-2505: models/mistral-document-ai-2505.md
       - mistral-document-ai-2512: models/mistral-document-ai-2512.md
       - mistral-large-3: models/mistral-large-3.md
-    - Kimi:
+      - ministral-3b: models/ministral-3b.md
+      - codestral-2501: models/codestral-2501.md
+    - Stability AI:
+      - stable-diffusion-3-5-large: models/stable-diffusion-3-5-large.md
+      - stable-image-core: models/stable-image-core.md
+      - stable-image-ultra: models/stable-image-ultra.md
+    - Other Partner Models:
+      - gretel-navigator: models/gretel-navigator.md
+      - jais-30b-chat: models/jais-30b-chat.md
       - kimi-k2-5: models/kimi-k2-5.md
+      - kimi-k2-thinking: models/kimi-k2-thinking.md
+      - timegen-1: models/timegen-1.md
+      - tsuzumi-7b: models/tsuzumi-7b.md
   - By Region: by-region.md
   - By SKU Type: by-sku.md
   - Retirements: retirements.md
   - Change History: history.md
-  - Europa SKU Übersicht (Agent):
-    - Regionen: agent-europe.md
-    - France Central: agent-region-france-central.md
-    - Germany West Central: agent-region-germany-west-central.md
-    - Italy North: agent-region-italy-north.md
-    - Norway East: agent-region-norway-east.md
-    - Poland Central: agent-region-poland-central.md
-    - Spain Central: agent-region-spain-central.md
-    - Sweden Central: agent-region-sweden-central.md
-    - Switzerland North: agent-region-switzerland-north.md
-    - Switzerland West: agent-region-switzerland-west.md
-    - UK South: agent-region-uk-south.md
-    - West Europe: agent-region-west-europe.md
-    - North Europe: agent-region-north-europe.md
-    - Finland Central: agent-region-finland-central.md
-    - France South: agent-region-france-south.md
-    - Germany North: agent-region-germany-north.md
-    - Netherlands West: agent-region-netherlands-west.md
-    - Norway West: agent-region-norway-west.md
-    - Sweden South: agent-region-sweden-south.md
-    - UK West: agent-region-uk-west.md
-  - Weltweit (Agent):
-    - Alle Regionen: agent-worldwide.md
-    - East US 2: agent-region-east-us-2.md
-    - Central US: agent-region-central-us.md
-    - East US: agent-region-east-us.md
-    - South Central US: agent-region-south-central-us.md
-    - North Central US: agent-region-north-central-us.md
-    - West US: agent-region-west-us.md
-    - West US 3: agent-region-west-us-3.md
-    - Canada Central: agent-region-canada-central.md
-    - Canada East: agent-region-canada-east.md
-    - Brazil South: agent-region-brazil-south.md
-    - Japan East: agent-region-japan-east.md
-    - Japan West: agent-region-japan-west.md
-    - Korea Central: agent-region-korea-central.md
-    - Australia East: agent-region-australia-east.md
-    - Southeast Asia: agent-region-southeast-asia.md
-    - South India: agent-region-south-india.md
-    - UAE North: agent-region-uae-north.md
-    - South Africa North: agent-region-south-africa-north.md
-    - West Central US: agent-region-west-central-us.md
-    - West US 2: agent-region-west-us-2.md
-    - US Gov Arizona: agent-region-usgovarizona.md
+  - Agent Knowledge (Regions): agent-knowledge-regions.md
+  - Agent Knowledge (Models): agent-knowledge-models.md
+  - Agent Knowledge (Retirements): agent-knowledge-retirements.md

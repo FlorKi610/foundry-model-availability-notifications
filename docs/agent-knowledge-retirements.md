@@ -1,0 +1,67 @@
+# AI Model Retirements and Deprecations
+
+Planned retirements and migration recommendations for Azure AI Foundry models.
+Last updated: 2026-04-13 07:12 UTC
+
+- **audio (version 2024-12-17)** will be retired on 2026-02-02. Replacement: gpt-audio. Status: Preview.
+- **audio (version 2024-12-17)** will be retired on 2026-02-02. Replacement: gpt-realtime. Status: Preview.
+- **audio (version 2024-12-17)** will be retired on No earlier than 2026-02-28. Replacement: None. Status: Preview.
+- **audio (version 2024-12-17)** will be retired on No earlier than 2026-02-28. Replacement: None. Status: Preview.
+- **audio (version 2025-03-20)** will be retired on No earlier than 2026-02-28. Replacement: None. Status: Preview.
+- **audio (version 2025-03-20)** will be retired on No earlier than 2026-02-28. Replacement: None. Status: Preview.
+- **audio (version 2025-03-20)** will be retired on No earlier than 2026-02-28. Replacement: None. Status: Preview.
+- **audio (version 2025-10-15)** will be retired on 2027-04-16. Replacement: None. Status: Generally Available.
+- **audio (version 2025-08-28)** will be retired on 2027-02-28. Replacement: None. Status: Generally Available.
+- **audio (version 2025-08-28)** will be retired on 2027-02-28. Replacement: None. Status: Generally Available.
+- **audio (version 2025-10-06)** will be retired on 2027-04-07. Replacement: None. Status: Generally Available.
+- **audio (version 001)** will be retired on None. Replacement: None. Status: Generally Available.
+- **audio (version 001)** will be retired on None. Replacement: None. Status: Generally Available.
+- **audio (version 001)** will be retired on None. Replacement: None. Status: Generally Available.
+- **audio (version 2025-12-15)** will be retired on No earlier than 2026-12-15. Replacement: None. Status: Generally Available.
+- **audio (version 2025-12-15)** will be retired on No earlier than 2026-12-15. Replacement: None. Status: Generally Available.
+- **audio (version 2025-12-15)** will be retired on No earlier than 2026-12-15. Replacement: None. Status: Generally Available.
+- **embedding (version 1)** will be retired on No earlier than 2026-10-30. Replacement: None. Status: Generally Available.
+- **embedding (version 1)** will be retired on No earlier than 2026-10-30. Replacement: None. Status: Generally Available.
+- **embedding (version 2)** will be retired on No earlier than 2026-10-30. Replacement: None. Status: Generally Available.
+- **embedding (version 1)** will be retired on No earlier than 2026-10-30. Replacement: None. Status: Generally Available.
+- **fine_tuned (version 2024-08-06)** will be retired on Unknown. Replacement: Not specified. Status: .
+- **fine_tuned (version 2024-07-18)** will be retired on Unknown. Replacement: Not specified. Status: .
+- **fine_tuned (version 2025-04-14)** will be retired on Unknown. Replacement: Not specified. Status: .
+- **fine_tuned (version 2025-04-14)** will be retired on Unknown. Replacement: Not specified. Status: .
+- **fine_tuned (version 2025-04-14)** will be retired on Unknown. Replacement: Not specified. Status: .
+- **fine_tuned (version 2025-04-16)** will be retired on Unknown. Replacement: Not specified. Status: .
+- **image_and_video (version 3)** will be retired on 2026-02-18. Replacement: gpt-image-1-mini. Status: Generally Available.
+- **image_and_video (version 2025-04-15)** will be retired on No earlier than 2026-03-31. Replacement: gpt-image-1-mini. Status: Preview.
+- **image_and_video (version 2025-10-06)** will be retired on 2027-04-07. Replacement: None. Status: Generally Available.
+- **image_and_video (version 2025-05-02)** will be retired on No earlier than 2026-02-28. Replacement: sora-2. Status: Preview.
+- **image_and_video (version 2025-12-16)** will be retired on No earlier than 2026-12-16. Replacement: None. Status: Preview.
+- **image_and_video (version 2025-10-15)** will be retired on No earlier than 2026-04-30. Replacement: None. Status: Preview.
+- **text_generation (version 2025-08-07)** will be retired on 2026-03-01. Replacement: gpt-5.2-chat. Status: Preview.
+- **text_generation (version 2025-10-03)** will be retired on 2026-03-01. Replacement: gpt-5.2-chat. Status: Preview.
+- **text_generation (version 2024-05-13)** will be retired on 2026-03-31. Replacement: gpt-5.1. Status: Generally Available.
+- **text_generation (version 2024-08-06)** will be retired on 2026-03-31. Replacement: gpt-5.1. Status: Generally Available.
+- **text_generation (version 2024-11-20)** will be retired on 2026-06-05. Replacement: gpt-5.1. Status: Generally Available.
+- **text_generation (version 2024-07-18)** will be retired on 2026-03-31. Replacement: gpt-4.1-mini. Status: Generally Available.
+- **text_generation (version 2025-04-14)** will be retired on 2026-10-14. Replacement: gpt-5. Status: Generally Available.
+- **text_generation (version 2025-04-14)** will be retired on 2026-10-14. Replacement: gpt-5-mini. Status: Generally Available.
+- **text_generation (version 2025-04-14)** will be retired on 2026-10-14. Replacement: gpt-5-nano. Status: Generally Available.
+- **text_generation (version 2025-03-11)** will be retired on No earlier than 2026-04-14. Replacement: None. Status: Preview.
+- **text_generation (version 2024-12-17)** will be retired on 2026-07-15. Replacement: o3. Status: Generally Available.
+- **text_generation (version 2025-03-19)** will be retired on 2026-09-18. Replacement: o3-pro. Status: Generally Available.
+- **text_generation (version 2025-01-31)** will be retired on 2026-08-02. Replacement: o4-mini. Status: Generally Available.
+- **text_generation (version 2025-04-16)** will be retired on 2026-10-16. Replacement: None. Status: Generally Available.
+- **text_generation (version 2025-06-10)** will be retired on 2026-12-10. Replacement: None. Status: Generally Available.
+- **text_generation (version 2025-06-26)** will be retired on 2026-12-26. Replacement: None. Status: Generally Available.
+- **text_generation (version 2025-04-16)** will be retired on 2026-10-16. Replacement: None. Status: Generally Available.
+- **text_generation (version 2025-05-16)** will be retired on 2026-11-15. Replacement: None. Status: Generally Available.
+- **text_generation (version 2025-11-18)** will be retired on 2027-05-20. Replacement: None. Status: Generally Available.
+- **text_generation (version 2025-08-07)** will be retired on 2027-02-06. Replacement: None. Status: Generally Available.
+- **text_generation (version 2025-08-07)** will be retired on 2027-02-06. Replacement: None. Status: Generally Available.
+- **text_generation (version 2025-09-15)** will be retired on 2027-03-17. Replacement: None. Status: Generally Available.
+- **text_generation (version 2025-10-06)** will be retired on 2027-04-07. Replacement: None. Status: Generally Available.
+- **text_generation (version 2025-11-13)** will be retired on 2027-05-15. Replacement: None. Status: Generally Available.
+- **text_generation (version 2025-11-13)** will be retired on 2027-05-15. Replacement: None. Status: Generally Available.
+- **text_generation (version 2025-11-13)** will be retired on 2027-05-15. Replacement: None. Status: Generally Available.
+- **text_generation (version 2025-11-13)** will be retired on No earlier than 2026-03-31. Replacement: None. Status: Preview.
+- **text_generation (version 2025-12-11)** will be retired on No earlier than 2027-05-12. Replacement: None. Status: Generally Available.
+- **text_generation (version 2025-12-11)** will be retired on No earlier than 2026-04-01. Replacement: None. Status: Preview.

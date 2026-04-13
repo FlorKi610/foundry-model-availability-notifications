@@ -1,6 +1,6 @@
 # gpt-image-1.5
 
-<span class="badge badge-emerging">Emerging</span> Available in **5** of 31 regions
+<span class="badge badge-emerging">Emerging</span> Available in **5** of 32 regions
 
 
 !!! warning "Retirement Notice"
@@ -49,11 +49,11 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Datazone standard | 4 | 13% |
+| Datazone standard | 3 | 9% |
 
 **Available Regions:**
 
-`East US 2`, `Poland Central`, `Sweden Central`, `West US 3`
+`East US 2`, `Poland Central`, `Sweden Central`
 
 
 ---
@@ -72,7 +72,7 @@ This table shows exactly which SKU types are available in each region.
 <tr><td><strong>Poland Central</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 <tr><td><strong>Sweden Central</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 <tr><td><strong>UAE North</strong></td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
-<tr><td><strong>West US 3</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
+<tr><td><strong>West US 3</strong></td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 </tbody>
 </table>
 </div>
@@ -81,4 +81,4 @@ This table shows exactly which SKU types are available in each region.
 
 [← Back to All Models](index.md)
 
-_Last updated: 2026-04-05 22:13 UTC_
+_Last updated: 2026-04-13 07:12 UTC_

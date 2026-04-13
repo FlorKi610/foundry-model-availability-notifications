@@ -1,6 +1,6 @@
 # grok-3-mini
 
-<span class="badge badge-broad">Broad</span> Available in **30** of 31 regions
+<span class="badge badge-broad">Broad</span> Available in **30** of 32 regions
 
 ---
 
@@ -9,7 +9,7 @@
 | Metric | Value |
 |--------|-------|
 | Total Regions | 30 |
-| Coverage | 97% |
+| Coverage | 94% |
 | SKU Types | 3 |
 | Categories | Datazone, Global |
 
@@ -24,8 +24,8 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Global Standard | 30 | 97% |
-| Global coverage | 30 | 97% |
+| Global Standard | 30 | 94% |
+| Global coverage | 30 | 94% |
 
 **Available Regions:**
 
@@ -38,7 +38,7 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Datazone standard | 9 | 29% |
+| Datazone standard | 9 | 28% |
 
 **Available Regions:**
 
@@ -95,4 +95,4 @@ This table shows exactly which SKU types are available in each region.
 
 [← Back to All Models](index.md)
 
-_Last updated: 2026-04-05 22:13 UTC_
+_Last updated: 2026-04-13 07:12 UTC_

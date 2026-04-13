@@ -1,6 +1,6 @@
 # gpt-5-mini
 
-<span class="badge badge-broad">Broad</span> Available in **28** of 31 regions
+<span class="badge badge-broad">Broad</span> Available in **28** of 32 regions
 
 
 !!! warning "Retirement Notice"
@@ -20,7 +20,7 @@
 | Metric | Value |
 |--------|-------|
 | Total Regions | 28 |
-| Coverage | 90% |
+| Coverage | 88% |
 | SKU Types | 6 |
 | Categories | Datazone, Global, Provisioned |
 
@@ -35,8 +35,8 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Global Standard | 26 | 84% |
-| Global coverage | 28 | 90% |
+| Global Standard | 26 | 81% |
+| Global coverage | 28 | 88% |
 
 **Available Regions:**
 
@@ -49,12 +49,12 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Datazone provisioned managed | 12 | 39% |
-| Datazone standard | 14 | 45% |
+| Datazone provisioned managed | 12 | 38% |
+| Datazone standard | 13 | 41% |
 
 **Available Regions:**
 
-`Central US`, `East US`, `East US 2`, `France Central`, `Germany West Central`, `Italy North`, `North Central US`, `Poland Central`, `South Central US`, `Spain Central`, `Sweden Central`, `West Europe`, `West US`, `West US 3`
+`Central US`, `East US`, `East US 2`, `France Central`, `Germany West Central`, `Italy North`, `North Central US`, `Poland Central`, `South Central US`, `Spain Central`, `Sweden Central`, `West Europe`, `West US`
 
 ### Provisioned Deployments
 
@@ -63,8 +63,8 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Provisioned (PTU managed) | 8 | 26% |
-| Provisioned global | 28 | 90% |
+| Provisioned (PTU managed) | 8 | 25% |
+| Provisioned global | 28 | 88% |
 
 **Available Regions:**
 
@@ -110,7 +110,7 @@ This table shows exactly which SKU types are available in each region.
 <tr><td><strong>UK South</strong></td><td class="matrix-no">&mdash;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 <tr><td><strong>West Europe</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td></tr>
 <tr><td><strong>West US</strong></td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td></tr>
-<tr><td><strong>West US 3</strong></td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
+<tr><td><strong>West US 3</strong></td><td class="matrix-no">&mdash;</td><td class="matrix-no">&mdash;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td><td class="matrix-yes">&#10003;</td></tr>
 </tbody>
 </table>
 </div>
@@ -119,4 +119,4 @@ This table shows exactly which SKU types are available in each region.
 
 [← Back to All Models](index.md)
 
-_Last updated: 2026-04-05 22:13 UTC_
+_Last updated: 2026-04-13 07:12 UTC_

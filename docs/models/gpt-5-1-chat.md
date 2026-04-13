@@ -1,6 +1,6 @@
 # gpt-5.1-chat
 
-<span class="badge badge-broad">Broad</span> Available in **28** of 31 regions
+<span class="badge badge-broad">Broad</span> Available in **28** of 32 regions
 
 
 !!! warning "Retirement Notice"
@@ -20,7 +20,7 @@
 | Metric | Value |
 |--------|-------|
 | Total Regions | 28 |
-| Coverage | 90% |
+| Coverage | 88% |
 | SKU Types | 2 |
 | Categories | Global |
 
@@ -35,8 +35,8 @@
 
 | SKU Type | Regions | Coverage |
 |----------|---------|----------|
-| Global Standard | 28 | 90% |
-| Global coverage | 28 | 90% |
+| Global Standard | 28 | 88% |
+| Global coverage | 28 | 88% |
 
 **Available Regions:**
 
@@ -91,4 +91,4 @@ This table shows exactly which SKU types are available in each region.
 
 [← Back to All Models](index.md)
 
-_Last updated: 2026-04-05 22:13 UTC_
+_Last updated: 2026-04-13 07:12 UTC_
