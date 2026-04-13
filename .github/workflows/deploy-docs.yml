@@ -73,16 +73,21 @@ jobs:
 
       - name: Copy plain-text knowledge files for Copilot Studio
         run: |
-          mkdir -p site/plain
-          for f in docs/regions/*.md; do
-            base=$(basename "$f" .md)
-            cp "$f" "site/plain/${base}.txt"
-          done
-          for f in docs/models/*.md; do
-            [ "$(basename "$f")" = "index.md" ] && continue
-            base=$(basename "$f" .md)
-            cp "$f" "site/plain/${base}.txt"
-          done
+          mkdir -p site/kb
+          pip install markdown
+          python3 -c "
+          import markdown, glob, os
+          for f in sorted(glob.glob('docs/regions/*.md') + glob.glob('docs/models/*.md')):
+              if os.path.basename(f) == 'index.md': continue
+              name = os.path.splitext(os.path.basename(f))[0]
+              with open(f) as fh: md = fh.read()
+              html = markdown.markdown(md, extensions=['tables'])
+              page = f'<!DOCTYPE html><html><head><meta charset=\"utf-8\"><title>{name}</title></head><body>{html}</body></html>'
+              out = f'site/kb/{name}/index.html'
+              os.makedirs(os.path.dirname(out), exist_ok=True)
+              with open(out, 'w') as o: o.write(page)
+          print(f'Generated {len(glob.glob(\"site/kb/*/index.html\"))} plain HTML knowledge pages')
+          "
           echo "Copied $(ls site/plain/*.txt | wc -l) plain-text knowledge files"
 
       - name: Setup Pages
