@@ -71,6 +71,20 @@ jobs:
             fi
           done
 
+      - name: Copy plain-text knowledge files for Copilot Studio
+        run: |
+          mkdir -p site/plain
+          for f in docs/regions/*.md; do
+            base=$(basename "$f" .md)
+            cp "$f" "site/plain/${base}.txt"
+          done
+          for f in docs/models/*.md; do
+            [ "$(basename "$f")" = "index.md" ] && continue
+            base=$(basename "$f" .md)
+            cp "$f" "site/plain/${base}.txt"
+          done
+          echo "Copied $(ls site/plain/*.txt | wc -l) plain-text knowledge files"
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
