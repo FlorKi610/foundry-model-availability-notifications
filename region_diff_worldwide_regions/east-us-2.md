@@ -1,12 +1,39 @@
 # East US 2 — Modellverfügbarkeit
 
-Stand: 2026-04-13T11:20:28.135527+00:00
+Stand: 2026-04-13T11:52:50.107141+00:00
 
 In **East US 2** sind **77 Modelle** verfügbar.
 
 ## Alle Modelle in East US 2 (Übersicht)
 
 Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, DeepSeek-V3-0324, DeepSeek-V3.1, DeepSeek-V3.2, DeepSeek-V3.2-Speciale, FLUX-1.1-pro, FLUX.1-Kontext-pro, FLUX.2-flex, FLUX.2-pro, Kimi-K2.5, Llama-3.3-70B-Instruct, Llama-4-Maverick-17B-128E-Instruct-FP8, Mistral-Large-3, codex-mini, cohere-command-a, computer-use-preview, embed-v-4-0, gpt-4.1, gpt-4.1-mini, gpt-4.1-nano, gpt-4o, gpt-4o-mini, gpt-4o-mini-transcribe, gpt-4o-mini-tts, gpt-4o-transcribe, gpt-4o-transcribe-diarize, gpt-5, gpt-5-chat, gpt-5-codex, gpt-5-mini, gpt-5-nano, gpt-5-pro, gpt-5.1, gpt-5.1-chat, gpt-5.1-codex, gpt-5.1-codex-max, gpt-5.1-codex-mini, gpt-5.2, gpt-5.2-chat, gpt-5.2-codex, gpt-5.3-chat, gpt-5.3-codex, gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, gpt-5.4-pro, gpt-audio, gpt-audio-1.5, gpt-audio-mini, gpt-image-1, gpt-image-1-mini, gpt-image-1.5, gpt-realtime, gpt-realtime-1.5, gpt-realtime-mini, grok-3, grok-3-mini, grok-4-1-fast-non-reasoning, grok-4-1-fast-reasoning, grok-4-fast-non-reasoning, grok-4-fast-reasoning, mistral-document-ai-2505, mistral-document-ai-2512, model-router, o1, o3, o3-mini, o3-pro, o4-mini, sora-2, text-embedding-3-large, text-embedding-3-small, text-embedding-ada-002, whisper
+
+## East US 2 — Modell-Familien und Suchbegriffe
+
+- **GPT-5.4 Familie** (Suche: gpt 5.4, gpt5.4, gpt54): gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, gpt-5.4-pro
+- **GPT-5.3 Familie** (Suche: gpt 5.3, gpt5.3, gpt53): gpt-5.3-chat, gpt-5.3-codex
+- **GPT-5.2 Familie** (Suche: gpt 5.2, gpt5.2, gpt52): gpt-5.2, gpt-5.2-chat, gpt-5.2-codex
+- **GPT-5.1 Familie** (Suche: gpt 5.1, gpt5.1, gpt51): gpt-5.1, gpt-5.1-chat, gpt-5.1-codex, gpt-5.1-codex-max, gpt-5.1-codex-mini
+- **GPT-5 Basis-Familie** (Suche: gpt 5, gpt5): gpt-5, gpt-5-chat, gpt-5-codex, gpt-5-mini, gpt-5-nano, gpt-5-pro, gpt-5.1, gpt-5.1-chat, gpt-5.1-codex, gpt-5.1-codex-max, gpt-5.1-codex-mini, gpt-5.2, gpt-5.2-chat, gpt-5.2-codex, gpt-5.3-chat, gpt-5.3-codex, gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, gpt-5.4-pro
+- **GPT-4.1 Familie** (Suche: gpt 4.1, gpt4.1, gpt41): gpt-4.1, gpt-4.1-mini, gpt-4.1-nano
+- **GPT-4o Familie** (Suche: gpt 4o, gpt4o): gpt-4o, gpt-4o-mini, gpt-4o-mini-transcribe, gpt-4o-mini-tts, gpt-4o-transcribe, gpt-4o-transcribe-diarize
+- **GPT Image / Bildgenerierung** (Suche: gpt image, dall-e, dalle, image generation): gpt-image-1, gpt-image-1-mini, gpt-image-1.5
+- **GPT Audio Familie** (Suche: gpt audio, audio model): gpt-audio, gpt-audio-1.5, gpt-audio-mini
+- **GPT Realtime Familie** (Suche: gpt realtime, realtime model): gpt-realtime, gpt-realtime-1.5, gpt-realtime-mini
+- **o3 Reasoning Familie** (Suche: o3, o 3): o3, o3-mini, o3-pro
+- **o4 Reasoning Familie** (Suche: o4, o 4, o4-mini): o4-mini
+- **o1 Reasoning** (Suche: o1, o 1): o1
+- **Codex Modelle** (Suche: codex, code model): codex-mini
+- **Grok-4 Familie (xAI)** (Suche: grok 4, grok4, xai grok 4): grok-4-1-fast-non-reasoning, grok-4-1-fast-reasoning, grok-4-fast-non-reasoning, grok-4-fast-reasoning
+- **Grok-3 Familie (xAI)** (Suche: grok 3, grok3, xai grok 3): grok-3, grok-3-mini
+- **DeepSeek Modelle** (Suche: deepseek, deep seek, deepseek r1, deepseek v3): DeepSeek-R1, DeepSeek-R1-0528, DeepSeek-V3-0324, DeepSeek-V3.1, DeepSeek-V3.2, DeepSeek-V3.2-Speciale
+- **Meta Llama Modelle** (Suche: llama, meta llama, llama 3, llama 4): Llama-3.3-70B-Instruct, Llama-4-Maverick-17B-128E-Instruct-FP8
+- **Mistral AI Modelle** (Suche: mistral, mistral large, mistral document): Mistral-Large-3, mistral-document-ai-2505, mistral-document-ai-2512
+- **Cohere Modelle** (Suche: cohere, cohere command, cohere rerank): Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, cohere-command-a
+- **Kimi / Moonshot Modelle** (Suche: kimi, moonshot): Kimi-K2.5
+- **Embedding Modelle** (Suche: embedding, text embedding, ada embedding, embed): text-embedding-3-large, text-embedding-3-small, text-embedding-ada-002
+- **FLUX Bildmodelle (Black Forest Labs)** (Suche: flux, flux pro, flux kontext): FLUX-1.1-pro, FLUX.1-Kontext-pro, FLUX.2-flex, FLUX.2-pro
+- **Sora Video-Generierung** (Suche: sora, video model, video generation): sora-2
 
 ## East US 2 — GPT-5 Modelle
 

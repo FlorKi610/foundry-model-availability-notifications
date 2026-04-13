@@ -1034,7 +1034,7 @@ def _categorize_model(name: str) -> str:
         return "Audio & Sprache"
     if n.startswith("o1") or n.startswith("o3") or n.startswith("o4"):
         return "Reasoning Modelle (o-Serie)"
-    if any(n.startswith(p) for p in ("deepseek", "llama", "mistral", "cohere", "grok", "kimi")):
+    if any(n.startswith(p) for p in ("deepseek", "llama", "mistral", "cohere", "grok", "kimi", "claude", "anthropic")):
         return "Open-Source & Partner Modelle"
     if n.startswith("flux") or n.startswith("dall-e") or n.startswith("sora") or n.startswith("mai-image"):
         return "Bild-Generierung"
@@ -1045,12 +1045,67 @@ def _categorize_model(name: str) -> str:
     return "Weitere Modelle"
 
 
+# Alias map: short user queries → list of prefixes to match in model names.
+# Used to generate search-friendly text blocks so Copilot Studio semantic
+# search can connect "grok 4" to "grok-4-fast-reasoning" etc.
+_MODEL_FAMILY_ALIASES = {
+    # Azure OpenAI — highest priority
+    "gpt-5.4": {"short": ["gpt 5.4", "gpt5.4", "gpt54"], "desc": "GPT-5.4 Familie"},
+    "gpt-5.3": {"short": ["gpt 5.3", "gpt5.3", "gpt53"], "desc": "GPT-5.3 Familie"},
+    "gpt-5.2": {"short": ["gpt 5.2", "gpt5.2", "gpt52"], "desc": "GPT-5.2 Familie"},
+    "gpt-5.1": {"short": ["gpt 5.1", "gpt5.1", "gpt51"], "desc": "GPT-5.1 Familie"},
+    "gpt-5": {"short": ["gpt 5", "gpt5"], "desc": "GPT-5 Basis-Familie"},
+    "gpt-4.1": {"short": ["gpt 4.1", "gpt4.1", "gpt41"], "desc": "GPT-4.1 Familie"},
+    "gpt-4o": {"short": ["gpt 4o", "gpt4o"], "desc": "GPT-4o Familie"},
+    "gpt-image": {"short": ["gpt image", "dall-e", "dalle", "image generation"], "desc": "GPT Image / Bildgenerierung"},
+    "gpt-audio": {"short": ["gpt audio", "audio model"], "desc": "GPT Audio Familie"},
+    "gpt-realtime": {"short": ["gpt realtime", "realtime model"], "desc": "GPT Realtime Familie"},
+    "o3": {"short": ["o3", "o 3"], "desc": "o3 Reasoning Familie"},
+    "o4": {"short": ["o4", "o 4", "o4-mini"], "desc": "o4 Reasoning Familie"},
+    "o1": {"short": ["o1", "o 1"], "desc": "o1 Reasoning"},
+    "codex": {"short": ["codex", "code model"], "desc": "Codex Modelle"},
+    # Anthropic
+    "claude": {"short": ["claude", "anthropic", "claude 3", "claude 4", "claude sonnet", "claude opus", "claude haiku"], "desc": "Anthropic Claude Familie"},
+    # Open Source & Partner
+    "grok-4": {"short": ["grok 4", "grok4", "xai grok 4"], "desc": "Grok-4 Familie (xAI)"},
+    "grok-3": {"short": ["grok 3", "grok3", "xai grok 3"], "desc": "Grok-3 Familie (xAI)"},
+    "deepseek": {"short": ["deepseek", "deep seek", "deepseek r1", "deepseek v3"], "desc": "DeepSeek Modelle"},
+    "llama": {"short": ["llama", "meta llama", "llama 3", "llama 4"], "desc": "Meta Llama Modelle"},
+    "mistral": {"short": ["mistral", "mistral large", "mistral document"], "desc": "Mistral AI Modelle"},
+    "cohere": {"short": ["cohere", "cohere command", "cohere rerank"], "desc": "Cohere Modelle"},
+    "kimi": {"short": ["kimi", "moonshot"], "desc": "Kimi / Moonshot Modelle"},
+    # Embeddings
+    "text-embedding": {"short": ["embedding", "text embedding", "ada embedding", "embed"], "desc": "Embedding Modelle"},
+    # Image / Video
+    "flux": {"short": ["flux", "flux pro", "flux kontext"], "desc": "FLUX Bildmodelle (Black Forest Labs)"},
+    "sora": {"short": ["sora", "video model", "video generation"], "desc": "Sora Video-Generierung"},
+}
+
+
+def _build_alias_block(models_in_region: list) -> str:
+    """Build a search-optimized alias block for all model families present."""
+    lines = []
+    models_lower = {m.lower() for m in models_in_region}
+
+    for prefix, info in _MODEL_FAMILY_ALIASES.items():
+        # Find all models in this region matching the prefix
+        matching = sorted(m for m in models_in_region if m.lower().startswith(prefix.lower()))
+        if not matching:
+            continue
+        aliases_str = ", ".join(info["short"])
+        models_str = ", ".join(matching)
+        lines.append(f"- **{info['desc']}** (Suche: {aliases_str}): {models_str}")
+
+    return "\n".join(lines)
+
+
 def _build_grouped_region_markdown(region: str, rows: list, changes: list, ts: str) -> str:
     """Build a chunking-optimized markdown page grouped by model category.
 
     Design goals for Copilot Studio RAG:
     - Region name repeated in every H2 header (survives chunking)
     - Plain-text model list at the top (best for semantic search)
+    - Alias block for fuzzy/shorthand queries (grok 4 → grok-4-*)
     - Small tables per category (each fits in one chunk)
     """
     # Group rows by model name, collecting SKUs
@@ -1075,6 +1130,13 @@ def _build_grouped_region_markdown(region: str, rows: list, changes: list, ts: s
     # Plain-text model listing (semantic search optimized)
     lines.append(f"## Alle Modelle in {region} (Übersicht)\n")
     lines.append(", ".join(all_model_names) + "\n")
+
+    # Alias block for fuzzy search
+    alias_block = _build_alias_block(all_model_names)
+    if alias_block:
+        lines.append(f"## {region} — Modell-Familien und Suchbegriffe\n")
+        lines.append(alias_block)
+        lines.append("")
 
     # Category order for consistent output
     cat_order = [

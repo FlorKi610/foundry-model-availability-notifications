@@ -1,12 +1,21 @@
 # usgovarizona — Modellverfügbarkeit
 
-Stand: 2026-04-13T11:20:28.135527+00:00
+Stand: 2026-04-13T11:52:50.107141+00:00
 
 In **usgovarizona** sind **8 Modelle** verfügbar.
 
 ## Alle Modelle in usgovarizona (Übersicht)
 
 gpt-4.1, gpt-4.1-mini, gpt-4o, gpt-5.1, o3-mini, text-embedding-3-large, text-embedding-3-small, text-embedding-ada-002
+
+## usgovarizona — Modell-Familien und Suchbegriffe
+
+- **GPT-5.1 Familie** (Suche: gpt 5.1, gpt5.1, gpt51): gpt-5.1
+- **GPT-5 Basis-Familie** (Suche: gpt 5, gpt5): gpt-5.1
+- **GPT-4.1 Familie** (Suche: gpt 4.1, gpt4.1, gpt41): gpt-4.1, gpt-4.1-mini
+- **GPT-4o Familie** (Suche: gpt 4o, gpt4o): gpt-4o
+- **o3 Reasoning Familie** (Suche: o3, o 3): o3-mini
+- **Embedding Modelle** (Suche: embedding, text embedding, ada embedding, embed): text-embedding-3-large, text-embedding-3-small, text-embedding-ada-002
 
 ## usgovarizona — GPT-5 Modelle
 

@@ -1,12 +1,23 @@
 # West Central US — Modellverfügbarkeit
 
-Stand: 2026-04-13T11:20:28.135527+00:00
+Stand: 2026-04-13T11:52:50.107141+00:00
 
 In **West Central US** sind **27 Modelle** verfügbar.
 
 ## Alle Modelle in West Central US (Übersicht)
 
 Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, DeepSeek-V3-0324, DeepSeek-V3.1, DeepSeek-V3.2, DeepSeek-V3.2-Speciale, FLUX-1.1-pro, FLUX.1-Kontext-pro, FLUX.2-flex, FLUX.2-pro, Kimi-K2.5, Llama-3.3-70B-Instruct, Llama-4-Maverick-17B-128E-Instruct-FP8, MAI-Image-2, Mistral-Large-3, cohere-command-a, embed-v-4-0, grok-3, grok-3-mini, grok-4-1-fast-non-reasoning, grok-4-1-fast-reasoning, grok-4-fast-non-reasoning, grok-4-fast-reasoning, mistral-document-ai-2505, mistral-document-ai-2512
+
+## West Central US — Modell-Familien und Suchbegriffe
+
+- **Grok-4 Familie (xAI)** (Suche: grok 4, grok4, xai grok 4): grok-4-1-fast-non-reasoning, grok-4-1-fast-reasoning, grok-4-fast-non-reasoning, grok-4-fast-reasoning
+- **Grok-3 Familie (xAI)** (Suche: grok 3, grok3, xai grok 3): grok-3, grok-3-mini
+- **DeepSeek Modelle** (Suche: deepseek, deep seek, deepseek r1, deepseek v3): DeepSeek-R1, DeepSeek-R1-0528, DeepSeek-V3-0324, DeepSeek-V3.1, DeepSeek-V3.2, DeepSeek-V3.2-Speciale
+- **Meta Llama Modelle** (Suche: llama, meta llama, llama 3, llama 4): Llama-3.3-70B-Instruct, Llama-4-Maverick-17B-128E-Instruct-FP8
+- **Mistral AI Modelle** (Suche: mistral, mistral large, mistral document): Mistral-Large-3, mistral-document-ai-2505, mistral-document-ai-2512
+- **Cohere Modelle** (Suche: cohere, cohere command, cohere rerank): Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, cohere-command-a
+- **Kimi / Moonshot Modelle** (Suche: kimi, moonshot): Kimi-K2.5
+- **FLUX Bildmodelle (Black Forest Labs)** (Suche: flux, flux pro, flux kontext): FLUX-1.1-pro, FLUX.1-Kontext-pro, FLUX.2-flex, FLUX.2-pro
 
 ## West Central US — Open-Source & Partner Modelle
 
