@@ -1,6 +1,6 @@
 # Germany West Central — Modellverfügbarkeit
 
-Stand: 2026-04-13T11:52:50.107141+00:00
+Stand: 2026-04-14T06:44:36.819614+00:00
 
 In **Germany West Central** sind **54 Modelle** verfügbar.
 

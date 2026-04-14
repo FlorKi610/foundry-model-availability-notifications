@@ -1,6 +1,6 @@
 # West US 3 — Modellverfügbarkeit
 
-Stand: 2026-04-13T11:52:50.107141+00:00
+Stand: 2026-04-14T06:44:36.819614+00:00
 
 In **West US 3** sind **56 Modelle** verfügbar.
 
