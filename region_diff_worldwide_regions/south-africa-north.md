@@ -1,6 +1,6 @@
 # South Africa North — Modellverfügbarkeit
 
-Stand: 2026-04-15T06:45:21.020402+00:00
+Stand: 2026-04-16T06:46:24.074180+00:00
 
 In **South Africa North** sind **54 Modelle** verfügbar.
 
