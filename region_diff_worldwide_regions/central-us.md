@@ -1,6 +1,6 @@
 # Central US — Modellverfügbarkeit
 
-Stand: 2026-04-16T06:46:24.074180+00:00
+Stand: 2026-04-17T06:45:55.101261+00:00
 
 In **Central US** sind **65 Modelle** verfügbar.
 
