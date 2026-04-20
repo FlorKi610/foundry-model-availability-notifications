@@ -1,6 +1,6 @@
 # North Central US — Modellverfügbarkeit
 
-Stand: 2026-04-19T06:41:20.950534+00:00
+Stand: 2026-04-20T06:54:23.292103+00:00
 
 In **North Central US** sind **57 Modelle** verfügbar.
 
