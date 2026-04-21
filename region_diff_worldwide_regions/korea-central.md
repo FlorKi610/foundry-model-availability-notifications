@@ -1,6 +1,6 @@
 # Korea Central — Modellverfügbarkeit
 
-Stand: 2026-04-20T06:54:23.292103+00:00
+Stand: 2026-04-21T06:46:22.960914+00:00
 
 In **Korea Central** sind **54 Modelle** verfügbar.
 
