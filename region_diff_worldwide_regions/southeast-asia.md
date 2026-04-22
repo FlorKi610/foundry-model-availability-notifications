@@ -1,20 +1,20 @@
 # Southeast Asia — Modellverfügbarkeit
 
-Stand: 2026-04-21T06:46:22.960914+00:00
+Stand: 2026-04-22T06:46:17.594179+00:00
 
-In **Southeast Asia** sind **26 Modelle** verfügbar.
+In **Southeast Asia** sind **28 Modelle** verfügbar.
 
 ## Alle Modelle in Southeast Asia (Übersicht)
 
-gpt-4.1, gpt-4.1-mini, gpt-4.1-nano, gpt-4o, gpt-4o-mini, gpt-5, gpt-5-chat, gpt-5-codex, gpt-5-mini, gpt-5-nano, gpt-5-pro, gpt-5.1, gpt-5.1-chat, gpt-5.1-codex, gpt-5.1-codex-mini, gpt-5.2, gpt-5.2-codex, gpt-5.3-codex, gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, o1, o3, o3-mini, o4-mini, text-embedding-3-large
+gpt-4.1, gpt-4.1-mini, gpt-4.1-nano, gpt-4o, gpt-4o-mini, gpt-5, gpt-5-chat, gpt-5-codex, gpt-5-mini, gpt-5-nano, gpt-5-pro, gpt-5.1, gpt-5.1-chat, gpt-5.1-codex, gpt-5.1-codex-mini, gpt-5.2, gpt-5.2-chat, gpt-5.2-codex, gpt-5.3-chat, gpt-5.3-codex, gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, o1, o3, o3-mini, o4-mini, text-embedding-3-large
 
 ## Southeast Asia — Modell-Familien und Suchbegriffe
 
 - **GPT-5.4 Familie** (Suche: gpt 5.4, gpt5.4, gpt54): gpt-5.4, gpt-5.4-mini, gpt-5.4-nano
-- **GPT-5.3 Familie** (Suche: gpt 5.3, gpt5.3, gpt53): gpt-5.3-codex
-- **GPT-5.2 Familie** (Suche: gpt 5.2, gpt5.2, gpt52): gpt-5.2, gpt-5.2-codex
+- **GPT-5.3 Familie** (Suche: gpt 5.3, gpt5.3, gpt53): gpt-5.3-chat, gpt-5.3-codex
+- **GPT-5.2 Familie** (Suche: gpt 5.2, gpt5.2, gpt52): gpt-5.2, gpt-5.2-chat, gpt-5.2-codex
 - **GPT-5.1 Familie** (Suche: gpt 5.1, gpt5.1, gpt51): gpt-5.1, gpt-5.1-chat, gpt-5.1-codex, gpt-5.1-codex-mini
-- **GPT-5 Basis-Familie** (Suche: gpt 5, gpt5): gpt-5, gpt-5-chat, gpt-5-codex, gpt-5-mini, gpt-5-nano, gpt-5-pro, gpt-5.1, gpt-5.1-chat, gpt-5.1-codex, gpt-5.1-codex-mini, gpt-5.2, gpt-5.2-codex, gpt-5.3-codex, gpt-5.4, gpt-5.4-mini, gpt-5.4-nano
+- **GPT-5 Basis-Familie** (Suche: gpt 5, gpt5): gpt-5, gpt-5-chat, gpt-5-codex, gpt-5-mini, gpt-5-nano, gpt-5-pro, gpt-5.1, gpt-5.1-chat, gpt-5.1-codex, gpt-5.1-codex-mini, gpt-5.2, gpt-5.2-chat, gpt-5.2-codex, gpt-5.3-chat, gpt-5.3-codex, gpt-5.4, gpt-5.4-mini, gpt-5.4-nano
 - **GPT-4.1 Familie** (Suche: gpt 4.1, gpt4.1, gpt41): gpt-4.1, gpt-4.1-mini, gpt-4.1-nano
 - **GPT-4o Familie** (Suche: gpt 4o, gpt4o): gpt-4o, gpt-4o-mini
 - **o3 Reasoning Familie** (Suche: o3, o 3): o3, o3-mini
@@ -37,9 +37,11 @@ gpt-4.1, gpt-4.1-mini, gpt-4.1-nano, gpt-4o, gpt-4o-mini, gpt-5, gpt-5-chat, gpt
 | gpt-5.1-codex | Provisioned global, Standard global deployments |
 | gpt-5.1-codex-mini | Standard global deployments |
 | gpt-5.2 | Provisioned global, Standard global deployments, Standard Global Priority Processing |
-| gpt-5.2-codex | Provisioned global |
-| gpt-5.3-codex | Provisioned global |
-| gpt-5.4 | Provisioned global, Standard global deployments |
+| gpt-5.2-chat | Standard global deployments |
+| gpt-5.2-codex | Provisioned global, Standard global deployments |
+| gpt-5.3-chat | Standard global deployments |
+| gpt-5.3-codex | Provisioned global, Standard global deployments |
+| gpt-5.4 | Provisioned global, Standard global deployments, Standard Global Priority Processing |
 | gpt-5.4-mini | Standard global deployments |
 | gpt-5.4-nano | Standard global deployments |
 
@@ -72,5 +74,6 @@ gpt-4.1, gpt-4.1-mini, gpt-4.1-nano, gpt-4o, gpt-4o-mini, gpt-5, gpt-5-chat, gpt
 
 | Modell | SKU | Aktion |
 |--------|-----|--------|
-| gpt-5.4-nano | Standard global deployments | 🆕 Hinzugefügt |
+| gpt-5.2-chat | Standard global deployments | 🆕 Hinzugefügt |
+| gpt-5.3-chat | Standard global deployments | 🆕 Hinzugefügt |
 

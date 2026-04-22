@@ -1,6 +1,6 @@
 # West US 2 — Modellverfügbarkeit
 
-Stand: 2026-04-21T06:46:22.960914+00:00
+Stand: 2026-04-22T06:46:17.594179+00:00
 
 In **West US 2** sind **26 Modelle** verfügbar.
 

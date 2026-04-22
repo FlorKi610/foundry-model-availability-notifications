@@ -1,6 +1,6 @@
 # usgovarizona — Modellverfügbarkeit
 
-Stand: 2026-04-21T06:46:22.960914+00:00
+Stand: 2026-04-22T06:46:17.594179+00:00
 
 In **usgovarizona** sind **8 Modelle** verfügbar.
 
@@ -44,24 +44,4 @@ gpt-4.1, gpt-4.1-mini, gpt-4o, gpt-5.1, o3-mini, text-embedding-3-large, text-em
 | text-embedding-3-large | Standard Models Gov |
 | text-embedding-3-small | Standard Models Gov |
 | text-embedding-ada-002 | Standard Models Gov |
-
-## usgovarizona — Letzte Änderungen
-
-| Modell | SKU | Aktion |
-|--------|-----|--------|
-| gpt-4.1 | Datazone Standard Gov | 🆕 Hinzugefügt |
-| gpt-4.1 | Standard Models Gov | 🆕 Hinzugefügt |
-| gpt-4.1-mini | Datazone Provisioned Managed Gov | 🆕 Hinzugefügt |
-| gpt-4.1-mini | Datazone Standard Gov | 🆕 Hinzugefügt |
-| gpt-4.1-mini | Standard Models Gov | 🆕 Hinzugefügt |
-| gpt-4o | Datazone Provisioned Managed Gov | 🆕 Hinzugefügt |
-| gpt-4o | Datazone Standard Gov | 🆕 Hinzugefügt |
-| gpt-4o | Provisioned Models Gov | 🆕 Hinzugefügt |
-| gpt-4o | Standard Models Gov | 🆕 Hinzugefügt |
-| gpt-5.1 | Datazone Standard Gov | 🆕 Hinzugefügt |
-| o3-mini | Datazone Provisioned Managed Gov | 🆕 Hinzugefügt |
-| o3-mini | Datazone Standard Gov | 🆕 Hinzugefügt |
-| text-embedding-3-large | Standard Models Gov | 🆕 Hinzugefügt |
-| text-embedding-3-small | Standard Models Gov | 🆕 Hinzugefügt |
-| text-embedding-ada-002 | Standard Models Gov | 🆕 Hinzugefügt |
 

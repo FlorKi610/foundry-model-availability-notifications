@@ -1,357 +1,448 @@
 {
-  "timestamp": "2026-04-21T06:46:22.960914+00:00",
+  "timestamp": "2026-04-22T06:46:17.594179+00:00",
   "scope": "Worldwide",
-  "total_changes": 50,
+  "total_changes": 63,
   "changes": [
     {
-      "model": "dall-e-3",
-      "region": "Australia East",
+      "model": "gpt-5-nano",
+      "region": "West US 3",
       "sku": "",
       "action": "removed",
       "is_available": false
     },
     {
-      "model": "dall-e-3",
-      "region": "East US",
+      "model": "gpt-5.1-chat",
+      "region": "West US 3",
       "sku": "",
       "action": "removed",
       "is_available": false
     },
     {
-      "model": "dall-e-3",
-      "region": "Sweden Central",
+      "model": "gpt-5.1-codex-mini",
+      "region": "West US 3",
       "sku": "",
       "action": "removed",
       "is_available": false
     },
     {
-      "model": "gpt-4.1",
-      "region": "usgovarizona",
-      "sku": "Datazone Standard Gov",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-4.1",
-      "region": "usgovarizona",
-      "sku": "Standard Models Gov",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-4.1-mini",
-      "region": "usgovarizona",
-      "sku": "Datazone Provisioned Managed Gov",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-4.1-mini",
-      "region": "usgovarizona",
-      "sku": "Datazone Standard Gov",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-4.1-mini",
-      "region": "usgovarizona",
-      "sku": "Standard Models Gov",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-4o",
-      "region": "usgovarizona",
-      "sku": "Datazone Provisioned Managed Gov",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-4o",
-      "region": "usgovarizona",
-      "sku": "Datazone Standard Gov",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-4o",
-      "region": "usgovarizona",
-      "sku": "Provisioned Models Gov",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-4o",
-      "region": "usgovarizona",
-      "sku": "Standard Models Gov",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-4o-audio-preview",
-      "region": "Sweden Central",
-      "sku": "",
-      "action": "removed",
-      "is_available": false
-    },
-    {
-      "model": "gpt-4o-mini-realtime-preview",
-      "region": "Sweden Central",
-      "sku": "",
-      "action": "removed",
-      "is_available": false
-    },
-    {
-      "model": "gpt-4o-realtime-preview",
-      "region": "Sweden Central",
-      "sku": "",
-      "action": "removed",
-      "is_available": false
-    },
-    {
-      "model": "gpt-5.1",
-      "region": "usgovarizona",
-      "sku": "Datazone Standard Gov",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-5.4-nano",
-      "region": "Central US",
-      "sku": "Datazone US standard",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-5.4-nano",
-      "region": "East US",
-      "sku": "Datazone US standard",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-5.4-nano",
-      "region": "North Central US",
-      "sku": "Datazone US standard",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-5.4-nano",
-      "region": "West US",
-      "sku": "Datazone US standard",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "Australia East",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "Brazil South",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "Canada Central",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "Canada East",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "Central US",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "East US",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "France Central",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "Germany West Central",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "Italy North",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "Japan East",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "Korea Central",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "North Central US",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "Norway East",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
+      "region": "Poland Central",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.2-chat",
       "region": "South Africa North",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
+      "region": "South Central US",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.2-chat",
       "region": "South India",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "Southeast Asia",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "Spain Central",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "Switzerland North",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "Switzerland West",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "UAE North",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "UK South",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "West Europe",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
+      "model": "gpt-5.2-chat",
       "region": "West US",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.4-nano",
-      "region": "West US 3",
+      "model": "gpt-5.3-chat",
+      "region": "Australia East",
       "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "o3-mini",
-      "region": "usgovarizona",
-      "sku": "Datazone Provisioned Managed Gov",
+      "model": "gpt-5.3-chat",
+      "region": "Brazil South",
+      "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "o3-mini",
-      "region": "usgovarizona",
-      "sku": "Datazone Standard Gov",
+      "model": "gpt-5.3-chat",
+      "region": "Canada Central",
+      "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "sora",
-      "region": "East US 2",
+      "model": "gpt-5.3-chat",
+      "region": "Canada East",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "Central US",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "East US",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "France Central",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "Germany West Central",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "Italy North",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "Japan East",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "Korea Central",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "North Central US",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "Norway East",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "Poland Central",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "South Africa North",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "South Central US",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "South India",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "Southeast Asia",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "Spain Central",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "Switzerland North",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "Switzerland West",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "UAE North",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "UK South",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "West Europe",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.3-chat",
+      "region": "West US",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-5.4-mini",
+      "region": "West US 3",
       "sku": "",
       "action": "removed",
       "is_available": false
     },
     {
-      "model": "text-embedding-3-large",
-      "region": "usgovarizona",
-      "sku": "Standard Models Gov",
+      "model": "gpt-5.4-nano",
+      "region": "West US 3",
+      "sku": "",
+      "action": "removed",
+      "is_available": false
+    },
+    {
+      "model": "gpt-image-1",
+      "region": "West US 3",
+      "sku": "",
+      "action": "removed",
+      "is_available": false
+    },
+    {
+      "model": "gpt-image-1-mini",
+      "region": "West US 3",
+      "sku": "",
+      "action": "removed",
+      "is_available": false
+    },
+    {
+      "model": "gpt-image-1.5",
+      "region": "West US 3",
+      "sku": "",
+      "action": "removed",
+      "is_available": false
+    },
+    {
+      "model": "gpt-image-2",
+      "region": "East US 2",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-image-2",
+      "region": "Poland Central",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-image-2",
+      "region": "Sweden Central",
+      "sku": "Standard global deployments",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "gpt-image-2",
+      "region": "UAE North",
+      "sku": "Standard global deployments",
       "action": "added",
       "is_available": true
     },
     {
       "model": "text-embedding-3-small",
-      "region": "usgovarizona",
-      "sku": "Standard Models Gov",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "text-embedding-ada-002",
-      "region": "usgovarizona",
-      "sku": "Standard Models Gov",
-      "action": "added",
-      "is_available": true
+      "region": "West US 3",
+      "sku": "",
+      "action": "removed",
+      "is_available": false
     }
   ]
 }

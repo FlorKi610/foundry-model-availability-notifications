@@ -4669,9 +4669,69 @@
  },
  {
   "model": "gpt-5.2-chat",
+  "region": "France Central",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.2-chat",
+  "region": "Germany West Central",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.2-chat",
+  "region": "Italy North",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.2-chat",
+  "region": "Norway East",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.2-chat",
+  "region": "Poland Central",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.2-chat",
+  "region": "Spain Central",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.2-chat",
   "region": "Sweden Central",
   "sku": "Standard global deployments",
   "status": "available"
+ },
+ {
+  "model": "gpt-5.2-chat",
+  "region": "Switzerland North",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.2-chat",
+  "region": "Switzerland West",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.2-chat",
+  "region": "UK South",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.2-chat",
+  "region": "West Europe",
+  "sku": "Standard global deployments",
+  "status": "new"
  },
  {
   "model": "gpt-5.2-codex",
@@ -4741,9 +4801,105 @@
  },
  {
   "model": "gpt-5.2-codex",
+  "region": "France Central",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.2-codex",
+  "region": "Germany West Central",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.2-codex",
+  "region": "Italy North",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.2-codex",
+  "region": "Norway East",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.2-codex",
+  "region": "Poland Central",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.2-codex",
+  "region": "Spain Central",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.2-codex",
   "region": "Sweden Central",
   "sku": "Standard global deployments",
   "status": "available"
+ },
+ {
+  "model": "gpt-5.2-codex",
+  "region": "Switzerland North",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.2-codex",
+  "region": "Switzerland West",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.2-codex",
+  "region": "UK South",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.2-codex",
+  "region": "West Europe",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.3-chat",
+  "region": "France Central",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.3-chat",
+  "region": "Germany West Central",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.3-chat",
+  "region": "Italy North",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.3-chat",
+  "region": "Norway East",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.3-chat",
+  "region": "Poland Central",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.3-chat",
+  "region": "Spain Central",
+  "sku": "Standard global deployments",
+  "status": "new"
  },
  {
   "model": "gpt-5.3-chat",
@@ -4752,6 +4908,30 @@
   "status": "available"
  },
  {
+  "model": "gpt-5.3-chat",
+  "region": "Switzerland North",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.3-chat",
+  "region": "Switzerland West",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.3-chat",
+  "region": "UK South",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.3-chat",
+  "region": "West Europe",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
   "model": "gpt-5.3-codex",
   "region": "France Central",
   "sku": "Provisioned global",
@@ -4819,7 +4999,67 @@
  },
  {
   "model": "gpt-5.3-codex",
+  "region": "France Central",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.3-codex",
+  "region": "Germany West Central",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.3-codex",
+  "region": "Italy North",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.3-codex",
+  "region": "Norway East",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.3-codex",
+  "region": "Poland Central",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.3-codex",
+  "region": "Spain Central",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.3-codex",
   "region": "Sweden Central",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.3-codex",
+  "region": "Switzerland North",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.3-codex",
+  "region": "Switzerland West",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.3-codex",
+  "region": "UK South",
+  "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.3-codex",
+  "region": "West Europe",
   "sku": "Standard global deployments",
   "status": "available"
  },
@@ -4995,6 +5235,30 @@
   "model": "gpt-5.4",
   "region": "West Europe",
   "sku": "Standard global deployments",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4",
+  "region": "France Central",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4",
+  "region": "Germany West Central",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4",
+  "region": "Italy North",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4",
+  "region": "Norway East",
+  "sku": "Standard Global Priority Processing",
   "status": "available"
  },
  {
@@ -5005,7 +5269,37 @@
  },
  {
   "model": "gpt-5.4",
+  "region": "Spain Central",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4",
   "region": "Sweden Central",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4",
+  "region": "Switzerland North",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4",
+  "region": "Switzerland West",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4",
+  "region": "UK South",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4",
+  "region": "West Europe",
   "sku": "Standard Global Priority Processing",
   "status": "available"
  },
@@ -5076,28 +5370,46 @@
   "status": "available"
  },
  {
+  "model": "gpt-5.4-mini",
+  "region": "Poland Central",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "Sweden Central",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "UK South",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
   "model": "gpt-5.4-nano",
   "region": "France Central",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-5.4-nano",
   "region": "Germany West Central",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-5.4-nano",
   "region": "Italy North",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-5.4-nano",
   "region": "Norway East",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-5.4-nano",
@@ -5109,7 +5421,7 @@
   "model": "gpt-5.4-nano",
   "region": "Spain Central",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-5.4-nano",
@@ -5121,25 +5433,25 @@
   "model": "gpt-5.4-nano",
   "region": "Switzerland North",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-5.4-nano",
   "region": "Switzerland West",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-5.4-nano",
   "region": "UK South",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-5.4-nano",
   "region": "West Europe",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-5.4-pro",
@@ -5218,6 +5530,18 @@
   "region": "Sweden Central",
   "sku": "Standard global deployments",
   "status": "available"
+ },
+ {
+  "model": "gpt-image-2",
+  "region": "Poland Central",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-image-2",
+  "region": "Sweden Central",
+  "sku": "Standard global deployments",
+  "status": "new"
  },
  {
   "model": "gpt-realtime",

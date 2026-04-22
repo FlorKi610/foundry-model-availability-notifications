@@ -1,12 +1,12 @@
 # Sweden Central — Modellverfügbarkeit
 
-Stand: 2026-04-21T06:46:22.960914+00:00
+Stand: 2026-04-22T06:46:17.594179+00:00
 
-In **Sweden Central** sind **79 Modelle** verfügbar.
+In **Sweden Central** sind **80 Modelle** verfügbar.
 
 ## Alle Modelle in Sweden Central (Übersicht)
 
-Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, DeepSeek-V3-0324, DeepSeek-V3.1, DeepSeek-V3.2, DeepSeek-V3.2-Speciale, FLUX-1.1-pro, FLUX.1-Kontext-pro, FLUX.2-flex, FLUX.2-pro, Kimi-K2.5, Llama-3.3-70B-Instruct, Llama-4-Maverick-17B-128E-Instruct-FP8, MAI-Image-2, Mistral-Large-3, codex-mini, cohere-command-a, computer-use-preview, embed-v-4-0, gpt-4.1, gpt-4.1-mini, gpt-4.1-nano, gpt-4o, gpt-4o-mini, gpt-4o-mini-transcribe, gpt-4o-transcribe, gpt-4o-transcribe-diarize, gpt-5, gpt-5-chat, gpt-5-codex, gpt-5-mini, gpt-5-nano, gpt-5-pro, gpt-5.1, gpt-5.1-chat, gpt-5.1-codex, gpt-5.1-codex-max, gpt-5.1-codex-mini, gpt-5.2, gpt-5.2-chat, gpt-5.2-codex, gpt-5.3-chat, gpt-5.3-codex, gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, gpt-5.4-pro, gpt-audio, gpt-audio-1.5, gpt-audio-mini, gpt-image-1, gpt-image-1-mini, gpt-image-1.5, gpt-realtime, gpt-realtime-1.5, gpt-realtime-mini, grok-3, grok-3-mini, grok-4-1-fast-non-reasoning, grok-4-1-fast-reasoning, grok-4-fast-non-reasoning, grok-4-fast-reasoning, mistral-document-ai-2505, mistral-document-ai-2512, model-router, o1, o3, o3-mini, o3-pro, o4-mini, sora-2, text-embedding-3-large, text-embedding-3-small, text-embedding-ada-002, tts, tts-hd, whisper
+Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, DeepSeek-V3-0324, DeepSeek-V3.1, DeepSeek-V3.2, DeepSeek-V3.2-Speciale, FLUX-1.1-pro, FLUX.1-Kontext-pro, FLUX.2-flex, FLUX.2-pro, Kimi-K2.5, Llama-3.3-70B-Instruct, Llama-4-Maverick-17B-128E-Instruct-FP8, MAI-Image-2, Mistral-Large-3, codex-mini, cohere-command-a, computer-use-preview, embed-v-4-0, gpt-4.1, gpt-4.1-mini, gpt-4.1-nano, gpt-4o, gpt-4o-mini, gpt-4o-mini-transcribe, gpt-4o-transcribe, gpt-4o-transcribe-diarize, gpt-5, gpt-5-chat, gpt-5-codex, gpt-5-mini, gpt-5-nano, gpt-5-pro, gpt-5.1, gpt-5.1-chat, gpt-5.1-codex, gpt-5.1-codex-max, gpt-5.1-codex-mini, gpt-5.2, gpt-5.2-chat, gpt-5.2-codex, gpt-5.3-chat, gpt-5.3-codex, gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, gpt-5.4-pro, gpt-audio, gpt-audio-1.5, gpt-audio-mini, gpt-image-1, gpt-image-1-mini, gpt-image-1.5, gpt-image-2, gpt-realtime, gpt-realtime-1.5, gpt-realtime-mini, grok-3, grok-3-mini, grok-4-1-fast-non-reasoning, grok-4-1-fast-reasoning, grok-4-fast-non-reasoning, grok-4-fast-reasoning, mistral-document-ai-2505, mistral-document-ai-2512, model-router, o1, o3, o3-mini, o3-pro, o4-mini, sora-2, text-embedding-3-large, text-embedding-3-small, text-embedding-ada-002, tts, tts-hd, whisper
 
 ## Sweden Central — Modell-Familien und Suchbegriffe
 
@@ -17,7 +17,7 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 - **GPT-5 Basis-Familie** (Suche: gpt 5, gpt5): gpt-5, gpt-5-chat, gpt-5-codex, gpt-5-mini, gpt-5-nano, gpt-5-pro, gpt-5.1, gpt-5.1-chat, gpt-5.1-codex, gpt-5.1-codex-max, gpt-5.1-codex-mini, gpt-5.2, gpt-5.2-chat, gpt-5.2-codex, gpt-5.3-chat, gpt-5.3-codex, gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, gpt-5.4-pro
 - **GPT-4.1 Familie** (Suche: gpt 4.1, gpt4.1, gpt41): gpt-4.1, gpt-4.1-mini, gpt-4.1-nano
 - **GPT-4o Familie** (Suche: gpt 4o, gpt4o): gpt-4o, gpt-4o-mini, gpt-4o-mini-transcribe, gpt-4o-transcribe, gpt-4o-transcribe-diarize
-- **GPT Image / Bildgenerierung** (Suche: gpt image, dall-e, dalle, image generation): gpt-image-1, gpt-image-1-mini, gpt-image-1.5
+- **GPT Image / Bildgenerierung** (Suche: gpt image, dall-e, dalle, image generation): gpt-image-1, gpt-image-1-mini, gpt-image-1.5, gpt-image-2
 - **GPT Audio Familie** (Suche: gpt audio, audio model): gpt-audio, gpt-audio-1.5, gpt-audio-mini
 - **GPT Realtime Familie** (Suche: gpt realtime, realtime model): gpt-realtime, gpt-realtime-1.5, gpt-realtime-mini
 - **o3 Reasoning Familie** (Suche: o3, o 3): o3, o3-mini, o3-pro
@@ -56,7 +56,7 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 | gpt-5.3-chat | Standard global deployments |
 | gpt-5.3-codex | Provisioned global, Standard global deployments |
 | gpt-5.4 | Datazone EMEA provisioned managed, Provisioned global, Standard global deployments, Standard Global Priority Processing |
-| gpt-5.4-mini | Standard global deployments |
+| gpt-5.4-mini | Standard global deployments, Standard Global Priority Processing |
 | gpt-5.4-nano | Standard global deployments |
 | gpt-5.4-pro | Standard global deployments |
 
@@ -121,6 +121,7 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 | gpt-image-1 | Standard global deployments |
 | gpt-image-1-mini | Standard global deployments |
 | gpt-image-1.5 | Datazone EMEA standard, Standard global deployments |
+| gpt-image-2 | Standard global deployments |
 | sora-2 | Standard global deployments |
 
 ## Sweden Central — Audio & Sprache
@@ -158,8 +159,5 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 
 | Modell | SKU | Aktion |
 |--------|-----|--------|
-| dall-e-3 |  | ⛔ Entfernt |
-| gpt-4o-audio-preview |  | ⛔ Entfernt |
-| gpt-4o-mini-realtime-preview |  | ⛔ Entfernt |
-| gpt-4o-realtime-preview |  | ⛔ Entfernt |
+| gpt-image-2 | Standard global deployments | 🆕 Hinzugefügt |
 

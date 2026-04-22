@@ -1,6 +1,6 @@
-# Worldwide Model Availability — 2026-04-21T06:46:22.960914+00:00
+# Worldwide Model Availability — 2026-04-22T06:46:17.594179+00:00
 
-Total: 3451 model/region/SKU combinations
+Total: 3556 model/region/SKU combinations
 
 | Model | Region | SKU Variant | Status |
 |-------|--------|-------------|--------|
@@ -593,7 +593,7 @@ Total: 3451 model/region/SKU combinations
 | gpt-4.1 | Sweden Central | Datazone EMEA standard | ✅ |
 | gpt-4.1 | West Europe | Datazone EMEA standard | ✅ |
 | gpt-4.1 | West US | Datazone US standard | ✅ |
-| gpt-4.1 | usgovarizona | Datazone Standard Gov | 🆕 New |
+| gpt-4.1 | usgovarizona | Datazone Standard Gov | ✅ |
 | gpt-4.1 | Central US | Datazone US Standard Priority Processing | ✅ |
 | gpt-4.1 | East US | Datazone US Standard Priority Processing | ✅ |
 | gpt-4.1 | North Central US | Datazone US Standard Priority Processing | ✅ |
@@ -705,7 +705,6 @@ Total: 3451 model/region/SKU combinations
 | gpt-4.1 | UK South | Standard global deployments | ✅ |
 | gpt-4.1 | West Europe | Standard global deployments | ✅ |
 | gpt-4.1 | West US | Standard global deployments | ✅ |
-| gpt-4.1 | West US 3 | Standard global deployments | ✅ |
 | gpt-4.1 | Australia East | Standard Global Priority Processing | ✅ |
 | gpt-4.1 | Brazil South | Standard Global Priority Processing | ✅ |
 | gpt-4.1 | Canada Central | Standard Global Priority Processing | ✅ |
@@ -732,7 +731,6 @@ Total: 3451 model/region/SKU combinations
 | gpt-4.1 | UK South | Standard Global Priority Processing | ✅ |
 | gpt-4.1 | West Europe | Standard Global Priority Processing | ✅ |
 | gpt-4.1 | West US | Standard Global Priority Processing | ✅ |
-| gpt-4.1 | West US 3 | Standard Global Priority Processing | ✅ |
 | gpt-4.1 | East US | Standard (all) | ✅ |
 | gpt-4.1 | East US 2 | Standard (all) | ✅ |
 | gpt-4.1 | North Central US | Standard (all) | ✅ |
@@ -741,7 +739,7 @@ Total: 3451 model/region/SKU combinations
 | gpt-4.1 | Switzerland North | Standard (all) | ✅ |
 | gpt-4.1 | West US | Standard (all) | ✅ |
 | gpt-4.1 | West US 3 | Standard (all) | ✅ |
-| gpt-4.1 | usgovarizona | Standard Models Gov | 🆕 New |
+| gpt-4.1 | usgovarizona | Standard Models Gov | ✅ |
 | gpt-4.1-mini | East US | Datazone US provisioned managed | ✅ |
 | gpt-4.1-mini | East US 2 | Datazone US provisioned managed | ✅ |
 | gpt-4.1-mini | France Central | Datazone EMEA provisioned managed | ✅ |
@@ -753,7 +751,7 @@ Total: 3451 model/region/SKU combinations
 | gpt-4.1-mini | Sweden Central | Datazone EMEA provisioned managed | ✅ |
 | gpt-4.1-mini | West Europe | Datazone EMEA provisioned managed | ✅ |
 | gpt-4.1-mini | West US | Datazone US provisioned managed | ✅ |
-| gpt-4.1-mini | usgovarizona | Datazone Provisioned Managed Gov | 🆕 New |
+| gpt-4.1-mini | usgovarizona | Datazone Provisioned Managed Gov | ✅ |
 | gpt-4.1-mini | Central US | Datazone US standard | ✅ |
 | gpt-4.1-mini | East US | Datazone US standard | ✅ |
 | gpt-4.1-mini | East US 2 | Datazone US standard | ✅ |
@@ -767,7 +765,7 @@ Total: 3451 model/region/SKU combinations
 | gpt-4.1-mini | Sweden Central | Datazone EMEA standard | ✅ |
 | gpt-4.1-mini | West Europe | Datazone EMEA standard | ✅ |
 | gpt-4.1-mini | West US | Datazone US standard | ✅ |
-| gpt-4.1-mini | usgovarizona | Datazone Standard Gov | 🆕 New |
+| gpt-4.1-mini | usgovarizona | Datazone Standard Gov | ✅ |
 | gpt-4.1-mini | Australia East | Global batch | ✅ |
 | gpt-4.1-mini | Brazil South | Global batch | ✅ |
 | gpt-4.1-mini | Canada East | Global batch | ✅ |
@@ -869,7 +867,6 @@ Total: 3451 model/region/SKU combinations
 | gpt-4.1-mini | UK South | Standard global deployments | ✅ |
 | gpt-4.1-mini | West Europe | Standard global deployments | ✅ |
 | gpt-4.1-mini | West US | Standard global deployments | ✅ |
-| gpt-4.1-mini | West US 3 | Standard global deployments | ✅ |
 | gpt-4.1-mini | Australia East | Standard (all) | ✅ |
 | gpt-4.1-mini | Canada East | Standard (all) | ✅ |
 | gpt-4.1-mini | East US | Standard (all) | ✅ |
@@ -885,7 +882,7 @@ Total: 3451 model/region/SKU combinations
 | gpt-4.1-mini | West Europe | Standard (all) | ✅ |
 | gpt-4.1-mini | West US | Standard (all) | ✅ |
 | gpt-4.1-mini | West US 3 | Standard (all) | ✅ |
-| gpt-4.1-mini | usgovarizona | Standard Models Gov | 🆕 New |
+| gpt-4.1-mini | usgovarizona | Standard Models Gov | ✅ |
 | gpt-4.1-nano | East US | Datazone US provisioned managed | ✅ |
 | gpt-4.1-nano | East US 2 | Datazone US provisioned managed | ✅ |
 | gpt-4.1-nano | France Central | Datazone EMEA provisioned managed | ✅ |
@@ -1005,7 +1002,6 @@ Total: 3451 model/region/SKU combinations
 | gpt-4.1-nano | UK South | Standard global deployments | ✅ |
 | gpt-4.1-nano | West Europe | Standard global deployments | ✅ |
 | gpt-4.1-nano | West US | Standard global deployments | ✅ |
-| gpt-4.1-nano | West US 3 | Standard global deployments | ✅ |
 | gpt-4o | East US | Datazone US provisioned managed | ✅ |
 | gpt-4o | East US 2 | Datazone US provisioned managed | ✅ |
 | gpt-4o | France Central | Datazone EMEA provisioned managed | ✅ |
@@ -1017,7 +1013,7 @@ Total: 3451 model/region/SKU combinations
 | gpt-4o | Sweden Central | Datazone EMEA provisioned managed | ✅ |
 | gpt-4o | West Europe | Datazone EMEA provisioned managed | ✅ |
 | gpt-4o | West US | Datazone US provisioned managed | ✅ |
-| gpt-4o | usgovarizona | Datazone Provisioned Managed Gov | 🆕 New |
+| gpt-4o | usgovarizona | Datazone Provisioned Managed Gov | ✅ |
 | gpt-4o | Central US | Datazone US standard | ✅ |
 | gpt-4o | East US | Datazone US standard | ✅ |
 | gpt-4o | East US 2 | Datazone US standard | ✅ |
@@ -1031,7 +1027,7 @@ Total: 3451 model/region/SKU combinations
 | gpt-4o | Sweden Central | Datazone EMEA standard | ✅ |
 | gpt-4o | West Europe | Datazone EMEA standard | ✅ |
 | gpt-4o | West US | Datazone US standard | ✅ |
-| gpt-4o | usgovarizona | Datazone Standard Gov | 🆕 New |
+| gpt-4o | usgovarizona | Datazone Standard Gov | ✅ |
 | gpt-4o | Australia East | Global batch | ✅ |
 | gpt-4o | Brazil South | Global batch | ✅ |
 | gpt-4o | Canada East | Global batch | ✅ |
@@ -1121,7 +1117,7 @@ Total: 3451 model/region/SKU combinations
 | gpt-4o | West Europe | Provisioned (PTU managed) | ✅ |
 | gpt-4o | West US | Provisioned (PTU managed) | ✅ |
 | gpt-4o | West US 3 | Provisioned (PTU managed) | ✅ |
-| gpt-4o | usgovarizona | Provisioned Models Gov | 🆕 New |
+| gpt-4o | usgovarizona | Provisioned Models Gov | ✅ |
 | gpt-4o | Australia East | Standard global deployments | ✅ |
 | gpt-4o | Brazil South | Standard global deployments | ✅ |
 | gpt-4o | Canada East | Standard global deployments | ✅ |
@@ -1146,7 +1142,6 @@ Total: 3451 model/region/SKU combinations
 | gpt-4o | UK South | Standard global deployments | ✅ |
 | gpt-4o | West Europe | Standard global deployments | ✅ |
 | gpt-4o | West US | Standard global deployments | ✅ |
-| gpt-4o | West US 3 | Standard global deployments | ✅ |
 | gpt-4o | Australia East | Standard (all) | ✅ |
 | gpt-4o | Canada East | Standard (all) | ✅ |
 | gpt-4o | Central US | Standard (all) | ✅ |
@@ -1163,7 +1158,7 @@ Total: 3451 model/region/SKU combinations
 | gpt-4o | UK South | Standard (all) | ✅ |
 | gpt-4o | West US | Standard (all) | ✅ |
 | gpt-4o | West US 3 | Standard (all) | ✅ |
-| gpt-4o | usgovarizona | Standard Models Gov | 🆕 New |
+| gpt-4o | usgovarizona | Standard Models Gov | ✅ |
 | gpt-4o-mini | East US | Datazone US provisioned managed | ✅ |
 | gpt-4o-mini | East US 2 | Datazone US provisioned managed | ✅ |
 | gpt-4o-mini | France Central | Datazone EMEA provisioned managed | ✅ |
@@ -1295,7 +1290,6 @@ Total: 3451 model/region/SKU combinations
 | gpt-4o-mini | UK South | Standard global deployments | ✅ |
 | gpt-4o-mini | West Europe | Standard global deployments | ✅ |
 | gpt-4o-mini | West US | Standard global deployments | ✅ |
-| gpt-4o-mini | West US 3 | Standard global deployments | ✅ |
 | gpt-4o-mini | East US | Standard (all) | ✅ |
 | gpt-4o-mini | East US 2 | Standard (all) | ✅ |
 | gpt-4o-mini | North Central US | Standard (all) | ✅ |
@@ -1439,7 +1433,6 @@ Total: 3451 model/region/SKU combinations
 | gpt-5 | UK South | Standard global deployments | ✅ |
 | gpt-5 | West Europe | Standard global deployments | ✅ |
 | gpt-5 | West US | Standard global deployments | ✅ |
-| gpt-5 | West US 3 | Standard global deployments | ✅ |
 | gpt-5-chat | Australia East | Standard global deployments | ✅ |
 | gpt-5-chat | Brazil South | Standard global deployments | ✅ |
 | gpt-5-chat | Canada Central | Standard global deployments | ✅ |
@@ -1580,7 +1573,6 @@ Total: 3451 model/region/SKU combinations
 | gpt-5-mini | UK South | Standard global deployments | ✅ |
 | gpt-5-mini | West Europe | Standard global deployments | ✅ |
 | gpt-5-mini | West US | Standard global deployments | ✅ |
-| gpt-5-mini | West US 3 | Standard global deployments | ✅ |
 | gpt-5-nano | Central US | Datazone US standard | ✅ |
 | gpt-5-nano | East US | Datazone US standard | ✅ |
 | gpt-5-nano | East US 2 | Datazone US standard | ✅ |
@@ -1619,7 +1611,6 @@ Total: 3451 model/region/SKU combinations
 | gpt-5-nano | UK South | Standard global deployments | ✅ |
 | gpt-5-nano | West Europe | Standard global deployments | ✅ |
 | gpt-5-nano | West US | Standard global deployments | ✅ |
-| gpt-5-nano | West US 3 | Standard global deployments | ✅ |
 | gpt-5-pro | Australia East | Standard global deployments | ✅ |
 | gpt-5-pro | Brazil South | Standard global deployments | ✅ |
 | gpt-5-pro | Canada Central | Standard global deployments | ✅ |
@@ -1667,7 +1658,7 @@ Total: 3451 model/region/SKU combinations
 | gpt-5.1 | South Central US | Datazone US standard | ✅ |
 | gpt-5.1 | Sweden Central | Datazone EMEA standard | ✅ |
 | gpt-5.1 | West US | Datazone US standard | ✅ |
-| gpt-5.1 | usgovarizona | Datazone Standard Gov | 🆕 New |
+| gpt-5.1 | usgovarizona | Datazone Standard Gov | ✅ |
 | gpt-5.1 | Central US | Datazone US Standard Priority Processing | ✅ |
 | gpt-5.1 | East US | Datazone US Standard Priority Processing | ✅ |
 | gpt-5.1 | North Central US | Datazone US Standard Priority Processing | ✅ |
@@ -1765,7 +1756,6 @@ Total: 3451 model/region/SKU combinations
 | gpt-5.1 | UK South | Standard global deployments | ✅ |
 | gpt-5.1 | West Europe | Standard global deployments | ✅ |
 | gpt-5.1 | West US | Standard global deployments | ✅ |
-| gpt-5.1 | West US 3 | Standard global deployments | ✅ |
 | gpt-5.1 | Australia East | Standard Global Priority Processing | ✅ |
 | gpt-5.1 | Brazil South | Standard Global Priority Processing | ✅ |
 | gpt-5.1 | Canada Central | Standard Global Priority Processing | ✅ |
@@ -1792,7 +1782,6 @@ Total: 3451 model/region/SKU combinations
 | gpt-5.1 | UK South | Standard Global Priority Processing | ✅ |
 | gpt-5.1 | West Europe | Standard Global Priority Processing | ✅ |
 | gpt-5.1 | West US | Standard Global Priority Processing | ✅ |
-| gpt-5.1 | West US 3 | Standard Global Priority Processing | ✅ |
 | gpt-5.1 | Central US | Standard (all) | ✅ |
 | gpt-5.1 | East US | Standard (all) | ✅ |
 | gpt-5.1 | East US 2 | Standard (all) | ✅ |
@@ -1828,7 +1817,6 @@ Total: 3451 model/region/SKU combinations
 | gpt-5.1-chat | UK South | Standard global deployments | ✅ |
 | gpt-5.1-chat | West Europe | Standard global deployments | ✅ |
 | gpt-5.1-chat | West US | Standard global deployments | ✅ |
-| gpt-5.1-chat | West US 3 | Standard global deployments | ✅ |
 | gpt-5.1-codex | East US | Datazone US provisioned managed | ✅ |
 | gpt-5.1-codex | East US 2 | Datazone US provisioned managed | ✅ |
 | gpt-5.1-codex | France Central | Datazone EMEA provisioned managed | ✅ |
@@ -1896,7 +1884,6 @@ Total: 3451 model/region/SKU combinations
 | gpt-5.1-codex | UK South | Standard global deployments | ✅ |
 | gpt-5.1-codex | West Europe | Standard global deployments | ✅ |
 | gpt-5.1-codex | West US | Standard global deployments | ✅ |
-| gpt-5.1-codex | West US 3 | Standard global deployments | ✅ |
 | gpt-5.1-codex-max | East US 2 | Standard global deployments | ✅ |
 | gpt-5.1-codex-max | Sweden Central | Standard global deployments | ✅ |
 | gpt-5.1-codex-mini | Australia East | Standard global deployments | ✅ |
@@ -1926,7 +1913,6 @@ Total: 3451 model/region/SKU combinations
 | gpt-5.1-codex-mini | UK South | Standard global deployments | ✅ |
 | gpt-5.1-codex-mini | West Europe | Standard global deployments | ✅ |
 | gpt-5.1-codex-mini | West US | Standard global deployments | ✅ |
-| gpt-5.1-codex-mini | West US 3 | Standard global deployments | ✅ |
 | gpt-5.2 | East US | Datazone US provisioned managed | ✅ |
 | gpt-5.2 | East US 2 | Datazone US provisioned managed | ✅ |
 | gpt-5.2 | France Central | Datazone EMEA provisioned managed | ✅ |
@@ -1984,6 +1970,7 @@ Total: 3451 model/region/SKU combinations
 | gpt-5.2 | Japan East | Provisioned (PTU managed) | ✅ |
 | gpt-5.2 | Korea Central | Provisioned (PTU managed) | ✅ |
 | gpt-5.2 | UK South | Provisioned (PTU managed) | ✅ |
+| gpt-5.2 | West US | Provisioned (PTU managed) | ✅ |
 | gpt-5.2 | West US 3 | Provisioned (PTU managed) | ✅ |
 | gpt-5.2 | Australia East | Standard global deployments | ✅ |
 | gpt-5.2 | Brazil South | Standard global deployments | ✅ |
@@ -2012,7 +1999,6 @@ Total: 3451 model/region/SKU combinations
 | gpt-5.2 | UK South | Standard global deployments | ✅ |
 | gpt-5.2 | West Europe | Standard global deployments | ✅ |
 | gpt-5.2 | West US | Standard global deployments | ✅ |
-| gpt-5.2 | West US 3 | Standard global deployments | ✅ |
 | gpt-5.2 | Australia East | Standard Global Priority Processing | ✅ |
 | gpt-5.2 | Brazil South | Standard Global Priority Processing | ✅ |
 | gpt-5.2 | Canada Central | Standard Global Priority Processing | ✅ |
@@ -2039,9 +2025,33 @@ Total: 3451 model/region/SKU combinations
 | gpt-5.2 | UK South | Standard Global Priority Processing | ✅ |
 | gpt-5.2 | West Europe | Standard Global Priority Processing | ✅ |
 | gpt-5.2 | West US | Standard Global Priority Processing | ✅ |
-| gpt-5.2 | West US 3 | Standard Global Priority Processing | ✅ |
+| gpt-5.2-chat | Australia East | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | Brazil South | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | Canada Central | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | Canada East | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | Central US | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | East US | Standard global deployments | 🆕 New |
 | gpt-5.2-chat | East US 2 | Standard global deployments | ✅ |
+| gpt-5.2-chat | France Central | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | Germany West Central | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | Italy North | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | Japan East | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | Korea Central | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | North Central US | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | Norway East | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | Poland Central | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | South Africa North | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | South Central US | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | South India | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | Southeast Asia | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | Spain Central | Standard global deployments | 🆕 New |
 | gpt-5.2-chat | Sweden Central | Standard global deployments | ✅ |
+| gpt-5.2-chat | Switzerland North | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | Switzerland West | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | UAE North | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | UK South | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | West Europe | Standard global deployments | 🆕 New |
+| gpt-5.2-chat | West US | Standard global deployments | 🆕 New |
 | gpt-5.2-codex | Australia East | Provisioned global | ✅ |
 | gpt-5.2-codex | Brazil South | Provisioned global | ✅ |
 | gpt-5.2-codex | Canada Central | Provisioned global | ✅ |
@@ -2070,10 +2080,60 @@ Total: 3451 model/region/SKU combinations
 | gpt-5.2-codex | West Europe | Provisioned global | ✅ |
 | gpt-5.2-codex | West US | Provisioned global | ✅ |
 | gpt-5.2-codex | West US 3 | Provisioned global | ✅ |
+| gpt-5.2-codex | Australia East | Standard global deployments | ✅ |
+| gpt-5.2-codex | Brazil South | Standard global deployments | ✅ |
+| gpt-5.2-codex | Canada Central | Standard global deployments | ✅ |
+| gpt-5.2-codex | Canada East | Standard global deployments | ✅ |
+| gpt-5.2-codex | Central US | Standard global deployments | ✅ |
+| gpt-5.2-codex | East US | Standard global deployments | ✅ |
 | gpt-5.2-codex | East US 2 | Standard global deployments | ✅ |
+| gpt-5.2-codex | France Central | Standard global deployments | ✅ |
+| gpt-5.2-codex | Germany West Central | Standard global deployments | ✅ |
+| gpt-5.2-codex | Italy North | Standard global deployments | ✅ |
+| gpt-5.2-codex | Japan East | Standard global deployments | ✅ |
+| gpt-5.2-codex | Korea Central | Standard global deployments | ✅ |
+| gpt-5.2-codex | North Central US | Standard global deployments | ✅ |
+| gpt-5.2-codex | Norway East | Standard global deployments | ✅ |
+| gpt-5.2-codex | Poland Central | Standard global deployments | ✅ |
+| gpt-5.2-codex | South Africa North | Standard global deployments | ✅ |
+| gpt-5.2-codex | South Central US | Standard global deployments | ✅ |
+| gpt-5.2-codex | South India | Standard global deployments | ✅ |
+| gpt-5.2-codex | Southeast Asia | Standard global deployments | ✅ |
+| gpt-5.2-codex | Spain Central | Standard global deployments | ✅ |
 | gpt-5.2-codex | Sweden Central | Standard global deployments | ✅ |
+| gpt-5.2-codex | Switzerland North | Standard global deployments | ✅ |
+| gpt-5.2-codex | Switzerland West | Standard global deployments | ✅ |
+| gpt-5.2-codex | UAE North | Standard global deployments | ✅ |
+| gpt-5.2-codex | UK South | Standard global deployments | ✅ |
+| gpt-5.2-codex | West Europe | Standard global deployments | ✅ |
+| gpt-5.2-codex | West US | Standard global deployments | ✅ |
+| gpt-5.3-chat | Australia East | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | Brazil South | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | Canada Central | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | Canada East | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | Central US | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | East US | Standard global deployments | 🆕 New |
 | gpt-5.3-chat | East US 2 | Standard global deployments | ✅ |
+| gpt-5.3-chat | France Central | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | Germany West Central | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | Italy North | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | Japan East | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | Korea Central | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | North Central US | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | Norway East | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | Poland Central | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | South Africa North | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | South Central US | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | South India | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | Southeast Asia | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | Spain Central | Standard global deployments | 🆕 New |
 | gpt-5.3-chat | Sweden Central | Standard global deployments | ✅ |
+| gpt-5.3-chat | Switzerland North | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | Switzerland West | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | UAE North | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | UK South | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | West Europe | Standard global deployments | 🆕 New |
+| gpt-5.3-chat | West US | Standard global deployments | 🆕 New |
 | gpt-5.3-codex | Central US | Datazone US standard | ✅ |
 | gpt-5.3-codex | East US | Datazone US standard | ✅ |
 | gpt-5.3-codex | East US 2 | Datazone US standard | ✅ |
@@ -2108,10 +2168,33 @@ Total: 3451 model/region/SKU combinations
 | gpt-5.3-codex | West Europe | Provisioned global | ✅ |
 | gpt-5.3-codex | West US | Provisioned global | ✅ |
 | gpt-5.3-codex | West US 3 | Provisioned global | ✅ |
+| gpt-5.3-codex | Australia East | Standard global deployments | ✅ |
+| gpt-5.3-codex | Brazil South | Standard global deployments | ✅ |
+| gpt-5.3-codex | Canada Central | Standard global deployments | ✅ |
+| gpt-5.3-codex | Canada East | Standard global deployments | ✅ |
 | gpt-5.3-codex | Central US | Standard global deployments | ✅ |
+| gpt-5.3-codex | East US | Standard global deployments | ✅ |
 | gpt-5.3-codex | East US 2 | Standard global deployments | ✅ |
+| gpt-5.3-codex | France Central | Standard global deployments | ✅ |
+| gpt-5.3-codex | Germany West Central | Standard global deployments | ✅ |
+| gpt-5.3-codex | Italy North | Standard global deployments | ✅ |
+| gpt-5.3-codex | Japan East | Standard global deployments | ✅ |
+| gpt-5.3-codex | Korea Central | Standard global deployments | ✅ |
+| gpt-5.3-codex | North Central US | Standard global deployments | ✅ |
+| gpt-5.3-codex | Norway East | Standard global deployments | ✅ |
+| gpt-5.3-codex | Poland Central | Standard global deployments | ✅ |
+| gpt-5.3-codex | South Africa North | Standard global deployments | ✅ |
 | gpt-5.3-codex | South Central US | Standard global deployments | ✅ |
+| gpt-5.3-codex | South India | Standard global deployments | ✅ |
+| gpt-5.3-codex | Southeast Asia | Standard global deployments | ✅ |
+| gpt-5.3-codex | Spain Central | Standard global deployments | ✅ |
 | gpt-5.3-codex | Sweden Central | Standard global deployments | ✅ |
+| gpt-5.3-codex | Switzerland North | Standard global deployments | ✅ |
+| gpt-5.3-codex | Switzerland West | Standard global deployments | ✅ |
+| gpt-5.3-codex | UAE North | Standard global deployments | ✅ |
+| gpt-5.3-codex | UK South | Standard global deployments | ✅ |
+| gpt-5.3-codex | West Europe | Standard global deployments | ✅ |
+| gpt-5.3-codex | West US | Standard global deployments | ✅ |
 | gpt-5.4 | East US | Datazone US provisioned managed | ✅ |
 | gpt-5.4 | East US 2 | Datazone US provisioned managed | ✅ |
 | gpt-5.4 | France Central | Datazone EMEA provisioned managed | ✅ |
@@ -2193,16 +2276,40 @@ Total: 3451 model/region/SKU combinations
 | gpt-5.4 | UK South | Standard global deployments | ✅ |
 | gpt-5.4 | West Europe | Standard global deployments | ✅ |
 | gpt-5.4 | West US | Standard global deployments | ✅ |
-| gpt-5.4 | West US 3 | Standard global deployments | ✅ |
+| gpt-5.4 | Australia East | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | Brazil South | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | Canada Central | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | Canada East | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | Central US | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | East US | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | France Central | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | Germany West Central | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | Italy North | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | Japan East | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | Korea Central | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | North Central US | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | Norway East | Standard Global Priority Processing | ✅ |
 | gpt-5.4 | Poland Central | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | South Africa North | Standard Global Priority Processing | ✅ |
 | gpt-5.4 | South Central US | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | South India | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | Southeast Asia | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | Spain Central | Standard Global Priority Processing | ✅ |
 | gpt-5.4 | Sweden Central | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | Switzerland North | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | Switzerland West | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | UAE North | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | UK South | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | West Europe | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | West US | Standard Global Priority Processing | ✅ |
 | gpt-5.4-mini | Central US | Datazone US standard | ✅ |
 | gpt-5.4-mini | East US | Datazone US standard | ✅ |
 | gpt-5.4-mini | East US 2 | Datazone US standard | ✅ |
 | gpt-5.4-mini | North Central US | Datazone US standard | ✅ |
 | gpt-5.4-mini | South Central US | Datazone US standard | ✅ |
 | gpt-5.4-mini | West US | Datazone US standard | ✅ |
+| gpt-5.4-mini | Central US | Datazone US Standard Priority Processing | ✅ |
+| gpt-5.4-mini | South Central US | Datazone US Standard Priority Processing | ✅ |
 | gpt-5.4-mini | Australia East | Standard global deployments | ✅ |
 | gpt-5.4-mini | Brazil South | Standard global deployments | ✅ |
 | gpt-5.4-mini | Canada Central | Standard global deployments | ✅ |
@@ -2230,41 +2337,45 @@ Total: 3451 model/region/SKU combinations
 | gpt-5.4-mini | UK South | Standard global deployments | ✅ |
 | gpt-5.4-mini | West Europe | Standard global deployments | ✅ |
 | gpt-5.4-mini | West US | Standard global deployments | ✅ |
-| gpt-5.4-mini | West US 3 | Standard global deployments | ✅ |
-| gpt-5.4-nano | Central US | Datazone US standard | 🆕 New |
-| gpt-5.4-nano | East US | Datazone US standard | 🆕 New |
+| gpt-5.4-mini | Central US | Standard Global Priority Processing | ✅ |
+| gpt-5.4-mini | Korea Central | Standard Global Priority Processing | ✅ |
+| gpt-5.4-mini | Poland Central | Standard Global Priority Processing | ✅ |
+| gpt-5.4-mini | South Central US | Standard Global Priority Processing | ✅ |
+| gpt-5.4-mini | Sweden Central | Standard Global Priority Processing | ✅ |
+| gpt-5.4-mini | UK South | Standard Global Priority Processing | ✅ |
+| gpt-5.4-nano | Central US | Datazone US standard | ✅ |
+| gpt-5.4-nano | East US | Datazone US standard | ✅ |
 | gpt-5.4-nano | East US 2 | Datazone US standard | ✅ |
-| gpt-5.4-nano | North Central US | Datazone US standard | 🆕 New |
+| gpt-5.4-nano | North Central US | Datazone US standard | ✅ |
 | gpt-5.4-nano | South Central US | Datazone US standard | ✅ |
-| gpt-5.4-nano | West US | Datazone US standard | 🆕 New |
-| gpt-5.4-nano | Australia East | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | Brazil South | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | Canada Central | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | Canada East | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | Central US | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | East US | Standard global deployments | 🆕 New |
+| gpt-5.4-nano | West US | Datazone US standard | ✅ |
+| gpt-5.4-nano | Australia East | Standard global deployments | ✅ |
+| gpt-5.4-nano | Brazil South | Standard global deployments | ✅ |
+| gpt-5.4-nano | Canada Central | Standard global deployments | ✅ |
+| gpt-5.4-nano | Canada East | Standard global deployments | ✅ |
+| gpt-5.4-nano | Central US | Standard global deployments | ✅ |
+| gpt-5.4-nano | East US | Standard global deployments | ✅ |
 | gpt-5.4-nano | East US 2 | Standard global deployments | ✅ |
-| gpt-5.4-nano | France Central | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | Germany West Central | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | Italy North | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | Japan East | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | Korea Central | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | North Central US | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | Norway East | Standard global deployments | 🆕 New |
+| gpt-5.4-nano | France Central | Standard global deployments | ✅ |
+| gpt-5.4-nano | Germany West Central | Standard global deployments | ✅ |
+| gpt-5.4-nano | Italy North | Standard global deployments | ✅ |
+| gpt-5.4-nano | Japan East | Standard global deployments | ✅ |
+| gpt-5.4-nano | Korea Central | Standard global deployments | ✅ |
+| gpt-5.4-nano | North Central US | Standard global deployments | ✅ |
+| gpt-5.4-nano | Norway East | Standard global deployments | ✅ |
 | gpt-5.4-nano | Poland Central | Standard global deployments | ✅ |
-| gpt-5.4-nano | South Africa North | Standard global deployments | 🆕 New |
+| gpt-5.4-nano | South Africa North | Standard global deployments | ✅ |
 | gpt-5.4-nano | South Central US | Standard global deployments | ✅ |
-| gpt-5.4-nano | South India | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | Southeast Asia | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | Spain Central | Standard global deployments | 🆕 New |
+| gpt-5.4-nano | South India | Standard global deployments | ✅ |
+| gpt-5.4-nano | Southeast Asia | Standard global deployments | ✅ |
+| gpt-5.4-nano | Spain Central | Standard global deployments | ✅ |
 | gpt-5.4-nano | Sweden Central | Standard global deployments | ✅ |
-| gpt-5.4-nano | Switzerland North | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | Switzerland West | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | UAE North | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | UK South | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | West Europe | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | West US | Standard global deployments | 🆕 New |
-| gpt-5.4-nano | West US 3 | Standard global deployments | 🆕 New |
+| gpt-5.4-nano | Switzerland North | Standard global deployments | ✅ |
+| gpt-5.4-nano | Switzerland West | Standard global deployments | ✅ |
+| gpt-5.4-nano | UAE North | Standard global deployments | ✅ |
+| gpt-5.4-nano | UK South | Standard global deployments | ✅ |
+| gpt-5.4-nano | West Europe | Standard global deployments | ✅ |
+| gpt-5.4-nano | West US | Standard global deployments | ✅ |
 | gpt-5.4-pro | East US 2 | Standard global deployments | ✅ |
 | gpt-5.4-pro | Poland Central | Standard global deployments | ✅ |
 | gpt-5.4-pro | South Central US | Standard global deployments | ✅ |
@@ -2282,12 +2393,10 @@ Total: 3451 model/region/SKU combinations
 | gpt-image-1 | Poland Central | Standard global deployments | ✅ |
 | gpt-image-1 | Sweden Central | Standard global deployments | ✅ |
 | gpt-image-1 | UAE North | Standard global deployments | ✅ |
-| gpt-image-1 | West US 3 | Standard global deployments | ✅ |
 | gpt-image-1-mini | East US 2 | Standard global deployments | ✅ |
 | gpt-image-1-mini | Poland Central | Standard global deployments | ✅ |
 | gpt-image-1-mini | Sweden Central | Standard global deployments | ✅ |
 | gpt-image-1-mini | UAE North | Standard global deployments | ✅ |
-| gpt-image-1-mini | West US 3 | Standard global deployments | ✅ |
 | gpt-image-1.5 | East US 2 | Datazone US standard | ✅ |
 | gpt-image-1.5 | Poland Central | Datazone EMEA standard | ✅ |
 | gpt-image-1.5 | Sweden Central | Datazone EMEA standard | ✅ |
@@ -2295,7 +2404,10 @@ Total: 3451 model/region/SKU combinations
 | gpt-image-1.5 | Poland Central | Standard global deployments | ✅ |
 | gpt-image-1.5 | Sweden Central | Standard global deployments | ✅ |
 | gpt-image-1.5 | UAE North | Standard global deployments | ✅ |
-| gpt-image-1.5 | West US 3 | Standard global deployments | ✅ |
+| gpt-image-2 | East US 2 | Standard global deployments | 🆕 New |
+| gpt-image-2 | Poland Central | Standard global deployments | 🆕 New |
+| gpt-image-2 | Sweden Central | Standard global deployments | 🆕 New |
+| gpt-image-2 | UAE North | Standard global deployments | 🆕 New |
 | gpt-realtime | Canada Central | Standard global deployments | ✅ |
 | gpt-realtime | Central US | Standard global deployments | ✅ |
 | gpt-realtime | East US 2 | Standard global deployments | ✅ |
@@ -2896,7 +3008,6 @@ Total: 3451 model/region/SKU combinations
 | o1 | UK South | Standard global deployments | ✅ |
 | o1 | West Europe | Standard global deployments | ✅ |
 | o1 | West US | Standard global deployments | ✅ |
-| o1 | West US 3 | Standard global deployments | ✅ |
 | o1 | East US | Standard (all) | ✅ |
 | o1 | East US 2 | Standard (all) | ✅ |
 | o1 | North Central US | Standard (all) | ✅ |
@@ -3024,7 +3135,6 @@ Total: 3451 model/region/SKU combinations
 | o3 | UK South | Standard global deployments | ✅ |
 | o3 | West Europe | Standard global deployments | ✅ |
 | o3 | West US | Standard global deployments | ✅ |
-| o3 | West US 3 | Standard global deployments | ✅ |
 | o3-deep-research | Norway East | Standard global deployments | ✅ |
 | o3-deep-research | West US | Standard global deployments | ✅ |
 | o3-mini | East US | Datazone US provisioned managed | ✅ |
@@ -3038,7 +3148,7 @@ Total: 3451 model/region/SKU combinations
 | o3-mini | Sweden Central | Datazone EMEA provisioned managed | ✅ |
 | o3-mini | West Europe | Datazone EMEA provisioned managed | ✅ |
 | o3-mini | West US | Datazone US provisioned managed | ✅ |
-| o3-mini | usgovarizona | Datazone Provisioned Managed Gov | 🆕 New |
+| o3-mini | usgovarizona | Datazone Provisioned Managed Gov | ✅ |
 | o3-mini | Central US | Datazone US standard | ✅ |
 | o3-mini | East US | Datazone US standard | ✅ |
 | o3-mini | East US 2 | Datazone US standard | ✅ |
@@ -3052,7 +3162,7 @@ Total: 3451 model/region/SKU combinations
 | o3-mini | Sweden Central | Datazone EMEA standard | ✅ |
 | o3-mini | West Europe | Datazone EMEA standard | ✅ |
 | o3-mini | West US | Datazone US standard | ✅ |
-| o3-mini | usgovarizona | Datazone Standard Gov | 🆕 New |
+| o3-mini | usgovarizona | Datazone Standard Gov | ✅ |
 | o3-mini | Australia East | Global batch | ✅ |
 | o3-mini | Brazil South | Global batch | ✅ |
 | o3-mini | Canada East | Global batch | ✅ |
@@ -3144,7 +3254,6 @@ Total: 3451 model/region/SKU combinations
 | o3-mini | UK South | Standard global deployments | ✅ |
 | o3-mini | West Europe | Standard global deployments | ✅ |
 | o3-mini | West US | Standard global deployments | ✅ |
-| o3-mini | West US 3 | Standard global deployments | ✅ |
 | o3-pro | Central US | Standard global deployments | ✅ |
 | o3-pro | East US 2 | Standard global deployments | ✅ |
 | o3-pro | Sweden Central | Standard global deployments | ✅ |
@@ -3269,7 +3378,6 @@ Total: 3451 model/region/SKU combinations
 | o4-mini | UK South | Standard global deployments | ✅ |
 | o4-mini | West Europe | Standard global deployments | ✅ |
 | o4-mini | West US | Standard global deployments | ✅ |
-| o4-mini | West US 3 | Standard global deployments | ✅ |
 | o4-mini | East US | Standard (all) | ✅ |
 | o4-mini | East US 2 | Standard (all) | ✅ |
 | o4-mini | North Central US | Standard (all) | ✅ |
@@ -3316,7 +3424,6 @@ Total: 3451 model/region/SKU combinations
 | text-embedding-3-large | UK South | Standard global deployments | ✅ |
 | text-embedding-3-large | West Europe | Standard global deployments | ✅ |
 | text-embedding-3-large | West US | Standard global deployments | ✅ |
-| text-embedding-3-large | West US 3 | Standard global deployments | ✅ |
 | text-embedding-3-large | Australia East | Standard (all) | ✅ |
 | text-embedding-3-large | Canada East | Standard (all) | ✅ |
 | text-embedding-3-large | East US | Standard (all) | ✅ |
@@ -3336,7 +3443,7 @@ Total: 3451 model/region/SKU combinations
 | text-embedding-3-large | UAE North | Standard (all) | ✅ |
 | text-embedding-3-large | UK South | Standard (all) | ✅ |
 | text-embedding-3-large | West US 3 | Standard (all) | ✅ |
-| text-embedding-3-large | usgovarizona | Standard Models Gov | 🆕 New |
+| text-embedding-3-large | usgovarizona | Standard Models Gov | ✅ |
 | text-embedding-3-small | Central US | Datazone US standard | ✅ |
 | text-embedding-3-small | East US | Datazone US standard | ✅ |
 | text-embedding-3-small | East US 2 | Datazone US standard | ✅ |
@@ -3374,7 +3481,6 @@ Total: 3451 model/region/SKU combinations
 | text-embedding-3-small | UK South | Standard global deployments | ✅ |
 | text-embedding-3-small | West Europe | Standard global deployments | ✅ |
 | text-embedding-3-small | West US | Standard global deployments | ✅ |
-| text-embedding-3-small | West US 3 | Standard global deployments | ✅ |
 | text-embedding-3-small | Australia East | Standard (all) | ✅ |
 | text-embedding-3-small | Canada East | Standard (all) | ✅ |
 | text-embedding-3-small | East US | Standard (all) | ✅ |
@@ -3383,7 +3489,7 @@ Total: 3451 model/region/SKU combinations
 | text-embedding-3-small | Switzerland North | Standard (all) | ✅ |
 | text-embedding-3-small | UAE North | Standard (all) | ✅ |
 | text-embedding-3-small | West US | Standard (all) | ✅ |
-| text-embedding-3-small | usgovarizona | Standard Models Gov | 🆕 New |
+| text-embedding-3-small | usgovarizona | Standard Models Gov | ✅ |
 | text-embedding-ada-002 | Central US | Datazone US standard | ✅ |
 | text-embedding-ada-002 | East US | Datazone US standard | ✅ |
 | text-embedding-ada-002 | East US 2 | Datazone US standard | ✅ |
@@ -3420,7 +3526,6 @@ Total: 3451 model/region/SKU combinations
 | text-embedding-ada-002 | UK South | Standard global deployments | ✅ |
 | text-embedding-ada-002 | West Europe | Standard global deployments | ✅ |
 | text-embedding-ada-002 | West US | Standard global deployments | ✅ |
-| text-embedding-ada-002 | West US 3 | Standard global deployments | ✅ |
 | text-embedding-ada-002 | Australia East | Standard (all) | ✅ |
 | text-embedding-ada-002 | Brazil South | Standard (all) | ✅ |
 | text-embedding-ada-002 | Canada East | Standard (all) | ✅ |
@@ -3440,7 +3545,7 @@ Total: 3451 model/region/SKU combinations
 | text-embedding-ada-002 | West Europe | Standard (all) | ✅ |
 | text-embedding-ada-002 | West US | Standard (all) | ✅ |
 | text-embedding-ada-002 | West US 3 | Standard (all) | ✅ |
-| text-embedding-ada-002 | usgovarizona | Standard Models Gov | 🆕 New |
+| text-embedding-ada-002 | usgovarizona | Standard Models Gov | ✅ |
 | tts | North Central US | Standard (all) | ✅ |
 | tts | Sweden Central | Standard (all) | ✅ |
 | tts | West US 3 | Standard (all) | ✅ |
@@ -3456,57 +3561,70 @@ Total: 3451 model/region/SKU combinations
 | whisper | UAE North | Standard (all) | ✅ |
 | whisper | West Europe | Standard (all) | ✅ |
 
-## Recent Changes (50 total)
+## Recent Changes (63 total)
 
 | Model | Region | SKU | Action |
 |-------|--------|-----|--------|
-| dall-e-3 | Australia East |  | ⛔ Removed |
-| dall-e-3 | East US |  | ⛔ Removed |
-| dall-e-3 | Sweden Central |  | ⛔ Removed |
-| gpt-4.1 | usgovarizona | Datazone Standard Gov | 🆕 Added |
-| gpt-4.1 | usgovarizona | Standard Models Gov | 🆕 Added |
-| gpt-4.1-mini | usgovarizona | Datazone Provisioned Managed Gov | 🆕 Added |
-| gpt-4.1-mini | usgovarizona | Datazone Standard Gov | 🆕 Added |
-| gpt-4.1-mini | usgovarizona | Standard Models Gov | 🆕 Added |
-| gpt-4o | usgovarizona | Datazone Provisioned Managed Gov | 🆕 Added |
-| gpt-4o | usgovarizona | Datazone Standard Gov | 🆕 Added |
-| gpt-4o | usgovarizona | Provisioned Models Gov | 🆕 Added |
-| gpt-4o | usgovarizona | Standard Models Gov | 🆕 Added |
-| gpt-4o-audio-preview | Sweden Central |  | ⛔ Removed |
-| gpt-4o-mini-realtime-preview | Sweden Central |  | ⛔ Removed |
-| gpt-4o-realtime-preview | Sweden Central |  | ⛔ Removed |
-| gpt-5.1 | usgovarizona | Datazone Standard Gov | 🆕 Added |
-| gpt-5.4-nano | Central US | Datazone US standard | 🆕 Added |
-| gpt-5.4-nano | East US | Datazone US standard | 🆕 Added |
-| gpt-5.4-nano | North Central US | Datazone US standard | 🆕 Added |
-| gpt-5.4-nano | West US | Datazone US standard | 🆕 Added |
-| gpt-5.4-nano | Australia East | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | Brazil South | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | Canada Central | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | Canada East | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | Central US | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | East US | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | France Central | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | Germany West Central | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | Italy North | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | Japan East | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | Korea Central | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | North Central US | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | Norway East | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | South Africa North | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | South India | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | Southeast Asia | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | Spain Central | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | Switzerland North | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | Switzerland West | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | UAE North | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | UK South | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | West Europe | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | West US | Standard global deployments | 🆕 Added |
-| gpt-5.4-nano | West US 3 | Standard global deployments | 🆕 Added |
-| o3-mini | usgovarizona | Datazone Provisioned Managed Gov | 🆕 Added |
-| o3-mini | usgovarizona | Datazone Standard Gov | 🆕 Added |
-| sora | East US 2 |  | ⛔ Removed |
-| text-embedding-3-large | usgovarizona | Standard Models Gov | 🆕 Added |
-| text-embedding-3-small | usgovarizona | Standard Models Gov | 🆕 Added |
-| text-embedding-ada-002 | usgovarizona | Standard Models Gov | 🆕 Added |
+| gpt-5-nano | West US 3 |  | ⛔ Removed |
+| gpt-5.1-chat | West US 3 |  | ⛔ Removed |
+| gpt-5.1-codex-mini | West US 3 |  | ⛔ Removed |
+| gpt-5.2-chat | Australia East | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | Brazil South | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | Canada Central | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | Canada East | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | Central US | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | East US | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | France Central | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | Germany West Central | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | Italy North | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | Japan East | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | Korea Central | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | North Central US | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | Norway East | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | Poland Central | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | South Africa North | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | South Central US | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | South India | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | Southeast Asia | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | Spain Central | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | Switzerland North | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | Switzerland West | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | UAE North | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | UK South | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | West Europe | Standard global deployments | 🆕 Added |
+| gpt-5.2-chat | West US | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | Australia East | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | Brazil South | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | Canada Central | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | Canada East | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | Central US | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | East US | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | France Central | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | Germany West Central | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | Italy North | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | Japan East | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | Korea Central | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | North Central US | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | Norway East | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | Poland Central | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | South Africa North | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | South Central US | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | South India | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | Southeast Asia | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | Spain Central | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | Switzerland North | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | Switzerland West | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | UAE North | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | UK South | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | West Europe | Standard global deployments | 🆕 Added |
+| gpt-5.3-chat | West US | Standard global deployments | 🆕 Added |
+| gpt-5.4-mini | West US 3 |  | ⛔ Removed |
+| gpt-5.4-nano | West US 3 |  | ⛔ Removed |
+| gpt-image-1 | West US 3 |  | ⛔ Removed |
+| gpt-image-1-mini | West US 3 |  | ⛔ Removed |
+| gpt-image-1.5 | West US 3 |  | ⛔ Removed |
+| gpt-image-2 | East US 2 | Standard global deployments | 🆕 Added |
+| gpt-image-2 | Poland Central | Standard global deployments | 🆕 Added |
+| gpt-image-2 | Sweden Central | Standard global deployments | 🆕 Added |
+| gpt-image-2 | UAE North | Standard global deployments | 🆕 Added |
+| text-embedding-3-small | West US 3 |  | ⛔ Removed |
