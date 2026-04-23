@@ -1,6 +1,6 @@
 # Switzerland West — Modellverfügbarkeit
 
-Stand: 2026-04-22T06:46:17.594179+00:00
+Stand: 2026-04-23T06:46:37.905722+00:00
 
 In **Switzerland West** sind **52 Modelle** verfügbar.
 
@@ -110,11 +110,4 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 | Modell | SKU-Varianten |
 |--------|---------------|
 | embed-v-4-0 | Global Standard |
-
-## Switzerland West — Letzte Änderungen
-
-| Modell | SKU | Aktion |
-|--------|-----|--------|
-| gpt-5.2-chat | Standard global deployments | 🆕 Hinzugefügt |
-| gpt-5.3-chat | Standard global deployments | 🆕 Hinzugefügt |
 

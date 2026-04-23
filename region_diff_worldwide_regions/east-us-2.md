@@ -1,6 +1,6 @@
 # East US 2 — Modellverfügbarkeit
 
-Stand: 2026-04-22T06:46:17.594179+00:00
+Stand: 2026-04-23T06:46:37.905722+00:00
 
 In **East US 2** sind **78 Modelle** verfügbar.
 
@@ -152,10 +152,4 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 | codex-mini | Standard global deployments |
 | computer-use-preview | Standard global deployments |
 | model-router | Data Zone Standard, Datazone US standard, Global Standard, Standard global deployments |
-
-## East US 2 — Letzte Änderungen
-
-| Modell | SKU | Aktion |
-|--------|-----|--------|
-| gpt-image-2 | Standard global deployments | 🆕 Hinzugefügt |
 
