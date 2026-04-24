@@ -1,6 +1,6 @@
 # South Central US — Modellverfügbarkeit
 
-Stand: 2026-04-23T06:46:37.905722+00:00
+Stand: 2026-04-24T06:47:32.089339+00:00
 
 In **South Central US** sind **57 Modelle** verfügbar.
 

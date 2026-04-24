@@ -1,6 +1,6 @@
 # West US 3 — Modellverfügbarkeit
 
-Stand: 2026-04-23T06:46:37.905722+00:00
+Stand: 2026-04-24T06:47:32.089339+00:00
 
 In **West US 3** sind **59 Modelle** verfügbar.
 
@@ -48,7 +48,7 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 | gpt-5.3-chat | Standard global deployments |
 | gpt-5.3-codex | Provisioned global, Standard global deployments |
 | gpt-5.4 | Datazone US Standard Priority Processing, Provisioned global, Standard global deployments |
-| gpt-5.4-mini | Standard global deployments |
+| gpt-5.4-mini | Datazone US Standard Priority Processing, Standard global deployments |
 | gpt-5.4-nano | Standard global deployments |
 
 ## West US 3 — GPT-4 Modelle
@@ -124,21 +124,4 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 | text-embedding-3-large | Standard global deployments, Standard (all) |
 | text-embedding-3-small | Standard global deployments |
 | text-embedding-ada-002 | Standard global deployments, Standard (all) |
-
-## West US 3 — Letzte Änderungen
-
-| Modell | SKU | Aktion |
-|--------|-----|--------|
-| gpt-5-nano | Standard global deployments | 🆕 Hinzugefügt |
-| gpt-5.1-chat | Standard global deployments | 🆕 Hinzugefügt |
-| gpt-5.1-codex-mini | Standard global deployments | 🆕 Hinzugefügt |
-| gpt-5.2-chat | Standard global deployments | 🆕 Hinzugefügt |
-| gpt-5.3-chat | Standard global deployments | 🆕 Hinzugefügt |
-| gpt-5.4-mini | Standard global deployments | 🆕 Hinzugefügt |
-| gpt-5.4-nano | Standard global deployments | 🆕 Hinzugefügt |
-| gpt-image-1 | Standard global deployments | 🆕 Hinzugefügt |
-| gpt-image-1-mini | Standard global deployments | 🆕 Hinzugefügt |
-| gpt-image-1.5 | Standard global deployments | 🆕 Hinzugefügt |
-| gpt-image-2 | Standard global deployments | 🆕 Hinzugefügt |
-| text-embedding-3-small | Standard global deployments | 🆕 Hinzugefügt |
 

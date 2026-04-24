@@ -5371,7 +5371,37 @@
  },
  {
   "model": "gpt-5.4-mini",
+  "region": "France Central",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "Germany West Central",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "Italy North",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "Norway East",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
   "region": "Poland Central",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "Spain Central",
   "sku": "Standard Global Priority Processing",
   "status": "available"
  },
@@ -5383,7 +5413,25 @@
  },
  {
   "model": "gpt-5.4-mini",
+  "region": "Switzerland North",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "Switzerland West",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
   "region": "UK South",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "West Europe",
   "sku": "Standard Global Priority Processing",
   "status": "available"
  },

@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-23T06:46:37.905722+00:00",
+  "timestamp": "2026-04-24T06:47:32.089339+00:00",
   "updates": {
     "source": "latest-refresh",
-    "timestamp": "2026-04-23T06:46:37.905722+00:00"
+    "timestamp": "2026-04-24T06:47:32.089339+00:00"
   },
   "filter": {
     "scope": "Worldwide",
@@ -1428,17 +1428,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -1726,17 +1716,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -1988,17 +1968,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -2203,17 +2173,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -2485,17 +2445,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -2836,17 +2786,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -3199,17 +3139,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -3363,22 +3293,10 @@
         ],
         "region_count": 26,
         "updates": {
-          "added_regions": [
-            "West US 3"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -3546,17 +3464,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -3814,22 +3722,10 @@
         ],
         "region_count": 28,
         "updates": {
-          "added_regions": [
-            "West US 3"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -3905,17 +3801,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -4064,22 +3950,10 @@
         ],
         "region_count": 28,
         "updates": {
-          "added_regions": [
-            "West US 3"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -4155,17 +4029,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -4359,22 +4223,10 @@
         ],
         "region_count": 28,
         "updates": {
-          "added_regions": [
-            "West US 3"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -4450,17 +4302,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -4567,22 +4409,10 @@
         ],
         "region_count": 28,
         "updates": {
-          "added_regions": [
-            "West US 3"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -4658,17 +4488,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -4790,17 +4610,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -4989,17 +4799,46 @@
         ],
         "region_count": 28,
         "updates": {
-          "added_regions": [
-            "West US 3"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
           "sku_updates": [
             {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
+              "sku": "datazone-standard-priority-processing",
+              "label": "Datazone Standard Priority Processing",
               "added_regions": [
+                "East US",
+                "North Central US",
+                "West US",
                 "West US 3"
+              ],
+              "removed_regions": [],
+              "sku_removed": false
+            },
+            {
+              "sku": "standard-global-priority-processing",
+              "label": "Standard Global Priority Processing",
+              "added_regions": [
+                "Australia East",
+                "Brazil South",
+                "Canada Central",
+                "Canada East",
+                "East US",
+                "France Central",
+                "Germany West Central",
+                "Italy North",
+                "Japan East",
+                "North Central US",
+                "Norway East",
+                "South Africa North",
+                "South India",
+                "Southeast Asia",
+                "Spain Central",
+                "Switzerland North",
+                "Switzerland West",
+                "UAE North",
+                "West Europe",
+                "West US"
               ],
               "removed_regions": [],
               "sku_removed": false
@@ -5024,7 +4863,11 @@
             "label": "Datazone Standard Priority Processing",
             "regions": [
               "Central US",
-              "South Central US"
+              "East US",
+              "North Central US",
+              "South Central US",
+              "West US",
+              "West US 3"
             ]
           },
           {
@@ -5065,12 +4908,32 @@
             "sku": "standard-global-priority-processing",
             "label": "Standard Global Priority Processing",
             "regions": [
+              "Australia East",
+              "Brazil South",
+              "Canada Central",
+              "Canada East",
               "Central US",
+              "East US",
+              "France Central",
+              "Germany West Central",
+              "Italy North",
+              "Japan East",
               "Korea Central",
+              "North Central US",
+              "Norway East",
               "Poland Central",
+              "South Africa North",
               "South Central US",
+              "South India",
+              "Southeast Asia",
+              "Spain Central",
               "Sweden Central",
-              "UK South"
+              "Switzerland North",
+              "Switzerland West",
+              "UAE North",
+              "UK South",
+              "West Europe",
+              "West US"
             ]
           }
         ]
@@ -5109,22 +4972,10 @@
         ],
         "region_count": 28,
         "updates": {
-          "added_regions": [
-            "West US 3"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -5292,22 +5143,10 @@
         ],
         "region_count": 5,
         "updates": {
-          "added_regions": [
-            "West US 3"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -5334,22 +5173,10 @@
         ],
         "region_count": 5,
         "updates": {
-          "added_regions": [
-            "West US 3"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -5376,22 +5203,10 @@
         ],
         "region_count": 5,
         "updates": {
-          "added_regions": [
-            "West US 3"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -5427,22 +5242,10 @@
         ],
         "region_count": 5,
         "updates": {
-          "added_regions": [
-            "West US 3"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -6817,17 +6620,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -6992,17 +6785,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -7232,17 +7015,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -7482,17 +7255,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -7734,17 +7497,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -7863,22 +7616,10 @@
         ],
         "region_count": 26,
         "updates": {
-          "added_regions": [
-            "West US 3"
-          ],
+          "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -7989,17 +7730,7 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": [
-            {
-              "sku": "standard-global",
-              "label": "Standard global deployments",
-              "added_regions": [
-                "West US 3"
-              ],
-              "removed_regions": [],
-              "sku_removed": false
-            }
-          ]
+          "sku_updates": []
         },
         "skus": [
           {
@@ -10189,20 +9920,7 @@
         ],
         "model_count": 59,
         "updates": {
-          "added_models": [
-            "gpt-5-nano",
-            "gpt-5.1-chat",
-            "gpt-5.1-codex-mini",
-            "gpt-5.2-chat",
-            "gpt-5.3-chat",
-            "gpt-5.4-mini",
-            "gpt-5.4-nano",
-            "gpt-image-1",
-            "gpt-image-1-mini",
-            "gpt-image-1.5",
-            "gpt-image-2",
-            "text-embedding-3-small"
-          ],
+          "added_models": [],
           "removed_models": []
         }
       },

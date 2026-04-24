@@ -1,6 +1,6 @@
 # Southeast Asia — Modellverfügbarkeit
 
-Stand: 2026-04-23T06:46:37.905722+00:00
+Stand: 2026-04-24T06:47:32.089339+00:00
 
 In **Southeast Asia** sind **28 Modelle** verfügbar.
 
@@ -42,7 +42,7 @@ gpt-4.1, gpt-4.1-mini, gpt-4.1-nano, gpt-4o, gpt-4o-mini, gpt-5, gpt-5-chat, gpt
 | gpt-5.3-chat | Standard global deployments |
 | gpt-5.3-codex | Provisioned global, Standard global deployments |
 | gpt-5.4 | Provisioned global, Standard global deployments, Standard Global Priority Processing |
-| gpt-5.4-mini | Standard global deployments |
+| gpt-5.4-mini | Standard global deployments, Standard Global Priority Processing |
 | gpt-5.4-nano | Standard global deployments |
 
 ## Southeast Asia — GPT-4 Modelle

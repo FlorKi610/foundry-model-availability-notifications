@@ -1,6 +1,6 @@
 # UAE North — Modellverfügbarkeit
 
-Stand: 2026-04-23T06:46:37.905722+00:00
+Stand: 2026-04-24T06:47:32.089339+00:00
 
 In **UAE North** sind **61 Modelle** verfügbar.
 
@@ -51,7 +51,7 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 | gpt-5.3-chat | Standard global deployments |
 | gpt-5.3-codex | Provisioned global, Standard global deployments |
 | gpt-5.4 | Provisioned global, Standard global deployments, Standard Global Priority Processing |
-| gpt-5.4-mini | Standard global deployments |
+| gpt-5.4-mini | Standard global deployments, Standard Global Priority Processing |
 | gpt-5.4-nano | Standard global deployments |
 
 ## UAE North — GPT-4 Modelle

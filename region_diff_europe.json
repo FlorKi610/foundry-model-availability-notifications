@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-23T06:46:37.905722+00:00",
+  "timestamp": "2026-04-24T06:47:32.089339+00:00",
   "updates": {
     "source": "latest-refresh",
-    "timestamp": "2026-04-23T06:46:37.905722+00:00"
+    "timestamp": "2026-04-24T06:47:32.089339+00:00"
   },
   "filter": {
     "scope": "Europe",
@@ -2562,7 +2562,24 @@
           "added_regions": [],
           "removed_regions": [],
           "model_removed": false,
-          "sku_updates": []
+          "sku_updates": [
+            {
+              "sku": "standard-global-priority-processing",
+              "label": "Standard Global Priority Processing",
+              "added_regions": [
+                "France Central",
+                "Germany West Central",
+                "Italy North",
+                "Norway East",
+                "Spain Central",
+                "Switzerland North",
+                "Switzerland West",
+                "West Europe"
+              ],
+              "removed_regions": [],
+              "sku_removed": false
+            }
+          ]
         },
         "skus": [
           {
@@ -2586,9 +2603,17 @@
             "sku": "standard-global-priority-processing",
             "label": "Standard Global Priority Processing",
             "regions": [
+              "France Central",
+              "Germany West Central",
+              "Italy North",
+              "Norway East",
               "Poland Central",
+              "Spain Central",
               "Sweden Central",
-              "UK South"
+              "Switzerland North",
+              "Switzerland West",
+              "UK South",
+              "West Europe"
             ]
           }
         ]

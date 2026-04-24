@@ -1,6 +1,6 @@
-# Europe Model Availability — 2026-04-23T06:46:37.905722+00:00
+# Europe Model Availability — 2026-04-24T06:47:32.089339+00:00
 
-Total: 1354 model/region/SKU combinations
+Total: 1362 model/region/SKU combinations
 
 | Model | Region | SKU Variant | Status |
 |-------|--------|-------------|--------|
@@ -899,9 +899,17 @@ Total: 1354 model/region/SKU combinations
 | gpt-5.4-mini | Switzerland West | Standard global deployments | ✅ |
 | gpt-5.4-mini | UK South | Standard global deployments | ✅ |
 | gpt-5.4-mini | West Europe | Standard global deployments | ✅ |
+| gpt-5.4-mini | France Central | Standard Global Priority Processing | ✅ |
+| gpt-5.4-mini | Germany West Central | Standard Global Priority Processing | ✅ |
+| gpt-5.4-mini | Italy North | Standard Global Priority Processing | ✅ |
+| gpt-5.4-mini | Norway East | Standard Global Priority Processing | ✅ |
 | gpt-5.4-mini | Poland Central | Standard Global Priority Processing | ✅ |
+| gpt-5.4-mini | Spain Central | Standard Global Priority Processing | ✅ |
 | gpt-5.4-mini | Sweden Central | Standard Global Priority Processing | ✅ |
+| gpt-5.4-mini | Switzerland North | Standard Global Priority Processing | ✅ |
+| gpt-5.4-mini | Switzerland West | Standard Global Priority Processing | ✅ |
 | gpt-5.4-mini | UK South | Standard Global Priority Processing | ✅ |
+| gpt-5.4-mini | West Europe | Standard Global Priority Processing | ✅ |
 | gpt-5.4-nano | France Central | Standard global deployments | ✅ |
 | gpt-5.4-nano | Germany West Central | Standard global deployments | ✅ |
 | gpt-5.4-nano | Italy North | Standard global deployments | ✅ |

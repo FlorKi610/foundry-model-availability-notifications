@@ -9687,7 +9687,7 @@
   "model": "gpt-5-nano",
   "region": "West US 3",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-5-pro",
@@ -10935,7 +10935,7 @@
   "model": "gpt-5.1-chat",
   "region": "West US 3",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-5.1-codex",
@@ -11523,7 +11523,7 @@
   "model": "gpt-5.1-codex-mini",
   "region": "West US 3",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-5.2",
@@ -12369,7 +12369,7 @@
   "model": "gpt-5.2-chat",
   "region": "West US 3",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-5.2-codex",
@@ -12873,7 +12873,7 @@
   "model": "gpt-5.3-chat",
   "region": "West US 3",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-5.3-codex",
@@ -13939,7 +13939,31 @@
  },
  {
   "model": "gpt-5.4-mini",
+  "region": "East US",
+  "sku": "Datazone US Standard Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "North Central US",
+  "sku": "Datazone US Standard Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
   "region": "South Central US",
+  "sku": "Datazone US Standard Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "West US",
+  "sku": "Datazone US Standard Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "West US 3",
   "sku": "Datazone US Standard Priority Processing",
   "status": "available"
  },
@@ -14109,11 +14133,65 @@
   "model": "gpt-5.4-mini",
   "region": "West US 3",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "Australia East",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "Brazil South",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "Canada Central",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "Canada East",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
  },
  {
   "model": "gpt-5.4-mini",
   "region": "Central US",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "East US",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "France Central",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "Germany West Central",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "Italy North",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "Japan East",
   "sku": "Standard Global Priority Processing",
   "status": "available"
  },
@@ -14125,7 +14203,25 @@
  },
  {
   "model": "gpt-5.4-mini",
+  "region": "North Central US",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "Norway East",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
   "region": "Poland Central",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "South Africa North",
   "sku": "Standard Global Priority Processing",
   "status": "available"
  },
@@ -14137,13 +14233,61 @@
  },
  {
   "model": "gpt-5.4-mini",
+  "region": "South India",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "Southeast Asia",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "Spain Central",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
   "region": "Sweden Central",
   "sku": "Standard Global Priority Processing",
   "status": "available"
  },
  {
   "model": "gpt-5.4-mini",
+  "region": "Switzerland North",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "Switzerland West",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "UAE North",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
   "region": "UK South",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "West Europe",
+  "sku": "Standard Global Priority Processing",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4-mini",
+  "region": "West US",
   "sku": "Standard Global Priority Processing",
   "status": "available"
  },
@@ -14349,7 +14493,7 @@
   "model": "gpt-5.4-nano",
   "region": "West US 3",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-5.4-pro",
@@ -14457,7 +14601,7 @@
   "model": "gpt-image-1",
   "region": "West US 3",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-image-1-mini",
@@ -14487,7 +14631,7 @@
   "model": "gpt-image-1-mini",
   "region": "West US 3",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-image-1.5",
@@ -14535,7 +14679,7 @@
   "model": "gpt-image-1.5",
   "region": "West US 3",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-image-2",
@@ -14565,7 +14709,7 @@
   "model": "gpt-image-2",
   "region": "West US 3",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "gpt-realtime",
@@ -21039,7 +21183,7 @@
   "model": "text-embedding-3-small",
   "region": "West US 3",
   "sku": "Standard global deployments",
-  "status": "new"
+  "status": "available"
  },
  {
   "model": "text-embedding-3-small",
