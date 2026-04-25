@@ -1,6 +1,6 @@
 # Spain Central — Modellverfügbarkeit
 
-Stand: 2026-04-24T06:47:32.089339+00:00
+Stand: 2026-04-25T06:38:04.349887+00:00
 
 In **Spain Central** sind **56 Modelle** verfügbar.
 

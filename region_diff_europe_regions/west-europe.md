@@ -1,6 +1,6 @@
 # West Europe — Modellverfügbarkeit
 
-Stand: 2026-04-24T06:47:32.089339+00:00
+Stand: 2026-04-25T06:38:04.349887+00:00
 
 In **West Europe** sind **58 Modelle** verfügbar.
 
