@@ -1,6 +1,6 @@
 # West US — Modellverfügbarkeit
 
-Stand: 2026-04-25T06:38:04.349887+00:00
+Stand: 2026-04-26T06:45:14.962335+00:00
 
 In **West US** sind **58 Modelle** verfügbar.
 
