@@ -1,6 +1,6 @@
 # Switzerland North — Modellverfügbarkeit
 
-Stand: 2026-04-26T06:45:14.962335+00:00
+Stand: 2026-04-27T07:02:42.034275+00:00
 
 In **Switzerland North** sind **57 Modelle** verfügbar.
 
