@@ -1,6 +1,6 @@
-# Europe Model Availability — 2026-04-27T07:02:42.034275+00:00
+# Europe Model Availability — 2026-04-28T07:02:58.516957+00:00
 
-Total: 1362 model/region/SKU combinations
+Total: 1375 model/region/SKU combinations
 
 | Model | Region | SKU Variant | Status |
 |-------|--------|-------------|--------|
@@ -855,6 +855,13 @@ Total: 1362 model/region/SKU combinations
 | gpt-5.4 | Spain Central | Datazone EMEA provisioned managed | ✅ |
 | gpt-5.4 | Sweden Central | Datazone EMEA provisioned managed | ✅ |
 | gpt-5.4 | West Europe | Datazone EMEA provisioned managed | ✅ |
+| gpt-5.4 | France Central | Datazone EMEA standard | ✅ |
+| gpt-5.4 | Germany West Central | Datazone EMEA standard | ✅ |
+| gpt-5.4 | Italy North | Datazone EMEA standard | ✅ |
+| gpt-5.4 | Poland Central | Datazone EMEA standard | ✅ |
+| gpt-5.4 | Spain Central | Datazone EMEA standard | ✅ |
+| gpt-5.4 | Sweden Central | Datazone EMEA standard | ✅ |
+| gpt-5.4 | West Europe | Datazone EMEA standard | ✅ |
 | gpt-5.4 | France Central | Provisioned global | ✅ |
 | gpt-5.4 | Germany West Central | Provisioned global | ✅ |
 | gpt-5.4 | Italy North | Provisioned global | ✅ |
@@ -923,6 +930,12 @@ Total: 1362 model/region/SKU combinations
 | gpt-5.4-nano | West Europe | Standard global deployments | ✅ |
 | gpt-5.4-pro | Poland Central | Standard global deployments | ✅ |
 | gpt-5.4-pro | Sweden Central | Standard global deployments | ✅ |
+| gpt-5.5 | Poland Central | Datazone EMEA standard | 🆕 New |
+| gpt-5.5 | Sweden Central | Datazone EMEA standard | 🆕 New |
+| gpt-5.5 | Poland Central | Standard global deployments | 🆕 New |
+| gpt-5.5 | Sweden Central | Standard global deployments | 🆕 New |
+| gpt-5.5 | Poland Central | Standard Global Priority Processing | 🆕 New |
+| gpt-5.5 | Sweden Central | Standard Global Priority Processing | 🆕 New |
 | gpt-audio | Sweden Central | Standard global deployments | ✅ |
 | gpt-audio-1.5 | Sweden Central | Standard global deployments | ✅ |
 | gpt-audio-mini | Sweden Central | Standard global deployments | ✅ |
@@ -1366,3 +1379,14 @@ Total: 1362 model/region/SKU combinations
 | whisper | Sweden Central | Standard (all) | ✅ |
 | whisper | Switzerland North | Standard (all) | ✅ |
 | whisper | West Europe | Standard (all) | ✅ |
+
+## Recent Changes (6 total)
+
+| Model | Region | SKU | Action |
+|-------|--------|-----|--------|
+| gpt-5.5 | Poland Central | Datazone EMEA standard | 🆕 Added |
+| gpt-5.5 | Sweden Central | Datazone EMEA standard | 🆕 Added |
+| gpt-5.5 | Poland Central | Standard global deployments | 🆕 Added |
+| gpt-5.5 | Sweden Central | Standard global deployments | 🆕 Added |
+| gpt-5.5 | Poland Central | Standard Global Priority Processing | 🆕 Added |
+| gpt-5.5 | Sweden Central | Standard Global Priority Processing | 🆕 Added |

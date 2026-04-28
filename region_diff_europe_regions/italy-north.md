@@ -1,6 +1,6 @@
 # Italy North — Modellverfügbarkeit
 
-Stand: 2026-04-27T07:02:42.034275+00:00
+Stand: 2026-04-28T07:02:58.516957+00:00
 
 In **Italy North** sind **56 Modelle** verfügbar.
 
@@ -49,7 +49,7 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 | gpt-5.2-codex | Provisioned global, Standard global deployments |
 | gpt-5.3-chat | Standard global deployments |
 | gpt-5.3-codex | Provisioned global, Standard global deployments |
-| gpt-5.4 | Datazone EMEA provisioned managed, Provisioned global, Standard global deployments, Standard Global Priority Processing |
+| gpt-5.4 | Datazone EMEA provisioned managed, Datazone EMEA standard, Provisioned global, Standard global deployments, Standard Global Priority Processing |
 | gpt-5.4-mini | Standard global deployments, Standard Global Priority Processing |
 | gpt-5.4-nano | Standard global deployments |
 

@@ -1,6 +1,6 @@
-# Worldwide Model Availability — 2026-04-27T07:02:42.034275+00:00
+# Worldwide Model Availability — 2026-04-28T07:02:58.516957+00:00
 
-Total: 3611 model/region/SKU combinations
+Total: 3663 model/region/SKU combinations
 
 | Model | Region | SKU Variant | Status |
 |-------|--------|-------------|--------|
@@ -593,6 +593,7 @@ Total: 3611 model/region/SKU combinations
 | gpt-4.1 | Sweden Central | Datazone EMEA standard | ✅ |
 | gpt-4.1 | West Europe | Datazone EMEA standard | ✅ |
 | gpt-4.1 | West US | Datazone US standard | ✅ |
+| gpt-4.1 | West US 3 | Datazone US standard | ✅ |
 | gpt-4.1 | usgovarizona | Datazone Standard Gov | ✅ |
 | gpt-4.1 | Central US | Datazone US Standard Priority Processing | ✅ |
 | gpt-4.1 | East US | Datazone US Standard Priority Processing | ✅ |
@@ -732,6 +733,7 @@ Total: 3611 model/region/SKU combinations
 | gpt-4.1 | UK South | Standard Global Priority Processing | ✅ |
 | gpt-4.1 | West Europe | Standard Global Priority Processing | ✅ |
 | gpt-4.1 | West US | Standard Global Priority Processing | ✅ |
+| gpt-4.1 | West US 3 | Standard Global Priority Processing | ✅ |
 | gpt-4.1 | East US | Standard (all) | ✅ |
 | gpt-4.1 | East US 2 | Standard (all) | ✅ |
 | gpt-4.1 | North Central US | Standard (all) | ✅ |
@@ -766,6 +768,7 @@ Total: 3611 model/region/SKU combinations
 | gpt-4.1-mini | Sweden Central | Datazone EMEA standard | ✅ |
 | gpt-4.1-mini | West Europe | Datazone EMEA standard | ✅ |
 | gpt-4.1-mini | West US | Datazone US standard | ✅ |
+| gpt-4.1-mini | West US 3 | Datazone US standard | ✅ |
 | gpt-4.1-mini | usgovarizona | Datazone Standard Gov | ✅ |
 | gpt-4.1-mini | Australia East | Global batch | ✅ |
 | gpt-4.1-mini | Brazil South | Global batch | ✅ |
@@ -910,6 +913,7 @@ Total: 3611 model/region/SKU combinations
 | gpt-4.1-nano | Sweden Central | Datazone EMEA standard | ✅ |
 | gpt-4.1-nano | West Europe | Datazone EMEA standard | ✅ |
 | gpt-4.1-nano | West US | Datazone US standard | ✅ |
+| gpt-4.1-nano | West US 3 | Datazone US standard | ✅ |
 | gpt-4.1-nano | Australia East | Global batch | ✅ |
 | gpt-4.1-nano | Brazil South | Global batch | ✅ |
 | gpt-4.1-nano | Canada East | Global batch | ✅ |
@@ -1030,6 +1034,7 @@ Total: 3611 model/region/SKU combinations
 | gpt-4o | Sweden Central | Datazone EMEA standard | ✅ |
 | gpt-4o | West Europe | Datazone EMEA standard | ✅ |
 | gpt-4o | West US | Datazone US standard | ✅ |
+| gpt-4o | West US 3 | Datazone US standard | ✅ |
 | gpt-4o | usgovarizona | Datazone Standard Gov | ✅ |
 | gpt-4o | Australia East | Global batch | ✅ |
 | gpt-4o | Brazil South | Global batch | ✅ |
@@ -1187,6 +1192,7 @@ Total: 3611 model/region/SKU combinations
 | gpt-4o-mini | Sweden Central | Datazone EMEA standard | ✅ |
 | gpt-4o-mini | West Europe | Datazone EMEA standard | ✅ |
 | gpt-4o-mini | West US | Datazone US standard | ✅ |
+| gpt-4o-mini | West US 3 | Datazone US standard | ✅ |
 | gpt-4o-mini | Australia East | Global batch | ✅ |
 | gpt-4o-mini | Brazil South | Global batch | ✅ |
 | gpt-4o-mini | Canada East | Global batch | ✅ |
@@ -1306,17 +1312,20 @@ Total: 3611 model/region/SKU combinations
 | gpt-4o-mini-transcribe | Central US | Standard global deployments | ✅ |
 | gpt-4o-mini-transcribe | East US 2 | Standard global deployments | ✅ |
 | gpt-4o-mini-transcribe | France Central | Standard global deployments | ✅ |
+| gpt-4o-mini-transcribe | South India | Standard global deployments | 🆕 New |
 | gpt-4o-mini-transcribe | Sweden Central | Standard global deployments | ✅ |
 | gpt-4o-mini-tts | East US 2 | Standard global deployments | ✅ |
 | gpt-4o-transcribe | Canada Central | Standard global deployments | ✅ |
 | gpt-4o-transcribe | Central US | Standard global deployments | ✅ |
 | gpt-4o-transcribe | East US 2 | Standard global deployments | ✅ |
 | gpt-4o-transcribe | France Central | Standard global deployments | ✅ |
+| gpt-4o-transcribe | South India | Standard global deployments | 🆕 New |
 | gpt-4o-transcribe | Sweden Central | Standard global deployments | ✅ |
 | gpt-4o-transcribe-diarize | Canada Central | Standard global deployments | ✅ |
 | gpt-4o-transcribe-diarize | Central US | Standard global deployments | ✅ |
 | gpt-4o-transcribe-diarize | East US 2 | Standard global deployments | ✅ |
 | gpt-4o-transcribe-diarize | France Central | Standard global deployments | ✅ |
+| gpt-4o-transcribe-diarize | South India | Standard global deployments | 🆕 New |
 | gpt-4o-transcribe-diarize | Sweden Central | Standard global deployments | ✅ |
 | gpt-5 | East US | Datazone US provisioned managed | ✅ |
 | gpt-5 | East US 2 | Datazone US provisioned managed | ✅ |
@@ -1343,6 +1352,7 @@ Total: 3611 model/region/SKU combinations
 | gpt-5 | Sweden Central | Datazone EMEA standard | ✅ |
 | gpt-5 | West Europe | Datazone EMEA standard | ✅ |
 | gpt-5 | West US | Datazone US standard | ✅ |
+| gpt-5 | West US 3 | Datazone US standard | ✅ |
 | gpt-5 | Australia East | Global batch | ✅ |
 | gpt-5 | Brazil South | Global batch | ✅ |
 | gpt-5 | Canada East | Global batch | ✅ |
@@ -1518,6 +1528,7 @@ Total: 3611 model/region/SKU combinations
 | gpt-5-mini | Sweden Central | Datazone EMEA standard | ✅ |
 | gpt-5-mini | West Europe | Datazone EMEA standard | ✅ |
 | gpt-5-mini | West US | Datazone US standard | ✅ |
+| gpt-5-mini | West US 3 | Datazone US standard | ✅ |
 | gpt-5-mini | Australia East | Provisioned global | ✅ |
 | gpt-5-mini | Brazil South | Provisioned global | ✅ |
 | gpt-5-mini | Canada Central | Provisioned global | ✅ |
@@ -1593,6 +1604,7 @@ Total: 3611 model/region/SKU combinations
 | gpt-5-nano | Sweden Central | Datazone EMEA standard | ✅ |
 | gpt-5-nano | West Europe | Datazone EMEA standard | ✅ |
 | gpt-5-nano | West US | Datazone US standard | ✅ |
+| gpt-5-nano | West US 3 | Datazone US standard | ✅ |
 | gpt-5-nano | Australia East | Standard global deployments | ✅ |
 | gpt-5-nano | Brazil South | Standard global deployments | ✅ |
 | gpt-5-nano | Canada East | Standard global deployments | ✅ |
@@ -1666,6 +1678,7 @@ Total: 3611 model/region/SKU combinations
 | gpt-5.1 | South Central US | Datazone US standard | ✅ |
 | gpt-5.1 | Sweden Central | Datazone EMEA standard | ✅ |
 | gpt-5.1 | West US | Datazone US standard | ✅ |
+| gpt-5.1 | West US 3 | Datazone US standard | ✅ |
 | gpt-5.1 | usgovarizona | Datazone Standard Gov | ✅ |
 | gpt-5.1 | Central US | Datazone US Standard Priority Processing | ✅ |
 | gpt-5.1 | East US | Datazone US Standard Priority Processing | ✅ |
@@ -1791,6 +1804,7 @@ Total: 3611 model/region/SKU combinations
 | gpt-5.1 | UK South | Standard Global Priority Processing | ✅ |
 | gpt-5.1 | West Europe | Standard Global Priority Processing | ✅ |
 | gpt-5.1 | West US | Standard Global Priority Processing | ✅ |
+| gpt-5.1 | West US 3 | Standard Global Priority Processing | ✅ |
 | gpt-5.1 | Central US | Standard (all) | ✅ |
 | gpt-5.1 | East US | Standard (all) | ✅ |
 | gpt-5.1 | East US 2 | Standard (all) | ✅ |
@@ -1943,6 +1957,7 @@ Total: 3611 model/region/SKU combinations
 | gpt-5.2 | North Central US | Datazone US standard | ✅ |
 | gpt-5.2 | South Central US | Datazone US standard | ✅ |
 | gpt-5.2 | West US | Datazone US standard | ✅ |
+| gpt-5.2 | West US 3 | Datazone US standard | ✅ |
 | gpt-5.2 | Central US | Datazone US Standard Priority Processing | ✅ |
 | gpt-5.2 | East US | Datazone US Standard Priority Processing | ✅ |
 | gpt-5.2 | North Central US | Datazone US Standard Priority Processing | ✅ |
@@ -2038,6 +2053,7 @@ Total: 3611 model/region/SKU combinations
 | gpt-5.2 | UK South | Standard Global Priority Processing | ✅ |
 | gpt-5.2 | West Europe | Standard Global Priority Processing | ✅ |
 | gpt-5.2 | West US | Standard Global Priority Processing | ✅ |
+| gpt-5.2 | West US 3 | Standard Global Priority Processing | ✅ |
 | gpt-5.2-chat | Australia East | Standard global deployments | ✅ |
 | gpt-5.2-chat | Brazil South | Standard global deployments | ✅ |
 | gpt-5.2-chat | Canada Central | Standard global deployments | ✅ |
@@ -2156,6 +2172,7 @@ Total: 3611 model/region/SKU combinations
 | gpt-5.3-codex | North Central US | Datazone US standard | ✅ |
 | gpt-5.3-codex | South Central US | Datazone US standard | ✅ |
 | gpt-5.3-codex | West US | Datazone US standard | ✅ |
+| gpt-5.3-codex | West US 3 | Datazone US standard | ✅ |
 | gpt-5.3-codex | Australia East | Provisioned global | ✅ |
 | gpt-5.3-codex | Brazil South | Provisioned global | ✅ |
 | gpt-5.3-codex | Canada Central | Provisioned global | ✅ |
@@ -2227,9 +2244,17 @@ Total: 3611 model/region/SKU combinations
 | gpt-5.4 | Central US | Datazone US standard | ✅ |
 | gpt-5.4 | East US | Datazone US standard | ✅ |
 | gpt-5.4 | East US 2 | Datazone US standard | ✅ |
+| gpt-5.4 | France Central | Datazone EMEA standard | ✅ |
+| gpt-5.4 | Germany West Central | Datazone EMEA standard | ✅ |
+| gpt-5.4 | Italy North | Datazone EMEA standard | ✅ |
 | gpt-5.4 | North Central US | Datazone US standard | ✅ |
+| gpt-5.4 | Poland Central | Datazone EMEA standard | ✅ |
 | gpt-5.4 | South Central US | Datazone US standard | ✅ |
+| gpt-5.4 | Spain Central | Datazone EMEA standard | ✅ |
+| gpt-5.4 | Sweden Central | Datazone EMEA standard | ✅ |
+| gpt-5.4 | West Europe | Datazone EMEA standard | ✅ |
 | gpt-5.4 | West US | Datazone US standard | ✅ |
+| gpt-5.4 | West US 3 | Datazone US standard | ✅ |
 | gpt-5.4 | Central US | Datazone US Standard Priority Processing | ✅ |
 | gpt-5.4 | East US | Datazone US Standard Priority Processing | ✅ |
 | gpt-5.4 | North Central US | Datazone US Standard Priority Processing | ✅ |
@@ -2320,12 +2345,14 @@ Total: 3611 model/region/SKU combinations
 | gpt-5.4 | UK South | Standard Global Priority Processing | ✅ |
 | gpt-5.4 | West Europe | Standard Global Priority Processing | ✅ |
 | gpt-5.4 | West US | Standard Global Priority Processing | ✅ |
+| gpt-5.4 | West US 3 | Standard Global Priority Processing | ✅ |
 | gpt-5.4-mini | Central US | Datazone US standard | ✅ |
 | gpt-5.4-mini | East US | Datazone US standard | ✅ |
 | gpt-5.4-mini | East US 2 | Datazone US standard | ✅ |
 | gpt-5.4-mini | North Central US | Datazone US standard | ✅ |
 | gpt-5.4-mini | South Central US | Datazone US standard | ✅ |
 | gpt-5.4-mini | West US | Datazone US standard | ✅ |
+| gpt-5.4-mini | West US 3 | Datazone US standard | ✅ |
 | gpt-5.4-mini | Central US | Datazone US Standard Priority Processing | ✅ |
 | gpt-5.4-mini | East US | Datazone US Standard Priority Processing | ✅ |
 | gpt-5.4-mini | North Central US | Datazone US Standard Priority Processing | ✅ |
@@ -2386,12 +2413,14 @@ Total: 3611 model/region/SKU combinations
 | gpt-5.4-mini | UK South | Standard Global Priority Processing | ✅ |
 | gpt-5.4-mini | West Europe | Standard Global Priority Processing | ✅ |
 | gpt-5.4-mini | West US | Standard Global Priority Processing | ✅ |
+| gpt-5.4-mini | West US 3 | Standard Global Priority Processing | ✅ |
 | gpt-5.4-nano | Central US | Datazone US standard | ✅ |
 | gpt-5.4-nano | East US | Datazone US standard | ✅ |
 | gpt-5.4-nano | East US 2 | Datazone US standard | ✅ |
 | gpt-5.4-nano | North Central US | Datazone US standard | ✅ |
 | gpt-5.4-nano | South Central US | Datazone US standard | ✅ |
 | gpt-5.4-nano | West US | Datazone US standard | ✅ |
+| gpt-5.4-nano | West US 3 | Datazone US standard | ✅ |
 | gpt-5.4-nano | Australia East | Standard global deployments | ✅ |
 | gpt-5.4-nano | Brazil South | Standard global deployments | ✅ |
 | gpt-5.4-nano | Canada Central | Standard global deployments | ✅ |
@@ -2424,6 +2453,18 @@ Total: 3611 model/region/SKU combinations
 | gpt-5.4-pro | Poland Central | Standard global deployments | ✅ |
 | gpt-5.4-pro | South Central US | Standard global deployments | ✅ |
 | gpt-5.4-pro | Sweden Central | Standard global deployments | ✅ |
+| gpt-5.5 | East US 2 | Datazone US standard | 🆕 New |
+| gpt-5.5 | Poland Central | Datazone EMEA standard | 🆕 New |
+| gpt-5.5 | South Central US | Datazone US standard | 🆕 New |
+| gpt-5.5 | Sweden Central | Datazone EMEA standard | 🆕 New |
+| gpt-5.5 | South Central US | Datazone US Standard Priority Processing | 🆕 New |
+| gpt-5.5 | East US 2 | Standard global deployments | 🆕 New |
+| gpt-5.5 | Poland Central | Standard global deployments | 🆕 New |
+| gpt-5.5 | South Central US | Standard global deployments | 🆕 New |
+| gpt-5.5 | Sweden Central | Standard global deployments | 🆕 New |
+| gpt-5.5 | Poland Central | Standard Global Priority Processing | 🆕 New |
+| gpt-5.5 | South Central US | Standard Global Priority Processing | 🆕 New |
+| gpt-5.5 | Sweden Central | Standard Global Priority Processing | 🆕 New |
 | gpt-audio | Central US | Standard global deployments | ✅ |
 | gpt-audio | East US 2 | Standard global deployments | ✅ |
 | gpt-audio | Sweden Central | Standard global deployments | ✅ |
@@ -2446,6 +2487,7 @@ Total: 3611 model/region/SKU combinations
 | gpt-image-1.5 | East US 2 | Datazone US standard | ✅ |
 | gpt-image-1.5 | Poland Central | Datazone EMEA standard | ✅ |
 | gpt-image-1.5 | Sweden Central | Datazone EMEA standard | ✅ |
+| gpt-image-1.5 | West US 3 | Datazone US standard | ✅ |
 | gpt-image-1.5 | East US 2 | Standard global deployments | ✅ |
 | gpt-image-1.5 | Poland Central | Standard global deployments | ✅ |
 | gpt-image-1.5 | Sweden Central | Standard global deployments | ✅ |
@@ -2460,16 +2502,19 @@ Total: 3611 model/region/SKU combinations
 | gpt-realtime | Central US | Standard global deployments | ✅ |
 | gpt-realtime | East US 2 | Standard global deployments | ✅ |
 | gpt-realtime | France Central | Standard global deployments | ✅ |
+| gpt-realtime | South India | Standard global deployments | 🆕 New |
 | gpt-realtime | Sweden Central | Standard global deployments | ✅ |
 | gpt-realtime-1.5 | Canada Central | Standard global deployments | ✅ |
 | gpt-realtime-1.5 | Central US | Standard global deployments | ✅ |
 | gpt-realtime-1.5 | East US 2 | Standard global deployments | ✅ |
 | gpt-realtime-1.5 | France Central | Standard global deployments | ✅ |
+| gpt-realtime-1.5 | South India | Standard global deployments | 🆕 New |
 | gpt-realtime-1.5 | Sweden Central | Standard global deployments | ✅ |
 | gpt-realtime-mini | Canada Central | Standard global deployments | ✅ |
 | gpt-realtime-mini | Central US | Standard global deployments | ✅ |
 | gpt-realtime-mini | East US 2 | Standard global deployments | ✅ |
 | gpt-realtime-mini | France Central | Standard global deployments | ✅ |
+| gpt-realtime-mini | South India | Standard global deployments | 🆕 New |
 | gpt-realtime-mini | Sweden Central | Standard global deployments | ✅ |
 | grok-3 | Central US | Data Zone Standard | ✅ |
 | grok-3 | East US | Data Zone Standard | ✅ |
@@ -3001,6 +3046,7 @@ Total: 3611 model/region/SKU combinations
 | o1 | Sweden Central | Datazone EMEA standard | ✅ |
 | o1 | West Europe | Datazone EMEA standard | ✅ |
 | o1 | West US | Datazone US standard | ✅ |
+| o1 | West US 3 | Datazone US standard | ✅ |
 | o1 | Australia East | Provisioned global | ✅ |
 | o1 | Brazil South | Provisioned global | ✅ |
 | o1 | Canada Central | Provisioned global | ✅ |
@@ -3089,6 +3135,7 @@ Total: 3611 model/region/SKU combinations
 | o3 | Sweden Central | Datazone EMEA standard | ✅ |
 | o3 | West Europe | Datazone EMEA standard | ✅ |
 | o3 | West US | Datazone US standard | ✅ |
+| o3 | West US 3 | Datazone US standard | ✅ |
 | o3 | Australia East | Global batch | ✅ |
 | o3 | Brazil South | Global batch | ✅ |
 | o3 | Canada East | Global batch | ✅ |
@@ -3212,6 +3259,7 @@ Total: 3611 model/region/SKU combinations
 | o3-mini | Sweden Central | Datazone EMEA standard | ✅ |
 | o3-mini | West Europe | Datazone EMEA standard | ✅ |
 | o3-mini | West US | Datazone US standard | ✅ |
+| o3-mini | West US 3 | Datazone US standard | ✅ |
 | o3-mini | usgovarizona | Datazone Standard Gov | ✅ |
 | o3-mini | Australia East | Global batch | ✅ |
 | o3-mini | Brazil South | Global batch | ✅ |
@@ -3333,6 +3381,7 @@ Total: 3611 model/region/SKU combinations
 | o4-mini | Sweden Central | Datazone EMEA standard | ✅ |
 | o4-mini | West Europe | Datazone EMEA standard | ✅ |
 | o4-mini | West US | Datazone US standard | ✅ |
+| o4-mini | West US 3 | Datazone US standard | ✅ |
 | o4-mini | Australia East | Global batch | ✅ |
 | o4-mini | Brazil South | Global batch | ✅ |
 | o4-mini | Canada East | Global batch | ✅ |
@@ -3452,6 +3501,7 @@ Total: 3611 model/region/SKU combinations
 | text-embedding-3-large | Sweden Central | Datazone EMEA standard | ✅ |
 | text-embedding-3-large | West Europe | Datazone EMEA standard | ✅ |
 | text-embedding-3-large | West US | Datazone US standard | ✅ |
+| text-embedding-3-large | West US 3 | Datazone US standard | ✅ |
 | text-embedding-3-large | Australia East | Standard global deployments | ✅ |
 | text-embedding-3-large | Brazil South | Standard global deployments | ✅ |
 | text-embedding-3-large | Canada East | Standard global deployments | ✅ |
@@ -3510,6 +3560,7 @@ Total: 3611 model/region/SKU combinations
 | text-embedding-3-small | Sweden Central | Datazone EMEA standard | ✅ |
 | text-embedding-3-small | West Europe | Datazone EMEA standard | ✅ |
 | text-embedding-3-small | West US | Datazone US standard | ✅ |
+| text-embedding-3-small | West US 3 | Datazone US standard | ✅ |
 | text-embedding-3-small | Australia East | Standard global deployments | ✅ |
 | text-embedding-3-small | Brazil South | Standard global deployments | ✅ |
 | text-embedding-3-small | Canada East | Standard global deployments | ✅ |
@@ -3557,6 +3608,7 @@ Total: 3611 model/region/SKU combinations
 | text-embedding-ada-002 | Sweden Central | Datazone EMEA standard | ✅ |
 | text-embedding-ada-002 | West Europe | Datazone EMEA standard | ✅ |
 | text-embedding-ada-002 | West US | Datazone US standard | ✅ |
+| text-embedding-ada-002 | West US 3 | Datazone US standard | ✅ |
 | text-embedding-ada-002 | Australia East | Standard global deployments | ✅ |
 | text-embedding-ada-002 | Brazil South | Standard global deployments | ✅ |
 | text-embedding-ada-002 | Canada East | Standard global deployments | ✅ |
@@ -3615,3 +3667,26 @@ Total: 3611 model/region/SKU combinations
 | whisper | Switzerland North | Standard (all) | ✅ |
 | whisper | UAE North | Standard (all) | ✅ |
 | whisper | West Europe | Standard (all) | ✅ |
+
+## Recent Changes (18 total)
+
+| Model | Region | SKU | Action |
+|-------|--------|-----|--------|
+| gpt-4o-mini-transcribe | South India | Standard global deployments | 🆕 Added |
+| gpt-4o-transcribe | South India | Standard global deployments | 🆕 Added |
+| gpt-4o-transcribe-diarize | South India | Standard global deployments | 🆕 Added |
+| gpt-5.5 | East US 2 | Datazone US standard | 🆕 Added |
+| gpt-5.5 | Poland Central | Datazone EMEA standard | 🆕 Added |
+| gpt-5.5 | South Central US | Datazone US standard | 🆕 Added |
+| gpt-5.5 | Sweden Central | Datazone EMEA standard | 🆕 Added |
+| gpt-5.5 | South Central US | Datazone US Standard Priority Processing | 🆕 Added |
+| gpt-5.5 | East US 2 | Standard global deployments | 🆕 Added |
+| gpt-5.5 | Poland Central | Standard global deployments | 🆕 Added |
+| gpt-5.5 | South Central US | Standard global deployments | 🆕 Added |
+| gpt-5.5 | Sweden Central | Standard global deployments | 🆕 Added |
+| gpt-5.5 | Poland Central | Standard Global Priority Processing | 🆕 Added |
+| gpt-5.5 | South Central US | Standard Global Priority Processing | 🆕 Added |
+| gpt-5.5 | Sweden Central | Standard Global Priority Processing | 🆕 Added |
+| gpt-realtime | South India | Standard global deployments | 🆕 Added |
+| gpt-realtime-1.5 | South India | Standard global deployments | 🆕 Added |
+| gpt-realtime-mini | South India | Standard global deployments | 🆕 Added |

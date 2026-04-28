@@ -1,6 +1,6 @@
 # UK South — Modellverfügbarkeit
 
-Stand: 2026-04-27T07:02:42.034275+00:00
+Stand: 2026-04-28T07:02:58.516957+00:00
 
 In **UK South** sind **56 Modelle** verfügbar.
 

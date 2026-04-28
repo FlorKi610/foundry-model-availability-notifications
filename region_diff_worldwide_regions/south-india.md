@@ -1,12 +1,12 @@
 # South India — Modellverfügbarkeit
 
-Stand: 2026-04-27T07:02:42.034275+00:00
+Stand: 2026-04-28T07:02:58.516957+00:00
 
-In **South India** sind **59 Modelle** verfügbar.
+In **South India** sind **65 Modelle** verfügbar.
 
 ## Alle Modelle in South India (Übersicht)
 
-Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, DeepSeek-V3-0324, DeepSeek-V3.1, DeepSeek-V3.2, DeepSeek-V3.2-Speciale, FLUX-1.1-pro, FLUX.1-Kontext-pro, FLUX.2-flex, FLUX.2-pro, Kimi-K2.5, Llama-3.3-70B-Instruct, Llama-4-Maverick-17B-128E-Instruct-FP8, MAI-Image-2, Mistral-Large-3, cohere-command-a, computer-use-preview, embed-v-4-0, gpt-4.1, gpt-4.1-mini, gpt-4.1-nano, gpt-4o, gpt-4o-mini, gpt-5, gpt-5-chat, gpt-5-codex, gpt-5-mini, gpt-5-nano, gpt-5-pro, gpt-5.1, gpt-5.1-chat, gpt-5.1-codex, gpt-5.1-codex-mini, gpt-5.2, gpt-5.2-chat, gpt-5.2-codex, gpt-5.3-chat, gpt-5.3-codex, gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, grok-3, grok-3-mini, grok-4-1-fast-non-reasoning, grok-4-1-fast-reasoning, grok-4-fast-non-reasoning, grok-4-fast-reasoning, mistral-document-ai-2505, mistral-document-ai-2512, o1, o3, o3-mini, o4-mini, text-embedding-3-large, text-embedding-3-small, text-embedding-ada-002, whisper
+Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, DeepSeek-V3-0324, DeepSeek-V3.1, DeepSeek-V3.2, DeepSeek-V3.2-Speciale, FLUX-1.1-pro, FLUX.1-Kontext-pro, FLUX.2-flex, FLUX.2-pro, Kimi-K2.5, Llama-3.3-70B-Instruct, Llama-4-Maverick-17B-128E-Instruct-FP8, MAI-Image-2, Mistral-Large-3, cohere-command-a, computer-use-preview, embed-v-4-0, gpt-4.1, gpt-4.1-mini, gpt-4.1-nano, gpt-4o, gpt-4o-mini, gpt-4o-mini-transcribe, gpt-4o-transcribe, gpt-4o-transcribe-diarize, gpt-5, gpt-5-chat, gpt-5-codex, gpt-5-mini, gpt-5-nano, gpt-5-pro, gpt-5.1, gpt-5.1-chat, gpt-5.1-codex, gpt-5.1-codex-mini, gpt-5.2, gpt-5.2-chat, gpt-5.2-codex, gpt-5.3-chat, gpt-5.3-codex, gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, gpt-realtime, gpt-realtime-1.5, gpt-realtime-mini, grok-3, grok-3-mini, grok-4-1-fast-non-reasoning, grok-4-1-fast-reasoning, grok-4-fast-non-reasoning, grok-4-fast-reasoning, mistral-document-ai-2505, mistral-document-ai-2512, o1, o3, o3-mini, o4-mini, text-embedding-3-large, text-embedding-3-small, text-embedding-ada-002, whisper
 
 ## South India — Modell-Familien und Suchbegriffe
 
@@ -16,7 +16,8 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 - **GPT-5.1 Familie** (Suche: gpt 5.1, gpt5.1, gpt51): gpt-5.1, gpt-5.1-chat, gpt-5.1-codex, gpt-5.1-codex-mini
 - **GPT-5 Basis-Familie** (Suche: gpt 5, gpt5): gpt-5, gpt-5-chat, gpt-5-codex, gpt-5-mini, gpt-5-nano, gpt-5-pro, gpt-5.1, gpt-5.1-chat, gpt-5.1-codex, gpt-5.1-codex-mini, gpt-5.2, gpt-5.2-chat, gpt-5.2-codex, gpt-5.3-chat, gpt-5.3-codex, gpt-5.4, gpt-5.4-mini, gpt-5.4-nano
 - **GPT-4.1 Familie** (Suche: gpt 4.1, gpt4.1, gpt41): gpt-4.1, gpt-4.1-mini, gpt-4.1-nano
-- **GPT-4o Familie** (Suche: gpt 4o, gpt4o): gpt-4o, gpt-4o-mini
+- **GPT-4o Familie** (Suche: gpt 4o, gpt4o): gpt-4o, gpt-4o-mini, gpt-4o-mini-transcribe, gpt-4o-transcribe, gpt-4o-transcribe-diarize
+- **GPT Realtime Familie** (Suche: gpt realtime, realtime model): gpt-realtime, gpt-realtime-1.5, gpt-realtime-mini
 - **o3 Reasoning Familie** (Suche: o3, o 3): o3, o3-mini
 - **o4 Reasoning Familie** (Suche: o4, o 4, o4-mini): o4-mini
 - **o1 Reasoning** (Suche: o1, o 1): o1
@@ -62,6 +63,9 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 | gpt-4.1-nano | Global batch, Provisioned global, Standard global deployments |
 | gpt-4o | Global batch, Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard (all) |
 | gpt-4o-mini | Global batch, Provisioned global, Provisioned (PTU managed), Standard global deployments |
+| gpt-4o-mini-transcribe | Standard global deployments |
+| gpt-4o-transcribe | Standard global deployments |
+| gpt-4o-transcribe-diarize | Standard global deployments |
 
 ## South India — Reasoning Modelle (o-Serie)
 
@@ -112,6 +116,9 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 
 | Modell | SKU-Varianten |
 |--------|---------------|
+| gpt-realtime | Standard global deployments |
+| gpt-realtime-1.5 | Standard global deployments |
+| gpt-realtime-mini | Standard global deployments |
 | whisper | Standard (all) |
 
 ## South India — Embedding Modelle
@@ -128,4 +135,15 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 | Modell | SKU-Varianten |
 |--------|---------------|
 | computer-use-preview | Standard global deployments |
+
+## South India — Letzte Änderungen
+
+| Modell | SKU | Aktion |
+|--------|-----|--------|
+| gpt-4o-mini-transcribe | Standard global deployments | 🆕 Hinzugefügt |
+| gpt-4o-transcribe | Standard global deployments | 🆕 Hinzugefügt |
+| gpt-4o-transcribe-diarize | Standard global deployments | 🆕 Hinzugefügt |
+| gpt-realtime | Standard global deployments | 🆕 Hinzugefügt |
+| gpt-realtime-1.5 | Standard global deployments | 🆕 Hinzugefügt |
+| gpt-realtime-mini | Standard global deployments | 🆕 Hinzugefügt |
 

@@ -1,27 +1,29 @@
 # Europe Model Availability Daily Summary
 
-Generated: 2026-04-27T07:02:42.034275+00:00
-Update source: diff-20260424T064732089Z.json (2026-04-24T06:47:32.089339+00:00)
+Generated: 2026-04-28T07:02:58.516957+00:00
+Update source: latest-refresh (2026-04-28T07:02:58.516957+00:00)
 
 ## Snapshot
 
 - Regions tracked: 19
-- Models currently available in Europe: 81
+- Models currently available in Europe: 82
 - Regions with current availability: 11
-- Models with updates: 1
-- Added region placements: 0
+- Models with updates: 2
+- Added region placements: 2
 - Removed region placements: 0
-- Added models by region: 0
+- Added models by region: 2
 - Removed models by region: 0
 
 ## Regional Changes
 
 | Region | Current Models | Added Models | Removed Models |
 | --- | ---: | ---: | ---: |
-| No regional changes in the selected update source | 0 | 0 | 0 |
+| Poland Central | 62 | 1 | 0 |
+| Sweden Central | 81 | 1 | 0 |
 
 ## Model Changes
 
 | Model | Current Regions | Added Regions | Removed Regions |
 | --- | ---: | ---: | ---: |
-| gpt-5.4-mini | 11 | 0 | 0 |
+| gpt-5.4 | 11 | 0 | 0 |
+| gpt-5.5 | 2 | 2 | 0 |

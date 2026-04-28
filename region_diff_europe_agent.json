@@ -5108,6 +5108,48 @@
  {
   "model": "gpt-5.4",
   "region": "France Central",
+  "sku": "Datazone EMEA standard",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4",
+  "region": "Germany West Central",
+  "sku": "Datazone EMEA standard",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4",
+  "region": "Italy North",
+  "sku": "Datazone EMEA standard",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4",
+  "region": "Poland Central",
+  "sku": "Datazone EMEA standard",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4",
+  "region": "Spain Central",
+  "sku": "Datazone EMEA standard",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4",
+  "region": "Sweden Central",
+  "sku": "Datazone EMEA standard",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4",
+  "region": "West Europe",
+  "sku": "Datazone EMEA standard",
+  "status": "available"
+ },
+ {
+  "model": "gpt-5.4",
+  "region": "France Central",
   "sku": "Provisioned global",
   "status": "available"
  },
@@ -5512,6 +5554,42 @@
   "region": "Sweden Central",
   "sku": "Standard global deployments",
   "status": "available"
+ },
+ {
+  "model": "gpt-5.5",
+  "region": "Poland Central",
+  "sku": "Datazone EMEA standard",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.5",
+  "region": "Sweden Central",
+  "sku": "Datazone EMEA standard",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.5",
+  "region": "Poland Central",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.5",
+  "region": "Sweden Central",
+  "sku": "Standard global deployments",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.5",
+  "region": "Poland Central",
+  "sku": "Standard Global Priority Processing",
+  "status": "new"
+ },
+ {
+  "model": "gpt-5.5",
+  "region": "Sweden Central",
+  "sku": "Standard Global Priority Processing",
+  "status": "new"
  },
  {
   "model": "gpt-audio",
