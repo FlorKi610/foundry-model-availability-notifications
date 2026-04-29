@@ -1,6 +1,6 @@
 # Southeast Asia — Modellverfügbarkeit
 
-Stand: 2026-04-28T07:02:58.516957+00:00
+Stand: 2026-04-29T06:58:11.885371+00:00
 
 In **Southeast Asia** sind **28 Modelle** verfügbar.
 
