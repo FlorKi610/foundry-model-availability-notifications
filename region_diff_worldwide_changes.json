@@ -1,131 +1,6578 @@
 {
-  "timestamp": "2026-04-30T07:00:16.856727+00:00",
+  "timestamp": "2026-05-01T07:02:29.692421+00:00",
   "scope": "Worldwide",
-  "total_changes": 18,
+  "total_changes": 939,
   "changes": [
     {
-      "model": "gpt-4o-mini-transcribe",
-      "region": "South India",
-      "sku": "Standard global deployments",
+      "model": "australiaeast",
+      "region": "gpt-4.1",
+      "sku": "Region Asia Pacific",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-4o-transcribe",
-      "region": "South India",
-      "sku": "Standard global deployments",
+      "model": "australiaeast",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Asia Pacific",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-4o-transcribe-diarize",
-      "region": "South India",
-      "sku": "Standard global deployments",
+      "model": "australiaeast",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-4o",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-4o-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5-nano",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5-pro",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5.1",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5.2",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5.4",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "o1",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "o3",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "o3-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "o4-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "text-embedding-3-large",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "text-embedding-3-small",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "australiaeast",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-4.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-4o",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-4o-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5-pro",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5.2",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5.4",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "o1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "o3",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "o3-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "o4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "text-embedding-3-large",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "text-embedding-3-small",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "brazilsouth",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-4.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-4o",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-4o-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-4o-mini-transcribe",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-4o-transcribe",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-4o-transcribe-diarize",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-5-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-5-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-5-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-5-pro",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-5.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-5.2",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-5.4",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-realtime",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-realtime-1.5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "gpt-realtime-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "o1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "o3",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "o3-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadacentral",
+      "region": "o4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-4.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-4o",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-4o-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5-pro",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5.2",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5.4",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "o1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "o3",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "o3-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "o4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "text-embedding-3-large",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "text-embedding-3-small",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "canadaeast",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "codex-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-4.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-4o",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-4o-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-4o-mini-transcribe",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-4o-transcribe",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-4o-transcribe-diarize",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5-pro",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5.2",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5.4",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-audio",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-audio-1.5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-audio-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-realtime",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-realtime-1.5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "gpt-realtime-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "o1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "o3",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "o3-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "o3-pro",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "o4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "text-embedding-3-large",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "text-embedding-3-small",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "centralus",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-4.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-4o",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-4o-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5-pro",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5.2",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5.4",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "gpt-5.5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "o1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "o3",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "o3-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "o4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "text-embedding-3-large",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "text-embedding-3-small",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "codex-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "computer-use-preview",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-4.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-4o",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-4o-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-4o-mini-transcribe",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-4o-mini-tts",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-4o-transcribe",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-4o-transcribe-diarize",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5-pro",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5.1-codex-max",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5.2",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5.4",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5.4-pro",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-5.5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-audio",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-audio-1.5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-audio-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-image-1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-image-1-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-image-1.5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-image-2",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-realtime",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-realtime-1.5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "gpt-realtime-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "model-router",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "o1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "o3",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "o3-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "o3-pro",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "o4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "sora-2",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "text-embedding-3-large",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "text-embedding-3-small",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "eastus2",
+      "region": "whisper",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-4.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-4o",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-4o-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-4o-mini-transcribe",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-4o-transcribe",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-4o-transcribe-diarize",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5-pro",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5.2",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5.4",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-realtime",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-realtime-1.5",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "gpt-realtime-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "o1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "o3",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "o3-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "o4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "text-embedding-3-large",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "text-embedding-3-small",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "francecentral",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-4.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-4o",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-4o-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5-pro",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5.2",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5.4",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "o1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "o3",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "o3-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "o4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "text-embedding-3-large",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "text-embedding-3-small",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "germanywestcentral",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Europe",
       "action": "added",
       "is_available": true
     },
     {
       "model": "gpt-5.5",
-      "region": "East US 2",
-      "sku": "Datazone US standard",
+      "region": "East US",
+      "sku": "Datazone US provisioned managed",
       "action": "added",
       "is_available": true
     },
     {
       "model": "gpt-5.5",
-      "region": "Poland Central",
-      "sku": "Datazone EMEA standard",
+      "region": "North Central US",
+      "sku": "Datazone US provisioned managed",
       "action": "added",
       "is_available": true
     },
     {
       "model": "gpt-5.5",
-      "region": "South Central US",
-      "sku": "Datazone US standard",
+      "region": "East US",
+      "sku": "Provisioned global",
       "action": "added",
       "is_available": true
     },
     {
       "model": "gpt-5.5",
-      "region": "Sweden Central",
-      "sku": "Datazone EMEA standard",
+      "region": "North Central US",
+      "sku": "Provisioned global",
       "action": "added",
       "is_available": true
     },
     {
       "model": "gpt-5.5",
-      "region": "South Central US",
-      "sku": "Datazone US Standard Priority Processing",
+      "region": "East US",
+      "sku": "Provisioned (PTU managed)",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.5",
-      "region": "East US 2",
-      "sku": "Standard global deployments",
+      "model": "italynorth",
+      "region": "gpt-4.1",
+      "sku": "Region Europe",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.5",
-      "region": "Poland Central",
-      "sku": "Standard global deployments",
+      "model": "italynorth",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Europe",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.5",
-      "region": "South Central US",
-      "sku": "Standard global deployments",
+      "model": "italynorth",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Europe",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.5",
-      "region": "Sweden Central",
-      "sku": "Standard global deployments",
+      "model": "italynorth",
+      "region": "gpt-4o",
+      "sku": "Region Europe",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.5",
-      "region": "Poland Central",
-      "sku": "Standard Global Priority Processing",
+      "model": "italynorth",
+      "region": "gpt-4o-mini",
+      "sku": "Region Europe",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.5",
-      "region": "South Central US",
-      "sku": "Standard Global Priority Processing",
+      "model": "italynorth",
+      "region": "gpt-5",
+      "sku": "Region Europe",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-5.5",
-      "region": "Sweden Central",
-      "sku": "Standard Global Priority Processing",
+      "model": "italynorth",
+      "region": "gpt-5-chat",
+      "sku": "Region Europe",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-realtime",
-      "region": "South India",
-      "sku": "Standard global deployments",
+      "model": "italynorth",
+      "region": "gpt-5-codex",
+      "sku": "Region Europe",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-realtime-1.5",
-      "region": "South India",
-      "sku": "Standard global deployments",
+      "model": "italynorth",
+      "region": "gpt-5-mini",
+      "sku": "Region Europe",
       "action": "added",
       "is_available": true
     },
     {
-      "model": "gpt-realtime-mini",
-      "region": "South India",
-      "sku": "Standard global deployments",
+      "model": "italynorth",
+      "region": "gpt-5-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "gpt-5-pro",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "gpt-5.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "gpt-5.2",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "gpt-5.4",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "o1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "o3",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "o3-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "o4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "text-embedding-3-large",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "text-embedding-3-small",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "italynorth",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-4.1",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-4o",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-4o-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5-nano",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5-pro",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5.1",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5.2",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5.4",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "o1",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "o3",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "o3-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "o4-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "text-embedding-3-large",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "text-embedding-3-small",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "japaneast",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-4.1",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-4o",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-4o-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5-nano",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5-pro",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5.1",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5.2",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5.4",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "o1",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "o3",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "o3-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "o4-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "text-embedding-3-large",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "text-embedding-3-small",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "koreacentral",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-4.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-4o",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-4o-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5-pro",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5.2",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5.4",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "gpt-5.5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "o1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "o3",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "o3-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "o4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "text-embedding-3-large",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "text-embedding-3-small",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "tts",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "tts-hd",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "northcentralus",
+      "region": "whisper",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-4.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-4o",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-4o-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5-pro",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5.2",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5.4",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "o1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "o3",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "o3-deep-research",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "o3-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "o4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "text-embedding-3-large",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "text-embedding-3-small",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "norwayeast",
+      "region": "whisper",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-4.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-4o",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-4o-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5-pro",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5.2",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5.4",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5.4-pro",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-5.5",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-image-1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-image-1-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-image-1.5",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "gpt-image-2",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "o1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "o3",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "o3-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "o4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "text-embedding-3-large",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "text-embedding-3-small",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "polandcentral",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-4.1",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-4o",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-4o-mini",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5-chat",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5-codex",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5-mini",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5-nano",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5-pro",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5.1",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5.2",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5.4",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "o1",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "o3",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "o3-mini",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "o4-mini",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "text-embedding-3-large",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "text-embedding-3-small",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southafricanorth",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-4.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-4o",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-4o-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5-pro",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5.2",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5.4",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5.4-pro",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "gpt-5.5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "o1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "o3",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "o3-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "o4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "text-embedding-3-large",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "text-embedding-3-small",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southcentralus",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-4.1",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-4o",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-4o-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5-nano",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5-pro",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5.1",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5.2",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5.4",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "o1",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "o3",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "o3-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "o4-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southeastasia",
+      "region": "text-embedding-3-large",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "computer-use-preview",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-4.1",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-4o",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-4o-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-4o-mini-transcribe",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-4o-transcribe",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-4o-transcribe-diarize",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5-nano",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5-pro",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5.1",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5.2",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5.4",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-realtime",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-realtime-1.5",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "gpt-realtime-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "o1",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "o3",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "o3-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "o4-mini",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "text-embedding-3-large",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "text-embedding-3-small",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "southindia",
+      "region": "whisper",
+      "sku": "Region Asia Pacific",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-4.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-4o",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-4o-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5-pro",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5.2",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5.4",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "o1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "o3",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "o3-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "o4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "text-embedding-3-large",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "text-embedding-3-small",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "spaincentral",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "codex-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "computer-use-preview",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-4.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-4o",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-4o-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-4o-mini-transcribe",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-4o-transcribe",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-4o-transcribe-diarize",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5-pro",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5.1-codex-max",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5.2",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5.4",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5.4-pro",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-5.5",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-audio",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-audio-1.5",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-audio-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-image-1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-image-1-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-image-1.5",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-image-2",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-realtime",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-realtime-1.5",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "gpt-realtime-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "model-router",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "o1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "o3",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "o3-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "o3-pro",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "o4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "sora-2",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "text-embedding-3-large",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "text-embedding-3-small",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "tts",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "tts-hd",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "swedencentral",
+      "region": "whisper",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-4.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-4o",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-4o-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5-pro",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5.2",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5.4",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "o1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "o3",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "o3-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "o4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "text-embedding-3-large",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "text-embedding-3-small",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandnorth",
+      "region": "whisper",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-4.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-4o",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-4o-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-5",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-5-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-5-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-5-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-5-pro",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-5.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-5.2",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-5.4",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "o1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "o3",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "o3-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "switzerlandwest",
+      "region": "o4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-4.1",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-4o",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-4o-mini",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5-chat",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5-codex",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5-mini",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5-nano",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5-pro",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5.1",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5.2",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5.4",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-image-1",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-image-1-mini",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-image-1.5",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "gpt-image-2",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "o1",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "o3",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "o3-mini",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "o4-mini",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "text-embedding-3-large",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "text-embedding-3-small",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uaenorth",
+      "region": "whisper",
+      "sku": "Region Middle East Africa",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-4.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-4o",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-4o-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5-pro",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5.2",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5.4",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "o1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "o3",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "o3-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "o4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "text-embedding-3-large",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "text-embedding-3-small",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "uksouth",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-4.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-4o",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-4o-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5-pro",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5.1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5.2",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5.4",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "o1",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "o3",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "o3-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "o4-mini",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "text-embedding-3-large",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "text-embedding-3-small",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westeurope",
+      "region": "whisper",
+      "sku": "Region Europe",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-4.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-4o",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-4o-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5-pro",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5.2",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5.4",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "o1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "o3",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "o3-deep-research",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "o3-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "o4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "text-embedding-3-large",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "text-embedding-3-small",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-4.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-4.1-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-4.1-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-4o",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-4o-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-5-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-5-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-5.1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-5.1-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-5.1-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-5.1-codex-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-5.2",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-5.2-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-5.2-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-5.3-chat",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-5.3-codex",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-5.4",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-5.4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-5.4-nano",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-image-1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-image-1-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-image-1.5",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "gpt-image-2",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "o1",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "o3",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "o3-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "o4-mini",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "text-embedding-3-large",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "text-embedding-3-small",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "text-embedding-ada-002",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "tts",
+      "sku": "Region Americas",
+      "action": "added",
+      "is_available": true
+    },
+    {
+      "model": "westus3",
+      "region": "tts-hd",
+      "sku": "Region Americas",
       "action": "added",
       "is_available": true
     }

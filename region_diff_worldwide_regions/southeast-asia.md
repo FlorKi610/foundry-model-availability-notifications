@@ -1,6 +1,6 @@
 # Southeast Asia — Modellverfügbarkeit
 
-Stand: 2026-04-30T07:00:16.856727+00:00
+Stand: 2026-05-01T07:02:29.692421+00:00
 
 In **Southeast Asia** sind **28 Modelle** verfügbar.
 
@@ -26,32 +26,32 @@ gpt-4.1, gpt-4.1-mini, gpt-4.1-nano, gpt-4o, gpt-4o-mini, gpt-5, gpt-5-chat, gpt
 
 | Modell | SKU-Varianten |
 |--------|---------------|
-| gpt-5 | Provisioned global, Standard global deployments |
-| gpt-5-chat | Standard global deployments |
-| gpt-5-codex | Standard global deployments |
-| gpt-5-mini | Provisioned global, Standard global deployments |
-| gpt-5-nano | Standard global deployments |
-| gpt-5-pro | Standard global deployments |
-| gpt-5.1 | Provisioned global, Standard global deployments, Standard Global Priority Processing |
-| gpt-5.1-chat | Standard global deployments |
-| gpt-5.1-codex | Provisioned global, Standard global deployments |
-| gpt-5.1-codex-mini | Standard global deployments |
-| gpt-5.2 | Provisioned global, Standard global deployments, Standard Global Priority Processing |
-| gpt-5.2-chat | Standard global deployments |
-| gpt-5.2-codex | Provisioned global, Standard global deployments |
-| gpt-5.3-chat | Standard global deployments |
-| gpt-5.3-codex | Provisioned global, Standard global deployments |
-| gpt-5.4 | Provisioned global, Standard global deployments, Standard Global Priority Processing |
-| gpt-5.4-mini | Standard global deployments, Standard Global Priority Processing |
-| gpt-5.4-nano | Standard global deployments |
+| gpt-5 | Provisioned global, Standard global deployments, Standard Global By Capability |
+| gpt-5-chat | Standard global deployments, Standard Global By Capability |
+| gpt-5-codex | Standard global deployments, Standard Global By Capability |
+| gpt-5-mini | Provisioned global, Standard global deployments, Standard Global By Capability |
+| gpt-5-nano | Standard global deployments, Standard Global By Capability |
+| gpt-5-pro | Standard global deployments, Standard Global By Capability |
+| gpt-5.1 | Provisioned global, Standard global deployments, Standard Global By Capability, Standard Global Priority Processing |
+| gpt-5.1-chat | Standard global deployments, Standard Global By Capability |
+| gpt-5.1-codex | Provisioned global, Standard global deployments, Standard Global By Capability |
+| gpt-5.1-codex-mini | Standard global deployments, Standard Global By Capability |
+| gpt-5.2 | Provisioned global, Standard global deployments, Standard Global By Capability, Standard Global Priority Processing |
+| gpt-5.2-chat | Standard global deployments, Standard Global By Capability |
+| gpt-5.2-codex | Provisioned global, Standard global deployments, Standard Global By Capability |
+| gpt-5.3-chat | Standard global deployments, Standard Global By Capability |
+| gpt-5.3-codex | Provisioned global, Standard global deployments, Standard Global By Capability |
+| gpt-5.4 | Provisioned global, Standard global deployments, Standard Global By Capability, Standard Global Priority Processing |
+| gpt-5.4-mini | Standard global deployments, Standard Global By Capability, Standard Global Priority Processing |
+| gpt-5.4-nano | Standard global deployments, Standard Global By Capability |
 
 ## Southeast Asia — GPT-4 Modelle
 
 | Modell | SKU-Varianten |
 |--------|---------------|
-| gpt-4.1 | Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard Global Priority Processing |
-| gpt-4.1-mini | Provisioned global, Standard global deployments |
-| gpt-4.1-nano | Provisioned global, Standard global deployments |
+| gpt-4.1 | Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard Global By Capability, Standard Global Priority Processing |
+| gpt-4.1-mini | Provisioned global, Standard global deployments, Standard Global By Capability |
+| gpt-4.1-nano | Provisioned global, Standard global deployments, Standard Global By Capability |
 | gpt-4o | Provisioned global, Provisioned (PTU managed) |
 | gpt-4o-mini | Provisioned global, Provisioned (PTU managed) |
 
@@ -60,9 +60,9 @@ gpt-4.1, gpt-4.1-mini, gpt-4.1-nano, gpt-4o, gpt-4o-mini, gpt-5, gpt-5-chat, gpt
 | Modell | SKU-Varianten |
 |--------|---------------|
 | o1 | Provisioned global |
-| o3 | Provisioned global, Standard global deployments |
+| o3 | Provisioned global, Standard global deployments, Standard Global By Capability |
 | o3-mini | Provisioned global |
-| o4-mini | Provisioned global, Standard global deployments |
+| o4-mini | Provisioned global, Standard global deployments, Standard Global By Capability |
 
 ## Southeast Asia — Embedding Modelle
 

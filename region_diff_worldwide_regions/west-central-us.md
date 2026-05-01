@@ -1,6 +1,6 @@
 # West Central US — Modellverfügbarkeit
 
-Stand: 2026-04-30T07:00:16.856727+00:00
+Stand: 2026-05-01T07:02:29.692421+00:00
 
 In **West Central US** sind **27 Modelle** verfügbar.
 

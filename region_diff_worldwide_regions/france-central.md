@@ -1,6 +1,6 @@
 # France Central — Modellverfügbarkeit
 
-Stand: 2026-04-30T07:00:16.856727+00:00
+Stand: 2026-05-01T07:02:29.692421+00:00
 
 In **France Central** sind **62 Modelle** verfügbar.
 
@@ -35,46 +35,46 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 
 | Modell | SKU-Varianten |
 |--------|---------------|
-| gpt-5 | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Provisioned global, Standard global deployments |
-| gpt-5-chat | Standard global deployments |
-| gpt-5-codex | Standard global deployments |
-| gpt-5-mini | Datazone EMEA provisioned managed, Datazone EMEA standard, Provisioned global, Standard global deployments |
-| gpt-5-nano | Datazone EMEA standard, Standard global deployments |
-| gpt-5-pro | Standard global deployments |
-| gpt-5.1 | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Provisioned global, Standard global deployments, Standard Global Priority Processing |
-| gpt-5.1-chat | Standard global deployments |
-| gpt-5.1-codex | Datazone EMEA provisioned managed, Provisioned global, Standard global deployments |
-| gpt-5.1-codex-mini | Standard global deployments |
-| gpt-5.2 | Datazone EMEA provisioned managed, Provisioned global, Standard global deployments, Standard Global Priority Processing |
-| gpt-5.2-chat | Standard global deployments |
-| gpt-5.2-codex | Provisioned global, Standard global deployments |
-| gpt-5.3-chat | Standard global deployments |
-| gpt-5.3-codex | Provisioned global, Standard global deployments |
-| gpt-5.4 | Datazone EMEA provisioned managed, Datazone EMEA standard, Provisioned global, Standard global deployments, Standard Global Priority Processing |
-| gpt-5.4-mini | Standard global deployments, Standard Global Priority Processing |
-| gpt-5.4-nano | Standard global deployments |
+| gpt-5 | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Provisioned global, Standard global deployments, Standard Global By Capability |
+| gpt-5-chat | Standard global deployments, Standard Global By Capability |
+| gpt-5-codex | Standard global deployments, Standard Global By Capability |
+| gpt-5-mini | Datazone EMEA provisioned managed, Datazone EMEA standard, Provisioned global, Standard global deployments, Standard Global By Capability |
+| gpt-5-nano | Datazone EMEA standard, Standard global deployments, Standard Global By Capability |
+| gpt-5-pro | Standard global deployments, Standard Global By Capability |
+| gpt-5.1 | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Provisioned global, Standard global deployments, Standard Global By Capability, Standard Global Priority Processing |
+| gpt-5.1-chat | Standard global deployments, Standard Global By Capability |
+| gpt-5.1-codex | Datazone EMEA provisioned managed, Provisioned global, Standard global deployments, Standard Global By Capability |
+| gpt-5.1-codex-mini | Standard global deployments, Standard Global By Capability |
+| gpt-5.2 | Datazone EMEA provisioned managed, Provisioned global, Standard global deployments, Standard Global By Capability, Standard Global Priority Processing |
+| gpt-5.2-chat | Standard global deployments, Standard Global By Capability |
+| gpt-5.2-codex | Provisioned global, Standard global deployments, Standard Global By Capability |
+| gpt-5.3-chat | Standard global deployments, Standard Global By Capability |
+| gpt-5.3-codex | Provisioned global, Standard global deployments, Standard Global By Capability |
+| gpt-5.4 | Datazone EMEA provisioned managed, Datazone EMEA standard, Provisioned global, Standard global deployments, Standard Global By Capability, Standard Global Priority Processing |
+| gpt-5.4-mini | Standard global deployments, Standard Global By Capability, Standard Global Priority Processing |
+| gpt-5.4-nano | Standard global deployments, Standard Global By Capability |
 
 ## France Central — GPT-4 Modelle
 
 | Modell | SKU-Varianten |
 |--------|---------------|
-| gpt-4.1 | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Global batch Datazone EMEA, Provisioned global, Standard global deployments, Standard Global Priority Processing |
-| gpt-4.1-mini | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Global batch Datazone EMEA, Provisioned global, Standard global deployments, Standard (all) |
-| gpt-4.1-nano | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Global batch Datazone EMEA, Provisioned global, Standard global deployments |
-| gpt-4o | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Global batch Datazone EMEA, Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard (all) |
-| gpt-4o-mini | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Global batch Datazone EMEA, Provisioned global, Provisioned (PTU managed), Standard global deployments |
-| gpt-4o-mini-transcribe | Standard global deployments |
-| gpt-4o-transcribe | Standard global deployments |
-| gpt-4o-transcribe-diarize | Standard global deployments |
+| gpt-4.1 | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Global batch Datazone EMEA, Provisioned global, Standard global deployments, Standard Global By Capability, Standard Global Priority Processing |
+| gpt-4.1-mini | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Global batch Datazone EMEA, Provisioned global, Standard global deployments, Standard Global By Capability, Standard (all) |
+| gpt-4.1-nano | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Global batch Datazone EMEA, Provisioned global, Standard global deployments, Standard Global By Capability |
+| gpt-4o | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Global batch Datazone EMEA, Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard Global By Capability, Standard (all) |
+| gpt-4o-mini | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Global batch Datazone EMEA, Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard Global By Capability |
+| gpt-4o-mini-transcribe | Standard global deployments, Standard Global By Capability |
+| gpt-4o-transcribe | Standard global deployments, Standard Global By Capability |
+| gpt-4o-transcribe-diarize | Standard global deployments, Standard Global By Capability |
 
 ## France Central — Reasoning Modelle (o-Serie)
 
 | Modell | SKU-Varianten |
 |--------|---------------|
-| o1 | Datazone EMEA provisioned managed, Datazone EMEA standard, Provisioned global, Standard global deployments |
-| o3 | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Global batch Datazone EMEA, Provisioned global, Standard global deployments |
-| o3-mini | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Provisioned global, Standard global deployments |
-| o4-mini | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Global batch Datazone EMEA, Provisioned global, Standard global deployments |
+| o1 | Datazone EMEA provisioned managed, Datazone EMEA standard, Provisioned global, Standard global deployments, Standard Global By Capability |
+| o3 | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Global batch Datazone EMEA, Provisioned global, Standard global deployments, Standard Global By Capability |
+| o3-mini | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Provisioned global, Standard global deployments, Standard Global By Capability |
+| o4-mini | Datazone EMEA provisioned managed, Datazone EMEA standard, Global batch, Global batch Datazone EMEA, Provisioned global, Standard global deployments, Standard Global By Capability |
 
 ## France Central — Open-Source & Partner Modelle
 
@@ -115,16 +115,16 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 
 | Modell | SKU-Varianten |
 |--------|---------------|
-| gpt-realtime | Standard global deployments |
-| gpt-realtime-1.5 | Standard global deployments |
-| gpt-realtime-mini | Standard global deployments |
+| gpt-realtime | Standard global deployments, Standard Global By Capability |
+| gpt-realtime-1.5 | Standard global deployments, Standard Global By Capability |
+| gpt-realtime-mini | Standard global deployments, Standard Global By Capability |
 
 ## France Central — Embedding Modelle
 
 | Modell | SKU-Varianten |
 |--------|---------------|
 | embed-v-4-0 | Global Standard |
-| text-embedding-3-large | Datazone EMEA standard, Standard global deployments, Standard (all) |
-| text-embedding-3-small | Datazone EMEA standard, Standard global deployments |
-| text-embedding-ada-002 | Datazone EMEA standard, Standard global deployments, Standard (all) |
+| text-embedding-3-large | Datazone EMEA standard, Standard global deployments, Standard Global By Capability, Standard (all) |
+| text-embedding-3-small | Datazone EMEA standard, Standard global deployments, Standard Global By Capability |
+| text-embedding-ada-002 | Datazone EMEA standard, Standard global deployments, Standard Global By Capability, Standard (all) |
 

@@ -1,6 +1,6 @@
 # West US 3 — Modellverfügbarkeit
 
-Stand: 2026-04-30T07:00:16.856727+00:00
+Stand: 2026-05-01T07:02:29.692421+00:00
 
 In **West US 3** sind **59 Modelle** verfügbar.
 
@@ -35,40 +35,40 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 
 | Modell | SKU-Varianten |
 |--------|---------------|
-| gpt-5 | Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments |
-| gpt-5-mini | Datazone US standard, Provisioned global, Provisioned (PTU managed), Standard global deployments |
-| gpt-5-nano | Datazone US standard, Standard global deployments |
-| gpt-5.1 | Datazone US standard, Datazone US Standard Priority Processing, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard Global Priority Processing, Standard (all) |
-| gpt-5.1-chat | Standard global deployments |
-| gpt-5.1-codex | Provisioned global, Standard global deployments |
-| gpt-5.1-codex-mini | Standard global deployments |
-| gpt-5.2 | Datazone US standard, Datazone US Standard Priority Processing, Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard Global Priority Processing |
-| gpt-5.2-chat | Standard global deployments |
-| gpt-5.2-codex | Provisioned global, Standard global deployments |
-| gpt-5.3-chat | Standard global deployments |
-| gpt-5.3-codex | Datazone US standard, Provisioned global, Standard global deployments |
-| gpt-5.4 | Datazone US standard, Datazone US Standard Priority Processing, Provisioned global, Standard global deployments, Standard Global Priority Processing |
-| gpt-5.4-mini | Datazone US standard, Datazone US Standard Priority Processing, Standard global deployments, Standard Global Priority Processing |
-| gpt-5.4-nano | Datazone US standard, Standard global deployments |
+| gpt-5 | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Provisioned (PTU managed), Standard global deployments, Standard Global By Capability |
+| gpt-5-mini | Datazone US provisioned managed, Datazone US standard, Provisioned (PTU managed), Standard global deployments, Standard Global By Capability |
+| gpt-5-nano | Datazone US standard, Standard global deployments, Standard Global By Capability |
+| gpt-5.1 | Datazone US provisioned managed, Datazone US standard, Datazone US Standard Priority Processing, Global batch, Global batch Datazone US, Provisioned (PTU managed), Standard global deployments, Standard Global By Capability, Standard Global Priority Processing, Standard (all) |
+| gpt-5.1-chat | Standard global deployments, Standard Global By Capability |
+| gpt-5.1-codex | Datazone US provisioned managed, Standard global deployments, Standard Global By Capability |
+| gpt-5.1-codex-mini | Standard global deployments, Standard Global By Capability |
+| gpt-5.2 | Datazone US provisioned managed, Datazone US standard, Datazone US Standard Priority Processing, Provisioned (PTU managed), Standard global deployments, Standard Global By Capability, Standard Global Priority Processing |
+| gpt-5.2-chat | Standard global deployments, Standard Global By Capability |
+| gpt-5.2-codex | Standard global deployments, Standard Global By Capability |
+| gpt-5.3-chat | Standard global deployments, Standard Global By Capability |
+| gpt-5.3-codex | Datazone US standard, Standard global deployments, Standard Global By Capability |
+| gpt-5.4 | Datazone US provisioned managed, Datazone US standard, Datazone US Standard Priority Processing, Standard global deployments, Standard Global By Capability, Standard Global Priority Processing |
+| gpt-5.4-mini | Datazone US standard, Datazone US Standard Priority Processing, Standard global deployments, Standard Global By Capability, Standard Global Priority Processing |
+| gpt-5.4-nano | Datazone US standard, Standard global deployments, Standard Global By Capability |
 
 ## West US 3 — GPT-4 Modelle
 
 | Modell | SKU-Varianten |
 |--------|---------------|
-| gpt-4.1 | Datazone US standard, Datazone US Standard Priority Processing, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard Global Priority Processing, Standard (all) |
-| gpt-4.1-mini | Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard (all) |
-| gpt-4.1-nano | Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments |
-| gpt-4o | Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard (all) |
-| gpt-4o-mini | Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard (all) |
+| gpt-4.1 | Datazone US provisioned managed, Datazone US standard, Datazone US Standard Priority Processing, Global batch, Global batch Datazone US, Provisioned (PTU managed), Standard global deployments, Standard Global By Capability, Standard Global Priority Processing, Standard (all) |
+| gpt-4.1-mini | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Provisioned (PTU managed), Standard global deployments, Standard Global By Capability, Standard (all) |
+| gpt-4.1-nano | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Provisioned (PTU managed), Standard global deployments, Standard Global By Capability |
+| gpt-4o | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Provisioned (PTU managed), Standard global deployments, Standard Global By Capability, Standard (all) |
+| gpt-4o-mini | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Provisioned (PTU managed), Standard global deployments, Standard Global By Capability, Standard (all) |
 
 ## West US 3 — Reasoning Modelle (o-Serie)
 
 | Modell | SKU-Varianten |
 |--------|---------------|
-| o1 | Datazone US standard, Provisioned global, Standard global deployments, Standard (all) |
-| o3 | Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments |
-| o3-mini | Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Standard global deployments |
-| o4-mini | Datazone US standard, Global batch, Global batch Datazone US, Provisioned global, Provisioned (PTU managed), Standard global deployments, Standard (all) |
+| o1 | Datazone US provisioned managed, Datazone US standard, Standard global deployments, Standard Global By Capability, Standard (all) |
+| o3 | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Provisioned (PTU managed), Standard global deployments, Standard Global By Capability |
+| o3-mini | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Standard global deployments, Standard Global By Capability |
+| o4-mini | Datazone US provisioned managed, Datazone US standard, Global batch, Global batch Datazone US, Provisioned (PTU managed), Standard global deployments, Standard Global By Capability, Standard (all) |
 
 ## West US 3 — Open-Source & Partner Modelle
 
@@ -104,10 +104,10 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 | FLUX.1-Kontext-pro | Data Zone Standard, Global Standard |
 | FLUX.2-flex | Global Standard |
 | FLUX.2-pro | Data Zone Standard, Global Standard |
-| gpt-image-1 | Standard global deployments |
-| gpt-image-1-mini | Standard global deployments |
-| gpt-image-1.5 | Datazone US standard, Standard global deployments |
-| gpt-image-2 | Standard global deployments |
+| gpt-image-1 | Standard global deployments, Standard Global By Capability |
+| gpt-image-1-mini | Standard global deployments, Standard Global By Capability |
+| gpt-image-1.5 | Datazone US standard, Standard global deployments, Standard Global By Capability |
+| gpt-image-2 | Standard global deployments, Standard Global By Capability |
 
 ## West US 3 — Audio & Sprache
 
@@ -121,7 +121,7 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 | Modell | SKU-Varianten |
 |--------|---------------|
 | embed-v-4-0 | Global Standard |
-| text-embedding-3-large | Datazone US standard, Standard global deployments, Standard (all) |
-| text-embedding-3-small | Datazone US standard, Standard global deployments |
-| text-embedding-ada-002 | Datazone US standard, Standard global deployments, Standard (all) |
+| text-embedding-3-large | Datazone US standard, Standard global deployments, Standard Global By Capability, Standard (all) |
+| text-embedding-3-small | Datazone US standard, Standard global deployments, Standard Global By Capability |
+| text-embedding-ada-002 | Datazone US standard, Standard global deployments, Standard Global By Capability, Standard (all) |
 

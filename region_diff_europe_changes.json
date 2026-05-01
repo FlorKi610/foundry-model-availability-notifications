@@ -1,49 +1,6 @@
 {
-  "timestamp": "2026-04-30T07:00:16.856727+00:00",
+  "timestamp": "2026-05-01T07:02:29.692421+00:00",
   "scope": "Europe",
-  "total_changes": 6,
-  "changes": [
-    {
-      "model": "gpt-5.5",
-      "region": "Poland Central",
-      "sku": "Datazone EMEA standard",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-5.5",
-      "region": "Sweden Central",
-      "sku": "Datazone EMEA standard",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-5.5",
-      "region": "Poland Central",
-      "sku": "Standard global deployments",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-5.5",
-      "region": "Sweden Central",
-      "sku": "Standard global deployments",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-5.5",
-      "region": "Poland Central",
-      "sku": "Standard Global Priority Processing",
-      "action": "added",
-      "is_available": true
-    },
-    {
-      "model": "gpt-5.5",
-      "region": "Sweden Central",
-      "sku": "Standard Global Priority Processing",
-      "action": "added",
-      "is_available": true
-    }
-  ]
+  "total_changes": 0,
+  "changes": []
 }

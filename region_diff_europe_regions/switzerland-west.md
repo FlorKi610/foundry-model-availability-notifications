@@ -1,6 +1,6 @@
 # Switzerland West — Modellverfügbarkeit
 
-Stand: 2026-04-30T07:00:16.856727+00:00
+Stand: 2026-05-01T07:02:29.692421+00:00
 
 In **Switzerland West** sind **52 Modelle** verfügbar.
 
@@ -34,22 +34,22 @@ Cohere-rerank-v4.0-fast, Cohere-rerank-v4.0-pro, DeepSeek-R1, DeepSeek-R1-0528, 
 | Modell | SKU-Varianten |
 |--------|---------------|
 | gpt-5 | Provisioned global |
-| gpt-5-chat | Standard global deployments |
-| gpt-5-codex | Standard global deployments |
+| gpt-5-chat | Standard global deployments, Standard Global By Capability |
+| gpt-5-codex | Standard global deployments, Standard Global By Capability |
 | gpt-5-mini | Provisioned global |
-| gpt-5-pro | Standard global deployments |
-| gpt-5.1 | Provisioned global, Standard global deployments, Standard Global Priority Processing |
-| gpt-5.1-chat | Standard global deployments |
-| gpt-5.1-codex | Provisioned global, Standard global deployments |
-| gpt-5.1-codex-mini | Standard global deployments |
-| gpt-5.2 | Provisioned global, Standard global deployments, Standard Global Priority Processing |
-| gpt-5.2-chat | Standard global deployments |
-| gpt-5.2-codex | Provisioned global, Standard global deployments |
-| gpt-5.3-chat | Standard global deployments |
-| gpt-5.3-codex | Provisioned global, Standard global deployments |
-| gpt-5.4 | Provisioned global, Standard global deployments, Standard Global Priority Processing |
-| gpt-5.4-mini | Standard global deployments, Standard Global Priority Processing |
-| gpt-5.4-nano | Standard global deployments |
+| gpt-5-pro | Standard global deployments, Standard Global By Capability |
+| gpt-5.1 | Provisioned global, Standard global deployments, Standard Global By Capability, Standard Global Priority Processing |
+| gpt-5.1-chat | Standard global deployments, Standard Global By Capability |
+| gpt-5.1-codex | Provisioned global, Standard global deployments, Standard Global By Capability |
+| gpt-5.1-codex-mini | Standard global deployments, Standard Global By Capability |
+| gpt-5.2 | Provisioned global, Standard global deployments, Standard Global By Capability, Standard Global Priority Processing |
+| gpt-5.2-chat | Standard global deployments, Standard Global By Capability |
+| gpt-5.2-codex | Provisioned global, Standard global deployments, Standard Global By Capability |
+| gpt-5.3-chat | Standard global deployments, Standard Global By Capability |
+| gpt-5.3-codex | Provisioned global, Standard global deployments, Standard Global By Capability |
+| gpt-5.4 | Provisioned global, Standard global deployments, Standard Global By Capability, Standard Global Priority Processing |
+| gpt-5.4-mini | Standard global deployments, Standard Global By Capability, Standard Global Priority Processing |
+| gpt-5.4-nano | Standard global deployments, Standard Global By Capability |
 
 ## Switzerland West — GPT-4 Modelle
 
