@@ -1,6 +1,6 @@
 # gpt-5.4-pro — Modellverfügbarkeit
 
-Stand: 2026-05-01T07:02:29.692421+00:00
+Stand: 2026-05-02T06:46:51.969640+00:00
 
 In **gpt-5.4-pro** sind **4 Modelle** verfügbar.
 
